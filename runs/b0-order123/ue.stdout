@@ -1,0 +1,915 @@
+UERANSIM v3.2.7
+[2026-09-30 15:02:07.208] [999700000000011|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.209] [999700000000010|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.209] [999700000000011|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.208] [999700000000012|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.212] [999700000000004|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.209] [999700000000008|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.210] [999700000000010|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.214] [999700000000010|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.210] [999700000000008|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.210] [999700000000009|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.210] [999700000000007|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.211] [999700000000005|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.211] [999700000000009|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.211] [999700000000004|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.211] [999700000000005|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.211] [999700000000003|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.209] [999700000000012|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.212] [999700000000003|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.212] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.212] [999700000000011|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.212] [999700000000006|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.212] [999700000000002|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.212] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.213] [999700000000006|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.213] [999700000000001|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-09-30 15:02:07.210] [999700000000007|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-09-30 15:02:07.214] [999700000000010|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.215] [999700000000008|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.217] [999700000000009|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.217] [999700000000004|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.218] [999700000000005|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.218] [999700000000012|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.219] [999700000000003|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.219] [999700000000011|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.223] [999700000000011|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.223] [999700000000011|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.223] [999700000000011|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.223] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.223] [999700000000011|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.221] [999700000000008|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.224] [999700000000008|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.225] [999700000000008|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.225] [999700000000008|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.222] [999700000000012|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.222] [999700000000003|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.226] [999700000000003|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.227] [999700000000003|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.227] [999700000000003|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.220] [999700000000007|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.228] [999700000000007|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.224] [999700000000011|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.224] [999700000000011|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.221] [999700000000009|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.221] [999700000000004|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.230] [999700000000004|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.230] [999700000000004|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.231] [999700000000004|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.220] [999700000000002|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.220] [999700000000006|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.220] [999700000000001|nas] [info] Selected plmn[999/70]
+[2026-09-30 15:02:07.228] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.232] [999700000000003|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.232] [999700000000003|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.230] [999700000000009|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.233] [999700000000009|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.233] [999700000000009|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.225] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.233] [999700000000008|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.231] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.234] [999700000000004|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.231] [999700000000006|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.234] [999700000000006|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.235] [999700000000006|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.235] [999700000000006|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.232] [999700000000003|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.222] [999700000000005|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.230] [999700000000011|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.236] [999700000000011|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.236] [999700000000011|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.234] [999700000000008|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.234] [999700000000008|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.231] [999700000000002|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.234] [999700000000004|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.234] [999700000000004|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.232] [999700000000001|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+[2026-09-30 15:02:07.221] [999700000000010|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.239] [999700000000010|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.239] [999700000000010|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.236] [999700000000005|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.240] [999700000000005|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.240] [999700000000005|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.241] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.241] [999700000000005|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.238] [999700000000008|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.242] [999700000000008|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.239] [999700000000004|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.242] [999700000000004|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.235] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.243] [999700000000006|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.233] [999700000000009|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.243] [999700000000009|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.226] [999700000000012|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.244] [999700000000012|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.244] [999700000000012|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.242] [999700000000005|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.239] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.245] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.246] [999700000000001|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.229] [999700000000007|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.246] [999700000000007|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.246] [999700000000007|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.243] [999700000000006|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.243] [999700000000006|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.236] [999700000000003|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.247] [999700000000003|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.248] [999700000000006|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.248] [999700000000006|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.242] [999700000000005|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.245] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.249] [999700000000012|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.242] [999700000000008|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.246] [999700000000005|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.249] [999700000000005|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.242] [999700000000004|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.240] [999700000000010|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.250] [999700000000010|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.244] [999700000000009|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.244] [999700000000009|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.248] [999700000000003|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.238] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-09-30 15:02:07.252] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.252] [999700000000002|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-09-30 15:02:07.249] [999700000000012|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.249] [999700000000012|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.246] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.253] [999700000000001|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.246] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.254] [999700000000007|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.255] [999700000000007|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.248] [999700000000006|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.252] [999700000000009|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.256] [999700000000009|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.257] [999700000000009|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.250] [999700000000005|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.254] [999700000000012|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.258] [999700000000012|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.254] [999700000000001|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.250] [999700000000010|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.250] [999700000000010|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.259] [999700000000001|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.260] [999700000000001|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.252] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:07.260] [999700000000002|nas] [debug] Sending Initial Registration
+[2026-09-30 15:02:07.258] [999700000000012|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.259] [999700000000003|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.259] [999700000000008|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.262] [999700000000008|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.262] [999700000000008|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.263] [999700000000008|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.254] [999700000000001|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.263] [999700000000001|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.261] [999700000000002|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.261] [999700000000003|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.255] [999700000000007|rrc] [debug] Sending RRC Setup Request
+[2026-09-30 15:02:07.242] [999700000000011|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.265] [999700000000011|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.266] [999700000000011|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.266] [999700000000011|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.265] [999700000000002|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.267] [999700000000002|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.261] [999700000000002|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-09-30 15:02:07.267] [999700000000002|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.265] [999700000000003|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.268] [999700000000003|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.266] [999700000000007|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.269] [999700000000007|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.260] [999700000000010|rrc] [info] RRC connection established
+[2026-09-30 15:02:07.269] [999700000000010|rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-09-30 15:02:07.270] [999700000000010|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.269] [999700000000007|nas] [info] UE switches to state [CM-CONNECTED]
+[2026-09-30 15:02:07.271] [999700000000004|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.272] [999700000000004|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.272] [999700000000004|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.272] [999700000000004|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.287] [999700000000005|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.288] [999700000000005|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.288] [999700000000005|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.289] [999700000000005|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.295] [999700000000006|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.295] [999700000000006|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.296] [999700000000006|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.296] [999700000000006|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.301] [999700000000009|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.302] [999700000000009|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.302] [999700000000009|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.302] [999700000000009|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.305] [999700000000012|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.305] [999700000000012|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.306] [999700000000012|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.306] [999700000000012|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.311] [999700000000001|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.312] [999700000000001|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.312] [999700000000001|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.313] [999700000000001|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.324] [999700000000010|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.324] [999700000000010|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.324] [999700000000010|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.325] [999700000000010|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.325] [999700000000008|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.326] [999700000000008|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.326] [999700000000008|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.326] [999700000000002|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.327] [999700000000002|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.327] [999700000000002|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.328] [999700000000002|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.337] [999700000000007|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.338] [999700000000007|nas] [debug] Received SQN [000000000000]
+[2026-09-30 15:02:07.338] [999700000000007|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.338] [999700000000007|nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-09-30 15:02:07.355] [999700000000011|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.356] [999700000000011|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.356] [999700000000011|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.366] [999700000000005|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.366] [999700000000005|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.367] [999700000000005|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000003|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.371] [999700000000004|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.372] [999700000000004|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.372] [999700000000004|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000001|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.373] [999700000000001|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.373] [999700000000001|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000012|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.374] [999700000000012|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.374] [999700000000012|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000009|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.375] [999700000000009|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.376] [999700000000009|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000006|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.376] [999700000000006|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.377] [999700000000006|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000010|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.377] [999700000000010|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.378] [999700000000010|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000003|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.378] [999700000000003|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000002|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.379] [999700000000002|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.380] [999700000000002|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.371] [999700000000008|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.380] [999700000000008|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.385] [999700000000007|nas] [debug] Authentication Request received
+[2026-09-30 15:02:07.385] [999700000000007|nas] [debug] Received SQN [000000000021]
+[2026-09-30 15:02:07.386] [999700000000007|nas] [debug] SQN-MS [000000000000]
+[2026-09-30 15:02:07.393] [999700000000004|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.394] [999700000000004|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.403] [999700000000005|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.403] [999700000000005|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.407] [999700000000011|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.407] [999700000000011|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.421] [999700000000010|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.421] [999700000000012|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.422] [999700000000010|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000012|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000002|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.423] [999700000000002|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000009|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.424] [999700000000009|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000006|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.422] [999700000000007|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.425] [999700000000007|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000001|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.425] [999700000000001|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.422] [999700000000003|nas] [debug] Security Mode Command received
+[2026-09-30 15:02:07.426] [999700000000003|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.424] [999700000000006|nas] [debug] Selected integrity[2] ciphering[0]
+[2026-09-30 15:02:07.445] [999700000000008|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.446] [999700000000008|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.446] [999700000000008|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.446] [999700000000008|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.463] [999700000000004|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.463] [999700000000004|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.464] [999700000000004|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.464] [999700000000004|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.467] [999700000000005|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.467] [999700000000005|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.467] [999700000000005|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.468] [999700000000005|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.472] [999700000000008|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.475] [999700000000004|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.478] [999700000000005|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.496] [999700000000010|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.496] [999700000000010|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.496] [999700000000010|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.497] [999700000000010|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.502] [999700000000011|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.503] [999700000000011|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.503] [999700000000011|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.503] [999700000000011|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.505] [999700000000010|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.507] [999700000000011|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.516] [999700000000012|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.516] [999700000000002|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.516] [999700000000002|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.517] [999700000000002|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.516] [999700000000012|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.517] [999700000000012|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.518] [999700000000012|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.517] [999700000000002|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.524] [999700000000003|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.525] [999700000000003|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.525] [999700000000003|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.525] [999700000000003|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.526] [999700000000009|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.526] [999700000000009|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.527] [999700000000009|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.527] [999700000000009|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.527] [999700000000007|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.528] [999700000000007|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.528] [999700000000007|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.528] [999700000000007|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.529] [999700000000006|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.529] [999700000000006|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.529] [999700000000006|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.530] [999700000000006|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.531] [999700000000001|nas] [debug] Registration accept received
+[2026-09-30 15:02:07.531] [999700000000001|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-09-30 15:02:07.532] [999700000000001|nas] [debug] Sending Registration Complete
+[2026-09-30 15:02:07.532] [999700000000001|nas] [info] Initial Registration is successful
+[2026-09-30 15:02:07.531] [999700000000002|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.533] [999700000000012|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.533] [999700000000003|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.535] [999700000000009|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.538] [999700000000007|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.540] [999700000000006|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:07.542] [999700000000001|nas] [debug] Configuration Update Command received
+[2026-09-30 15:02:15.225] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:15.226] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:15.254] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:15.254] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:15.255] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.2] is up.
+[2026-09-30 15:02:15.289] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:15.289] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:15.486] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:15.486] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:15.487] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.3] is up.
+[2026-09-30 15:02:15.523] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:15.523] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:15.718] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:15.718] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:15.719] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.4] is up.
+[2026-09-30 15:02:18.762] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:18.766] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:18.767] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:18.808] [999700000000005|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:18.809] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:18.999] [999700000000005|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:19.000] [999700000000005|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:19.000] [999700000000005|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.5] is up.
+[2026-09-30 15:02:19.043] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:19.204] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:19.205] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:19.238] [999700000000006|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:19.239] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:19.434] [999700000000006|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:19.434] [999700000000006|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:19.435] [999700000000006|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.6] is up.
+[2026-09-30 15:02:19.476] [999700000000005|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:19.645] [999700000000005|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:19.645] [999700000000005|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:19.680] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:19.682] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:19.872] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:19.873] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:19.873] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.7] is up.
+[2026-09-30 15:02:19.907] [999700000000006|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:20.080] [999700000000006|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:20.080] [999700000000006|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:20.121] [999700000000012|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:20.122] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:20.307] [999700000000012|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:20.308] [999700000000012|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:20.308] [999700000000012|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.8] is up.
+[2026-09-30 15:02:20.347] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:20.516] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:20.516] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:20.551] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:20.552] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:20.747] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:20.748] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:20.748] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.9] is up.
+[2026-09-30 15:02:20.788] [999700000000012|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:20.952] [999700000000012|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:20.952] [999700000000012|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:20.993] [999700000000004|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:20.994] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:21.185] [999700000000004|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:21.185] [999700000000004|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:21.186] [999700000000004|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.10] is up.
+[2026-09-30 15:02:21.221] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:21.394] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:21.395] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:21.431] [999700000000006|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:21.432] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:21.637] [999700000000006|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:21.637] [999700000000006|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:21.638] [999700000000006|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.11] is up.
+[2026-09-30 15:02:21.680] [999700000000006|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:21.841] [999700000000006|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:21.842] [999700000000006|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:21.880] [999700000000008|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:21.880] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:22.073] [999700000000008|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:22.073] [999700000000008|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:22.074] [999700000000008|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.12] is up.
+[2026-09-30 15:02:22.107] [999700000000008|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:22.277] [999700000000008|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:22.277] [999700000000008|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:22.316] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:22.316] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:22.511] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:22.511] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:22.511] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.13] is up.
+[2026-09-30 15:02:22.553] [999700000000004|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:22.720] [999700000000004|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:22.720] [999700000000004|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:22.759] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:22.760] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:22.956] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:22.957] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:22.957] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.14] is up.
+[2026-09-30 15:02:22.995] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:23.160] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:23.160] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:23.202] [999700000000010|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:23.202] [999700000000010|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:23.392] [999700000000010|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:23.393] [999700000000010|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:23.393] [999700000000010|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.15] is up.
+[2026-09-30 15:02:23.427] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:23.601] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:23.602] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:23.637] [999700000000009|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:23.638] [999700000000009|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:23.836] [999700000000009|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:23.837] [999700000000009|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:23.837] [999700000000009|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.16] is up.
+[2026-09-30 15:02:23.878] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:24.040] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:24.041] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:24.080] [999700000000011|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:24.081] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:24.274] [999700000000011|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:24.275] [999700000000011|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:24.275] [999700000000011|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.17] is up.
+[2026-09-30 15:02:24.308] [999700000000011|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:24.483] [999700000000011|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:24.483] [999700000000011|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:24.520] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:24.521] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:24.715] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:24.715] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:24.716] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.18] is up.
+[2026-09-30 15:02:24.750] [999700000000010|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:24.920] [999700000000010|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:24.920] [999700000000010|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:24.957] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:24.957] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:25.158] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:25.158] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:25.158] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.19] is up.
+[2026-09-30 15:02:25.195] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:25.364] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:25.365] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:25.402] [999700000000006|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:25.403] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:25.596] [999700000000006|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:25.596] [999700000000006|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:25.597] [999700000000006|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.20] is up.
+[2026-09-30 15:02:25.631] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:25.801] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:25.801] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:25.838] [999700000000005|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:25.839] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:26.034] [999700000000005|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:26.035] [999700000000005|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:26.035] [999700000000005|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.21] is up.
+[2026-09-30 15:02:26.075] [999700000000005|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:26.244] [999700000000005|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:26.244] [999700000000005|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:26.280] [999700000000004|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:26.281] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:26.476] [999700000000004|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:26.476] [999700000000004|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:26.477] [999700000000004|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.22] is up.
+[2026-09-30 15:02:26.518] [999700000000006|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:26.680] [999700000000006|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:26.681] [999700000000006|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:26.715] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:26.716] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:26.913] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:26.913] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:26.914] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.23] is up.
+[2026-09-30 15:02:26.952] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:27.117] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:27.117] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:27.157] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:27.157] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:27.348] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:27.348] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:27.348] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.24] is up.
+[2026-09-30 15:02:27.383] [999700000000004|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:27.552] [999700000000004|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:27.552] [999700000000004|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:27.590] [999700000000011|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:27.591] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:27.782] [999700000000011|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:27.782] [999700000000011|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:27.783] [999700000000011|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.25] is up.
+[2026-09-30 15:02:27.817] [999700000000011|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:27.989] [999700000000011|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:27.989] [999700000000011|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:28.023] [999700000000010|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:28.024] [999700000000010|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:28.227] [999700000000010|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:28.227] [999700000000010|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:28.228] [999700000000010|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.26] is up.
+[2026-09-30 15:02:28.263] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:28.433] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:28.436] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:28.476] [999700000000005|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:28.477] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:28.689] [999700000000005|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:28.689] [999700000000005|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:28.690] [999700000000005|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.27] is up.
+[2026-09-30 15:02:28.729] [999700000000009|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:28.897] [999700000000009|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:28.897] [999700000000009|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:28.940] [999700000000004|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:28.940] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:29.130] [999700000000004|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:29.131] [999700000000004|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:29.131] [999700000000004|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.28] is up.
+[2026-09-30 15:02:29.165] [999700000000004|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:29.340] [999700000000004|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:29.340] [999700000000004|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:29.381] [999700000000012|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:29.382] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:29.580] [999700000000012|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:29.581] [999700000000012|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:29.581] [999700000000012|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.29] is up.
+[2026-09-30 15:02:29.618] [999700000000010|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:29.785] [999700000000010|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:29.785] [999700000000010|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:29.824] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:29.825] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:30.023] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:30.024] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:30.024] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.30] is up.
+[2026-09-30 15:02:30.059] [999700000000005|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:30.228] [999700000000005|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:30.229] [999700000000005|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:30.264] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:30.265] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:30.463] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:30.463] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:30.464] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.31] is up.
+[2026-09-30 15:02:30.501] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:30.672] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:30.672] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:30.706] [999700000000005|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:30.707] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:30.907] [999700000000005|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:30.907] [999700000000005|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:30.908] [999700000000005|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.32] is up.
+[2026-09-30 15:02:30.941] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:31.116] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:31.117] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:31.155] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:31.156] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:31.347] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:31.347] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:31.348] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.33] is up.
+[2026-09-30 15:02:31.389] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:31.552] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:31.552] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:31.593] [999700000000006|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:31.594] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:31.790] [999700000000006|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:31.791] [999700000000006|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:31.791] [999700000000006|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.34] is up.
+[2026-09-30 15:02:31.830] [999700000000005|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:32.000] [999700000000005|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:32.000] [999700000000005|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:32.037] [999700000000009|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:32.038] [999700000000009|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:32.236] [999700000000009|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:32.236] [999700000000009|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:32.237] [999700000000009|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.35] is up.
+[2026-09-30 15:02:32.273] [999700000000009|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:32.439] [999700000000009|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:32.440] [999700000000009|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:32.477] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:32.478] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:32.671] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:32.671] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:32.672] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.36] is up.
+[2026-09-30 15:02:32.714] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:32.876] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:32.876] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:32.919] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:32.919] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:33.116] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:33.117] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:33.117] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.37] is up.
+[2026-09-30 15:02:33.155] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:33.324] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:33.324] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:33.360] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:33.361] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:33.564] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:33.565] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:33.565] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.38] is up.
+[2026-09-30 15:02:33.599] [999700000000006|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:33.768] [999700000000006|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:33.769] [999700000000006|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:33.806] [999700000000004|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:33.807] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:34.004] [999700000000004|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:34.004] [999700000000004|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:34.004] [999700000000004|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.39] is up.
+[2026-09-30 15:02:34.043] [999700000000004|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:34.208] [999700000000004|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:34.209] [999700000000004|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:34.248] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:34.249] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:34.444] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:34.444] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:34.445] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.40] is up.
+[2026-09-30 15:02:34.484] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:34.648] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:34.648] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:34.688] [999700000000011|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:34.689] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:34.883] [999700000000011|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:34.883] [999700000000011|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:34.884] [999700000000011|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.41] is up.
+[2026-09-30 15:02:34.926] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:35.092] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:35.092] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:35.130] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:35.131] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:35.324] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:35.324] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:35.325] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.42] is up.
+[2026-09-30 15:02:35.367] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:35.530] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:35.530] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:35.573] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:35.573] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:35.766] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:35.767] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:35.767] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.43] is up.
+[2026-09-30 15:02:35.810] [999700000000012|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:35.972] [999700000000012|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:35.973] [999700000000012|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:36.006] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:36.006] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:36.213] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:36.213] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:36.214] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.44] is up.
+[2026-09-30 15:02:36.254] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:36.416] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:36.417] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:36.451] [999700000000012|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:36.451] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:36.656] [999700000000012|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:36.656] [999700000000012|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:36.657] [999700000000012|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.45] is up.
+[2026-09-30 15:02:36.698] [999700000000011|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:36.865] [999700000000011|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:36.865] [999700000000011|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:36.905] [999700000000010|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:36.905] [999700000000010|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:37.097] [999700000000010|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:37.097] [999700000000010|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:37.097] [999700000000010|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.46] is up.
+[2026-09-30 15:02:37.141] [999700000000010|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:37.303] [999700000000010|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:37.304] [999700000000010|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:37.347] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:37.347] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:37.533] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:37.533] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:37.534] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.47] is up.
+[2026-09-30 15:02:37.573] [999700000000012|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:37.740] [999700000000012|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:37.740] [999700000000012|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:37.779] [999700000000011|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:37.779] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:37.981] [999700000000011|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:37.982] [999700000000011|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:37.982] [999700000000011|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.48] is up.
+[2026-09-30 15:02:38.025] [999700000000011|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:38.188] [999700000000011|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:38.189] [999700000000011|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:38.231] [999700000000008|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:38.232] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:38.417] [999700000000008|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:38.417] [999700000000008|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:38.418] [999700000000008|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.49] is up.
+[2026-09-30 15:02:38.456] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:38.620] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:38.621] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:38.662] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:38.663] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:38.851] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:38.851] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:38.852] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.50] is up.
+[2026-09-30 15:02:38.886] [999700000000008|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:39.056] [999700000000008|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:39.056] [999700000000008|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:39.090] [999700000000012|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:39.091] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:39.298] [999700000000012|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:39.298] [999700000000012|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:39.298] [999700000000012|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.51] is up.
+[2026-09-30 15:02:39.339] [999700000000012|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:39.501] [999700000000012|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:39.502] [999700000000012|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:39.537] [999700000000006|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:39.538] [999700000000006|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:39.730] [999700000000006|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:39.731] [999700000000006|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:39.731] [999700000000006|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.52] is up.
+[2026-09-30 15:02:39.765] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:39.936] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:39.936] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:39.978] [999700000000012|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:39.979] [999700000000012|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:40.164] [999700000000012|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:40.164] [999700000000012|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:40.165] [999700000000012|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.53] is up.
+[2026-09-30 15:02:40.204] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:40.368] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:40.368] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:40.409] [999700000000005|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:40.409] [999700000000005|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:40.602] [999700000000005|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:40.602] [999700000000005|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:40.602] [999700000000005|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.54] is up.
+[2026-09-30 15:02:40.644] [999700000000006|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:40.806] [999700000000006|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:40.807] [999700000000006|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:40.841] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:40.842] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:41.040] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:41.041] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:41.041] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.55] is up.
+[2026-09-30 15:02:41.079] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:41.245] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:41.245] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:41.286] [999700000000010|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:41.287] [999700000000010|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:41.476] [999700000000010|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:41.476] [999700000000010|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:41.477] [999700000000010|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.56] is up.
+[2026-09-30 15:02:41.512] [999700000000005|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:41.681] [999700000000005|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:41.681] [999700000000005|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:41.717] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:41.718] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:41.917] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:41.917] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:41.918] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.57] is up.
+[2026-09-30 15:02:41.952] [999700000000010|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:42.124] [999700000000010|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:42.125] [999700000000010|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:42.168] [999700000000008|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:42.168] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:42.351] [999700000000008|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:42.352] [999700000000008|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:42.353] [999700000000008|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.58] is up.
+[2026-09-30 15:02:42.391] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:42.556] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:42.556] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:42.597] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:42.598] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:42.795] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:42.795] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:42.796] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.59] is up.
+[2026-09-30 15:02:42.829] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:42.999] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:43.000] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:43.038] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:43.038] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:43.232] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:43.232] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:43.233] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.60] is up.
+[2026-09-30 15:02:43.266] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:43.435] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:43.435] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:43.470] [999700000000009|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:43.471] [999700000000009|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:43.670] [999700000000009|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:43.670] [999700000000009|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:43.671] [999700000000009|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.61] is up.
+[2026-09-30 15:02:43.707] [999700000000008|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:43.874] [999700000000008|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:43.875] [999700000000008|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:43.912] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:43.912] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:44.112] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:44.113] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:44.113] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.62] is up.
+[2026-09-30 15:02:44.147] [999700000000012|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:44.318] [999700000000012|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:44.319] [999700000000012|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:44.354] [999700000000008|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:44.355] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:44.552] [999700000000008|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:44.552] [999700000000008|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:44.553] [999700000000008|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.63] is up.
+[2026-09-30 15:02:44.591] [999700000000008|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:44.754] [999700000000008|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:44.755] [999700000000008|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:44.796] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:44.796] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:44.993] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:44.994] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:44.994] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.64] is up.
+[2026-09-30 15:02:45.031] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:45.204] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:45.204] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:45.238] [999700000000004|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:45.239] [999700000000004|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:45.435] [999700000000004|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:45.436] [999700000000004|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:45.436] [999700000000004|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.65] is up.
+[2026-09-30 15:02:45.474] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:45.643] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:45.644] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:45.681] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:45.681] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:45.877] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:45.878] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:45.878] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.66] is up.
+[2026-09-30 15:02:45.919] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:46.087] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:46.087] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:46.124] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:46.125] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:46.325] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:46.325] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:46.326] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.67] is up.
+[2026-09-30 15:02:46.363] [999700000000009|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:46.531] [999700000000009|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:46.532] [999700000000009|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:46.567] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:46.568] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:46.766] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:46.766] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:46.766] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.68] is up.
+[2026-09-30 15:02:46.805] [999700000000001|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:46.970] [999700000000001|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:46.970] [999700000000001|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:47.009] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:47.010] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:47.210] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:47.210] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:47.210] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.69] is up.
+[2026-09-30 15:02:47.246] [999700000000002|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:47.415] [999700000000002|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:47.415] [999700000000002|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:47.453] [999700000000008|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:47.454] [999700000000008|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:47.651] [999700000000008|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:47.651] [999700000000008|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:47.651] [999700000000008|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.70] is up.
+[2026-09-30 15:02:47.689] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:47.859] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:47.860] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:47.894] [999700000000007|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:47.894] [999700000000007|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:48.091] [999700000000007|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:48.092] [999700000000007|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:48.092] [999700000000007|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.71] is up.
+[2026-09-30 15:02:48.129] [999700000000007|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:48.294] [999700000000007|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:48.295] [999700000000007|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:48.335] [999700000000003|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:48.335] [999700000000003|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:48.531] [999700000000003|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:48.532] [999700000000003|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:48.532] [999700000000003|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.72] is up.
+[2026-09-30 15:02:48.569] [999700000000003|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:48.735] [999700000000003|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:48.736] [999700000000003|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:48.776] [999700000000009|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:48.777] [999700000000009|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:48.967] [999700000000009|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:48.968] [999700000000009|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:48.968] [999700000000009|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.73] is up.
+[2026-09-30 15:02:49.002] [999700000000008|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:49.172] [999700000000008|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:49.173] [999700000000008|nas] [debug] Performing local release of PDU session[1]
+[2026-09-30 15:02:49.210] [999700000000011|nas] [debug] Sending PDU Session Establishment Request
+[2026-09-30 15:02:49.211] [999700000000011|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-09-30 15:02:49.404] [999700000000011|nas] [debug] PDU Session Establishment Accept received
+[2026-09-30 15:02:49.404] [999700000000011|nas] [info] PDU Session establishment is successful PSI[1]
+[2026-09-30 15:02:49.405] [999700000000011|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun2, 10.45.0.74] is up.
+[2026-09-30 15:02:49.438] [999700000000004|nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2026-09-30 15:02:49.611] [999700000000004|nas] [debug] PDU Session Release Command received
+[2026-09-30 15:02:49.612] [999700000000004|nas] [debug] Performing local release of PDU session[1]

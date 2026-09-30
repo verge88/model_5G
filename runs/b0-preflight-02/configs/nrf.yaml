@@ -1,0 +1,20 @@
+logger:
+  file:
+    path: /work/runs/b0-preflight-02/nrf.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+nrf:
+  serving:
+  - plmn_id:
+      mcc: 999
+      mnc: 70
+  sbi:
+    server:
+    - address: 127.0.0.10
+      port: 7777
+  time:
+    nf_instance:
+      heartbeat: 1

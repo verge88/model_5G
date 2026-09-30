@@ -1,0 +1,18 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+upstream/
+
+
+
+# Downloaded source bundles (the working sources live under upstream/)
+/*.tar
+/*.tar.*
+/*.rar
+
+# OS metadata
+.DS_Store
+Thumbs.db

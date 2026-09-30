@@ -1,0 +1,45 @@
+{
+  "baseline": {
+    "registered_load": 10,
+    "patched_load": 10,
+    "invalid_inputs": [],
+    "passed": true
+  },
+  "patched": {
+    "registered_load": 10,
+    "patched_load": 37,
+    "invalid_inputs": [
+      {
+        "value": -1,
+        "status": 400,
+        "unchanged": true
+      },
+      {
+        "value": 101,
+        "status": 400,
+        "unchanged": true
+      },
+      {
+        "value": 12.5,
+        "status": 400,
+        "unchanged": true
+      },
+      {
+        "value": "37",
+        "status": 400,
+        "unchanged": true
+      },
+      {
+        "value": null,
+        "status": 400,
+        "unchanged": true
+      },
+      {
+        "value": true,
+        "status": 400,
+        "unchanged": true
+      }
+    ],
+    "passed": true
+  }
+}

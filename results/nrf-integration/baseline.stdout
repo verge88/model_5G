@@ -1,0 +1,15 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 14:58:53.510[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/work/results/nrf-integration/baseline.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 14:58:53.511[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/work/results/nrf-integration/baseline.log' (../lib/app/ogs-init.c:147)
+[32m09/30 14:58:53.513[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnrf-nfm] (../lib/sbi/context.c:2012)
+[32m09/30 14:58:53.515[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnrf-disc] (../lib/sbi/context.c:2012)
+[32m09/30 14:58:53.516[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m09/30 14:58:53.517[0m: [[33mapp[0m] [1;32mINFO[0m: NRF initialize...done (../src/nrf/app.c:31)
+[32m09/30 14:58:54.502[0m: [[33msbi[0m] [1;32mINFO[0m: [SMF] NFInstance associated [aef2441e-1fdb-4aad-85a2-75f5bdd07d9c] (../lib/sbi/context.c:2498)
+[32m09/30 14:58:54.505[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.33:80] (../lib/sbi/context.c:2503)
+[32m09/30 14:58:54.506[0m: [[33mnrf[0m] [1;32mINFO[0m: [aef2441e-1fdb-4aad-85a2-75f5bdd07d9c] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:208)
+[32m09/30 14:58:54.509[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 14:58:54.511[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 14:58:54.513[0m: [[33mnrf[0m] [1;32mINFO[0m: [aef2441e-1fdb-4aad-85a2-75f5bdd07d9c] NF de-registered (../src/nrf/nf-sm.c:224)
+[32m09/30 14:58:54.515[0m: [[33mapp[0m] [1;32mINFO[0m: NRF terminate...done (../src/nrf/app.c:39)

@@ -1,0 +1,8 @@
+logger:
+  file:
+    path: /work/results/nrf-integration/baseline.log
+nrf:
+  sbi:
+    server:
+    - address: 127.0.0.10
+      port: 7777

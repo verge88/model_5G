@@ -1,0 +1,57 @@
+logger:
+  file:
+    path: /work/runs/b0-preflight-02/smf3.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+smf:
+  sbi:
+    server:
+    - address: 127.0.0.33
+      port: 7777
+    client:
+      scp:
+      - uri: http://127.0.0.200:7777
+      nrf:
+      - uri: http://127.0.0.10:7777
+      delegated:
+        nrf:
+          nfm: 'no'
+          disc: 'no'
+  pfcp:
+    server:
+    - address: 127.0.0.33
+    client:
+      upf:
+      - address: 127.0.0.7
+  gtpc:
+    server:
+    - address: 127.0.0.33
+  gtpu:
+    server:
+    - address: 127.0.0.33
+  metrics:
+    server:
+    - address: 127.0.0.33
+      port: 9090
+  session:
+  - subnet: 10.45.0.0/16
+    gateway: 10.45.0.1
+  dns:
+  - 8.8.8.8
+  - 8.8.4.4
+  - 2001:4860:4860::8888
+  - 2001:4860:4860::8844
+  mtu: 1400
+  info:
+  - s_nssai:
+    - sst: 1
+      dnn:
+      - internet
+    tai:
+    - plmn_id:
+        mcc: '999'
+        mnc: '70'
+      tac: 1

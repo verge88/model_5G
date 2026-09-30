@@ -1,0 +1,31 @@
+ninja: Entering directory `build'
+[1/41] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nnrf-path.c.o
+[2/41] Compiling C object src/scp/libscp.a.p/context.c.o
+[3/41] Compiling C object src/scp/libscp.a.p/sbi-path.c.o
+[4/41] Linking static target src/scp/libscp.a
+[5/41] Compiling C object src/nrf/libnrf.a.p/nnrf-handler.c.o
+../src/nrf/nnrf-handler.c: In function 'nrf_nnrf_handle_nf_update':
+../src/nrf/nnrf-handler.c:352:40: warning: comparing floating-point with '==' or '!=' is unsafe [-Wfloat-equal]
+  352 |                         v->valuedouble != (int)v->valuedouble) {
+      |                                        ^~
+[6/41] Linking target lib/sbi/libogssbi.so.2.8.0
+[7/41] Linking static target src/nrf/libnrf.a
+[8/41] Generating symbol file lib/sbi/libogssbi.so.2.8.0.p/libogssbi.so.2.8.0.symbols
+[9/18] Linking target src/scp/open5gs-scpd
+[10/18] Linking target src/nrf/open5gs-nrfd
+[11/18] Compiling C object src/smf/libsmf.a.p/sbi-path.c.o
+[12/18] Compiling C object src/amf/libamf.a.p/sbi-path.c.o
+FAILED: src/amf/libamf.a.p/sbi-path.c.o 
+cc -Isrc/amf/libamf.a.p -Isrc/amf -I../src/amf -Ilib/metrics -I../lib/metrics -Ilib -I../lib -Ilib/app -I../lib/app -Ilib/proto -I../lib/proto -Ilib/core -I../lib/core -I../subprojects/prometheus-client-c/prom/include -I../subprojects/prometheus-client-c/prom/src -Isubprojects/prometheus-client-c/__CMake_build -I../subprojects/prometheus-client-c/__CMake_build -Isubprojects/prometheus-client-c -I../subprojects/prometheus-client-c -Ilib/sctp -I../lib/sctp -Ilib/ngap -I../lib/ngap -Ilib/asn1c/ngap -I../lib/asn1c/ngap -Ilib/asn1c/common -I../lib/asn1c/common -Ilib/asn1c/util -I../lib/asn1c/util -Ilib/nas/5gs -I../lib/nas/5gs -Ilib/nas/common -I../lib/nas/common -Ilib/crypt -I../lib/crypt -Ilib/sbi -I../lib/sbi -Ilib/sbi/openapi -I../lib/sbi/openapi -I/usr/include/p11-kit-1 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu89 -O0 -g -Wextra -Wlogical-op -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4 -fPIC -Wall -Werror -Wno-unused-label -Wuninitialized -std=gnu11 -pthread -MD -MQ src/amf/libamf.a.p/sbi-path.c.o -MF src/amf/libamf.a.p/sbi-path.c.o.d -o src/amf/libamf.a.p/sbi-path.c.o -c ../src/amf/sbi-path.c
+In file included from ../src/amf/sbi-path.c:21:
+../src/amf/lab-selector.h: In function 'lab_select_smf':
+../src/amf/lab-selector.h:44:15: error: comparing floating-point with '==' or '!=' is unsafe [-Werror=float-equal]
+   44 |     if (total == 0) for (i = 0; i < n; i++) {
+      |               ^~
+../src/amf/lab-selector.h:47:15: error: comparing floating-point with '==' or '!=' is unsafe [-Werror=float-equal]
+   47 |     if (total == 0) for (i = 0; i < n; i++) { weights[i] = 1; total++; }
+      |               ^~
+cc1: all warnings being treated as errors
+[13/18] Compiling C object src/amf/libamf.a.p/gmm-handler.c.o
+[14/18] Compiling C object src/smf/libsmf.a.p/context.c.o
+ninja: build stopped: subcommand failed.

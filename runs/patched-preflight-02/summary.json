@@ -1,0 +1,23 @@
+{
+  "mode": "real-open5gs-ueransim",
+  "run_complete": true,
+  "scp_created": {
+    "127.0.0.4": 11,
+    "127.0.0.32": 10,
+    "127.0.0.33": 14
+  },
+  "scp_released": {
+    "127.0.0.33": 9,
+    "127.0.0.4": 6,
+    "127.0.0.32": 5
+  },
+  "scp_active": {
+    "127.0.0.4": 5,
+    "127.0.0.32": 5,
+    "127.0.0.33": 5
+  },
+  "selections": 35,
+  "load_samples": 98,
+  "anomalies": [],
+  "ueransim_established": 35
+}

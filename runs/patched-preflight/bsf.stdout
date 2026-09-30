@@ -1,0 +1,17 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 14:59:15.974[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/work/runs/patched-preflight/configs/bsf.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 14:59:15.974[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/work/runs/patched-preflight/bsf.log' (../lib/app/ogs-init.c:147)
+[32m09/30 14:59:15.975[0m: [[33mapp[0m] [1;32mINFO[0m: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+[32m09/30 14:59:15.977[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m09/30 14:59:15.979[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+[32m09/30 14:59:15.982[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nbsf-management] (../lib/sbi/context.c:2012)
+[32m09/30 14:59:15.984[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m09/30 14:59:15.986[0m: [[33mapp[0m] [1;32mINFO[0m: BSF initialize...done (../src/bsf/app.c:31)
+[32m09/30 14:59:15.991[0m: [[33msbi[0m] [1;32mINFO[0m: [81648398-bcdf-41f1-80a5-4f6780c77df6] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+[32m09/30 14:59:15.994[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m09/30 14:59:15.995[0m: [[33msbi[0m] [1;32mINFO[0m: [8166d6ca-bcdf-41f1-9b13-dba846011b48] Subscription created until 2026-10-01T14:59:15.993291+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m09/30 14:59:49.224[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 14:59:49.226[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 14:59:49.228[0m: [[33msbi[0m] [1;32mINFO[0m: [81648398-bcdf-41f1-80a5-4f6780c77df6] NF de-registered (../lib/sbi/nf-sm.c:406)
+[32m09/30 14:59:49.231[0m: [[33mapp[0m] [1;32mINFO[0m: BSF terminate...done (../src/bsf/app.c:39)

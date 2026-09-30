@@ -1,0 +1,600 @@
+{"t": 33782324571.632, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33782367388.391, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33782582955.212, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33785789409.816, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33785832040.291, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33786037365.31, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33786242233.132, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33786457800.174, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33786653547.362, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33786869028.736, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33787064515.436, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33787280250.35, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33787485665.55, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33787691175.655, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33787896484.59, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33788112055.615, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33788317445.619, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33788532845.39, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33788737668.752, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33788942310.101, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33789148703.951, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33789353828.868, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33789558972.517, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33789774008.682, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33789979277.737, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33790184431.306, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33790389782.387, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33790595190.018, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33790800180.313, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33791015726.986, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33791220662.984, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33791426149.904, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33791631935.992, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33791836689.561, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33792042100.049, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33792247285.703, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33792452543.544, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33792668573.88, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33792873393.685, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33793079808.963, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33793285628.585, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33793490212.076, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33793695583.394, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33793911986.912, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33794117299.775, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33794322254.248, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33794527450.849, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33794743236.844, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33794939019.844, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33795154512.051, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33795371245.914, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33795576471.359, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33795781722.892, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33795986890.088, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33796192265.561, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33796397395.915, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33796602528.159, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33796807840.154, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33797013105.045, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33797218299.856, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33797423379.633, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33797638819.119, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33797845436.807, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33798051648.908, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33798257555.011, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33798462770.444, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33798669050.49, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33798874343.314, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33799089384.347, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33799294750.234, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33799499627.182, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33799715024.843, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33799910474.264, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33800126323.612, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33800331618.052, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33800536848.861, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33800741804.869, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33800956743.995, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33801163047.471, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33801368297.889, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33801573411.307, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33801779920.746, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33801985288.185, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33802190219.065, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33802396186.126, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33802601549.456, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33802806491.33, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33803021823.206, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33803227759.573, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33803433173.357, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33803638241.327, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33803853342.3, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33804058585.48, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33804264146.395, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33804470106.046, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33804675627.085, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33804881181.956, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33805087450.265, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33805292571.403, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33805507600.825, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33805702834.379, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33805918004.137, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33806123376.216, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33806328078.972, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33806543598.252, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33806749891.442, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33806956051.369, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33807161798.041, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33807366913.129, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33807582098.119, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33807777009.623, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33807992287.881, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33808198660.74, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33808404297.951, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33808609328.884, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33808825915.116, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33809020873.719, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33809236579.933, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33809441515.225, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33809646595.546, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33809851748.381, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33810056576.063, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33810261868.49, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33810477440.606, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33810682253.622, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33810887773.77, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33811092648.166, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33811308081.554, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33811513582.345, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33811718448.827, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33811924644.112, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33812140139.569, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33812345220.26, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33812550332.638, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33812756343.536, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33812972520.119, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33813167709.55, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33813373048.25, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33813578221.081, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33813793461.565, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33813998608.089, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33814203837.33, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33814408960.442, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33814626090.643, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33814821166.785, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33815037643.568, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33815242715.583, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33815447563.903, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33815653095.38, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33815858535.972, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33816064311.154, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33816279722.805, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33816484762.354, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33816689821.299, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33816895454.694, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33817110644.325, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33817305442.594, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33817520381.583, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33817725930.494, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33817930778.351, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33818135986.491, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33818351149.225, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33818546232.145, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33818761491.842, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33818966384.349, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33819172863.788, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33819377897.409, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33819582758.881, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33819799213.743, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33820004268.734, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33820209626.133, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33820414487.264, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33820620217.402, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33820835482.866, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33821030681.399, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33821246341.34, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33821441300.604, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33821656723.065, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33821861977.003, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33822067090.736, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33822272455.484, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33822477830.5, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33822693175.3, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33822898989.498, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33823104346.978, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33823319652.982, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33823514496.465, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33823729862.305, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33823924729.466, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33824139870.821, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33824344902.467, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33824560274.06, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33824766075.674, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33824971174.287, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33825176395.922, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33825381198.72, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33825586568.759, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33825801621.182, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33826006842.155, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33826222035.998, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33826427340.167, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33826632602.445, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33826837967.039, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33827043128.551, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33827249172.477, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33827454062.838, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33827659062.687, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33827874421.608, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33828069229.42, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33828284230.65, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33828489430.811, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33828694884.167, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33828900057.205, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33829115576.601, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33829320979.779, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33829536243.887, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33829741519.92, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33829946786.857, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33830151376.355, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33830366715.546, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33830561457.92, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33830776759.938, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33830981770.041, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33831187001.369, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33831392553.059, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33831599064.559, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33831804973.076, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33832020565.626, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33832225636.316, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33832432182.821, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33832637328.538, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33832852882.651, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33833058281.988, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33833273896.651, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33833468869.249, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33833684182.676, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33833889479.705, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33834104843.343, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33834310343.169, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33834525562.286, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33834731159.732, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33834936147.267, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33835140778.537, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33835345711.464, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33835550614.79, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33835767741.095, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33835972455.238, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33836187698.258, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33836393040.145, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33836609225.725, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33836814562.122, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33837020075.324, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33837225379.059, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33837430531.94, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33837635777.184, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33837840770.533, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33838046233.048, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33838262333.262, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33838467613.388, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33838672841.799, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33838877957.969, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33839093323.173, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33839298795.105, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33839514050.604, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33839708908.139, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33839923881.087, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33840129102.432, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33840334385.598, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33840539445.167, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33840755560.875, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33840960732.106, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33841165852.521, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33841371310.746, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33841587048.497, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33841793091.552, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33841998763.68, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33842204246.713, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33842420467.707, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33842615705.928, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33842831771.385, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33843037108.512, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33843242026.604, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33843457563.861, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33843662760.626, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33843867738.793, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33844084000.017, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33844290089.947, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33844505689.382, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33844711360.343, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33844926803.326, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33845132971.868, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33845339002.703, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33845544594.936, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33845760354.824, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33845965283.614, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33846170152.613, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33846386105.403, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33846591321.427, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33846796498.936, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33847011690.717, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33847217148.78, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33847422495.335, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33847628387.536, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33847833747.029, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33848040578.881, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33848246233.426, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33848452614.935, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33848668950.743, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33848875126.989, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33849081078.739, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33849286951.723, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33849502058.268, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33849697041.973, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33849912195.373, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33850117209.479, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33850331689.019, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33850537335.913, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33850753245.786, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33850958444.493, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33851163414.363, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33851368291.938, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33851583940.928, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33851789371.904, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33851994781.152, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33852199986.212, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33852415958.3, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33852621322.343, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33852825815.003, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33853030666.076, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33853235200.105, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33853440085.732, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33853645372.456, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33853849829.52, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33854065087.656, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33854269711.873, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33854484846.726, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33854690593.03, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33854896485.035, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33855102421.929, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33855307927.415, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33855523827.627, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33855730602.561, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33855937334.759, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33856143476.025, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33856351085.464, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33856556558.777, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33856764788.384, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33856971586.254, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33857178518.425, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33857385915.844, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33857592121.559, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33857797525.818, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33858002238.939, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33858220084.414, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33858416058.534, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33858631865.082, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33858829466.245, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33859044325.949, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33859248877.038, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33859463752.403, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33859668416.858, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33859872836.469, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33860078572.138, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33860293954.048, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33860488588.96, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33860703335.77, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33860907964.202, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33861113408.618, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33861318909.889, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33861533822.018, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33861729388.882, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33861944917.234, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33862150274.727, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33862356379.66, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33862562414.197, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33862778455.691, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33862973866.842, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33863189057.123, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33863393980.704, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33863599024.82, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33863804610.631, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33864010184.652, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33864215654.104, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33864431425.561, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33864637002.736, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33864852061.968, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33865059165.767, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33865264721.818, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33865470043.463, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33865685217.081, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33865890522.686, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33866106183.656, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33866302166.315, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33866517332.768, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33866723019.222, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33866928138.889, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33867133715.717, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33867349639.373, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33867555016.443, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33867759929.423, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33867965010.117, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33868180932.016, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33868386133.122, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33868591542.329, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33868796568.339, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33869011904.101, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33869217173.635, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33869422174.894, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33869637591.312, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33869855472.494, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33870054315.419, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33870259903.418, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33870465458.971, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33870680452.338, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33870886369.277, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33871091906.273, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33871296571.609, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33871501686.212, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33871706706.976, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33871922654.756, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33872117106.452, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33872332226.197, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33872537927.609, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33872743527.806, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33872961322.912, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33873166680.118, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33873374619.157, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33873579766.681, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33873784106.342, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33873998491.808, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33874203070.628, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33874417797.177, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33874622650.249, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33874827490.994, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33875031836.472, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33875246072.496, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33875450879.562, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33875666092.561, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33875860663.957, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33876074954.243, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33876268921.9, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33876493413.822, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33876697548.915, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33876901441.152, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33877105890.58, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33877320290.429, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33877524522.551, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33877728754.544, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33877932919.587, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33878148419.911, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33878343283.193, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33878559030.6, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33878763811.195, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33878968598.698, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33879174104.445, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33879378808.912, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33879584305.6, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33879799240.515, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33880005282.851, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33880209889.713, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33880414882.598, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33880630432.45, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33880835534.231, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33881040223.698, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33881245129.055, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33881460531.9, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33881666210.255, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33881871680.11, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33882078098.931, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33882283174.687, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33882489187.581, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33882694020.137, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33882899015.802, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33883113662.926, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33883318015.706, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33883522835.271, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33883728151.475, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33883933428.106, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33884138225.06, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33884343390.531, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33884548330.099, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33884764500.685, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33884970207.298, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33885175776.658, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33885391192.802, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33885596417.938, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33885813267.984, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33886019463.833, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33886225118.015, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33886430002.179, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33886644742.287, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33886850970.672, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33887057430.259, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33887262379.879, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33887467558.076, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33887682816.124, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33887876913.774, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33888091560.672, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33888298308.259, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33888504862.375, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33888710802.968, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33888915959.715, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33889120736.869, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33889336163.298, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33889541556.009, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33889746763.541, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33889952254.786, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33890167871.003, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33890373287.305, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33890588421.846, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33890794297.757, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33890999455.011, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33891204913.47, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33891410083.054, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33891615528.462, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33891831480.905, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33892026565.999, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33892243376.816, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33892438976.071, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33892654962.237, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33892860294.663, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33893075693.531, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33893270677.149, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33893487669.719, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33893682709.798, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33893898449.028, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33894104161.645, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33894309576.227, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33894516096.939, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33894721484.393, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33894927992.954, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33895133229.071, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33895338207.112, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33895553751.66, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33895760244.7, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33895965402.568, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33896160349.296, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33896375468.687, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33896581410.557, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33896786912.258, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33896992446.379, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33897209729.562, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33897414129.043, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33897629389.144, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33897836503.067, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33898043501.034, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33898253555.552, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33898462880.453, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33898670751.811, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33898876779.667, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33899081411.616, "ue": 10, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33899286787.018, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33899491896.366, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33899707386.482, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33899903737.609, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33900119374.754, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33900314686.744, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33900531493.976, "ue": 10, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33900746642.528, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33900952731.925, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33901158053.339, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33901363037.139, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33901568772.881, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33901787010.68, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33901984407.511, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33902199743.307, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33902395683.343, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33902612499.844, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33902819008.161, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33903026256.845, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33903233729.929, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33903438511.809, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33903644710.806, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33903852322.562, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33904060848.183, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33904267960.68, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33904473815.695, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33904688625.633, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33904897182.895, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33905113797.227, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33905310614.373, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33905526544.45, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33905732386.348, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33905948689.031, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33906144340.525, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33906363474.851, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33906569629.15, "ue": 9, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33906777127.927, "ue": 9, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33906984315.05, "ue": 11, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33907199925.155, "ue": 11, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33907406343.162, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33907610836.88, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33907827314.149, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33908033427.086, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33908240404.211, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33908458337.231, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 33908654394.35, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 33908869979.224, "ue": 5, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: 10.45.3.48\n ambr: up[1000000Kb/s] down[1000000Kb/s]\n data-pending: false\n", "stderr": ""}
+{"t": 33908882610.387, "ue": 3, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: 10.45.3.47\n ambr: up[1000000Kb/s] down[1000000Kb/s]\n data-pending: false\n", "stderr": ""}
+{"t": 33908894604.328, "ue": 8, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: 10.45.3.49\n ambr: up[1000000Kb/s] down[1000000Kb/s]\n data-pending: false\n", "stderr": ""}

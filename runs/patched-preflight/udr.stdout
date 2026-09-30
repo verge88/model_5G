@@ -1,0 +1,18 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 14:59:14.966[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/work/runs/patched-preflight/configs/udr.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 14:59:14.967[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/work/runs/patched-preflight/udr.log' (../lib/app/ogs-init.c:147)
+[32m09/30 14:59:14.967[0m: [[33mapp[0m] [1;32mINFO[0m: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+[32m09/30 14:59:14.969[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m09/30 14:59:14.970[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+[32m09/30 14:59:14.973[0m: [[33mdbi[0m] [1;32mINFO[0m: MongoDB URI: 'mongodb://127.0.0.1/model5g' (../lib/dbi/ogs-mongoc.c:128)
+[32m09/30 14:59:14.974[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nudr-dr] (../lib/sbi/context.c:2012)
+[32m09/30 14:59:14.974[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m09/30 14:59:14.975[0m: [[33mapp[0m] [1;32mINFO[0m: UDR initialize...done (../src/udr/app.c:31)
+[32m09/30 14:59:14.978[0m: [[33msbi[0m] [1;32mINFO[0m: [80cabd4e-bcdf-41f1-9eb9-8fe4d47f9fb0] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+[32m09/30 14:59:14.980[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m09/30 14:59:14.981[0m: [[33msbi[0m] [1;32mINFO[0m: [80cc3d86-bcdf-41f1-9b13-dba846011b48] Subscription created until 2026-10-01T14:59:14.980154+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m09/30 14:59:49.225[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 14:59:49.227[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 14:59:49.229[0m: [[33msbi[0m] [1;32mINFO[0m: [80cabd4e-bcdf-41f1-9eb9-8fe4d47f9fb0] NF de-registered (../lib/sbi/nf-sm.c:406)
+[32m09/30 14:59:49.232[0m: [[33mapp[0m] [1;32mINFO[0m: UDR terminate...done (../src/udr/app.c:39)

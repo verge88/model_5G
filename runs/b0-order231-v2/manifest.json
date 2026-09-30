@@ -1,0 +1,20 @@
+{
+  "out": "runs/b0-order231-v2",
+  "baseline": true,
+  "order": "2,3,1",
+  "policy": "swrr",
+  "seed": 1,
+  "alpha": 0,
+  "capacity": 100,
+  "ues": 12,
+  "active": 3,
+  "cycles": 297,
+  "interval": 0.01,
+  "mode": "real-open5gs-ueransim",
+  "open5gs_commit": "157f611a530e292e40ec50f9d23f0ef5d4fcd6a6",
+  "started": 1790780778.5160556,
+  "complete": true,
+  "expected_established": 300,
+  "actual_established": 300,
+  "finished": 1790780925.4988744
+}

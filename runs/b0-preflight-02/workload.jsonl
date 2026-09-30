@@ -1,0 +1,26 @@
+{"t": 32919462280.059, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32919879859.673, "ue": 2, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32920298517.706, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32923613483.804, "ue": 1, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32924030474.12, "ue": 5, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32924342977.169, "ue": 3, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32924759467.881, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32925072657.534, "ue": 5, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32925487123.686, "ue": 1, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32925800179.632, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32926215473.833, "ue": 12, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32926528639.082, "ue": 2, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32926945013.231, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32927258717.621, "ue": 12, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32927674598.414, "ue": 4, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32927987990.689, "ue": 7, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32928404295.441, "ue": 6, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32928718544.155, "ue": 6, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32929134238.544, "ue": 8, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32929447912.179, "ue": 8, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32929864566.573, "ue": 7, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32930177746.623, "ue": 4, "command": "ps-release-all", "returncode": 0, "stdout": "PDU session release procedure(s) triggered\n", "stderr": ""}
+{"t": 32930593176.744, "ue": 3, "command": "ps-establish IPv4 --sst 1 --dnn internet", "returncode": 0, "stdout": "PDU session establishment procedure triggered\n", "stderr": ""}
+{"t": 32930906602.195, "ue": 1, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\nPDU Session2: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\n", "stderr": ""}
+{"t": 32930920792.012, "ue": 7, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\nPDU Session2: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\n", "stderr": ""}
+{"t": 32930934278.121, "ue": 3, "command": "ps-list", "returncode": 0, "stdout": "PDU Session1: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\nPDU Session2: \n state: PS-ACTIVE-PENDING\n session-type: IPv4\n apn: internet\n s-nssai: \n  sst: 0x01\n  sd: null\n emergency: false\n address: null\n ambr: null\n data-pending: false\n", "stderr": ""}

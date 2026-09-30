@@ -1,0 +1,158 @@
+UERANSIM v3.2.7
+[2026-09-30 15:00:53.489] [sctp] [info] Trying to establish SCTP connection... (127.0.0.5:38412)
+[2026-09-30 15:00:53.491] [sctp] [info] SCTP connection established (127.0.0.5:38412)
+[2026-09-30 15:00:53.491] [sctp] [debug] SCTP association setup ascId[35]
+[2026-09-30 15:00:53.492] [ngap] [debug] Sending NG Setup Request
+[2026-09-30 15:00:53.500] [ngap] [debug] NG Setup Response received
+[2026-09-30 15:00:53.500] [ngap] [info] NG Setup procedure is successful
+[2026-09-30 15:00:55.491] [rrc] [debug] UE[1] new signal detected
+[2026-09-30 15:00:55.492] [rrc] [debug] UE[2] new signal detected
+[2026-09-30 15:00:55.494] [rrc] [debug] UE[3] new signal detected
+[2026-09-30 15:00:55.494] [rrc] [debug] UE[4] new signal detected
+[2026-09-30 15:00:55.495] [rrc] [debug] UE[5] new signal detected
+[2026-09-30 15:00:55.496] [rrc] [debug] UE[6] new signal detected
+[2026-09-30 15:00:55.497] [rrc] [debug] UE[7] new signal detected
+[2026-09-30 15:00:55.498] [rrc] [debug] UE[8] new signal detected
+[2026-09-30 15:00:55.499] [rrc] [debug] UE[9] new signal detected
+[2026-09-30 15:00:55.499] [rrc] [debug] UE[10] new signal detected
+[2026-09-30 15:00:55.500] [rrc] [debug] UE[11] new signal detected
+[2026-09-30 15:00:55.500] [rrc] [debug] UE[12] new signal detected
+[2026-09-30 15:00:55.501] [rrc] [debug] UE[13] new signal detected
+[2026-09-30 15:00:55.501] [rrc] [debug] UE[14] new signal detected
+[2026-09-30 15:00:55.501] [rrc] [debug] UE[15] new signal detected
+[2026-09-30 15:00:55.502] [rrc] [debug] UE[16] new signal detected
+[2026-09-30 15:00:55.502] [rrc] [debug] UE[17] new signal detected
+[2026-09-30 15:00:55.502] [rrc] [debug] UE[18] new signal detected
+[2026-09-30 15:00:55.503] [rrc] [debug] UE[19] new signal detected
+[2026-09-30 15:00:55.503] [rrc] [debug] UE[20] new signal detected
+[2026-09-30 15:00:55.503] [rrc] [debug] UE[21] new signal detected
+[2026-09-30 15:00:55.504] [rrc] [debug] UE[22] new signal detected
+[2026-09-30 15:00:55.504] [rrc] [debug] UE[23] new signal detected
+[2026-09-30 15:00:55.505] [rrc] [debug] UE[24] new signal detected
+[2026-09-30 15:00:55.523] [rrc] [info] RRC Setup for UE[5]
+[2026-09-30 15:00:55.523] [ngap] [debug] Initial NAS message received from UE[5]
+[2026-09-30 15:00:55.530] [rrc] [info] RRC Setup for UE[16]
+[2026-09-30 15:00:55.531] [ngap] [debug] Initial NAS message received from UE[16]
+[2026-09-30 15:00:55.535] [rrc] [info] RRC Setup for UE[2]
+[2026-09-30 15:00:55.536] [ngap] [debug] Initial NAS message received from UE[2]
+[2026-09-30 15:00:55.543] [rrc] [info] RRC Setup for UE[3]
+[2026-09-30 15:00:55.544] [ngap] [debug] Initial NAS message received from UE[3]
+[2026-09-30 15:00:55.548] [rrc] [info] RRC Setup for UE[8]
+[2026-09-30 15:00:55.549] [ngap] [debug] Initial NAS message received from UE[8]
+[2026-09-30 15:00:55.549] [rrc] [info] RRC Setup for UE[9]
+[2026-09-30 15:00:55.550] [ngap] [debug] Initial NAS message received from UE[9]
+[2026-09-30 15:00:55.551] [rrc] [info] RRC Setup for UE[12]
+[2026-09-30 15:00:55.551] [ngap] [debug] Initial NAS message received from UE[12]
+[2026-09-30 15:00:55.554] [rrc] [info] RRC Setup for UE[20]
+[2026-09-30 15:00:55.555] [rrc] [info] RRC Setup for UE[22]
+[2026-09-30 15:00:55.555] [ngap] [debug] Initial NAS message received from UE[20]
+[2026-09-30 15:00:55.555] [ngap] [debug] Initial NAS message received from UE[22]
+[2026-09-30 15:00:55.556] [rrc] [info] RRC Setup for UE[24]
+[2026-09-30 15:00:55.557] [ngap] [debug] Initial NAS message received from UE[24]
+[2026-09-30 15:00:55.561] [rrc] [info] RRC Setup for UE[1]
+[2026-09-30 15:00:55.562] [ngap] [debug] Initial NAS message received from UE[1]
+[2026-09-30 15:00:55.567] [rrc] [info] RRC Setup for UE[4]
+[2026-09-30 15:00:55.567] [ngap] [debug] Initial NAS message received from UE[4]
+[2026-09-30 15:00:55.567] [rrc] [info] RRC Setup for UE[17]
+[2026-09-30 15:00:55.568] [rrc] [info] RRC Setup for UE[19]
+[2026-09-30 15:00:55.569] [ngap] [debug] Initial NAS message received from UE[17]
+[2026-09-30 15:00:55.569] [ngap] [debug] Initial NAS message received from UE[19]
+[2026-09-30 15:00:55.570] [rrc] [info] RRC Setup for UE[21]
+[2026-09-30 15:00:55.570] [ngap] [debug] Initial NAS message received from UE[21]
+[2026-09-30 15:00:55.574] [rrc] [info] RRC Setup for UE[15]
+[2026-09-30 15:00:55.574] [ngap] [debug] Initial NAS message received from UE[15]
+[2026-09-30 15:00:55.574] [rrc] [info] RRC Setup for UE[18]
+[2026-09-30 15:00:55.575] [ngap] [debug] Initial NAS message received from UE[18]
+[2026-09-30 15:00:55.578] [rrc] [info] RRC Setup for UE[7]
+[2026-09-30 15:00:55.578] [ngap] [debug] Initial NAS message received from UE[7]
+[2026-09-30 15:00:55.580] [rrc] [info] RRC Setup for UE[13]
+[2026-09-30 15:00:55.580] [ngap] [debug] Initial NAS message received from UE[13]
+[2026-09-30 15:00:55.584] [rrc] [info] RRC Setup for UE[11]
+[2026-09-30 15:00:55.585] [ngap] [debug] Initial NAS message received from UE[11]
+[2026-09-30 15:00:55.593] [rrc] [info] RRC Setup for UE[10]
+[2026-09-30 15:00:55.594] [ngap] [debug] Initial NAS message received from UE[10]
+[2026-09-30 15:00:55.594] [rrc] [info] RRC Setup for UE[14]
+[2026-09-30 15:00:55.595] [ngap] [debug] Initial NAS message received from UE[14]
+[2026-09-30 15:00:55.596] [rrc] [info] RRC Setup for UE[23]
+[2026-09-30 15:00:55.597] [ngap] [debug] Initial NAS message received from UE[23]
+[2026-09-30 15:00:56.027] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.112] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.130] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.133] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.133] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.135] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.220] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.225] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.228] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.231] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.232] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.235] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.238] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.251] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.254] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.254] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.256] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.257] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.260] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.260] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.262] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.263] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:56.268] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:00:57.998] [rrc] [info] RRC Setup for UE[6]
+[2026-09-30 15:00:57.999] [ngap] [debug] Initial NAS message received from UE[6]
+[2026-09-30 15:00:58.083] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 15:01:03.562] [ngap] [info] PDU session resource(s) setup for UE[23] count[1]
+[2026-09-30 15:01:03.837] [ngap] [info] PDU session resource(s) setup for UE[12] count[1]
+[2026-09-30 15:01:04.092] [ngap] [info] PDU session resource(s) setup for UE[14] count[1]
+[2026-09-30 15:01:04.340] [ngap] [info] PDU session resource(s) setup for UE[15] count[1]
+[2026-09-30 15:01:04.593] [ngap] [info] PDU session resource(s) setup for UE[16] count[1]
+[2026-09-30 15:01:04.837] [ngap] [info] PDU session resource(s) setup for UE[9] count[1]
+[2026-09-30 15:01:05.086] [ngap] [info] PDU session resource(s) setup for UE[19] count[1]
+[2026-09-30 15:01:05.343] [ngap] [info] PDU session resource(s) setup for UE[20] count[1]
+[2026-09-30 15:01:05.593] [ngap] [info] PDU session resource(s) setup for UE[18] count[1]
+[2026-09-30 15:01:05.850] [ngap] [info] PDU session resource(s) setup for UE[21] count[1]
+[2026-09-30 15:01:06.100] [ngap] [info] PDU session resource(s) setup for UE[24] count[1]
+[2026-09-30 15:01:06.347] [ngap] [info] PDU session resource(s) setup for UE[22] count[1]
+[2026-09-30 15:01:06.601] [ngap] [info] PDU session resource(s) setup for UE[10] count[1]
+[2026-09-30 15:01:06.852] [ngap] [info] PDU session resource(s) setup for UE[8] count[1]
+[2026-09-30 15:01:07.121] [ngap] [info] PDU session resource(s) setup for UE[17] count[1]
+[2026-09-30 15:01:10.257] [ngap] [info] PDU session resource(s) released for UE[14] count[1]
+[2026-09-30 15:01:10.512] [ngap] [info] PDU session resource(s) setup for UE[4] count[1]
+[2026-09-30 15:01:10.718] [ngap] [info] PDU session resource(s) released for UE[9] count[1]
+[2026-09-30 15:01:10.969] [ngap] [info] PDU session resource(s) setup for UE[5] count[1]
+[2026-09-30 15:01:11.173] [ngap] [info] PDU session resource(s) released for UE[21] count[1]
+[2026-09-30 15:01:11.432] [ngap] [info] PDU session resource(s) setup for UE[14] count[1]
+[2026-09-30 15:01:11.641] [ngap] [info] PDU session resource(s) released for UE[24] count[1]
+[2026-09-30 15:01:11.908] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2026-09-30 15:01:12.114] [ngap] [info] PDU session resource(s) released for UE[5] count[1]
+[2026-09-30 15:01:12.366] [ngap] [info] PDU session resource(s) setup for UE[3] count[1]
+[2026-09-30 15:01:12.571] [ngap] [info] PDU session resource(s) released for UE[12] count[1]
+[2026-09-30 15:01:12.828] [ngap] [info] PDU session resource(s) setup for UE[24] count[1]
+[2026-09-30 15:01:13.036] [ngap] [info] PDU session resource(s) released for UE[23] count[1]
+[2026-09-30 15:01:13.288] [ngap] [info] PDU session resource(s) setup for UE[21] count[1]
+[2026-09-30 15:01:13.498] [ngap] [info] PDU session resource(s) released for UE[10] count[1]
+[2026-09-30 15:01:13.771] [ngap] [info] PDU session resource(s) setup for UE[6] count[1]
+[2026-09-30 15:01:13.979] [ngap] [info] PDU session resource(s) released for UE[3] count[1]
+[2026-09-30 15:01:14.248] [ngap] [info] PDU session resource(s) setup for UE[23] count[1]
+[2026-09-30 15:01:14.455] [ngap] [info] PDU session resource(s) released for UE[18] count[1]
+[2026-09-30 15:01:14.742] [ngap] [info] PDU session resource(s) setup for UE[13] count[1]
+[2026-09-30 15:01:14.947] [ngap] [info] PDU session resource(s) released for UE[1] count[1]
+[2026-09-30 15:01:15.208] [ngap] [info] PDU session resource(s) setup for UE[11] count[1]
+[2026-09-30 15:01:15.419] [ngap] [info] PDU session resource(s) released for UE[11] count[1]
+[2026-09-30 15:01:15.686] [ngap] [info] PDU session resource(s) setup for UE[10] count[1]
+[2026-09-30 15:01:15.891] [ngap] [info] PDU session resource(s) released for UE[15] count[1]
+[2026-09-30 15:01:16.157] [ngap] [info] PDU session resource(s) setup for UE[7] count[1]
+[2026-09-30 15:01:16.364] [ngap] [info] PDU session resource(s) released for UE[16] count[1]
+[2026-09-30 15:01:16.633] [ngap] [info] PDU session resource(s) setup for UE[15] count[1]
+[2026-09-30 15:01:16.839] [ngap] [info] PDU session resource(s) released for UE[19] count[1]
+[2026-09-30 15:01:17.104] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2026-09-30 15:01:17.315] [ngap] [info] PDU session resource(s) released for UE[13] count[1]
+[2026-09-30 15:01:17.575] [ngap] [info] PDU session resource(s) setup for UE[12] count[1]
+[2026-09-30 15:01:17.785] [ngap] [info] PDU session resource(s) released for UE[24] count[1]
+[2026-09-30 15:01:18.051] [ngap] [info] PDU session resource(s) setup for UE[2] count[1]
+[2026-09-30 15:01:18.255] [ngap] [info] PDU session resource(s) released for UE[23] count[1]
+[2026-09-30 15:01:18.521] [ngap] [info] PDU session resource(s) setup for UE[18] count[1]
+[2026-09-30 15:01:18.727] [ngap] [info] PDU session resource(s) released for UE[12] count[1]
+[2026-09-30 15:01:18.985] [ngap] [info] PDU session resource(s) setup for UE[24] count[1]
+[2026-09-30 15:01:19.191] [ngap] [info] PDU session resource(s) released for UE[6] count[1]
+[2026-09-30 15:01:19.458] [ngap] [info] PDU session resource(s) setup for UE[12] count[1]

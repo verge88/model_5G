@@ -1,0 +1,18 @@
+Open5GS daemon v2.8.0
+
+09/30 15:03:51.734: [app] INFO: Configuration: '/tmp/model5g-runs/b0-order123-v2/configs/udr.yaml' (../lib/app/ogs-init.c:144)
+09/30 15:03:51.734: [app] INFO: File Logging: '/tmp/model5g-runs/b0-order123-v2/udr.log' (../lib/app/ogs-init.c:147)
+09/30 15:03:51.734: [app] INFO: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+09/30 15:03:51.735: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+09/30 15:03:51.735: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+09/30 15:03:51.738: [dbi] INFO: MongoDB URI: 'mongodb://127.0.0.1/model5g' (../lib/dbi/ogs-mongoc.c:128)
+09/30 15:03:51.738: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:2012)
+09/30 15:03:51.738: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:454)
+09/30 15:03:51.738: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+09/30 15:03:51.739: [sbi] INFO: [25c1e4e4-bce0-41f1-ba4b-e153a7c26414] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+09/30 15:03:51.739: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+09/30 15:03:51.739: [sbi] INFO: [25c28192-bce0-41f1-9fbf-add37791e4d5] Subscription created until 2026-10-01T15:03:51.739647+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+09/30 15:06:17.682: [app] INFO: SIGTERM received (../src/main.c:54)
+09/30 15:06:17.683: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
+09/30 15:06:17.683: [sbi] INFO: [25c1e4e4-bce0-41f1-ba4b-e153a7c26414] NF de-registered (../lib/sbi/nf-sm.c:406)
+09/30 15:06:17.690: [app] INFO: UDR terminate...done (../src/udr/app.c:39)

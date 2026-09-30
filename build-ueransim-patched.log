@@ -1,0 +1,119 @@
+rm -fr logs # Old version log files
+mkdir -p build
+rm -fr build/*
+# cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" . -B cmake-build-debug
+cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" . -B cmake-build-release
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /build/model5g-ueransim/cmake-build-release
+# cmake --build cmake-build-debug --target all
+cmake --build cmake-build-release --target all
+gmake[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+gmake[1]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[2]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[  1%] Built target asn-asn1c
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 53%] Built target asn-ngap
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 56%] Built target ext
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 58%] Built target utils
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 94%] Built target asn-rrc
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 96%] Built target common-lib
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 97%] Built target gnb
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[ 97%] Built target nr-gnb
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/app/cmd_handler.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/app/task.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/access.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/auth.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/base.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/config.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/dereg.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/ecall.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/identity.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/messaging.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/proc.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/radio.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/register.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/sap.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/security.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/service.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/slice.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/timer.cpp.o
+[ 98%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/mm/transport.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/allocation.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/base.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/establishment.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/procedure.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/release.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/resource.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/sap.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/timer.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/sm/transport.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nas/task.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/nts.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rls/ctl_task.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rls/task.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rls/udp_task.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/access.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/cells.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/channel.cpp.o
+[ 99%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/connection.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/failures.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/handler.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/idle.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/nas.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/sap.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/state.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/sysinfo.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/rrc/task.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/tun/task.cpp.o
+[100%] Building CXX object src/ue/CMakeFiles/ue.dir/ue.cpp.o
+[100%] Linking CXX static library libue.a
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[100%] Built target ue
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+[100%] Linking CXX executable nr-ue
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[100%] Built target nr-ue
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[100%] Built target devbnd
+gmake[3]: Entering directory '/build/model5g-ueransim/cmake-build-release'
+gmake[3]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+[100%] Built target nr-cli
+gmake[2]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+gmake[1]: Leaving directory '/build/model5g-ueransim/cmake-build-release'
+cp cmake-build-release/nr-gnb build/
+cp cmake-build-release/nr-ue build/
+cp cmake-build-release/nr-cli build/
+cp cmake-build-release/libdevbnd.so build/
+cp tools/nr-binder build/
+[0;1;92mUERANSIM successfully built.[0m

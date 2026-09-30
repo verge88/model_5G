@@ -1,0 +1,17 @@
+Open5GS daemon v2.8.0
+
+09/30 14:59:15.724: [app] INFO: Configuration: '/work/runs/patched-preflight/configs/nssf.yaml' (../lib/app/ogs-init.c:144)
+09/30 14:59:15.725: [app] INFO: File Logging: '/work/runs/patched-preflight/nssf.log' (../lib/app/ogs-init.c:147)
+09/30 14:59:15.725: [app] INFO: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+09/30 14:59:15.728: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+09/30 14:59:15.729: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+09/30 14:59:15.730: [sbi] INFO: NF Service [nnssf-nsselection] (../lib/sbi/context.c:2012)
+09/30 14:59:15.731: [sbi] INFO: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:454)
+09/30 14:59:15.731: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+09/30 14:59:15.736: [sbi] INFO: [813e5c9a-bcdf-41f1-b37d-f9fe5840358b] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+09/30 14:59:15.739: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+09/30 14:59:15.739: [sbi] INFO: [813fdfca-bcdf-41f1-9b13-dba846011b48] Subscription created until 2026-10-01T14:59:15.737850+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+09/30 14:59:49.226: [app] INFO: SIGTERM received (../src/main.c:54)
+09/30 14:59:49.228: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
+09/30 14:59:49.230: [sbi] INFO: [813e5c9a-bcdf-41f1-b37d-f9fe5840358b] NF de-registered (../lib/sbi/nf-sm.c:406)
+09/30 14:59:49.234: [app] INFO: NSSF terminate...done (../src/nssf/app.c:39)

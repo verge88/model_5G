@@ -1,0 +1,18 @@
+{
+  "out": "runs/b0-preflight",
+  "baseline": true,
+  "order": "1,2,3",
+  "policy": "swrr",
+  "seed": 1,
+  "alpha": 0,
+  "capacity": 100,
+  "ues": 12,
+  "active": 3,
+  "cycles": 10,
+  "interval": 0.3,
+  "mode": "real-open5gs-ueransim",
+  "open5gs_commit": "157f611a530e292e40ec50f9d23f0ef5d4fcd6a6",
+  "started": 1790779988.6246943,
+  "complete": false,
+  "finished": 1790780006.1260655
+}

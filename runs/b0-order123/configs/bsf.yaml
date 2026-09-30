@@ -1,0 +1,22 @@
+logger:
+  file:
+    path: /work/runs/b0-order123/bsf.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+bsf:
+  sbi:
+    server:
+    - address: 127.0.0.15
+      port: 7777
+    client:
+      scp:
+      - uri: http://127.0.0.200:7777
+      nrf:
+      - uri: http://127.0.0.10:7777
+      delegated:
+        nrf:
+          nfm: 'no'
+          disc: 'no'

@@ -1,0 +1,18 @@
+Open5GS daemon v2.8.0
+
+09/30 14:54:24.070: [app] INFO: Configuration: '/work/runs/b0-preflight-02/configs/upf.yaml' (../lib/app/ogs-init.c:144)
+09/30 14:54:24.071: [app] INFO: File Logging: '/work/runs/b0-preflight-02/upf.log' (../lib/app/ogs-init.c:147)
+09/30 14:54:24.072: [app] INFO: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+09/30 14:54:24.099: [metrics] INFO: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:392)
+09/30 14:54:24.099: [pfcp] INFO: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
+09/30 14:54:24.100: [gtp] INFO: gtp_server() [127.0.0.7]:2152 (../lib/gtp/path.c:30)
+09/30 14:54:24.101: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+09/30 14:54:26.137: [upf] INFO: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:168)
+09/30 14:54:26.737: [upf] INFO: PFCP associated [127.0.0.32]:8805 (../src/upf/pfcp-sm.c:168)
+09/30 14:54:27.343: [upf] INFO: PFCP associated [127.0.0.33]:8805 (../src/upf/pfcp-sm.c:168)
+09/30 14:54:55.515: [app] INFO: SIGTERM received (../src/main.c:54)
+09/30 14:54:55.517: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
+09/30 14:54:55.519: [upf] INFO: PFCP de-associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)
+09/30 14:54:55.520: [upf] INFO: PFCP de-associated [127.0.0.32]:8805 (../src/upf/pfcp-sm.c:184)
+09/30 14:54:55.522: [upf] INFO: PFCP de-associated [127.0.0.33]:8805 (../src/upf/pfcp-sm.c:184)
+09/30 14:54:55.524: [app] INFO: UPF terminate...done (../src/upf/app.c:39)

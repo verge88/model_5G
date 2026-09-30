@@ -1,0 +1,16 @@
+logger:
+  file:
+    path: /work/runs/patched-preflight-02/scp.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+scp:
+  sbi:
+    server:
+    - address: 127.0.0.200
+      port: 7777
+    client:
+      nrf:
+      - uri: http://127.0.0.10:7777

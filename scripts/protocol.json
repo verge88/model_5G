@@ -1,0 +1,21 @@
+{
+  "status": "preregistered_before_measurement",
+  "reference_capacity_sessions": [100, 100, 100],
+  "relative_capacity": [100, 100, 100],
+  "priority": [0, 0, 0],
+  "rho": [0.2, 0.5, 0.7],
+  "alpha_smoke": [0, 0.5],
+  "policies": ["swrr", "random"],
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "unit_of_replication": "independent_run",
+  "paired_workload": true,
+  "warmup_assignments_excluded": 300,
+  "measured_assignments_per_run": 3000,
+  "primary_effect": "paired change in successful CreateSMContext share for SMF3",
+  "gate": "all sessions accounted for, no establishment failure, fresh discovery proven",
+  "detector": "absolute reported-minus-SCP-reference residual",
+  "threshold_calibration": "benign validation runs only",
+  "nominal_fpr": 0.01,
+  "confidence_intervals": "paired run bootstrap, 10000 resamples",
+  "note": "A protocol is not evidence that these runs have been completed."
+}

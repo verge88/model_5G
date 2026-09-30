@@ -1,0 +1,20 @@
+{
+  "out": "runs/patched-preflight-02",
+  "baseline": false,
+  "order": "1,2,3",
+  "policy": "swrr",
+  "seed": 1,
+  "alpha": 0.5,
+  "capacity": 10,
+  "ues": 24,
+  "active": 15,
+  "cycles": 20,
+  "interval": 0.1,
+  "mode": "real-open5gs-ueransim",
+  "open5gs_commit": "157f611a530e292e40ec50f9d23f0ef5d4fcd6a6",
+  "started": 1790780446.0571744,
+  "complete": true,
+  "expected_established": 35,
+  "actual_established": 35,
+  "finished": 1790780483.2290223
+}

@@ -1,0 +1,27 @@
+db_uri: mongodb://127.0.0.1/model5g
+logger:
+  file:
+    path: /tmp/model5g-runs/b0-order123-v2/pcf.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+pcf:
+  sbi:
+    server:
+    - address: 127.0.0.13
+      port: 7777
+    client:
+      scp:
+      - uri: http://127.0.0.200:7777
+      nrf:
+      - uri: http://127.0.0.10:7777
+      delegated:
+        nrf:
+          nfm: 'no'
+          disc: 'no'
+  metrics:
+    server:
+    - address: 127.0.0.13
+      port: 9090

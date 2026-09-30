@@ -1,0 +1,17 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 15:03:52.483[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/tmp/model5g-runs/b0-order123-v2/configs/nssf.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 15:03:52.483[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/tmp/model5g-runs/b0-order123-v2/nssf.log' (../lib/app/ogs-init.c:147)
+[32m09/30 15:03:52.483[0m: [[33mapp[0m] [1;32mINFO[0m: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+[32m09/30 15:03:52.484[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m09/30 15:03:52.485[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+[32m09/30 15:03:52.485[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nnssf-nsselection] (../lib/sbi/context.c:2012)
+[32m09/30 15:03:52.485[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m09/30 15:03:52.485[0m: [[33mapp[0m] [1;32mINFO[0m: NSSF initialize...done (../src/nssf/app.c:31)
+[32m09/30 15:03:52.486[0m: [[33msbi[0m] [1;32mINFO[0m: [26343a8a-bce0-41f1-998f-2d5ea80fb071] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+[32m09/30 15:03:52.487[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m09/30 15:03:52.487[0m: [[33msbi[0m] [1;32mINFO[0m: [26348602-bce0-41f1-9fbf-add37791e4d5] Subscription created until 2026-10-01T15:03:52.486877+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m09/30 15:06:17.682[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 15:06:17.683[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 15:06:17.683[0m: [[33msbi[0m] [1;32mINFO[0m: [26343a8a-bce0-41f1-998f-2d5ea80fb071] NF de-registered (../lib/sbi/nf-sm.c:406)
+[32m09/30 15:06:17.687[0m: [[33mapp[0m] [1;32mINFO[0m: NSSF terminate...done (../src/nssf/app.c:39)

@@ -1,0 +1,18 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 14:53:09.236[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/work/runs/b0-preflight/configs/upf.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 14:53:09.236[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/work/runs/b0-preflight/upf.log' (../lib/app/ogs-init.c:147)
+[32m09/30 14:53:09.237[0m: [[33mapp[0m] [1;32mINFO[0m: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+[32m09/30 14:53:09.267[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:392)
+[32m09/30 14:53:09.269[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
+[32m09/30 14:53:09.270[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [127.0.0.7]:2152 (../lib/gtp/path.c:30)
+[32m09/30 14:53:09.271[0m: [[33mapp[0m] [1;32mINFO[0m: UPF initialize...done (../src/upf/app.c:31)
+[32m09/30 14:53:11.295[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:168)
+[32m09/30 14:53:11.905[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.32]:8805 (../src/upf/pfcp-sm.c:168)
+[32m09/30 14:53:12.499[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [127.0.0.33]:8805 (../src/upf/pfcp-sm.c:168)
+[32m09/30 14:53:26.055[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 14:53:26.058[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 14:53:26.062[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP de-associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)
+[32m09/30 14:53:26.063[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP de-associated [127.0.0.32]:8805 (../src/upf/pfcp-sm.c:184)
+[32m09/30 14:53:26.065[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP de-associated [127.0.0.33]:8805 (../src/upf/pfcp-sm.c:184)
+[32m09/30 14:53:26.068[0m: [[33mapp[0m] [1;32mINFO[0m: UPF terminate...done (../src/upf/app.c:39)

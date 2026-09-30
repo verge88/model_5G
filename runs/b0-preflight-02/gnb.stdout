@@ -1,0 +1,55 @@
+UERANSIM v3.2.7
+[2026-09-30 14:54:30.905] [sctp] [info] Trying to establish SCTP connection... (127.0.0.5:38412)
+[2026-09-30 14:54:30.907] [sctp] [info] SCTP connection established (127.0.0.5:38412)
+[2026-09-30 14:54:30.908] [sctp] [debug] SCTP association setup ascId[29]
+[2026-09-30 14:54:30.908] [ngap] [debug] Sending NG Setup Request
+[2026-09-30 14:54:30.918] [ngap] [debug] NG Setup Response received
+[2026-09-30 14:54:30.918] [ngap] [info] NG Setup procedure is successful
+[2026-09-30 14:54:32.909] [rrc] [debug] UE[1] new signal detected
+[2026-09-30 14:54:32.912] [rrc] [debug] UE[2] new signal detected
+[2026-09-30 14:54:32.913] [rrc] [debug] UE[3] new signal detected
+[2026-09-30 14:54:32.913] [rrc] [debug] UE[4] new signal detected
+[2026-09-30 14:54:32.914] [rrc] [debug] UE[5] new signal detected
+[2026-09-30 14:54:32.915] [rrc] [debug] UE[6] new signal detected
+[2026-09-30 14:54:32.915] [rrc] [debug] UE[7] new signal detected
+[2026-09-30 14:54:32.916] [rrc] [debug] UE[8] new signal detected
+[2026-09-30 14:54:32.916] [rrc] [debug] UE[9] new signal detected
+[2026-09-30 14:54:32.917] [rrc] [debug] UE[10] new signal detected
+[2026-09-30 14:54:32.917] [rrc] [debug] UE[11] new signal detected
+[2026-09-30 14:54:32.918] [rrc] [debug] UE[12] new signal detected
+[2026-09-30 14:54:32.955] [rrc] [info] RRC Setup for UE[11]
+[2026-09-30 14:54:32.956] [ngap] [debug] Initial NAS message received from UE[11]
+[2026-09-30 14:54:32.959] [rrc] [info] RRC Setup for UE[8]
+[2026-09-30 14:54:32.960] [ngap] [debug] Initial NAS message received from UE[8]
+[2026-09-30 14:54:32.961] [rrc] [info] RRC Setup for UE[1]
+[2026-09-30 14:54:32.962] [ngap] [debug] Initial NAS message received from UE[1]
+[2026-09-30 14:54:32.966] [rrc] [info] RRC Setup for UE[3]
+[2026-09-30 14:54:32.966] [ngap] [debug] Initial NAS message received from UE[3]
+[2026-09-30 14:54:32.968] [rrc] [info] RRC Setup for UE[7]
+[2026-09-30 14:54:32.969] [ngap] [debug] Initial NAS message received from UE[7]
+[2026-09-30 14:54:32.969] [rrc] [info] RRC Setup for UE[10]
+[2026-09-30 14:54:32.970] [ngap] [debug] Initial NAS message received from UE[10]
+[2026-09-30 14:54:32.974] [rrc] [info] RRC Setup for UE[9]
+[2026-09-30 14:54:32.974] [ngap] [debug] Initial NAS message received from UE[9]
+[2026-09-30 14:54:32.980] [rrc] [info] RRC Setup for UE[2]
+[2026-09-30 14:54:32.981] [ngap] [debug] Initial NAS message received from UE[2]
+[2026-09-30 14:54:32.986] [rrc] [info] RRC Setup for UE[4]
+[2026-09-30 14:54:32.986] [ngap] [debug] Initial NAS message received from UE[4]
+[2026-09-30 14:54:32.990] [rrc] [info] RRC Setup for UE[6]
+[2026-09-30 14:54:32.990] [rrc] [info] RRC Setup for UE[12]
+[2026-09-30 14:54:32.990] [ngap] [debug] Initial NAS message received from UE[6]
+[2026-09-30 14:54:32.991] [ngap] [debug] Initial NAS message received from UE[12]
+[2026-09-30 14:54:33.191] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.192] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.222] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.259] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.295] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.297] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.314] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.317] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.317] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.322] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:33.322] [ngap] [debug] Initial Context Setup Request received
+[2026-09-30 14:54:35.415] [rrc] [info] RRC Setup for UE[5]
+[2026-09-30 14:54:35.415] [ngap] [debug] Initial NAS message received from UE[5]
+[2026-09-30 14:54:35.466] [ngap] [debug] Initial Context Setup Request received

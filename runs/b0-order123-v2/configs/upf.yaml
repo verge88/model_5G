@@ -1,0 +1,23 @@
+logger:
+  file:
+    path: /tmp/model5g-runs/b0-order123-v2/upf.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+upf:
+  pfcp:
+    server:
+    - address: 127.0.0.7
+    client: null
+  gtpu:
+    server:
+    - address: 127.0.0.7
+  session:
+  - subnet: 10.45.0.0/16
+    gateway: 10.45.0.1
+  metrics:
+    server:
+    - address: 127.0.0.7
+      port: 9090

@@ -1,0 +1,26 @@
+logger:
+  file:
+    path: /work/runs/patched-preflight-02/nssf.log
+  level: info
+global:
+  max:
+    ue: 1024
+    peer: 128
+nssf:
+  sbi:
+    server:
+    - address: 127.0.0.14
+      port: 7777
+    client:
+      scp:
+      - uri: http://127.0.0.200:7777
+      nsi:
+      - uri: http://127.0.0.10:7777
+        s_nssai:
+          sst: 1
+      nrf:
+      - uri: http://127.0.0.10:7777
+      delegated:
+        nrf:
+          nfm: 'no'
+          disc: 'no'

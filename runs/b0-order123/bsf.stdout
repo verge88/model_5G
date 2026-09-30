@@ -1,0 +1,17 @@
+Open5GS daemon v2.8.0
+
+[32m09/30 15:01:59.896[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/work/runs/b0-order123/configs/bsf.yaml' (../lib/app/ogs-init.c:144)
+[32m09/30 15:01:59.897[0m: [[33mapp[0m] [1;32mINFO[0m: File Logging: '/work/runs/b0-order123/bsf.log' (../lib/app/ogs-init.c:147)
+[32m09/30 15:01:59.897[0m: [[33mapp[0m] [1;32mINFO[0m: LOG-LEVEL: 'info' (../lib/app/ogs-init.c:150)
+[32m09/30 15:01:59.899[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.200:7777] (../lib/sbi/context.c:499)
+[32m09/30 15:01:59.902[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/context.c:451)
+[32m09/30 15:01:59.903[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [nbsf-management] (../lib/sbi/context.c:2012)
+[32m09/30 15:01:59.907[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:454)
+[32m09/30 15:01:59.908[0m: [[33mapp[0m] [1;32mINFO[0m: BSF initialize...done (../src/bsf/app.c:31)
+[32m09/30 15:01:59.913[0m: [[33msbi[0m] [1;32mINFO[0m: [e3190ec4-bcdf-41f1-a476-f1423bfd300a] NF registered [Heartbeat:1s] (../lib/sbi/nf-sm.c:368)
+[32m09/30 15:01:59.915[0m: [[33msbi[0m] [1;32mINFO[0m: Setup NF EndPoint(addr) [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:1113)
+[32m09/30 15:01:59.916[0m: [[33msbi[0m] [1;32mINFO[0m: [e31b58c8-bcdf-41f1-92a3-61bc01324bf9] Subscription created until 2026-10-01T15:01:59.915078+00:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:1032)
+[32m09/30 15:02:49.613[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:54)
+[32m09/30 15:02:49.616[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:231)
+[32m09/30 15:02:49.618[0m: [[33msbi[0m] [1;32mINFO[0m: [e3190ec4-bcdf-41f1-a476-f1423bfd300a] NF de-registered (../lib/sbi/nf-sm.c:406)
+[32m09/30 15:02:49.624[0m: [[33mapp[0m] [1;32mINFO[0m: BSF terminate...done (../src/bsf/app.c:39)

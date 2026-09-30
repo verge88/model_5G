@@ -1,0 +1,993 @@
+ninja: Entering directory `build'
+[0/1] Regenerating build files.
+The Meson build system
+Version: 1.3.2
+Source dir: /build/pristine
+Build dir: /build/pristine/build
+Build type: native build
+Project name: open5gs
+Project version: 2.8.0
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+C++ compiler for the host machine: c++ (gcc 13.3.0 "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C++ linker for the host machine: c++ ld.bfd 2.42
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program git found: YES (/usr/bin/git)
+Program python3 found: YES (/opt/venv/bin/python3)
+Program cppcheck found: NO
+Program run-clang-tidy found: NO
+Program clang-tidy found: NO
+Compiler for C supports arguments -Wextra: YES (cached)
+Compiler for C supports arguments -Wlogical-op: YES (cached)
+Compiler for C supports arguments -Werror=pointer-arith: YES (cached)
+Compiler for C supports arguments -Werror=init-self: YES (cached)
+Compiler for C supports arguments -Wfloat-equal: YES (cached)
+Compiler for C supports arguments -Wsuggest-attribute=noreturn: YES (cached)
+Compiler for C supports arguments -Werror=missing-prototypes: YES (cached)
+Compiler for C supports arguments -Werror=missing-declarations: YES (cached)
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES (cached)
+Compiler for C supports arguments -Werror=return-type: YES (cached)
+Compiler for C supports arguments -Werror=incompatible-pointer-types: YES (cached)
+Compiler for C supports arguments -Werror=format=2: YES (cached)
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Compiler for C supports arguments -Wredundant-decls: YES (cached)
+Compiler for C supports arguments -Wimplicit-fallthrough=5: YES (cached)
+Compiler for C supports arguments -Wendif-labels: YES (cached)
+Compiler for C supports arguments -Wstrict-aliasing=3: YES (cached)
+Compiler for C supports arguments -Wwrite-strings: YES (cached)
+Compiler for C supports arguments -Werror=overflow: YES (cached)
+Compiler for C supports arguments -Werror=shift-count-overflow: YES (cached)
+Compiler for C supports arguments -Werror=shift-overflow=2: YES (cached)
+Compiler for C supports arguments -Wdate-time: YES (cached)
+Compiler for C supports arguments -Wnested-externs: YES (cached)
+Compiler for C supports arguments -Wunused: YES (cached)
+Compiler for C supports arguments -Wduplicated-branches: YES (cached)
+Compiler for C supports arguments -Wmisleading-indentation: YES (cached)
+Compiler for C supports arguments -Wno-sign-compare: YES (cached)
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Compiler for C supports arguments -ffast-math: YES (cached)
+Compiler for C supports arguments -fdiagnostics-show-option: YES (cached)
+Compiler for C supports arguments -fstack-protector: YES (cached)
+Compiler for C supports arguments -fstack-protector-strong: YES (cached)
+Compiler for C supports arguments --param=ssp-buffer-size=4: YES (cached)
+../meson.build:120: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Configuring sample.yaml using configuration
+Configuring attach.yaml using configuration
+Configuring 310014.yaml using configuration
+Configuring csfb.yaml using configuration
+Configuring volte.yaml using configuration
+Configuring vonr.yaml using configuration
+Configuring slice.yaml using configuration
+Configuring srsenb.yaml using configuration
+Configuring non3gpp.yaml using configuration
+Configuring transfer.yaml using configuration
+Configuring transfer-error-case.yaml using configuration
+Configuring mme.yaml using configuration
+../configs/open5gs/meson.build:49: DEPRECATION: Project uses feature that was always broken, and is now deprecated since '1.3.0': str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof..
+Configuring sgwc.yaml using configuration
+Configuring sgwu.yaml using configuration
+Configuring smf.yaml using configuration
+Configuring amf.yaml using configuration
+Configuring upf.yaml using configuration
+Configuring hss.yaml using configuration
+Configuring pcrf.yaml using configuration
+Configuring nrf.yaml using configuration
+Configuring scp.yaml using configuration
+Configuring sepp1.yaml using configuration
+Configuring sepp2.yaml using configuration
+Configuring ausf.yaml using configuration
+Configuring udm.yaml using configuration
+Configuring udr.yaml using configuration
+Configuring pcf.yaml using configuration
+Configuring nssf.yaml using configuration
+Configuring bsf.yaml using configuration
+Configuring ca.crt using configuration
+../configs/open5gs/tls/meson.build:64: DEPRECATION: Project uses feature that was always broken, and is now deprecated since '1.3.0': str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof..
+Configuring amf.key using configuration
+Configuring ausf.key using configuration
+Configuring bsf.key using configuration
+Configuring hss.key using configuration
+Configuring mme.key using configuration
+Configuring nrf.key using configuration
+Configuring nssf.key using configuration
+Configuring pcf.key using configuration
+Configuring pcrf.key using configuration
+Configuring scp.key using configuration
+Configuring smf.key using configuration
+Configuring udm.key using configuration
+Configuring udr.key using configuration
+Configuring amf.crt using configuration
+Configuring ausf.crt using configuration
+Configuring bsf.crt using configuration
+Configuring hss.crt using configuration
+Configuring mme.crt using configuration
+Configuring nrf.crt using configuration
+Configuring nssf.crt using configuration
+Configuring pcf.crt using configuration
+Configuring pcrf.crt using configuration
+Configuring scp.crt using configuration
+Configuring smf.crt using configuration
+Configuring udm.crt using configuration
+Configuring udr.crt using configuration
+Configuring sepp1.key using configuration
+Configuring sepp1.crt using configuration
+Configuring sepp2.key using configuration
+Configuring sepp2.crt using configuration
+Configuring sepp3.key using configuration
+Configuring sepp3.crt using configuration
+Configuring curve25519-1.key using configuration
+../configs/open5gs/hnet/meson.build:37: DEPRECATION: Project uses feature that was always broken, and is now deprecated since '1.3.0': str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof..
+Configuring secp256r1-2.key using configuration
+Configuring curve25519-3.key using configuration
+Configuring secp256r1-4.key using configuration
+Configuring curve25519-5.key using configuration
+Configuring secp256r1-6.key using configuration
+Configuring mme.conf using configuration
+../configs/freeDiameter/meson.build:35: DEPRECATION: Project uses feature that was always broken, and is now deprecated since '1.3.0': str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof..
+Configuring hss.conf using configuration
+Configuring smf.conf using configuration
+Configuring pcrf.conf using configuration
+Configuring open5gs-mmed.service using configuration
+Configuring open5gs-sgwcd.service using configuration
+Configuring open5gs-smfd.service using configuration
+Configuring open5gs-amfd.service using configuration
+Configuring open5gs-sgwud.service using configuration
+Configuring open5gs-upfd.service using configuration
+Configuring open5gs-hssd.service using configuration
+Configuring open5gs-pcrfd.service using configuration
+Configuring open5gs-nrfd.service using configuration
+Configuring open5gs-scpd.service using configuration
+Configuring open5gs-seppd.service using configuration
+Configuring open5gs-ausfd.service using configuration
+Configuring open5gs-udmd.service using configuration
+Configuring open5gs-pcfd.service using configuration
+Configuring open5gs-nssfd.service using configuration
+Configuring open5gs-bsfd.service using configuration
+Configuring open5gs-udrd.service using configuration
+Configuring 99-open5gs.netdev using configuration
+Configuring 99-open5gs.network using configuration
+Configuring open5gs using configuration
+Configuring open5gs.conf using configuration
+Configuring 5gc-sepp1-999-70.yaml using configuration
+Configuring 5gc-sepp2-001-01.yaml using configuration
+Configuring 5gc-sepp3-315-010.yaml using configuration
+Configuring 5gc-no-scp-sepp1-999-70.yaml using configuration
+Configuring 5gc-no-scp-sepp2-001-01.yaml using configuration
+Configuring 5gc-no-scp-sepp3-315-010.yaml using configuration
+Configuring 5gc-tls-sepp1-999-70.yaml using configuration
+Configuring 5gc-tls-sepp2-001-01.yaml using configuration
+Configuring 5gc-tls-sepp3-315-010.yaml using configuration
+Configuring gnb-999-70-ue-999-70.yaml using configuration
+Configuring gnb-999-70-ue-001-01.yaml using configuration
+Configuring gnb-999-70-ue-315-010.yaml using configuration
+Configuring gnb-001-01-ue-999-70.yaml using configuration
+Configuring gnb-001-01-ue-001-01.yaml using configuration
+Configuring gnb-001-01-ue-315-010.yaml using configuration
+Configuring gnb-315-010-ue-999-70.yaml using configuration
+Configuring gnb-315-010-ue-001-01.yaml using configuration
+Configuring gnb-315-010-ue-315-010.yaml using configuration
+Has header "arpa/inet.h" : YES (cached)
+Has header "ctype.h" : YES (cached)
+Has header "errno.h" : YES (cached)
+Has header "execinfo.h" : YES (cached)
+Has header "fcntl.h" : YES (cached)
+Has header "ifaddrs.h" : YES (cached)
+Has header "netdb.h" : YES (cached)
+Has header "pthread.h" : YES (cached)
+Has header "signal.h" : YES (cached)
+Has header "stdarg.h" : YES (cached)
+Has header "stddef.h" : YES (cached)
+Has header "stdio.h" : YES (cached)
+Has header "stdint.h" : YES (cached)
+Has header "stdbool.h" : YES (cached)
+Has header "stdlib.h" : YES (cached)
+Has header "string.h" : YES (cached)
+Has header "strings.h" : YES (cached)
+Has header "time.h" : YES (cached)
+Has header "sys/time.h" : YES (cached)
+Has header "unistd.h" : YES (cached)
+Has header "net/if.h" : YES (cached)
+Has header "netinet/in.h" : YES (cached)
+Has header "netinet/in_systm.h" : YES (cached)
+Has header "netinet/udp.h" : YES (cached)
+Has header "netinet/tcp.h" : YES (cached)
+Has header "sys/ioctl.h" : YES (cached)
+Has header "sys/param.h" : YES (cached)
+Has header "sys/random.h" : YES (cached)
+Has header "sys/socket.h" : YES (cached)
+Has header "sys/stat.h" : YES (cached)
+Has header "limits.h" : YES (cached)
+Has header "sys/syslimits.h" : NO (cached)
+Has header "sys/types.h" : YES (cached)
+Has header "sys/wait.h" : YES (cached)
+Has header "sys/uio.h" : YES (cached)
+Checking for function "arc4random" : YES (cached)
+Checking for function "arc4random_buf" : YES (cached)
+Checking for function "getrandom" : YES (cached)
+Checking for function "localtime_r" : YES (cached)
+Checking for function "getifaddrs" : YES (cached)
+Checking for function "getenv" : YES (cached)
+Checking for function "putenv" : YES (cached)
+Checking for function "setenv" : YES (cached)
+Checking for function "unsetenv" : YES (cached)
+Checking for function "strerror_r" : YES (cached)
+Checking for function "sigaction" : YES (cached)
+Checking for function "sigwait" : YES (cached)
+Checking for function "sigsuspend" : YES (cached)
+Checking for function "eventfd" : YES (cached)
+Checking for function "kqueue" : NO (cached)
+Checking for function "epoll_ctl" : YES (cached)
+Dependency threads found: YES unknown (cached)
+Header "pthread.h" has symbol "pthread_barrier_wait" : YES (cached)
+Header "signal.h" has symbol "sys_siglist" : NO (cached)
+Checking if "strerror_r() returns char *" compiles: YES (cached)
+Library execinfo found: NO
+Checking for function "backtrace" : YES (cached)
+Checking if "clock_gettime()" : links: YES (cached)
+Checking if "eventfd(2) system call" : links: YES (cached)
+Library socket found: NO
+Checking if "socket()" : links: YES (cached)
+Configuring core-config-private.h using configuration
+Configuring core-config.h using configuration
+Dependency talloc found: YES 2.4.2 (cached)
+Dependency libmongoc-1.0 found: YES 1.26.0 (cached)
+Has header "mongoc/mongoc.h" with dependency libmongoc-1.0: YES (cached)
+Compiler for C supports arguments -Wno-shift-negative-value: YES (cached)
+Compiler for C supports arguments -Wno-unused-but-set-variable: YES (cached)
+Compiler for C supports arguments -Wno-unknown-warning-option: NO (cached)
+Compiler for C supports arguments -Wno-missing-prototypes: YES (cached)
+Compiler for C supports arguments -Wno-missing-declarations: YES (cached)
+Compiler for C supports arguments -Wno-discarded-qualifiers: YES (cached)
+Compiler for C supports arguments -Wno-redundant-decls: YES (cached)
+Compiler for C supports arguments -Wno-shift-overflow: YES (cached)
+Compiler for C supports arguments -Wno-float-equal: YES (cached)
+Compiler for C supports arguments -Wno-implicit-fallthrough: YES (cached)
+Compiler for C supports arguments -Wno-incompatible-pointer-types-discards-qualifiers: NO (cached)
+Compiler for C supports arguments -Wno-format-nonliteral: YES (cached)
+Compiler for C supports arguments -Wno-cpp: YES (cached)
+Dependency yaml-0.1 found: YES 0.2.5 (cached)
+Dependency libmicrohttpd found: YES 1.0.0 (cached)
+
+Executing subproject prometheus-client-c method cmake 
+
+prometheus-client-c| Found CMake: /usr/bin/cmake (3.28.3)
+
+| Configuring the build directory with CMake version 3.28.3
+| Running CMake with: -G Ninja -DCMAKE_INSTALL_PREFIX=/opt/model5g-patched
+| - build directory:          /build/pristine/build/subprojects/prometheus-client-c/__CMake_build
+| - source directory:         /build/pristine/subprojects/prometheus-client-c
+| - toolchain file:           /build/pristine/build/subprojects/prometheus-client-c/__CMake_build/CMakeMesonToolchainFile.cmake
+| - preload file:             /usr/lib/python3/dist-packages/mesonbuild/cmake/data/preload.cmake
+| - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+| - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+| Put cmake in trace mode, but with variables expanded.
+| Put cmake in trace mode and sets the trace output format.
+| Not searching for unused variables given on the command line.
+| Put cmake in trace mode and redirect trace output to a file instead of stderr.
+| Trace will be written to cmake_trace.txt
+| -- The C compiler identification is GNU 13.3.0
+| -- Detecting C compiler ABI info
+| -- Detecting C compiler ABI info - done
+| -- Check for working C compiler: /usr/bin/cc - skipped
+| -- Detecting C compile features
+| -- Detecting C compile features - done
+| -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+| -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+| -- Found Threads: TRUE
+| -- Performing Test HAVE_C_ATOMICS_WITHOUT_LIB
+| -- Performing Test HAVE_C_ATOMICS_WITHOUT_LIB - Success
+| -- Performing Test HAVE_C_ATOMICS64_WITHOUT_LIB
+| -- Performing Test HAVE_C_ATOMICS64_WITHOUT_LIB - Success
+| -- Configuring done (0.2s)
+| -- Generating done (0.0s)
+| -- Build files have been written to: /build/pristine/build/subprojects/prometheus-client-c/__CMake_build
+
+prometheus-client-c| CMake configuration: SUCCEEDED
+prometheus-client-c| CMake project prometheus-client-c has 1 build targets.
+prometheus-client-c| Generated Meson AST: /build/pristine/build/subprojects/prometheus-client-c/meson.build
+prometheus-client-c| Project name: prometheus-client-c
+prometheus-client-c| Project version: undefined
+prometheus-client-c| C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+prometheus-client-c| C linker for the host machine: cc ld.bfd 2.42
+prometheus-client-c| Build targets in project: 8
+prometheus-client-c| Subproject prometheus-client-c finished.
+
+Has header "netinet/sctp.h" : YES (cached)
+Library sctp found: YES
+Configuring sctp-config.h using configuration
+
+Executing subproject freeDiameter 
+
+freeDiameter| Project name: freediameter
+freeDiameter| Project version: 1.5.0
+freeDiameter| C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+freeDiameter| C linker for the host machine: cc ld.bfd 2.42
+freeDiameter| Program flex found: YES (/usr/bin/flex)
+freeDiameter| Program bison found: YES (/usr/bin/bison)
+freeDiameter| Compiler for C supports arguments -Werror: YES (cached)
+freeDiameter| Compiler for C supports arguments -Wno-unused-variable: YES (cached)
+freeDiameter| Compiler for C supports arguments -Wno-unused-but-set-variable: YES (cached)
+Cleaning... 0 files.
+freeDiameter| Compiler for C supports arguments -Wno-maybe-uninitialized: YES (cached)
+freeDiameter| Compiler for C supports arguments -Wno-format-truncation: YES (cached)
+freeDiameter| Compiler for C supports arguments -Wno-stringop-truncation: YES (cached)
+freeDiameter| ../subprojects/freeDiameter/meson.build:58: WARNING: Consider using the built-in werror option instead of using "-Werror".
+freeDiameter| Has header "malloc.h" : YES (cached)
+freeDiameter| Has header "signalent.h" : NO (cached)
+freeDiameter| Checking for function "strndup" : YES (cached)
+freeDiameter| Checking for function "getopt_long" : YES (cached)
+freeDiameter| Checking for function "getifaddrs" : YES (cached)
+freeDiameter| Header "netinet/in.h" has symbol "ntohll" : NO (cached)
+freeDiameter| Header "netdb.h" has symbol "AI_ADDRCONFIG" : YES (cached)
+freeDiameter| Dependency threads found: YES unknown (cached)
+freeDiameter| Header "pthread.h" has symbol "pthread_barrier_wait" : YES (cached)
+freeDiameter| Checking if "clock_gettime()" : links: YES (cached)
+freeDiameter| Checking if "dlopen() and dlsym() in system libraries" : links: YES (cached)
+freeDiameter| Library gcrypt found: YES
+freeDiameter| Library idn found: YES
+freeDiameter| Library gnutls found: YES
+freeDiameter| Checking for function "gnutls_hash" : YES (cached)
+freeDiameter| Checking for function "gnutls_transport_set_vec_push_function" : YES (cached)
+freeDiameter| Checking for function "gnutls_x509_trust_list_verify_crt" : YES (cached)
+freeDiameter| Checking for function "gnutls_handshake_set_timeout" : YES (cached)
+freeDiameter| Library sctp found: YES
+freeDiameter| Checking if "sctp_connectx() accepts 4 arguments" compiles: YES (cached)
+freeDiameter| Configuring freeDiameter-host.h using configuration
+freeDiameter| Configuring version.h using configuration
+freeDiameter| Header "regex.h" has symbol "REG_STARTEND" : YES (cached)
+freeDiameter| Configuring rt_default-host.h using configuration
+freeDiameter| Build targets in project: 22
+freeDiameter| Subproject freeDiameter finished.
+
+Compiler for C supports arguments -Wno-missing-prototypes: YES (cached)
+Compiler for C supports arguments -Wno-missing-declarations: YES (cached)
+Compiler for C supports arguments -Wno-discarded-qualifiers: YES (cached)
+Compiler for C supports arguments -Wno-incompatible-pointer-types: YES (cached)
+Compiler for C supports arguments -Wno-strict-prototypes: YES (cached)
+Compiler for C supports arguments -w: YES (cached)
+Compiler for C supports arguments -std=gnu99: YES (cached)
+Has header "netinet/ip.h" : YES (cached)
+Has header "netinet/ip6.h" : YES (cached)
+Has header "netinet/udp.h" : YES (cached)
+Has header "netinet/tcp.h" : YES (cached)
+Configuring pfcp-config.h using configuration
+Compiler for C supports arguments -Wno-strict-prototypes: YES (cached)
+Compiler for C supports arguments -Wno-missing-prototypes: YES (cached)
+Compiler for C supports arguments -Wno-missing-declarations: YES (cached)
+Compiler for C supports arguments -Wno-unused-variable: YES (cached)
+Compiler for C supports arguments -Wno-unused-label: YES (cached)
+Compiler for C supports arguments -Wno-float-equal: YES (cached)
+Dependency gnutls found: YES 3.8.3 (cached)
+Dependency libssl found: YES 3.0.13 (cached)
+Dependency libcrypto found: YES 3.0.13 (cached)
+Dependency libnghttp2 found: YES 1.59.0 (cached)
+Dependency libmicrohttpd found: YES 1.0.0 (cached)
+Dependency libcurl found: YES 8.5.0 (cached)
+Configuring version.h using configuration
+Has header "ifaddrs.h" : YES (cached)
+Has header "net/ethernet.h" : YES (cached)
+Has header "net/if.h" : YES (cached)
+Has header "net/if_dl.h" : NO (cached)
+Has header "netinet/in.h" : YES (cached)
+Has header "netinet/ip.h" : YES (cached)
+Has header "netinet/ip6.h" : YES (cached)
+Has header "netinet/ip_icmp.h" : YES (cached)
+Has header "netinet/icmp6.h" : YES (cached)
+Has header "sys/ioctl.h" : YES (cached)
+Has header "sys/socket.h" : YES (cached)
+Configuring upf-config.h using configuration
+Dependency libtins found: YES 4.5 (cached)
+Has header "net/if.h" : YES (cached)
+Has header "netinet/ip.h" : YES (cached)
+Has header "netinet/ip6.h" : YES (cached)
+Has header "netinet/ip_icmp.h" : YES (cached)
+Has header "netinet/icmp6.h" : YES (cached)
+Configuring smf-config.h using configuration
+Configuring open5gs-dbctl using configuration
+Compiler for C supports arguments -Wno-missing-prototypes: YES (cached)
+Compiler for C supports arguments -Wno-missing-declarations: YES (cached)
+Compiler for C supports arguments -Wno-discarded-qualifiers: YES (cached)
+Compiler for C supports arguments -Wno-incompatible-pointer-types: YES (cached)
+Compiler for C supports arguments -Wno-unused-variable: YES (cached)
+Compiler for C supports arguments -Wno-deprecated-declarations: YES (cached)
+Configuring test-config-private.h using configuration
+Message: 
+        prefix:                       /opt/model5g-patched
+        libdir:                       /opt/model5g-patched/lib/x86_64-linux-gnu
+        bindir:                       /opt/model5g-patched/bin
+        sysconfdir:                   /opt/model5g-patched/etc
+        localstatedir:                /opt/model5g-patched/var
+        build location:               /build/pristine/build
+        source location:              /build/pristine
+        compiler:                     gcc
+        debugging support:            debug
+
+Build targets in project: 112
+WARNING: Broken features used:
+ * 1.3.0: {'str.format: Value other than strings, integers, bools, options, dictionaries and lists thereof.'}
+
+open5gs 2.8.0
+
+  Subprojects
+    freeDiameter       : YES 1 warnings
+    prometheus-client-c: YES
+
+  User defined options
+    prefix             : /opt/model5g-patched
+
+Found ninja-1.11.1 at /usr/bin/ninja
+[1/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/init.c.o
+[2/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/lists.c.o
+[3/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/dispatch.c.o
+[4/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/dictionary_functions.c.o
+[5/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/fifo.c.o
+[6/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/log.c.o
+[7/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/portability.c.o
+[8/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/ostr.c.o
+[9/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/utils.c.o
+[10/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/rt_data.c.o
+[11/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/version.c.o
+[12/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/apps.c.o
+[13/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/dictionary.c.o
+[14/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/sessions.c.o
+[15/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/meson-generated_fdd.l.yy.c.o
+[16/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/meson-generated_fdd.tab.c.o
+[17/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/endpoints.c.o
+[18/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/core.c.o
+[19/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/config.c.o
+[20/381] Compiling C object subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/messages.c.o
+[21/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/events.c.o
+[22/381] Linking target subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0
+[23/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/extensions.c.o
+[24/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/fifo_stats.c.o
+[25/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/hooks.c.o
+[26/381] Generating symbol file subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0.p/libfdproto.so.1.5.0.symbols
+[27/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/queues.c.o
+[28/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/cnxctx.c.o
+[29/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/messages.c.o
+[30/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_cnx.c.o
+[31/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_dw.c.o
+[32/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_dp.c.o
+[33/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/peers.c.o
+[34/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/dict_base_proto.c.o
+[35/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_expiry.c.o
+[36/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_out.c.o
+[37/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_ce.c.o
+[38/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_sr.c.o
+[39/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/version.c.o
+[40/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/tcp.c.o
+[41/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/p_psm.c.o
+[42/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/server.c.o
+[43/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/sctp_compat.c.o
+[44/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/routing_dispatch.c.o
+[45/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/sctp3436.c.o
+[46/381] Compiling C object subprojects/freeDiameter/extensions/dbg_msg_dumps.fdx.p/dbg_msg_dumps_dbg_msg_dumps.c.o
+[47/381] Compiling C object subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/sctp.c.o
+[48/381] Compiling C object subprojects/freeDiameter/extensions/dict_mip6i.fdx.p/dict_mip6i_dict_mip6i.c.o
+[49/381] Compiling C object subprojects/freeDiameter/extensions/dict_nas_mipv6.fdx.p/dict_nas_mipv6_dict_nas_mipv6.c.o
+[50/381] Linking target subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0
+[51/381] Generating symbol file subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0.p/libfdcore.so.1.5.0.symbols
+[52/381] Compiling C object subprojects/freeDiameter/extensions/dict_nasreq.fdx.p/dict_nasreq_dict_nasreq.c.o
+[53/381] Linking target subprojects/freeDiameter/extensions/dbg_msg_dumps.fdx
+[54/381] Compiling C object subprojects/freeDiameter/extensions/dict_dcca.fdx.p/dict_dcca_dict_dcca.c.o
+[55/381] Compiling C object subprojects/freeDiameter/extensions/dict_dcca_3gpp/dict_dcca_3gpp.fdx.p/dict_dcca_3gpp.c.o
+[56/381] Linking target subprojects/freeDiameter/extensions/dict_mip6i.fdx
+[57/381] Compiling C object subprojects/freeDiameter/extensions/dict_rfc5777.fdx.p/dict_rfc5777_dict_rfc5777.c.o
+[58/381] Linking target subprojects/freeDiameter/extensions/dict_nasreq.fdx
+[59/381] Linking target subprojects/freeDiameter/extensions/dict_nas_mipv6.fdx
+[60/381] Linking target subprojects/freeDiameter/extensions/dict_dcca.fdx
+[61/381] Linking target subprojects/freeDiameter/extensions/dict_rfc5777.fdx
+[62/381] Compiling C object subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx.p/meson-generated_lex.aw_conf.c.o
+[63/381] Compiling C object subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx.p/acl_wl.c.o
+[64/381] Compiling C object subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx.p/meson-generated_aw_conf.tab.c.o
+[65/381] Compiling C object subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx.p/aw_tree.c.o
+[66/381] Compiling C object subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx.p/rt_redir.c.o
+[67/381] Linking target subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx
+[68/381] Compiling C object subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx.p/redir_expiry.c.o
+[69/381] Compiling C object subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx.p/redir_fwd.c.o
+[70/381] Compiling C object subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx.p/redir_out.c.o
+[71/381] Compiling C object subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx.p/redir_entries.c.o
+[72/381] Compiling C object subprojects/freeDiameter/extensions/rt_default/rt_default.fdx.p/meson-generated_lex.rtd_conf.c.o
+[73/381] Compiling C object subprojects/freeDiameter/extensions/rt_default/rt_default.fdx.p/rt_default.c.o
+[74/381] Compiling C object subprojects/freeDiameter/extensions/rt_default/rt_default.fdx.p/meson-generated_rtd_conf.tab.c.o
+[75/381] Linking target subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx
+[76/381] Compiling C object subprojects/freeDiameter/extensions/rt_default/rt_default.fdx.p/rtd_rules.c.o
+[77/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/dict.c.o
+[78/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/libapp_sip.c.o
+[79/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/logger.c.o
+[80/381] Linking target subprojects/freeDiameter/extensions/rt_default/rt_default.fdx
+[81/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/message.c.o
+[82/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/config.c.o
+[83/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/stats.c.o
+[84/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/util.c.o
+[85/381] Compiling C object lib/diameter/common/libogsdiameter-common.so.2.8.0.p/init.c.o
+[86/381] Linking target lib/diameter/common/libogsdiameter-common.so.2.8.0
+[87/381] Compiling C object lib/diameter/gx/libogsdiameter-gx.so.2.8.0.p/dict.c.o
+[88/381] Compiling C object lib/diameter/gy/libogsdiameter-gy.so.2.8.0.p/dict.c.o
+[89/381] Compiling C object lib/diameter/gx/libogsdiameter-gx.so.2.8.0.p/message.c.o
+[90/381] Compiling C object lib/diameter/gy/libogsdiameter-gy.so.2.8.0.p/message.c.o
+[91/381] Generating symbol file lib/diameter/common/libogsdiameter-common.so.2.8.0.p/libogsdiameter-common.so.2.8.0.symbols
+[92/381] Compiling C object lib/diameter/rx/libogsdiameter-rx.so.2.8.0.p/dict.c.o
+[93/381] Compiling C object lib/diameter/rx/libogsdiameter-rx.so.2.8.0.p/message.c.o
+[94/381] Linking target lib/diameter/gx/libogsdiameter-gx.so.2.8.0
+[95/381] Linking target lib/diameter/gy/libogsdiameter-gy.so.2.8.0
+[96/381] Linking target lib/diameter/rx/libogsdiameter-rx.so.2.8.0
+[97/381] Compiling C object lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0.p/message.c.o
+[98/381] Generating symbol file lib/diameter/gx/libogsdiameter-gx.so.2.8.0.p/libogsdiameter-gx.so.2.8.0.symbols
+[99/381] Compiling C object lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0.p/dict.c.o
+[100/381] Generating symbol file lib/diameter/gy/libogsdiameter-gy.so.2.8.0.p/libogsdiameter-gy.so.2.8.0.symbols
+[101/381] Generating symbol file lib/diameter/rx/libogsdiameter-rx.so.2.8.0.p/libogsdiameter-rx.so.2.8.0.symbols
+[102/381] Linking target lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0
+[103/381] Compiling C object lib/diameter/cx/libogsdiameter-cx.so.2.8.0.p/dict.c.o
+[104/381] Compiling C object lib/diameter/swx/libogsdiameter-swx.so.2.8.0.p/message.c.o
+[105/381] Compiling C object lib/diameter/s6b/libogsdiameter-s6b.so.2.8.0.p/message.c.o
+[106/381] Compiling C object lib/diameter/cx/libogsdiameter-cx.so.2.8.0.p/message.c.o
+[107/381] Linking target lib/diameter/s6b/libogsdiameter-s6b.so.2.8.0
+[108/381] Linking target lib/diameter/cx/libogsdiameter-cx.so.2.8.0
+[109/381] Generating symbol file lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0.p/libogsdiameter-s6a.so.2.8.0.symbols
+[110/381] Generating symbol file lib/diameter/s6b/libogsdiameter-s6b.so.2.8.0.p/libogsdiameter-s6b.so.2.8.0.symbols
+[111/381] Generating symbol file lib/diameter/cx/libogsdiameter-cx.so.2.8.0.p/libogsdiameter-cx.so.2.8.0.symbols
+[112/381] Linking target lib/diameter/swx/libogsdiameter-swx.so.2.8.0
+[113/381] Generating symbol file lib/diameter/swx/libogsdiameter-swx.so.2.8.0.p/libogsdiameter-swx.so.2.8.0.symbols
+[114/381] Compiling C object src/mme/libmme.a.p/mme-init.c.o
+[115/381] Compiling C object src/mme/libmme.a.p/mme-event.c.o
+[116/381] Compiling C object src/mme/libmme.a.p/mme-timer.c.o
+[117/381] Compiling C object src/mme/libmme.a.p/s1ap-sm.c.o
+[118/381] Compiling C object src/mme/libmme.a.p/s1ap-sctp.c.o
+[119/381] Compiling C object src/mme/libmme.a.p/s1ap-build.c.o
+[120/381] Compiling C object src/mme/libmme.a.p/s1ap-path.c.o
+[121/381] Compiling C object src/mme/libmme.a.p/mme-context.c.o
+[122/381] Compiling C object src/mme/libmme.a.p/s1ap-handler.c.o
+[123/381] Compiling C object src/mme/libmme.a.p/sgsap-sm.c.o
+[124/381] Compiling C object src/mme/libmme.a.p/sgsap-build.c.o
+[125/381] Compiling C object subprojects/freeDiameter/extensions/dict_dcca_3gpp/dict_dcca_3gpp.fdx.p/add_avps.c.o
+[126/381] Linking target subprojects/freeDiameter/extensions/dict_dcca_3gpp/dict_dcca_3gpp.fdx
+[127/381] Compiling C object src/mme/libmme.a.p/sgsap-sctp.c.o
+[128/381] Compiling C object src/mme/libmme.a.p/sgsap-path.c.o
+[129/381] Compiling C object src/mme/libmme.a.p/sgsap-handler.c.o
+[130/381] Compiling C object src/mme/libmme.a.p/mme-fd-path.c.o
+[131/381] Compiling C object src/mme/libmme.a.p/mme-s6a-handler.c.o
+[132/381] Compiling C object src/mme/libmme.a.p/nas-security.c.o
+[133/381] Compiling C object src/mme/libmme.a.p/nas-path.c.o
+[134/381] Compiling C object src/mme/libmme.a.p/emm-handler.c.o
+[135/381] Compiling C object src/mme/libmme.a.p/emm-sm.c.o
+[136/381] Compiling C object src/mme/libmme.a.p/emm-build.c.o
+[137/381] Compiling C object src/mme/libmme.a.p/esm-sm.c.o
+[138/381] Compiling C object src/mme/libmme.a.p/esm-handler.c.o
+[139/381] Compiling C object src/mme/libmme.a.p/esm-build.c.o
+[140/381] Compiling C object src/mme/libmme.a.p/mme-gn-build.c.o
+[141/381] Compiling C object src/mme/libmme.a.p/mme-gn-handler.c.o
+[142/381] Compiling C object src/mme/libmme.a.p/mme-gtp-path.c.o
+[143/381] Compiling C object src/mme/libmme.a.p/mme-s11-build.c.o
+[144/381] Compiling C object src/mme/libmme.a.p/mme-s11-handler.c.o
+[145/381] Compiling C object src/mme/libmme.a.p/mme-sm.c.o
+[146/381] Compiling C object src/mme/libmme.a.p/mme-path.c.o
+[147/381] Compiling C object src/mme/libmme.a.p/sbc-handler.c.o
+[148/381] Compiling C object src/mme/open5gs-mmed.p/app-init.c.o
+[149/381] Compiling C object src/mme/open5gs-mmed.p/.._main.c.o
+[150/381] Compiling C object src/mme/libmme.a.p/metrics.c.o
+[151/381] Compiling C object src/hss/libhss.a.p/hss-init.c.o
+[152/381] Compiling C object src/mme/libmme.a.p/enb-info.c.o
+[153/381] Compiling C object src/hss/libhss.a.p/hss-sm.c.o
+[154/381] Compiling C object src/mme/libmme.a.p/ue-info.c.o
+[155/381] Linking static target src/mme/libmme.a
+[156/381] Compiling C object src/hss/libhss.a.p/hss-context.c.o
+[157/381] Compiling C object src/hss/libhss.a.p/hss-fd-path.c.o
+[158/381] Compiling C object src/hss/libhss.a.p/hss-cx-path.c.o
+[159/381] Compiling C object src/hss/libhss.a.p/hss-swx-path.c.o
+[160/381] Compiling C object src/hss/libhss.a.p/hss-s6a-path.c.o
+[161/381] Compiling C object src/hss/open5gs-hssd.p/app-init.c.o
+[162/381] Compiling C object src/sgwc/open5gs-sgwcd.p/app.c.o
+[163/381] Compiling C object src/hss/libhss.a.p/metrics.c.o
+[164/381] Compiling C object src/hss/open5gs-hssd.p/.._main.c.o
+[165/381] Linking static target src/hss/libhss.a
+[166/381] Compiling C object src/sgwu/open5gs-sgwud.p/app.c.o
+[167/381] Compiling C object src/sgwc/open5gs-sgwcd.p/.._main.c.o
+[168/381] Compiling C object src/sgwu/open5gs-sgwud.p/.._main.c.o
+[169/381] Linking target src/sgwc/open5gs-sgwcd
+[170/381] Linking target src/mme/open5gs-mmed
+[171/381] Linking target src/sgwu/open5gs-sgwud
+[172/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-init.c.o
+[173/381] Linking target src/hss/open5gs-hssd
+[174/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-context.c.o
+[175/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-sm.c.o
+[176/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-fd-path.c.o
+[177/381] Compiling C object src/pcrf/open5gs-pcrfd.p/app-init.c.o
+[178/381] Compiling C object src/nrf/open5gs-nrfd.p/app.c.o
+[179/381] Compiling C object src/pcrf/open5gs-pcrfd.p/.._main.c.o
+[180/381] Compiling C object src/pcrf/libpcrf.a.p/metrics.c.o
+[181/381] Compiling C object src/nrf/open5gs-nrfd.p/.._main.c.o
+[182/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-rx-path.c.o
+[183/381] Compiling C object src/pcrf/libpcrf.a.p/pcrf-gx-path.c.o
+[184/381] Linking static target src/pcrf/libpcrf.a
+[185/381] Linking target src/nrf/open5gs-nrfd
+[186/381] Linking target src/pcrf/open5gs-pcrfd
+[187/381] Compiling C object src/scp/libscp.a.p/context.c.o
+[188/381] Compiling C object src/scp/open5gs-scpd.p/app.c.o
+[189/381] Compiling C object src/scp/libscp.a.p/scp-sm.c.o
+[190/381] Compiling C object src/scp/open5gs-scpd.p/.._main.c.o
+[191/381] Compiling C object src/scp/libscp.a.p/init.c.o
+[192/381] Compiling C object src/sepp/open5gs-seppd.p/app.c.o
+[193/381] Compiling C object src/scp/libscp.a.p/sbi-path.c.o
+[194/381] Compiling C object src/sepp/open5gs-seppd.p/.._main.c.o
+[195/381] Linking static target src/scp/libscp.a
+[196/381] Compiling C object src/udr/open5gs-udrd.p/app.c.o
+[197/381] Compiling C object src/udm/open5gs-udmd.p/app.c.o
+[198/381] Compiling C object src/udr/open5gs-udrd.p/.._main.c.o
+[199/381] Compiling C object src/udm/open5gs-udmd.p/.._main.c.o
+[200/381] Compiling C object src/pcf/open5gs-pcfd.p/app.c.o
+[201/381] Compiling C object src/pcf/open5gs-pcfd.p/.._main.c.o
+[202/381] Compiling C object src/nssf/open5gs-nssfd.p/app.c.o
+[203/381] Linking target src/scp/open5gs-scpd
+[204/381] Linking target src/sepp/open5gs-seppd
+[205/381] Compiling C object src/nssf/open5gs-nssfd.p/.._main.c.o
+[206/381] Linking target src/udm/open5gs-udmd
+[207/381] Compiling C object src/bsf/open5gs-bsfd.p/app.c.o
+[208/381] Compiling C object src/bsf/open5gs-bsfd.p/.._main.c.o
+[209/381] Linking target src/udr/open5gs-udrd
+[210/381] Compiling C object src/ausf/open5gs-ausfd.p/app.c.o
+[211/381] Compiling C object src/ausf/open5gs-ausfd.p/.._main.c.o
+[212/381] Compiling C object src/upf/open5gs-upfd.p/app.c.o
+[213/381] Linking target src/pcf/open5gs-pcfd
+[214/381] Compiling C object src/upf/open5gs-upfd.p/.._main.c.o
+[215/381] Linking target src/nssf/open5gs-nssfd
+[216/381] Linking target src/bsf/open5gs-bsfd
+[217/381] Linking target src/ausf/open5gs-ausfd
+[218/381] Linking target src/upf/open5gs-upfd
+[219/381] Compiling C object src/smf/libsmf.a.p/timer.c.o
+[220/381] Compiling C object src/smf/libsmf.a.p/init.c.o
+[221/381] Compiling C object src/smf/libsmf.a.p/smf-sm.c.o
+[222/381] Compiling C object src/smf/libsmf.a.p/pfcp-sm.c.o
+[223/381] Compiling C object src/smf/libsmf.a.p/gsm-sm.c.o
+[224/381] Compiling C object src/smf/libsmf.a.p/context.c.o
+[225/381] Compiling C object src/smf/libsmf.a.p/gn-build.c.o
+[226/381] Compiling C object src/smf/libsmf.a.p/gtp-path.c.o
+[227/381] Compiling C object src/smf/libsmf.a.p/gn-handler.c.o
+[228/381] Compiling C object src/smf/libsmf.a.p/s5c-build.c.o
+[229/381] Compiling C object src/smf/libsmf.a.p/fd-path.c.o
+[230/381] Compiling C object src/smf/libsmf.a.p/s5c-handler.c.o
+[231/381] Compiling C object src/smf/libsmf.a.p/gx-path.c.o
+[232/381] Compiling C object src/smf/libsmf.a.p/gy-path.c.o
+[233/381] Compiling C object src/smf/libsmf.a.p/gx-handler.c.o
+[234/381] Compiling C object src/smf/libsmf.a.p/gy-handler.c.o
+[235/381] Compiling C object src/smf/libsmf.a.p/s6b-path.c.o
+[236/381] Compiling C object src/smf/libsmf.a.p/pfcp-path.c.o
+[237/381] Compiling C object src/smf/libsmf.a.p/n4-build.c.o
+[238/381] Compiling C object src/smf/libsmf.a.p/binding.c.o
+[239/381] Compiling C object src/smf/libsmf.a.p/n4-handler.c.o
+[240/381] Compiling C object src/smf/libsmf.a.p/nudm-build.c.o
+[241/381] Compiling C object src/smf/libsmf.a.p/nnrf-handler.c.o
+[242/381] Compiling C object src/smf/libsmf.a.p/nudm-handler.c.o
+[243/381] Compiling C object src/smf/libsmf.a.p/nsmf-build.c.o
+[244/381] Compiling C object src/smf/libsmf.a.p/namf-build.c.o
+[245/381] Compiling C object src/smf/libsmf.a.p/namf-handler.c.o
+[246/381] Compiling C object src/smf/libsmf.a.p/npcf-build.c.o
+[247/381] Compiling C object src/smf/libsmf.a.p/nsmf-handler.c.o
+[248/381] Compiling C object src/smf/libsmf.a.p/npcf-handler.c.o
+[249/381] Compiling C object src/smf/libsmf.a.p/sbi-path.c.o
+[250/381] Compiling C object src/smf/libsmf.a.p/gsm-build.c.o
+[251/381] Compiling C object src/smf/libsmf.a.p/gsmue-message.c.o
+[252/381] Compiling C object src/smf/libsmf.a.p/gsm-handler.c.o
+[253/381] Compiling C object src/smf/libsmf.a.p/nas-path.c.o
+[254/381] Compiling C object src/smf/libsmf.a.p/ngap-build.c.o
+[255/381] Compiling C object src/smf/open5gs-smfd.p/app.c.o
+[256/381] Compiling C object src/smf/open5gs-smfd.p/.._main.c.o
+[257/381] Compiling C object src/amf/open5gs-amfd.p/app.c.o
+[258/381] Compiling C object src/amf/open5gs-amfd.p/.._main.c.o
+[259/381] Compiling C object src/smf/libsmf.a.p/ngap-handler.c.o
+[260/381] Compiling C object src/smf/libsmf.a.p/ngap-path.c.o
+[261/381] Compiling C object src/smf/libsmf.a.p/local-path.c.o
+[262/381] Compiling C object src/smf/libsmf.a.p/metrics.c.o
+[263/381] Linking target src/amf/open5gs-amfd
+[264/381] Compiling C object src/smf/libsmf.a.p/pdu-info.c.o
+[265/381] Linking static target src/smf/libsmf.a
+[266/381] Linking target src/smf/open5gs-smfd
+[267/381] Compiling C object tests/common/libtestcomon.a.p/application.c.o
+[268/381] Compiling C object tests/common/libtestcomon.a.p/sctp.c.o
+[269/381] Compiling C object tests/common/libtestcomon.a.p/gtpu.c.o
+[270/381] Compiling C object tests/common/libtestcomon.a.p/context.c.o
+[271/381] Compiling C object tests/common/libtestcomon.a.p/ngap-build.c.o
+[272/381] Compiling C object tests/common/libtestcomon.a.p/ngap-handler.c.o
+[273/381] Compiling C object tests/common/libtestcomon.a.p/ngap-path.c.o
+[274/381] Compiling C object tests/common/libtestcomon.a.p/gmm-build.c.o
+[275/381] Compiling C object tests/common/libtestcomon.a.p/gmm-handler.c.o
+[276/381] Compiling C object tests/common/libtestcomon.a.p/gsm-build.c.o
+[277/381] Compiling C object tests/common/libtestcomon.a.p/gsm-handler.c.o
+[278/381] Compiling C object tests/common/libtestcomon.a.p/s1ap-build.c.o
+[279/381] Compiling C object tests/common/libtestcomon.a.p/s1ap-handler.c.o
+[280/381] Compiling C object tests/common/libtestcomon.a.p/s1ap-path.c.o
+[281/381] Compiling C object tests/common/libtestcomon.a.p/emm-build.c.o
+[282/381] Compiling C object tests/common/libtestcomon.a.p/emm-handler.c.o
+[283/381] Compiling C object tests/common/libtestcomon.a.p/esm-build.c.o
+[284/381] Compiling C object tests/common/libtestcomon.a.p/esm-handler.c.o
+[285/381] Compiling C object tests/common/libtestcomon.a.p/nas-path.c.o
+[286/381] Compiling C object tests/common/libtestcomon.a.p/nas-encoder.c.o
+[287/381] Compiling C object tests/common/libtestcomon.a.p/nas-security.c.o
+[288/381] Compiling C object tests/common/libtestcomon.a.p/sgsap-build.c.o
+[289/381] Linking static target tests/common/libtestcomon.a
+[290/381] Compiling C object tests/app/libtestepc.a.p/epc-init.c.o
+[291/381] Linking static target tests/app/libtestepc.a
+[292/381] Linking target tests/app/epc
+[293/381] Compiling C object tests/app/libtest5gc.a.p/5gc-init.c.o
+[294/381] Linking static target tests/app/libtest5gc.a
+[295/381] Linking target tests/app/5gc
+[296/381] Compiling C object tests/app/libtestapp.a.p/app-init.c.o
+[297/381] Linking static target tests/app/libtestapp.a
+[298/381] Compiling C object tests/registration/registration.p/abts-main.c.o
+[299/381] Compiling C object tests/registration/registration.p/simple-test.c.o
+[300/381] Linking target tests/app/app
+[301/381] Compiling C object tests/registration/registration.p/guti-test.c.o
+[302/381] Compiling C object tests/registration/registration.p/auth-test.c.o
+[303/381] Compiling C object tests/registration/registration.p/ecc-test.c.o
+[304/381] Compiling C object tests/registration/registration.p/idle-test.c.o
+[305/381] Compiling C object tests/registration/registration.p/dereg-test.c.o
+[306/381] Compiling C object tests/registration/registration.p/identity-test.c.o
+[307/381] Compiling C object tests/registration/registration.p/gmm-status-test.c.o
+[308/381] Compiling C object tests/registration/registration.p/ue-context-test.c.o
+[309/381] Compiling C object tests/registration/registration.p/reset-test.c.o
+[310/381] Compiling C object tests/registration/registration.p/multi-ue-test.c.o
+[311/381] Compiling C object tests/registration/registration.p/crash-test.c.o
+[312/381] Compiling C object tests/vonr/vonr.p/abts-main.c.o
+[313/381] Compiling C object tests/vonr/vonr.p/qos-flow-test.c.o
+[314/381] Linking target tests/registration/registration
+[315/381] Compiling C object tests/vonr/vonr.p/session-test.c.o
+[316/381] Compiling C object tests/vonr/vonr.p/simple-test.c.o
+[317/381] Compiling C object tests/vonr/vonr.p/video-test.c.o
+[318/381] Compiling C object tests/vonr/vonr.p/af-test.c.o
+[319/381] Compiling C object tests/slice/slice.p/abts-main.c.o
+[320/381] Compiling C object tests/slice/slice.p/same-dnn-test.c.o
+[321/381] Linking target tests/vonr/vonr
+[322/381] Compiling C object tests/slice/slice.p/different-dnn-test.c.o
+[323/381] Compiling C object tests/slice/slice.p/paging-test.c.o
+[324/381] Compiling C object tests/attach/attach.p/abts-main.c.o
+[325/381] Linking target tests/slice/slice
+[326/381] Compiling C object tests/attach/attach.p/s1setup-test.c.o
+[327/381] Compiling C object tests/attach/attach.p/simple-test.c.o
+[328/381] Compiling C object tests/attach/attach.p/guti-test.c.o
+[329/381] Compiling C object tests/attach/attach.p/auth-test.c.o
+[330/381] Compiling C object tests/attach/attach.p/emm-status-test.c.o
+[331/381] Compiling C object tests/attach/attach.p/idle-test.c.o
+[332/381] Compiling C object tests/attach/attach.p/reset-test.c.o
+[333/381] Compiling C object tests/attach/attach.p/ue-context-test.c.o
+[334/381] Compiling C object tests/attach/attach.p/issues-test.c.o
+[335/381] Compiling C object tests/attach/attach.p/crash-test.c.o
+[336/381] Linking target tests/attach/attach
+[337/381] Compiling C object tests/volte/volte.p/test-fd-path.c.o
+[338/381] Compiling C object tests/volte/volte.p/diameter-cx-path.c.o
+[339/381] Compiling C object tests/volte/volte.p/diameter-rx-path.c.o
+[340/381] Compiling C object tests/volte/volte.p/abts-main.c.o
+[341/381] Compiling C object tests/volte/volte.p/bearer-test.c.o
+[342/381] Compiling C object tests/volte/volte.p/session-test.c.o
+[343/381] Compiling C object tests/volte/volte.p/simple-test.c.o
+[344/381] Compiling C object tests/volte/volte.p/cx-test.c.o
+[345/381] Compiling C object tests/volte/volte.p/video-test.c.o
+[346/381] Compiling C object tests/volte/volte.p/rx-test.c.o
+[347/381] Compiling C object tests/csfb/csfb.p/abts-main.c.o
+[348/381] Linking target tests/volte/volte
+[349/381] Compiling C object tests/csfb/csfb.p/mo-idle-test.c.o
+[350/381] Compiling C object tests/csfb/csfb.p/mt-idle-test.c.o
+[351/381] Compiling C object tests/csfb/csfb.p/mo-active-test.c.o
+[352/381] Compiling C object tests/csfb/csfb.p/mt-active-test.c.o
+[353/381] Compiling C object tests/csfb/csfb.p/mo-sms-test.c.o
+[354/381] Compiling C object tests/csfb/csfb.p/mt-sms-test.c.o
+[355/381] Compiling C object tests/csfb/csfb.p/tau-test.c.o
+[356/381] Compiling C object tests/csfb/csfb.p/crash-test.c.o
+[357/381] Compiling C object tests/310014/310014.p/abts-main.c.o
+[358/381] Compiling C object tests/310014/310014.p/epc-test.c.o
+[359/381] Linking target tests/csfb/csfb
+[360/381] Compiling C object tests/handover/handover.p/abts-main.c.o
+[361/381] Linking target tests/310014/310014
+[362/381] Compiling C object tests/handover/handover.p/epc-x2-test.c.o
+[363/381] Compiling C object tests/handover/handover.p/epc-s1-test.c.o
+[364/381] Compiling C object tests/handover/handover.p/5gc-xn-test.c.o
+[365/381] Compiling C object tests/handover/handover.p/5gc-n2-test.c.o
+[366/381] Compiling C object tests/non3gpp/non3gpp.p/test-fd-path.c.o
+[367/381] Compiling C object tests/non3gpp/non3gpp.p/diameter-s6b-path.c.o
+[368/381] Compiling C object tests/non3gpp/non3gpp.p/diameter-swx-path.c.o
+[369/381] Linking target tests/handover/handover
+[370/381] Compiling C object tests/non3gpp/non3gpp.p/gtp-path.c.o
+[371/381] Compiling C object tests/non3gpp/non3gpp.p/s2b-build.c.o
+[372/381] Compiling C object tests/non3gpp/non3gpp.p/s2b-handler.c.o
+[373/381] Compiling C object tests/non3gpp/non3gpp.p/abts-main.c.o
+[374/381] Compiling C object tests/non3gpp/non3gpp.p/epdg-test.c.o
+[375/381] Compiling C object tests/transfer/transfer.p/abts-main.c.o
+[376/381] Linking target tests/non3gpp/non3gpp
+[377/381] Compiling C object tests/transfer/transfer.p/ue-context-transfer-test.c.o
+[378/381] Compiling C object tests/transfer/transfer-error.p/abts-error-main.c.o
+[379/381] Linking target tests/transfer/transfer
+[380/381] Compiling C object tests/transfer/transfer-error.p/ue-context-transfer-error-case-test.c.o
+[381/381] Linking target tests/transfer/transfer-error
+ninja: Entering directory `build'
+[0/1] Installing files.
+Installing lib/core/libogscore.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/proto/libogsproto.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/dbi/libogsdbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/crypt/libogscrypt.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/ipfw/libogsipfw.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/tun/libogstun.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/app/libogsapp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/prometheus-client-c/libprom.so to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/metrics/libogsmetrics.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sctp/libogssctp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/extensions/dbg_msg_dumps.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_rfc5777.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_mip6i.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_nasreq.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_nas_mipv6.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_dcca.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_dcca_3gpp/dict_dcca_3gpp.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/rt_default/rt_default.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing lib/diameter/common/libogsdiameter-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/gx/libogsdiameter-gx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/gy/libogsdiameter-gy.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/rx/libogsdiameter-rx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/cx/libogsdiameter-cx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/swx/libogsdiameter-swx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/s6b/libogsdiameter-s6b.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/common/libogsasn1c-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/util/libogsasn1c-util.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/ngap/libogsasn1c-ngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/s1ap/libogsasn1c-s1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/ngap/libogsngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/s1ap/libogss1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/common/libogsnas-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/5gs/libogsnas-5gs.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/eps/libogsnas-eps.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/gtp/libogsgtp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/pfcp/libogspfcp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sbi/openapi/libogssbi-openapi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sbi/libogssbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing src/mme/open5gs-mmed to /opt/model5g-patched/bin
+Installing src/hss/open5gs-hssd to /opt/model5g-patched/bin
+Installing src/sgwc/open5gs-sgwcd to /opt/model5g-patched/bin
+Installing src/sgwu/open5gs-sgwud to /opt/model5g-patched/bin
+Installing src/pcrf/open5gs-pcrfd to /opt/model5g-patched/bin
+Installing src/nrf/open5gs-nrfd to /opt/model5g-patched/bin
+Installing src/scp/open5gs-scpd to /opt/model5g-patched/bin
+Installing src/sepp/open5gs-seppd to /opt/model5g-patched/bin
+Installing src/udr/open5gs-udrd to /opt/model5g-patched/bin
+Installing src/udm/open5gs-udmd to /opt/model5g-patched/bin
+Installing src/pcf/open5gs-pcfd to /opt/model5g-patched/bin
+Installing src/nssf/open5gs-nssfd to /opt/model5g-patched/bin
+Installing src/bsf/open5gs-bsfd to /opt/model5g-patched/bin
+Installing src/ausf/open5gs-ausfd to /opt/model5g-patched/bin
+Installing src/upf/open5gs-upfd to /opt/model5g-patched/bin
+Installing src/smf/open5gs-smfd to /opt/model5g-patched/bin
+Installing src/amf/open5gs-amfd to /opt/model5g-patched/bin
+Installing symlink pointing to libogscore.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscore.so.2
+Installing symlink pointing to libogscore.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscore.so
+Installing symlink pointing to libogsproto.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsproto.so.2
+Installing symlink pointing to libogsproto.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsproto.so
+Installing symlink pointing to libogsdbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdbi.so.2
+Installing symlink pointing to libogsdbi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdbi.so
+Installing symlink pointing to libogscrypt.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscrypt.so.2
+Installing symlink pointing to libogscrypt.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscrypt.so
+Installing symlink pointing to libogsipfw.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsipfw.so.2
+Installing symlink pointing to libogsipfw.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsipfw.so
+Installing symlink pointing to libogstun.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogstun.so.2
+Installing symlink pointing to libogstun.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogstun.so
+Installing symlink pointing to libogsapp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsapp.so.2
+Installing symlink pointing to libogsapp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsapp.so
+Installing symlink pointing to libogsmetrics.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsmetrics.so.2
+Installing symlink pointing to libogsmetrics.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsmetrics.so
+Installing symlink pointing to libogssctp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssctp.so.2
+Installing symlink pointing to libogssctp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssctp.so
+Installing symlink pointing to libfdproto.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdproto.so.7
+Installing symlink pointing to libfdproto.so.7 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdproto.so
+Installing symlink pointing to libfdcore.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdcore.so.7
+Installing symlink pointing to libfdcore.so.7 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdcore.so
+Installing symlink pointing to libogsdiameter-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-common.so.2
+Installing symlink pointing to libogsdiameter-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-common.so
+Installing symlink pointing to libogsdiameter-gx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gx.so.2
+Installing symlink pointing to libogsdiameter-gx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gx.so
+Installing symlink pointing to libogsdiameter-gy.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gy.so.2
+Installing symlink pointing to libogsdiameter-gy.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gy.so
+Installing symlink pointing to libogsdiameter-rx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-rx.so.2
+Installing symlink pointing to libogsdiameter-rx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-rx.so
+Installing symlink pointing to libogsdiameter-s6a.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6a.so.2
+Installing symlink pointing to libogsdiameter-s6a.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6a.so
+Installing symlink pointing to libogsdiameter-cx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-cx.so.2
+Installing symlink pointing to libogsdiameter-cx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-cx.so
+Installing symlink pointing to libogsdiameter-swx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-swx.so.2
+Installing symlink pointing to libogsdiameter-swx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-swx.so
+Installing symlink pointing to libogsdiameter-s6b.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6b.so.2
+Installing symlink pointing to libogsdiameter-s6b.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6b.so
+Installing symlink pointing to libogsasn1c-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-common.so.2
+Installing symlink pointing to libogsasn1c-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-common.so
+Installing symlink pointing to libogsasn1c-util.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-util.so.2
+Installing symlink pointing to libogsasn1c-util.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-util.so
+Installing symlink pointing to libogsasn1c-ngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-ngap.so.2
+Installing symlink pointing to libogsasn1c-ngap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-ngap.so
+Installing symlink pointing to libogsasn1c-s1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-s1ap.so.2
+Installing symlink pointing to libogsasn1c-s1ap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-s1ap.so
+Installing symlink pointing to libogsngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsngap.so.2
+Installing symlink pointing to libogsngap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsngap.so
+Installing symlink pointing to libogss1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogss1ap.so.2
+Installing symlink pointing to libogss1ap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogss1ap.so
+Installing symlink pointing to libogsnas-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-common.so.2
+Installing symlink pointing to libogsnas-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-common.so
+Installing symlink pointing to libogsnas-5gs.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-5gs.so.2
+Installing symlink pointing to libogsnas-5gs.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-5gs.so
+Installing symlink pointing to libogsnas-eps.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-eps.so.2
+Installing symlink pointing to libogsnas-eps.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-eps.so
+Installing symlink pointing to libogsgtp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsgtp.so.2
+Installing symlink pointing to libogsgtp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsgtp.so
+Installing symlink pointing to libogspfcp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogspfcp.so.2
+Installing symlink pointing to libogspfcp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogspfcp.so
+Installing symlink pointing to libogssbi-openapi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi-openapi.so.2
+Installing symlink pointing to libogssbi-openapi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi-openapi.so
+Installing symlink pointing to libogssbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi.so.2
+Installing symlink pointing to libogssbi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi.so
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/var/log/open5gs/tls", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/mme.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/mme.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sgwc.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sgwc.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sgwu.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sgwu.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/smf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/smf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/amf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/amf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/upf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/upf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hss.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/hss.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/pcrf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/pcrf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/nrf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/nrf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/scp.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/scp.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sepp1.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sepp1.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sepp2.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sepp2.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/ausf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/ausf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/udm.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/udm.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/udr.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/udr.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/pcf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/pcf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/nssf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/nssf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/bsf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/bsf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs/tls", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ca.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ca.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/amf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/amf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ausf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ausf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/bsf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/bsf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/hss.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/hss.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/mme.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/mme.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nrf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nrf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nssf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nssf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcrf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcrf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/scp.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/scp.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/smf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/smf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udm.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udm.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udr.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udr.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/amf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/amf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ausf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ausf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/bsf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/bsf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/hss.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/hss.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/mme.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/mme.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nrf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nrf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nssf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nssf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcrf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcrf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/scp.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/scp.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/smf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/smf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udm.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udm.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udr.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udr.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp1.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp1.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp1.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp1.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp2.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp2.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp2.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp2.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp3.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp3.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp3.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp3.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs/hnet", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-1.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-1.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-2.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-2.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-3.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-3.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-4.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-4.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-5.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-5.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-6.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-6.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/freeDiameter", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/mme.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/mme.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/hss.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/hss.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/smf.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/smf.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/pcrf.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/pcrf.conf")[1])) else False;'
