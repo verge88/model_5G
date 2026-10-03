@@ -1,0 +1,78 @@
+ninja: Entering directory `build'
+[1/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/types.c.o
+[2/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/timer.c.o
+[3/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/mhd-server.c.o
+[4/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/conv.c.o
+[5/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nghttp2-server.c.o
+[6/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/message.c.o
+[7/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/server.c.o
+[8/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nnrf-build.c.o
+[9/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/client.c.o
+[10/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nnrf-handler.c.o
+[11/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/context.c.o
+[12/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nnrf-path.c.o
+[13/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/path.c.o
+[14/319] Compiling C object src/nrf/libnrf.a.p/context.c.o
+[15/319] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/nf-sm.c.o
+[16/319] Compiling C object src/nrf/libnrf.a.p/event.c.o
+[17/319] Compiling C object src/nrf/libnrf.a.p/timer.c.o
+[18/319] Compiling C object src/nrf/libnrf.a.p/nnrf-build.c.o
+[19/319] Linking target lib/sbi/libogssbi.so.2.8.0
+[20/319] Compiling C object src/nrf/libnrf.a.p/nnrf-handler.c.o
+../src/nrf/nnrf-handler.c: In function 'nrf_nnrf_handle_nf_update':
+../src/nrf/nnrf-handler.c:352:40: warning: comparing floating-point with '==' or '!=' is unsafe [-Wfloat-equal]
+  352 |                         v->valuedouble != (int)v->valuedouble) {
+      |                                        ^~
+../src/nrf/nnrf-handler.c:363:40: warning: comparing floating-point with '==' or '!=' is unsafe [-Wfloat-equal]
+  363 |                         v->valuedouble != (int)v->valuedouble) {
+      |                                        ^~
+[21/319] Compiling C object src/nrf/libnrf.a.p/sbi-path.c.o
+[22/319] Compiling C object src/nrf/libnrf.a.p/nf-sm.c.o
+[23/319] Compiling C object src/nrf/libnrf.a.p/nrf-sm.c.o
+[24/319] Generating symbol file lib/sbi/libogssbi.so.2.8.0.p/libogssbi.so.2.8.0.symbols
+[25/318] Compiling C object src/nrf/libnrf.a.p/init.c.o
+[26/318] Compiling C object src/scp/libscp.a.p/context.c.o
+FAILED: src/scp/libscp.a.p/context.c.o 
+cc -Isrc/scp/libscp.a.p -Isrc/scp -I../src/scp -Ilib/crypt -I../lib/crypt -Ilib -I../lib -Ilib/proto -I../lib/proto -Ilib/core -I../lib/core -Ilib/sbi -I../lib/sbi -Ilib/app -I../lib/app -Ilib/sbi/openapi -I../lib/sbi/openapi -I/usr/include/p11-kit-1 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu89 -O0 -g -Wextra -Wlogical-op -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4 -fPIC -pthread -MD -MQ src/scp/libscp.a.p/context.c.o -MF src/scp/libscp.a.p/context.c.o.d -o src/scp/libscp.a.p/context.c.o -c ../src/scp/context.c
+In file included from ../src/scp/context.c:20:
+../src/scp/context.h:63:11: error: duplicate member 'lab_uri'
+   63 |     char *lab_uri;
+      |           ^~~~~~~
+../src/scp/context.h:64:11: error: duplicate member 'lab_method'
+   64 |     char *lab_method;
+      |           ^~~~~~~~~~
+[27/318] Linking static target src/nrf/libnrf.a
+[28/318] Compiling C object src/scp/libscp.a.p/sbi-path.c.o
+FAILED: src/scp/libscp.a.p/sbi-path.c.o 
+cc -Isrc/scp/libscp.a.p -Isrc/scp -I../src/scp -Ilib/crypt -I../lib/crypt -Ilib -I../lib -Ilib/proto -I../lib/proto -Ilib/core -I../lib/core -Ilib/sbi -I../lib/sbi -Ilib/app -I../lib/app -Ilib/sbi/openapi -I../lib/sbi/openapi -I/usr/include/p11-kit-1 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu89 -O0 -g -Wextra -Wlogical-op -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4 -fPIC -pthread -MD -MQ src/scp/libscp.a.p/sbi-path.c.o -MF src/scp/libscp.a.p/sbi-path.c.o.d -o src/scp/libscp.a.p/sbi-path.c.o -c ../src/scp/sbi-path.c
+In file included from ../src/scp/sbi-path.h:23,
+                 from ../src/scp/sbi-path.c:20:
+../src/scp/context.h:63:11: error: duplicate member 'lab_uri'
+   63 |     char *lab_uri;
+      |           ^~~~~~~
+../src/scp/context.h:64:11: error: duplicate member 'lab_method'
+   64 |     char *lab_method;
+      |           ^~~~~~~~~~
+[29/318] Compiling C object src/scp/libscp.a.p/init.c.o
+FAILED: src/scp/libscp.a.p/init.c.o 
+cc -Isrc/scp/libscp.a.p -Isrc/scp -I../src/scp -Ilib/crypt -I../lib/crypt -Ilib -I../lib -Ilib/proto -I../lib/proto -Ilib/core -I../lib/core -Ilib/sbi -I../lib/sbi -Ilib/app -I../lib/app -Ilib/sbi/openapi -I../lib/sbi/openapi -I/usr/include/p11-kit-1 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu89 -O0 -g -Wextra -Wlogical-op -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4 -fPIC -pthread -MD -MQ src/scp/libscp.a.p/init.c.o -MF src/scp/libscp.a.p/init.c.o.d -o src/scp/libscp.a.p/init.c.o -c ../src/scp/init.c
+In file included from ../src/scp/init.c:20:
+../src/scp/context.h:63:11: error: duplicate member 'lab_uri'
+   63 |     char *lab_uri;
+      |           ^~~~~~~
+../src/scp/context.h:64:11: error: duplicate member 'lab_method'
+   64 |     char *lab_method;
+      |           ^~~~~~~~~~
+[30/318] Compiling C object src/scp/libscp.a.p/scp-sm.c.o
+FAILED: src/scp/libscp.a.p/scp-sm.c.o 
+cc -Isrc/scp/libscp.a.p -Isrc/scp -I../src/scp -Ilib/crypt -I../lib/crypt -Ilib -I../lib -Ilib/proto -I../lib/proto -Ilib/core -I../lib/core -Ilib/sbi -I../lib/sbi -Ilib/app -I../lib/app -Ilib/sbi/openapi -I../lib/sbi/openapi -I/usr/include/p11-kit-1 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu89 -O0 -g -Wextra -Wlogical-op -Werror=pointer-arith -Werror=init-self -Wfloat-equal -Wsuggest-attribute=noreturn -Werror=missing-prototypes -Werror=missing-declarations -Werror=implicit-function-declaration -Werror=return-type -Werror=incompatible-pointer-types -Werror=format=2 -Wstrict-prototypes -Wredundant-decls -Wimplicit-fallthrough=5 -Wendif-labels -Wstrict-aliasing=3 -Wwrite-strings -Werror=overflow -Werror=shift-count-overflow -Werror=shift-overflow=2 -Wdate-time -Wnested-externs -Wunused -Wduplicated-branches -Wmisleading-indentation -Wno-sign-compare -Wno-unused-parameter -ffast-math -fdiagnostics-show-option -fstack-protector -fstack-protector-strong --param=ssp-buffer-size=4 -fPIC -pthread -MD -MQ src/scp/libscp.a.p/scp-sm.c.o -MF src/scp/libscp.a.p/scp-sm.c.o.d -o src/scp/libscp.a.p/scp-sm.c.o -c ../src/scp/scp-sm.c
+In file included from ../src/scp/sbi-path.h:23,
+                 from ../src/scp/scp-sm.c:20:
+../src/scp/context.h:63:11: error: duplicate member 'lab_uri'
+   63 |     char *lab_uri;
+      |           ^~~~~~~
+../src/scp/context.h:64:11: error: duplicate member 'lab_method'
+   64 |     char *lab_method;
+      |           ^~~~~~~~~~
+[31/318] Compiling C object src/sepp/libsepp.a.p/context.c.o
+ninja: build stopped: subcommand failed.

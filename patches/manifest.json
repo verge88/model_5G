@@ -1,0 +1,10 @@
+{
+  "open5gs": {
+    "commit": "157f611a530e292e40ec50f9d23f0ef5d4fcd6a6",
+    "patch_sha256": "7c2f784841d59eb1b36244c8a282ed66b341ce2116d1b1279f9064215a4a7ee6"
+  },
+  "UERANSIM": {
+    "commit": "1d1e154f869260b5e98f6905827b1bd9b8663afc",
+    "patch_sha256": "fbf414e89bf65153bddce9ec20c4af09c3391e2ae1d6814565b46e2b65c7e5d5"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "run": "b0-order123-v2",
+    "complete": true,
+    "smf_counts": [
+      300,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "b0-order231-v2",
+    "complete": true,
+    "smf_counts": [
+      0,
+      300,
+      0
+    ]
+  },
+  {
+    "run": "b0-order312-v2",
+    "complete": true,
+    "smf_counts": [
+      0,
+      0,
+      300
+    ]
+  }
+]

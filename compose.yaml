@@ -1,0 +1,11 @@
+services:
+  database:
+    image: mongo:7.0@sha256:9854f7139445d766a9523571d6f047530c45547460ffcf8259eb2bf4264632ca
+    command: [mongod, --bind_ip, 127.0.0.1]
+  lab:
+    build: .
+    network_mode: service:database
+    cap_add: [NET_ADMIN]
+    depends_on: [database]
+    volumes:
+      - .:/work

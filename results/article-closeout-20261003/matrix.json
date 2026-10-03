@@ -1,0 +1,16 @@
+{
+  "started": 1791021223.382881,
+  "complete": true,
+  "previous_active_seconds": 13900.453134242154,
+  "runs": [
+    {
+      "name": "article-20261001-random-r50-s101-a0-matched",
+      "seconds": 310.0571398999891,
+      "exit_code": 0
+    }
+  ],
+  "reason": "Match the earlier sequential honest counterfactual to the parallel attack configuration; selection independent of outcome.",
+  "finished": 1791021533.4406202,
+  "active_seconds": 14210.510274142143,
+  "stop_reason": "complete"
+}

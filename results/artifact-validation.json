@@ -1,0 +1,21 @@
+{
+  "pdf": "output/pdf/SMF_Load_Veracity.pdf",
+  "sha256": "2a7c1428b166fd6c09b8e97644eb643b024132090d5b44d5ace71cb525c9a71f",
+  "pages": 10,
+  "visually_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visual_review": "passed",
+  "latex_compilation": "unverified: native compiler unavailable",
+  "experiment_budget": "results/budget-summary.json",
+  "source_verification": "results/reproducibility.json"
+}

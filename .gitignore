@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv-analysis/
 venv/
 
-upstream/
 
+/runs
 
 
 # Downloaded source bundles (the working sources live under upstream/)
@@ -16,3 +17,4 @@ upstream/
 # OS metadata
 .DS_Store
 Thumbs.db
+tmp/

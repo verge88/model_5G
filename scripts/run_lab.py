@@ -2,6 +2,7 @@
 import argparse
 import copy
 import json
+import hashlib
 import os
 from pathlib import Path
 import random
@@ -10,10 +11,12 @@ import signal
 import shutil
 import subprocess
 import time
+import traceback
 import urllib.request
 import yaml
 
 ROOT = Path('/work')
+UERANSIM_CONFIG = Path('/build/model5g-ueransim/config')
 PLMN = {'mcc': '999', 'mnc': '70'}
 
 def write_yaml(path, data):
@@ -55,9 +58,9 @@ def configs(out, prefix):
             if nf == 'upf':
                 data[nf]['session'] = [{'subnet':'10.45.0.0/16','gateway':'10.45.0.1'}]
             write_yaml(cfgdir/f'{nf}.yaml', data)
-    gnb = yaml.safe_load((ROOT/'upstream/UERANSIM/config/open5gs-gnb.yaml').read_text())
+    gnb = yaml.safe_load((UERANSIM_CONFIG/'open5gs-gnb.yaml').read_text())
     write_yaml(cfgdir/'gnb.yaml', gnb)
-    ue = yaml.safe_load((ROOT/'upstream/UERANSIM/config/open5gs-ue.yaml').read_text())
+    ue = yaml.safe_load((UERANSIM_CONFIG/'open5gs-ue.yaml').read_text())
     ue['sessions'] = []
     ue['default-nssai'] = [{'sst':1}]
     ue['configured-nssai'] = [{'sst':1}]
@@ -94,11 +97,21 @@ def run(args):
     manifest = vars(args).copy()
     manifest.update(mode='real-open5gs-ueransim', open5gs_commit='157f611a530e292e40ec50f9d23f0ef5d4fcd6a6',
                     started=time.time(), complete=False)
+    manifest['trace_transport'] = 'HTTP headers only; standard heartbeat JSON'
+    manifest['execution_worker'] = os.environ.get('LAB_EXECUTION_WORKER','sequential')
+    manifest['rls_heartbeat_threshold_ms'] = 15000
+    manifest['binary_sha256'] = {nf:hashlib.sha256((Path(prefix)/'bin'/f'open5gs-{nf}d').read_bytes()).hexdigest()
+                               for nf in ['amf','smf','nrf','scp']}
+    manifest['ueransim_sha256'] = {name:hashlib.sha256((Path('/build/model5g-ueransim/build')/name).read_bytes()).hexdigest()
+                                  for name in ['nr-gnb','nr-ue','nr-cli']}
+    manifest['sbi_library_sha256'] = {str(path.relative_to(prefix)):hashlib.sha256(path.read_bytes()).hexdigest()
+                                     for path in Path(prefix).glob('lib/**/libogssbi.so*') if not path.is_symlink()}
     (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
     processes, logs = [], []
     env = os.environ.copy()
     env['LD_LIBRARY_PATH'] = f'{prefix}/lib/x86_64-linux-gnu:{prefix}/lib'
     env['LAB_TRACE'] = '1'
+    env['LAB_RLS_HEARTBEAT_MS'] = '15000'
     if not args.baseline: env.update(LAB_SELECTOR=args.policy,LAB_SEED=str(args.seed))
     def start(name, cmd, extra=None):
         log = (out/f'{name}.stdout').open('w'); logs.append(log)
@@ -147,15 +160,28 @@ def run(args):
             start(name,[f'{prefix}/bin/open5gs-{name}d','-c',str(cfg/f'{name}.yaml')])
             time.sleep(.25)
         for i in map(int,args.order.split(',')):
+            extra = {} if args.baseline else {'LAB_CAPACITY_ABS':str(args.capacity),
+                'LAB_ALPHA':str(args.alpha if i == 3 else 0)}
+            if not args.baseline and i==3:
+                if args.capacity3 is not None:
+                    extra['LAB_CAPACITY_ABS'] = str(args.capacity3)
+                extra['LAB_REL_CAPACITY'] = str(args.reported_capacity)
+                extra['LAB_ATTACK_MODE'] = args.attack_mode
+                if args.residual_budget is not None: extra['LAB_RESIDUAL_BUDGET']=str(args.residual_budget)
             start(f'smf{i}',[f'{prefix}/bin/open5gs-smfd','-c',str(cfg/f'smf{i}.yaml')],
-                  {} if args.baseline else {'LAB_CAPACITY_ABS':str(args.capacity),
-                      'LAB_ALPHA':str(args.alpha if i == 3 else 0)})
+                  extra)
             time.sleep(.6)
         time.sleep(3); check()
         start('gnb',['/build/model5g-ueransim/build/nr-gnb','-c',str(cfg/'gnb.yaml')])
         time.sleep(2); check()
         start('ue',['/build/model5g-ueransim/build/nr-ue','-c',str(cfg/'ue.yaml'),'-n',str(args.ues), '--no-routing-config'])
-        time.sleep(max(8,args.ues*.08)); check()
+        deadline = time.monotonic()+90
+        while time.monotonic()<deadline:
+            check()
+            registered=(out/'ue.stdout').read_text(errors='replace').count('Initial Registration is successful')
+            if registered == args.ues: break
+            time.sleep(.25)
+        else: raise RuntimeError(f'Only {registered}/{args.ues} UEs registered')
         with (out/'workload.jsonl').open('w') as events:
             active = list(range(1,args.active+1))
             idle = list(range(args.active+1,args.ues+1))
@@ -165,6 +191,8 @@ def run(args):
             time.sleep(3); check()
             rng = random.Random(args.seed)
             for cycle in range(args.cycles):
+                if cycle == args.warmup:
+                    manifest['measurement_start_us']=time.monotonic_ns()/1000
                 old = rng.choice(active); new = rng.choice(idle)
                 cli(old,'ps-release-all')
                 time.sleep(args.interval)
@@ -172,8 +200,10 @@ def run(args):
                 active.remove(old); idle.remove(new); active.append(new); idle.append(old)
                 time.sleep(args.interval)
                 if cycle % 20 == 0: check()
+            manifest['measurement_end_us']=time.monotonic_ns()/1000
             for i in active: cli(i,'ps-list')
         time.sleep(3)
+        manifest['observation_end_us']=time.monotonic_ns()/1000
         for i, address in enumerate(['127.0.0.4','127.0.0.32','127.0.0.33'],1):
             (out/f'smf{i}-metrics.txt').write_bytes(urllib.request.urlopen(f'http://{address}:9090/metrics').read())
         ue_log = (out/'ue.stdout').read_text(errors='replace')
@@ -189,6 +219,10 @@ def run(args):
             if selected != expected:
                 raise RuntimeError(f'AMF performed {selected} experimental selections, expected {expected}')
         manifest['complete'] = True
+    except BaseException as error:
+        manifest['error'] = str(error)
+        (out/'runner-error.txt').write_text(traceback.format_exc())
+        raise
     finally:
         for _,p in reversed(processes):
             if p.poll() is None: os.killpg(p.pid,signal.SIGTERM)
@@ -199,22 +233,47 @@ def run(args):
         subprocess.run(['ip','link','delete','ogstun'],capture_output=True)
         manifest['finished'] = time.time()
         (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
-        shutil.copytree(out,destination)
+        # Publish only a fully copied run; concurrent analysis must never see
+        # manifest.json while the other files are still being copied.
+        staging=destination.with_name('.'+destination.name+'.copying')
+        shutil.copytree(out,staging)
+        staging.rename(destination)
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--out',required=True)
+    p.add_argument('--deadline',type=float)
     p.add_argument('--baseline',action='store_true')
     p.add_argument('--order',default='1,2,3')
     p.add_argument('--policy',choices=['swrr','random'],default='swrr')
     p.add_argument('--seed',type=int,default=1)
     p.add_argument('--alpha',type=float,default=0)
+    p.add_argument('--reported-capacity',type=int,default=100)
+    p.add_argument('--attack-mode',choices=['constant','ramp','onoff'],default='constant')
+    p.add_argument('--residual-budget',type=float)
+    p.add_argument('--warmup',type=int,default=0)
     p.add_argument('--capacity',type=int,default=100)
+    p.add_argument('--capacity3',type=int,help='Trusted operational capacity for an honest heterogeneous control')
     p.add_argument('--ues',type=int,default=12)
     p.add_argument('--active',type=int,default=3)
     p.add_argument('--cycles',type=int,default=10)
     p.add_argument('--interval',type=float,default=.3)
     args = p.parse_args()
+    # Also enforce the budget when resuming a matrix process started before
+    # explicit --deadline forwarding was introduced.
+    if args.deadline is None:
+        for status_path in (ROOT/'results').glob('*/matrix.json'):
+            status = json.loads(status_path.read_text())
+            if Path(args.out).name.startswith(status_path.parent.name+'-'):
+                args.deadline = status['deadline']-30
+                break
+    if args.deadline:
+        def expired(signum, frame):
+            raise TimeoutError('Approved experiment time budget expired')
+        signal.signal(signal.SIGALRM,expired)
+        signal.alarm(max(1,int(args.deadline-time.time())))
     if not (0 < args.active < args.ues and 0 <= args.alpha <= 1 and args.capacity > 0):
         p.error('require 0 < active < ues, 0 <= alpha <= 1, capacity > 0')
+    if args.capacity3 is not None and args.capacity3 <= 0:
+        p.error('capacity3 must be positive')
     run(args)

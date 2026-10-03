@@ -1,0 +1,562 @@
+diff --git a/lib/sbi/client.c b/lib/sbi/client.c
+index 30f630f..193115d 100644
+--- a/lib/sbi/client.c
++++ b/lib/sbi/client.c
+@@ -51,6 +51,7 @@ typedef struct connection_s {
+ 
+     char *location;
+     char *producer_id;
++    char *lab_versions;
+ 
+     ogs_timer_t *timer;
+     CURL *easy;
+@@ -612,6 +613,8 @@ static void connection_free(connection_t *conn)
+         ogs_free(conn->location);
+     if (conn->producer_id)
+         ogs_free(conn->producer_id);
++    if (conn->lab_versions)
++        ogs_free(conn->lab_versions);
+ 
+     if (conn->memory)
+         ogs_free(conn->memory);
+@@ -737,6 +740,9 @@ static void check_multi_info(ogs_sbi_client_t *client)
+                 if (conn->producer_id)
+                     ogs_sbi_header_set(response->http.headers,
+                             OGS_SBI_CUSTOM_PRODUCER_ID, conn->producer_id);
++                if (conn->lab_versions)
++                    ogs_sbi_header_set(response->http.headers,
++                            "x-lab-load-versions", conn->lab_versions);
+ 
+                 if (conn->memory_overflow == true)
+                     level = OGS_LOG_ERROR;
+@@ -893,6 +899,23 @@ static size_t header_cb(void *ptr, size_t size, size_t nmemb, void *data)
+     conn = data;
+     ogs_assert(conn);
+ 
++    if (getenv("LAB_TRACE")) {
++        const char *prefix = "x-lab-load-versions:";
++        size_t prefix_len = strlen(prefix), length = size * nmemb;
++        if (length > prefix_len && length < 4096 &&
++                ogs_strncasecmp(ptr, prefix, prefix_len) == 0) {
++            const char *start = (const char *)ptr + prefix_len;
++            const char *end = (const char *)ptr + length;
++            while (start < end && (*start == ' ' || *start == '\t')) start++;
++            while (end > start && (end[-1] == '\r' || end[-1] == '\n')) end--;
++            if (conn->lab_versions) ogs_free(conn->lab_versions);
++            conn->lab_versions = ogs_malloc((size_t)(end - start) + 1);
++            ogs_assert(conn->lab_versions);
++            memcpy(conn->lab_versions, start, (size_t)(end - start));
++            conn->lab_versions[end - start] = 0;
++        }
++    }
++
+     if (ogs_strncasecmp(ptr, OGS_SBI_LOCATION, strlen(OGS_SBI_LOCATION)) == 0) {
+     /* ptr : "Location: http://xxx/xxx/xxx\r\n"
+        We need to truncate "Location" + ": " + "\r\n" in 'ptr' string */
+diff --git a/lib/sbi/context.h b/lib/sbi/context.h
+index 5a96dbe..fdb61b5 100644
+--- a/lib/sbi/context.h
++++ b/lib/sbi/context.h
+@@ -195,6 +195,8 @@ typedef struct ogs_sbi_nf_instance_s {
+     int priority;
+     int capacity;
+     int load;
++    uint64_t lab_load_version;
++    uint64_t lab_pending_version;
+ 
+     ogs_list_t nf_service_list;
+     ogs_list_t nf_info_list;
+diff --git a/lib/sbi/nnrf-path.c b/lib/sbi/nnrf-path.c
+index b0c544d..8832087 100644
+--- a/lib/sbi/nnrf-path.c
++++ b/lib/sbi/nnrf-path.c
+@@ -55,6 +55,18 @@ bool ogs_nnrf_nfm_send_nf_update(ogs_sbi_nf_instance_t *nf_instance)
+         return false;
+     }
+ 
++    if (getenv("LAB_TRACE") &&
++            ogs_sbi_self()->nf_instance->nf_type == OpenAPI_nf_type_SMF) {
++        char version[32];
++        ogs_snprintf(version, sizeof(version), "%llu",
++            (unsigned long long)ogs_sbi_self()->nf_instance->lab_load_version);
++        ogs_sbi_header_set(request->http.headers, "x-lab-load-version", version);
++        ogs_info("LAB_SEND t=%lld nf=%s version=%s load=%d",
++            (long long)ogs_get_monotonic_time(),
++            ogs_sbi_self()->nf_instance->id, version,
++            ogs_sbi_self()->nf_instance->load);
++    }
++
+     rc = ogs_sbi_send_request_to_nrf(
+             OpenAPI_service_name_nnrf_nfm, NULL,
+             ogs_sbi_client_handler, request, nf_instance);
+diff --git a/src/amf/gmm-handler.c b/src/amf/gmm-handler.c
+index fa01e53..ff74c58 100644
+--- a/src/amf/gmm-handler.c
++++ b/src/amf/gmm-handler.c
+@@ -1498,7 +1498,7 @@ int gmm_handle_ul_nas_transport(ran_ue_t *ran_ue, amf_ue_t *amf_ue,
+                 v_smf_instance = OGS_SBI_GET_NF_INSTANCE(
+                         sess->sbi.service_name_array[service_name]);
+                 if (!v_smf_instance) {
+-                    v_smf_instance =
++                    v_smf_instance = getenv("LAB_SELECTOR") ? NULL :
+                         ogs_sbi_nf_instance_find_by_discovery_param(
+                                 target_nf_type,
+                                 requester_nf_type,
+diff --git a/src/amf/nnssf-handler.c b/src/amf/nnssf-handler.c
+index a178aee..ef65cdd 100644
+--- a/src/amf/nnssf-handler.c
++++ b/src/amf/nnssf-handler.c
+@@ -151,7 +151,7 @@ int amf_nnssf_nsselection_handle_get(
+     if (state == AMF_SMF_SELECTION_IN_VPLMN_IN_NON_ROAMING_OR_LBO)
+         scp_client = NF_INSTANCE_CLIENT(ogs_sbi_self()->scp_instance);
+ 
+-    if (scp_client) {
++    if (scp_client && !getenv("LAB_SELECTOR")) {
+         /* SCP can only be used with Non-Roaming or LBO. */
+         amf_nsmf_pdusession_sm_context_param_t param;
+ 
+diff --git a/src/amf/sbi-path.c b/src/amf/sbi-path.c
+index 68178f3..d9d1b6a 100644
+--- a/src/amf/sbi-path.c
++++ b/src/amf/sbi-path.c
+@@ -18,6 +18,7 @@
+  */
+ 
+ #include "sbi-path.h"
++#include "lab-selector.h"
+ #include "nas-path.h"
+ #include "ngap-path.h"
+ #include "nnrf-handler.h"
+@@ -390,8 +391,12 @@ static int client_discover_cb(
+     }
+ 
+     ogs_nnrf_disc_handle_nf_discover_search_result(message.SearchResult);
++    if (getenv("LAB_TRACE")) lab_apply_versions(message.SearchResult,
++        ogs_sbi_header_get(response->http.headers, "x-lab-load-versions"));
+ 
+-    nf_instance = ogs_sbi_nf_instance_find_by_discovery_param(
++    nf_instance = (getenv("LAB_SELECTOR") && target_nf_type == OpenAPI_nf_type_SMF)
++        ? lab_select_smf(message.SearchResult, requester_nf_type, discovery_option)
++        : ogs_sbi_nf_instance_find_by_discovery_param(
+                     target_nf_type, requester_nf_type, discovery_option);
+     if (!nf_instance) {
+         ogs_error("[%s:%d] (NF discover) No [%s]",
+diff --git a/src/nrf/nnrf-handler.c b/src/nrf/nnrf-handler.c
+index b29ebd3..be4d672 100644
+--- a/src/nrf/nnrf-handler.c
++++ b/src/nrf/nnrf-handler.c
+@@ -345,10 +345,37 @@ bool nrf_nnrf_handle_nf_update(ogs_sbi_nf_instance_t *nf_instance,
+                 continue;
+             }
+ 
++            if (!strcmp(patch_item->path, OGS_SBI_PATCH_PATH_LOAD)) {
++                cJSON *v = patch_item->value ? patch_item->value->json : NULL;
++                if (!cJSON_IsNumber(v) || v->valuedouble < 0 ||
++                        v->valuedouble > 100 ||
++                        v->valuedouble != (int)v->valuedouble) {
++                    ogs_assert(ogs_sbi_server_send_error(stream,
++                        OGS_SBI_HTTP_STATUS_BAD_REQUEST, recvmsg,
++                        "load must be an integer from 0 to 100", NULL, NULL));
++                    return false;
++                }
++            }
++            if (!strcmp(patch_item->path, OGS_SBI_PATCH_PATH_LOAD)) {
++                cJSON *v = patch_item->value ? patch_item->value->json : NULL;
++                if (!cJSON_IsNumber(v) || v->valuedouble < 0 ||
++                        v->valuedouble > 100 ||
++                        v->valuedouble != (int)v->valuedouble) {
++                    ogs_assert(ogs_sbi_server_send_error(stream,
++                        OGS_SBI_HTTP_STATUS_BAD_REQUEST, recvmsg,
++                        "load must be an integer from 0 to 100", NULL, NULL));
++                    return false;
++                }
++            }
+             SWITCH(patch_item->path)
+             CASE(OGS_SBI_PATCH_PATH_NF_STATUS)
+                 break;
+             CASE(OGS_SBI_PATCH_PATH_LOAD)
++                nf_instance->load = patch_item->value->json->valueint;
++                nf_instance->lab_load_version = nf_instance->lab_pending_version;
++                ogs_info("LAB_NRF t=%lld nf=%s version=%llu stored=%d",
++                    (long long)ogs_get_monotonic_time(), nf_instance->id,
++                    (unsigned long long)nf_instance->lab_load_version, nf_instance->load);
+                 break;
+             CASE(OGS_SBI_PATCH_PATH_PLMN_LIST)
+                 /* Ensure the value is not null and is a valid JSON array */
+@@ -1262,6 +1289,21 @@ bool nrf_nnrf_handle_nf_discover(
+ 
+         response = ogs_sbi_build_response(&sendmsg, OGS_SBI_HTTP_STATUS_OK);
+         ogs_assert(response);
++        if (getenv("LAB_TRACE")) {
++            char *versions = ogs_strdup("");
++            OpenAPI_lnode_t *it;
++            OpenAPI_list_for_each(SearchResult->nf_instances, it) {
++                OpenAPI_nf_profile_t *profile = it->data;
++                ogs_sbi_nf_instance_t *nf = ogs_sbi_nf_instance_find(profile->nf_instance_id);
++                if (nf) {
++                    char *next = ogs_msprintf("%s%s%s=%llu", versions,
++                        *versions ? "," : "", nf->id, (unsigned long long)nf->lab_load_version);
++                    ogs_free(versions); versions = next;
++                }
++            }
++            ogs_sbi_header_set(response->http.headers, "x-lab-load-versions", versions);
++            ogs_free(versions);
++        }
+         ogs_assert(true == ogs_sbi_server_send_response(stream, response));
+ 
+         goto cleanup;
+@@ -1459,6 +1501,21 @@ bool nrf_nnrf_handle_nf_discover(
+ 
+         response = ogs_sbi_build_response(&sendmsg, OGS_SBI_HTTP_STATUS_OK);
+         ogs_assert(response);
++        if (getenv("LAB_TRACE")) {
++            char *versions = ogs_strdup("");
++            OpenAPI_lnode_t *it;
++            OpenAPI_list_for_each(SearchResult->nf_instances, it) {
++                OpenAPI_nf_profile_t *profile = it->data;
++                ogs_sbi_nf_instance_t *nf = ogs_sbi_nf_instance_find(profile->nf_instance_id);
++                if (nf) {
++                    char *next = ogs_msprintf("%s%s%s=%llu", versions,
++                        *versions ? "," : "", nf->id, (unsigned long long)nf->lab_load_version);
++                    ogs_free(versions); versions = next;
++                }
++            }
++            ogs_sbi_header_set(response->http.headers, "x-lab-load-versions", versions);
++            ogs_free(versions);
++        }
+         ogs_assert(true == ogs_sbi_server_send_response(stream, response));
+ 
+         goto cleanup;
+diff --git a/src/nrf/nrf-sm.c b/src/nrf/nrf-sm.c
+index 3cefec9..ea5a413 100644
+--- a/src/nrf/nrf-sm.c
++++ b/src/nrf/nrf-sm.c
+@@ -184,6 +184,10 @@ void nrf_state_operational(ogs_fsm_t *s, nrf_event_t *e)
+                     }
+ 
+                     if (nf_instance) {
++                        const char *v = ogs_sbi_header_get(request->http.headers, "x-lab-load-version");
++                        nf_instance->lab_pending_version = 0;
++                        if (getenv("LAB_TRACE") && v && strlen(v) < 20 && strspn(v, "0123456789") == strlen(v))
++                            nf_instance->lab_pending_version = strtoull(v, NULL, 10);
+                         e->nf_instance = nf_instance;
+                         ogs_assert(OGS_FSM_STATE(&nf_instance->sm));
+ 
+diff --git a/src/scp/context.c b/src/scp/context.c
+index fd0aacc..413b078 100644
+--- a/src/scp/context.c
++++ b/src/scp/context.c
+@@ -343,6 +343,10 @@ void scp_assoc_remove(scp_assoc_t *assoc)
+     if (assoc->target_apiroot)
+         ogs_free(assoc->target_apiroot);
+ 
++    if (assoc->lab_uri) ogs_free(assoc->lab_uri);
++    if (assoc->lab_method) ogs_free(assoc->lab_method);
++    if (assoc->lab_callback) ogs_free(assoc->lab_callback);
++    if (assoc->lab_target) ogs_free(assoc->lab_target);
+     ogs_pool_free(&scp_assoc_pool, assoc);
+ }
+ 
+diff --git a/src/scp/context.h b/src/scp/context.h
+index ade6f77..6f7d1d6 100644
+--- a/src/scp/context.h
++++ b/src/scp/context.h
+@@ -58,6 +58,11 @@ typedef struct scp_assoc_s {
+     ogs_sbi_nf_instance_t *nf_service_producer;
+ 
+     char *target_apiroot;
++    char *lab_uri;
++    char *lab_method;
++    char *lab_callback;
++    char *lab_target;
++    bool lab_released;
+ } scp_assoc_t;
+ 
+ void scp_context_init(void);
+diff --git a/src/scp/sbi-path.c b/src/scp/sbi-path.c
+index 87a65cb..ec16991 100644
+--- a/src/scp/sbi-path.c
++++ b/src/scp/sbi-path.c
+@@ -161,6 +161,27 @@ static int request_handler(ogs_sbi_request_t *request, void *data)
+         return OGS_ERROR;
+     }
+ 
++    assoc->lab_uri = ogs_strdup(request->h.uri);
++    assoc->lab_method = ogs_strdup(request->h.method);
++    if (getenv("LAB_TRACE") &&
++            (strstr(request->h.uri, "/sm-contexts") ||
++             strstr(request->h.uri, "/sm-context-status"))) {
++        ogs_sbi_message_t lab_message;
++        memset(&lab_message, 0, sizeof(lab_message));
++        if (ogs_sbi_parse_request(&lab_message, request) == OGS_OK) {
++            if (lab_message.SmContextCreateData &&
++                    lab_message.SmContextCreateData->sm_context_status_uri)
++                assoc->lab_callback = ogs_strdup(
++                    lab_message.SmContextCreateData->sm_context_status_uri);
++            if (lab_message.SmContextStatusNotification &&
++                    lab_message.SmContextStatusNotification->status_info)
++                assoc->lab_released =
++                    lab_message.SmContextStatusNotification->status_info->resource_status
++                        == OpenAPI_resource_status_RELEASED;
++        }
++        ogs_sbi_message_free(&lab_message);
++    }
++
+     /* Next-SCP client */
+     if (ogs_sbi_self()->client_delegated_config.scp.next ==
+             OGS_SBI_CLIENT_DELEGATED_AUTO) {
+@@ -427,6 +448,7 @@ static int request_handler(ogs_sbi_request_t *request, void *data)
+     /************************************
+      * Send REQUEST message to the CLIENT
+      ************************************/
++    if (headers.target_apiroot) assoc->lab_target = ogs_strdup(headers.target_apiroot);
+     if (headers.target_apiroot || client) {
+ 
+         /**************************
+@@ -757,6 +779,16 @@ static int response_handler(
+ 
+     ogs_assert(response);
+ 
++    if (getenv("LAB_TRACE")) {
++        const char *location = ogs_sbi_header_get(response->http.headers, "Location");
++        if (!location) location = ogs_sbi_header_get(response->http.headers, "location");
++        ogs_info("LAB_SCP t=%lld method=%s uri=%s status=%d location=%s target=%s callback=%s released=%d",
++            (long long)ogs_get_monotonic_time(), assoc->lab_method,
++            assoc->lab_uri, response->status, location ? location : "-",
++            assoc->lab_target ? assoc->lab_target : "-",
++            assoc->lab_callback ? assoc->lab_callback : "-", assoc->lab_released);
++    }
++
+     if (assoc->nf_service_producer) {
+         if (assoc->nf_service_producer->id)
+             ogs_sbi_header_set(response->http.headers,
+diff --git a/src/smf/context.c b/src/smf/context.c
+index 96516af..a242abc 100644
+--- a/src/smf/context.c
++++ b/src/smf/context.c
+@@ -18,6 +18,8 @@
+  */
+ 
+ #include "context.h"
++
++static int lab_active_contexts;
+ #include "gtp-path.h"
+ #include "pfcp-path.h"
+ 
+@@ -2023,6 +2025,11 @@ void smf_sess_set_paging_n1n2message_location(
+ 
+ void smf_sess_remove(smf_sess_t *sess)
+ {
++    if (sess->lab_context_created) {
++        /* Count once even if removal follows a failure or timeout. */
++        lab_active_contexts--;
++        sess->lab_context_created = false;
++    }
+     int i;
+     smf_ue_t *smf_ue = NULL;
+     smf_event_t e;
+@@ -3620,8 +3627,45 @@ static void stats_remove_smf_session(smf_sess_t *sess)
+     ogs_info("[Removed] Number of SMF-Sessions is now %d", num_of_smf_sess);
+ }
+ 
++void smf_lab_context_created(smf_sess_t *sess)
++{
++    if (!sess->lab_context_created) {
++        sess->lab_context_created = true;
++        lab_active_contexts++;
++    }
++}
++
+ int smf_instance_get_load(void)
+ {
++    const char *cap = getenv("LAB_CAPACITY_ABS");
++    const char *alpha_s = getenv("LAB_ALPHA");
++    if (cap) {
++        double c = atof(cap), alpha = alpha_s ? atof(alpha_s) : 0.0;
++        double reference;
++        int reported;
++        ogs_assert(c > 0 && alpha >= 0 && alpha <= 1);
++        reference = ogs_min(100.0, 100.0 * lab_active_contexts / c);
++        reported = (int)(reference * (1.0 - alpha));
++        if (getenv("LAB_RESIDUAL_BUDGET")) {
++            double budget = atof(getenv("LAB_RESIDUAL_BUDGET"));
++            ogs_assert(budget >= 0 && budget <= 100);
++            reported = (int)(reference - ogs_min(alpha * reference, budget));
++        }
++        if (getenv("LAB_ATTACK_MODE")) {
++            const char *mode = getenv("LAB_ATTACK_MODE");
++            double version = (double)ogs_sbi_self()->nf_instance->lab_load_version;
++            if (!strcmp(mode, "ramp"))
++                reported = (int)(reference * (1.0 - alpha * ogs_min(1.0, version / 120.0)));
++            else if (!strcmp(mode, "onoff"))
++                reported = (int)(reference * (1.0 - alpha *
++                    ((ogs_sbi_self()->nf_instance->lab_load_version / 30) % 2)));
++        }
++        ogs_info("LAB_LOAD t=%lld nf=%s version=%llu active=%d reference=%.6f reported=%d",
++            (long long)ogs_get_monotonic_time(), ogs_sbi_self()->nf_instance->id,
++            (unsigned long long)ogs_sbi_self()->nf_instance->lab_load_version,
++            lab_active_contexts, reference, reported);
++        return reported;
++    }
+     return (((ogs_pool_size(&smf_sess_pool) -
+             ogs_pool_avail(&smf_sess_pool)) * 100) /
+             ogs_pool_size(&smf_sess_pool));
+diff --git a/src/smf/context.h b/src/smf/context.h
+index 54736a6..0b26053 100644
+--- a/src/smf/context.h
++++ b/src/smf/context.h
+@@ -279,6 +279,7 @@ typedef struct smf_bearer_s {
+ 
+ #define SMF_SESS(pfcp_sess) ogs_container_of(pfcp_sess, smf_sess_t, pfcp)
+ typedef struct smf_sess_s {
++    bool lab_context_created;
+     ogs_sbi_object_t sbi;
+     ogs_pool_id_t id;
+ 
+@@ -825,6 +826,7 @@ int smf_maximum_integrity_protected_data_rate_uplink_value2enum(
+ int smf_maximum_integrity_protected_data_rate_downlink_value2enum(
+         const char *value);
+ int smf_instance_get_load(void);
++void smf_lab_context_created(smf_sess_t *sess);
+ 
+ #ifdef __cplusplus
+ }
+diff --git a/src/smf/sbi-path.c b/src/smf/sbi-path.c
+index 0901ca9..8033a65 100644
+--- a/src/smf/sbi-path.c
++++ b/src/smf/sbi-path.c
+@@ -42,6 +42,11 @@ int smf_sbi_open(void)
+ 
+     /* Build NF instance information. It will be transmitted to NRF. */
+     ogs_sbi_nf_instance_build_default(nf_instance);
++    if (getenv("LAB_REL_CAPACITY")) {
++        int capacity = atoi(getenv("LAB_REL_CAPACITY"));
++        ogs_assert(capacity > 0 && capacity <= 65535);
++        nf_instance->capacity = capacity;
++    }
+     ogs_sbi_nf_instance_add_allowed_nf_type(nf_instance, OpenAPI_nf_type_SCP);
+     ogs_sbi_nf_instance_add_allowed_nf_type(nf_instance, OpenAPI_nf_type_AMF);
+     ogs_sbi_nf_instance_add_allowed_nf_type(nf_instance, OpenAPI_nf_type_SMF);
+@@ -354,6 +359,7 @@ void smf_sbi_send_sm_context_created_data(
+ 
+     smf_metrics_inst_by_slice_add(&sess->serving_plmn_id, &sess->s_nssai,
+             SMF_METR_CTR_SM_PDUSESSIONCREATIONSUCC, 1);
++    smf_lab_context_created(sess);
+ 
+     ogs_free(sendmsg.http.location);
+ }
+diff --git a/src/smf/smf-sm.c b/src/smf/smf-sm.c
+index e10af0e..6a06683 100644
+--- a/src/smf/smf-sm.c
++++ b/src/smf/smf-sm.c
+@@ -1281,6 +1281,8 @@ void smf_state_operational(ogs_fsm_t *s, smf_event_t *e)
+             ogs_assert(nf_instance);
+             ogs_assert(OGS_FSM_STATE(&nf_instance->sm));
+ 
++            if (getenv("LAB_TRACE") && e->h.timer_id == OGS_TIMER_NF_INSTANCE_HEARTBEAT_INTERVAL)
++                ogs_sbi_self()->nf_instance->lab_load_version++;
+             ogs_sbi_self()->nf_instance->load = smf_instance_get_load();
+ 
+             ogs_fsm_dispatch(&nf_instance->sm, e);
+diff --git a/src/amf/lab-selector.h b/src/amf/lab-selector.h
+new file mode 100644
+--- /dev/null
++++ b/src/amf/lab-selector.h
+@@ -0,0 +1,97 @@
++/* Laboratory policy for the homogeneous non-roaming experiment.
++ * This file is part of the AGPL-3.0-or-later Open5GS derivative. */
++#ifndef LAB_SELECTOR_H
++#define LAB_SELECTOR_H
++static void lab_apply_versions(OpenAPI_search_result_t *result, const char *header)
++{
++    OpenAPI_lnode_t *it;
++    char *copy, *save = NULL, *token;
++    OpenAPI_list_for_each(result->nf_instances, it) {
++        OpenAPI_nf_profile_t *p = it->data;
++        ogs_sbi_nf_instance_t *nf = ogs_sbi_nf_instance_find(p->nf_instance_id);
++        if (nf) nf->lab_load_version = 0;
++    }
++    if (!header) return;
++    copy = ogs_strdup(header);
++    for (token = strtok_r(copy, ",", &save); token; token = strtok_r(NULL, ",", &save)) {
++        char *eq = strchr(token, '=');
++        if (eq) {
++            ogs_sbi_nf_instance_t *nf;
++            *eq++ = 0;
++            nf = ogs_sbi_nf_instance_find(token);
++            if (nf && strlen(eq) < 20 && strspn(eq, "0123456789") == strlen(eq))
++                nf->lab_load_version = strtoull(eq, NULL, 10);
++        }
++    }
++    ogs_free(copy);
++}
++
++static ogs_sbi_nf_instance_t *lab_select_smf(
++        OpenAPI_search_result_t *result, OpenAPI_nf_type_e requester,
++        ogs_sbi_discovery_option_t *option)
++{
++    static struct { char id[64]; double score; } state[64];
++    static uint32_t rng;
++    ogs_sbi_nf_instance_t *nodes[64], *nf;
++    double weights[64], total = 0, best = -1e100;
++    int slots[64], n = 0, i, j, pick = 0, priority = 65536;
++    OpenAPI_lnode_t *entry;
++    bool random_policy = !strcmp(getenv("LAB_SELECTOR"), "random");
++    if (!rng) {
++        const char *seed = getenv("LAB_SEED");
++        rng = seed ? (uint32_t)strtoul(seed, NULL, 10) : 1;
++        if (!rng) rng = 1;
++    }
++    OpenAPI_list_for_each(result->nf_instances, entry) {
++        OpenAPI_nf_profile_t *profile = entry->data;
++        nf = ogs_sbi_nf_instance_find(profile->nf_instance_id);
++        if (!nf || !ogs_sbi_discovery_param_is_matched(
++                nf, OpenAPI_nf_type_SMF, requester, option)) continue;
++        if (nf->priority < priority) { priority = nf->priority; n = 0; }
++        if (nf->priority != priority) continue;
++        if (n == 64) return NULL; /* fail closed, never silently truncate */
++        nodes[n++] = nf;
++        ogs_info("LAB_CANDIDATE t=%lld nf=%s version=%llu load=%d capacity=%d",
++            (long long)ogs_get_monotonic_time(), nf->id,
++            (unsigned long long)nf->lab_load_version, nf->load, nf->capacity);
++    }
++    if (!n) return NULL;
++    /* Stable UUID ordering makes discovery response order irrelevant. */
++    for (i = 0; i < n; i++) for (j = i+1; j < n; j++)
++        if (strcmp(nodes[i]->id, nodes[j]->id) > 0) {
++            nf = nodes[i]; nodes[i] = nodes[j]; nodes[j] = nf;
++        }
++    for (i = 0; i < n; i++) {
++        weights[i] = nodes[i]->capacity * (100.0 - nodes[i]->load);
++        if (weights[i] < 0) weights[i] = 0;
++        total += weights[i];
++    }
++    /* Defined overload fallback; separately label these samples in analysis. */
++    if (total <= 0) for (i = 0; i < n; i++) {
++        weights[i] = nodes[i]->capacity; total += weights[i];
++    }
++    if (total <= 0) for (i = 0; i < n; i++) { weights[i] = 1; total++; }
++    if (random_policy) {
++        double draw;
++        rng ^= rng << 13; rng ^= rng >> 17; rng ^= rng << 5;
++        draw = ((double)rng / 4294967296.0) * total;
++        for (i = 0; i < n; i++) { draw -= weights[i]; if (draw < 0) { pick = i; break; } }
++    } else {
++        for (i = 0; i < n; i++) {
++            for (j = 0; j < 64; j++)
++                if (!state[j].id[0] || !strcmp(state[j].id, nodes[i]->id)) break;
++            if (j == 64) return NULL;
++            if (!state[j].id[0]) ogs_cpystrn(state[j].id, nodes[i]->id, sizeof(state[j].id));
++            slots[i] = j;
++            state[j].score += weights[i] / total;
++            if (state[j].score > best) { best = state[j].score; pick = i; }
++        }
++        state[slots[pick]].score -= 1;
++    }
++    ogs_info("LAB_SELECT t=%lld nf=%s version=%llu load=%d capacity=%d policy=%s",
++        (long long)ogs_get_monotonic_time(), nodes[pick]->id,
++        (unsigned long long)nodes[pick]->lab_load_version,
++        nodes[pick]->load, nodes[pick]->capacity, getenv("LAB_SELECTOR"));
++    return nodes[pick];
++}
++#endif

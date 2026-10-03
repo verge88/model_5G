@@ -1,0 +1,7 @@
+policy,rho,independent_pairs,delta_pp,bootstrap_low,bootstrap_high,inference,theory_delta_pp
+random,0.2,2,1.9999999999999991,,,exploratory; very few clusters,2.2934094777821823
+random,0.5,3,6.25,6.0,6.5,exploratory; very few clusters,5.9636115266757885
+random,0.7,3,8.500000000000002,7.750000000000002,9.250000000000004,exploratory; very few clusters,8.517572950625102
+swrr,0.2,2,1.874999999999996,,,exploratory; very few clusters,2.2934094777821823
+swrr,0.5,3,7.250000000000001,5.000000000000004,8.749999999999996,exploratory; very few clusters,5.9636115266757885
+swrr,0.7,3,7.583333333333331,6.0,8.499999999999996,exploratory; very few clusters,8.517572950625102

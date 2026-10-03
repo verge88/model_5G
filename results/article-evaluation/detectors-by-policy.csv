@@ -1,0 +1,13 @@
+policy,model,benign_windows,attack_windows,empirical_fpr,empirical_pd,calibration_policy
+swrr,nrf_only,160,144,0.10625,0.8958333333333334,swrr
+swrr,scp_only,160,144,0.01875,0.4236111111111111,swrr
+swrr,residual,160,144,0.05,1,swrr
+swrr,residual_quantized,160,144,0,1,swrr
+swrr,nrf_scp,160,144,0.05,1,swrr
+swrr,full_peer,160,144,0.05,1,swrr
+random,nrf_only,144,128,0.3333333333333333,0.84375,swrr
+random,scp_only,144,128,0.5208333333333334,0.578125,swrr
+random,residual,144,128,0,1,swrr
+random,residual_quantized,144,128,0,1,swrr
+random,nrf_scp,144,128,0,1,swrr
+random,full_peer,144,128,0,1,swrr

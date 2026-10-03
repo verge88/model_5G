@@ -1,0 +1,610 @@
+{
+  "started": 1790858662.6539156,
+  "deadline": 1790870182.6538641,
+  "complete": false,
+  "runs": [
+    {
+      "tag": "cal-r20",
+      "rho": 0.2,
+      "seed": 902,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200,
+      "name": "article-20261001-cal-r20",
+      "seconds": 160.87150502204895,
+      "exit_code": 0
+    },
+    {
+      "tag": "cal-r50",
+      "rho": 0.5,
+      "seed": 905,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200,
+      "name": "article-20261001-cal-r50",
+      "seconds": 183.41558194160461,
+      "exit_code": 0
+    },
+    {
+      "tag": "cal-r70",
+      "rho": 0.7,
+      "seed": 907,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200,
+      "name": "article-20261001-cal-r70",
+      "seconds": 198.44339871406555,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r50-s101-a0",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r50-s101-a0",
+      "seconds": 310.0217306613922,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r50-s101-a50",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r50-s101-a50",
+      "seconds": 311.02349948883057,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r70-s101-a0",
+      "seconds": 10.786414861679077,
+      "exit_code": 1
+    }
+  ],
+  "plan": [
+    {
+      "tag": "cal-r20",
+      "rho": 0.2,
+      "seed": 902,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "cal-r50",
+      "rho": 0.5,
+      "seed": 905,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "cal-r70",
+      "rho": 0.7,
+      "seed": 907,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "swrr-r50-s101-a0",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s101-a50",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s101-a50",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s101-a0",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s101-a50",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s101-a0",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s101-a50",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s101-a50",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s101-a0",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s101-a50",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b0",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "0"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b1",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "1"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b2",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "2"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b4",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "4"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b8",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "8"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "capacity150",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [
+        "--reported-capacity",
+        "150"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-capacity150",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "2",
+        "--reported-capacity",
+        "150"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-counterfactual",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "ramp",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--attack-mode",
+        "ramp"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "onoff",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s102-a0",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s102-a50",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s102-a0",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s102-a50",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s102-a0",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s102-a50",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s102-a0",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s102-a50",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s102-a0",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s102-a50",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s102-a0",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s102-a50",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s103-a0",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s103-a50",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s103-a0",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s103-a50",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s103-a0",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s103-a50",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s103-a0",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s103-a50",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s103-a0",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s103-a50",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s103-a0",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s103-a50",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    }
+  ],
+  "budget_hours": 3.2,
+  "amendment": "Pilot sized to the human-approved four-hour compute budget; original 3000-assignment/10-seed protocol remains an unexecuted full protocol.",
+  "stop_reason": "failed_run",
+  "finished": 1790859839.3032937
+}

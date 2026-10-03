@@ -1,0 +1,72 @@
+{
+  "mode": "real-open5gs-ueransim",
+  "run_complete": true,
+  "scp_created": {
+    "127.0.0.4": 147,
+    "127.0.0.32": 151,
+    "127.0.0.33": 152
+  },
+  "scp_released": {
+    "127.0.0.33": 106,
+    "127.0.0.4": 98,
+    "127.0.0.32": 96
+  },
+  "scp_active": {
+    "127.0.0.4": 49,
+    "127.0.0.32": 55,
+    "127.0.0.33": 46
+  },
+  "selections": 450,
+  "candidates": 1350,
+  "load_samples": 525,
+  "versioned_events": 4789,
+  "propagation": {
+    "compute_to_send": {
+      "n": 525,
+      "min_ms": 0.015,
+      "median_ms": 0.135,
+      "p90_ms": 0.19460000000000002,
+      "p95_ms": 0.216,
+      "p99_ms": 0.2581199999999999,
+      "max_ms": 1.846
+    },
+    "send_to_nrf": {
+      "n": 525,
+      "min_ms": 0.168,
+      "median_ms": 0.49,
+      "p90_ms": 0.6336,
+      "p95_ms": 0.667,
+      "p99_ms": 0.77028,
+      "max_ms": 22.527
+    },
+    "compute_to_nrf": {
+      "n": 525,
+      "min_ms": 0.195,
+      "median_ms": 0.628,
+      "p90_ms": 0.816,
+      "p95_ms": 0.8701999999999999,
+      "p99_ms": 1.0863999999999998,
+      "max_ms": 22.68
+    },
+    "age_at_candidate": {
+      "n": 1350,
+      "min_ms": 1.052,
+      "median_ms": 506.4655,
+      "p90_ms": 902.7024,
+      "p95_ms": 952.13955,
+      "p99_ms": 994.86256,
+      "max_ms": 1003.521
+    },
+    "age_at_selection": {
+      "n": 450,
+      "min_ms": 3.819,
+      "median_ms": 572.2545,
+      "p90_ms": 922.6465000000001,
+      "p95_ms": 967.7018999999998,
+      "p99_ms": 995.63194,
+      "max_ms": 1001.707
+    }
+  },
+  "anomalies": [],
+  "ueransim_established": 450
+}

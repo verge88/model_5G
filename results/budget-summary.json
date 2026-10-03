@@ -1,0 +1,11 @@
+{
+  "approved_seconds": 14400,
+  "raw_manifest_active_seconds": 14146.440267801285,
+  "conservative_controller_seconds": 14210.510274142143,
+  "within_budget": true,
+  "eligible_article_runs": 49,
+  "successful_article_establishments": 32340,
+  "matched_pairs": 16,
+  "hashed_raw_files": 2704,
+  "note": "Cumulative active experiments including debug and failed attempts; parallel workers do not each receive a separate four-hour budget. Idle overnight containers and document preparation excluded."
+}

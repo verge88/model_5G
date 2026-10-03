@@ -1,0 +1,21 @@
+[
+  {
+    "name": "model5g-runtime",
+    "cpus": "0-3"
+  },
+  {
+    "name": "model5g-worker2",
+    "cpus": "4-7",
+    "database": "model5g-db2"
+  },
+  {
+    "name": "model5g-worker3",
+    "cpus": "8-11",
+    "database": "model5g-db3"
+  },
+  {
+    "name": "model5g-worker4",
+    "cpus": "12-15",
+    "database": "model5g-db4"
+  }
+]

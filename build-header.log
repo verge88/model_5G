@@ -1,0 +1,196 @@
+ninja: Entering directory `build'
+[1/30] Compiling C object lib/sbi/libogssbi.so.2.8.0.p/client.c.o
+[2/30] Linking target lib/sbi/libogssbi.so.2.8.0
+[3/30] Generating symbol file lib/sbi/libogssbi.so.2.8.0.p/libogssbi.so.2.8.0.symbols
+ninja: Entering directory `build'
+[0/1] Installing files.
+Installing lib/core/libogscore.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/proto/libogsproto.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/dbi/libogsdbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/crypt/libogscrypt.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/ipfw/libogsipfw.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/tun/libogstun.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/app/libogsapp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/prometheus-client-c/libprom.so to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/metrics/libogsmetrics.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sctp/libogssctp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/libfdproto/libfdproto.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/libfdcore/libfdcore.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing subprojects/freeDiameter/extensions/dbg_msg_dumps.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_rfc5777.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_mip6i.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_nasreq.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_nas_mipv6.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_dcca.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/dict_dcca_3gpp/dict_dcca_3gpp.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/acl_wl/acl_wl.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/rt_redirect/rt_redirect.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing subprojects/freeDiameter/extensions/rt_default/rt_default.fdx to /opt/model5g-patched/lib/x86_64-linux-gnu/freeDiameter
+Installing lib/diameter/common/libogsdiameter-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/gx/libogsdiameter-gx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/gy/libogsdiameter-gy.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/rx/libogsdiameter-rx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/s6a/libogsdiameter-s6a.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/cx/libogsdiameter-cx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/swx/libogsdiameter-swx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/diameter/s6b/libogsdiameter-s6b.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/common/libogsasn1c-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/util/libogsasn1c-util.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/ngap/libogsasn1c-ngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/asn1c/s1ap/libogsasn1c-s1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/ngap/libogsngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/s1ap/libogss1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/common/libogsnas-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/5gs/libogsnas-5gs.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/nas/eps/libogsnas-eps.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/gtp/libogsgtp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/pfcp/libogspfcp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sbi/openapi/libogssbi-openapi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing lib/sbi/libogssbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu
+Installing src/mme/open5gs-mmed to /opt/model5g-patched/bin
+Installing src/hss/open5gs-hssd to /opt/model5g-patched/bin
+Installing src/sgwc/open5gs-sgwcd to /opt/model5g-patched/bin
+Installing src/sgwu/open5gs-sgwud to /opt/model5g-patched/bin
+Installing src/pcrf/open5gs-pcrfd to /opt/model5g-patched/bin
+Installing src/nrf/open5gs-nrfd to /opt/model5g-patched/bin
+Installing src/scp/open5gs-scpd to /opt/model5g-patched/bin
+Installing src/sepp/open5gs-seppd to /opt/model5g-patched/bin
+Installing src/udr/open5gs-udrd to /opt/model5g-patched/bin
+Installing src/udm/open5gs-udmd to /opt/model5g-patched/bin
+Installing src/pcf/open5gs-pcfd to /opt/model5g-patched/bin
+Installing src/nssf/open5gs-nssfd to /opt/model5g-patched/bin
+Installing src/bsf/open5gs-bsfd to /opt/model5g-patched/bin
+Installing src/ausf/open5gs-ausfd to /opt/model5g-patched/bin
+Installing src/upf/open5gs-upfd to /opt/model5g-patched/bin
+Installing src/smf/open5gs-smfd to /opt/model5g-patched/bin
+Installing src/amf/open5gs-amfd to /opt/model5g-patched/bin
+Installing symlink pointing to libogscore.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscore.so.2
+Installing symlink pointing to libogscore.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscore.so
+Installing symlink pointing to libogsproto.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsproto.so.2
+Installing symlink pointing to libogsproto.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsproto.so
+Installing symlink pointing to libogsdbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdbi.so.2
+Installing symlink pointing to libogsdbi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdbi.so
+Installing symlink pointing to libogscrypt.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscrypt.so.2
+Installing symlink pointing to libogscrypt.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogscrypt.so
+Installing symlink pointing to libogsipfw.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsipfw.so.2
+Installing symlink pointing to libogsipfw.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsipfw.so
+Installing symlink pointing to libogstun.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogstun.so.2
+Installing symlink pointing to libogstun.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogstun.so
+Installing symlink pointing to libogsapp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsapp.so.2
+Installing symlink pointing to libogsapp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsapp.so
+Installing symlink pointing to libogsmetrics.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsmetrics.so.2
+Installing symlink pointing to libogsmetrics.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsmetrics.so
+Installing symlink pointing to libogssctp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssctp.so.2
+Installing symlink pointing to libogssctp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssctp.so
+Installing symlink pointing to libfdproto.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdproto.so.7
+Installing symlink pointing to libfdproto.so.7 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdproto.so
+Installing symlink pointing to libfdcore.so.1.5.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdcore.so.7
+Installing symlink pointing to libfdcore.so.7 to /opt/model5g-patched/lib/x86_64-linux-gnu/libfdcore.so
+Installing symlink pointing to libogsdiameter-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-common.so.2
+Installing symlink pointing to libogsdiameter-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-common.so
+Installing symlink pointing to libogsdiameter-gx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gx.so.2
+Installing symlink pointing to libogsdiameter-gx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gx.so
+Installing symlink pointing to libogsdiameter-gy.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gy.so.2
+Installing symlink pointing to libogsdiameter-gy.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-gy.so
+Installing symlink pointing to libogsdiameter-rx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-rx.so.2
+Installing symlink pointing to libogsdiameter-rx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-rx.so
+Installing symlink pointing to libogsdiameter-s6a.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6a.so.2
+Installing symlink pointing to libogsdiameter-s6a.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6a.so
+Installing symlink pointing to libogsdiameter-cx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-cx.so.2
+Installing symlink pointing to libogsdiameter-cx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-cx.so
+Installing symlink pointing to libogsdiameter-swx.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-swx.so.2
+Installing symlink pointing to libogsdiameter-swx.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-swx.so
+Installing symlink pointing to libogsdiameter-s6b.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6b.so.2
+Installing symlink pointing to libogsdiameter-s6b.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsdiameter-s6b.so
+Installing symlink pointing to libogsasn1c-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-common.so.2
+Installing symlink pointing to libogsasn1c-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-common.so
+Installing symlink pointing to libogsasn1c-util.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-util.so.2
+Installing symlink pointing to libogsasn1c-util.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-util.so
+Installing symlink pointing to libogsasn1c-ngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-ngap.so.2
+Installing symlink pointing to libogsasn1c-ngap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-ngap.so
+Installing symlink pointing to libogsasn1c-s1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-s1ap.so.2
+Installing symlink pointing to libogsasn1c-s1ap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsasn1c-s1ap.so
+Installing symlink pointing to libogsngap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsngap.so.2
+Installing symlink pointing to libogsngap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsngap.so
+Installing symlink pointing to libogss1ap.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogss1ap.so.2
+Installing symlink pointing to libogss1ap.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogss1ap.so
+Installing symlink pointing to libogsnas-common.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-common.so.2
+Installing symlink pointing to libogsnas-common.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-common.so
+Installing symlink pointing to libogsnas-5gs.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-5gs.so.2
+Installing symlink pointing to libogsnas-5gs.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-5gs.so
+Installing symlink pointing to libogsnas-eps.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-eps.so.2
+Installing symlink pointing to libogsnas-eps.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsnas-eps.so
+Installing symlink pointing to libogsgtp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsgtp.so.2
+Installing symlink pointing to libogsgtp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogsgtp.so
+Installing symlink pointing to libogspfcp.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogspfcp.so.2
+Installing symlink pointing to libogspfcp.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogspfcp.so
+Installing symlink pointing to libogssbi-openapi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi-openapi.so.2
+Installing symlink pointing to libogssbi-openapi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi-openapi.so
+Installing symlink pointing to libogssbi.so.2.8.0 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi.so.2
+Installing symlink pointing to libogssbi.so.2 to /opt/model5g-patched/lib/x86_64-linux-gnu/libogssbi.so
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/var/log/open5gs/tls", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/mme.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/mme.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sgwc.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sgwc.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sgwu.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sgwu.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/smf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/smf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/amf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/amf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/upf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/upf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hss.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/hss.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/pcrf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/pcrf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/nrf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/nrf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/scp.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/scp.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sepp1.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sepp1.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/sepp2.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/sepp2.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/ausf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/ausf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/udm.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/udm.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/udr.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/udr.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/pcf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/pcf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/nssf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/nssf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/bsf.yaml", "/opt/model5g-patched/etc/open5gs") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs", os.path.split("configs/open5gs/bsf.yaml")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs/tls", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ca.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ca.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/amf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/amf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ausf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ausf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/bsf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/bsf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/hss.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/hss.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/mme.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/mme.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nrf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nrf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nssf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nssf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcrf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcrf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/scp.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/scp.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/smf.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/smf.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udm.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udm.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udr.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udr.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/amf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/amf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/ausf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/ausf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/bsf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/bsf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/hss.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/hss.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/mme.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/mme.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nrf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nrf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/nssf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/nssf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/pcrf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/pcrf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/scp.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/scp.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/smf.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/smf.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udm.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udm.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/udr.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/udr.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp1.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp1.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp1.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp1.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp2.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp2.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp2.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp2.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp3.key", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp3.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/tls/sepp3.crt", "/opt/model5g-patched/etc/open5gs/tls") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/tls", os.path.split("configs/open5gs/tls/sepp3.crt")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/open5gs/hnet", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-1.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-1.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-2.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-2.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-3.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-3.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-4.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-4.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/curve25519-5.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/curve25519-5.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/open5gs/hnet/secp256r1-6.key", "/opt/model5g-patched/etc/open5gs/hnet") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/open5gs/hnet", os.path.split("configs/open5gs/hnet/secp256r1-6.key")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; os.makedirs("/opt/model5g-patched/etc/freeDiameter", exist_ok=True) if not os.environ.get("DESTDIR") else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/mme.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/mme.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/hss.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/hss.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/smf.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/smf.conf")[1])) else False;'
+Running custom install script '/opt/venv/bin/python3 -c import os; import shutil; shutil.copy("configs/freeDiameter/pcrf.conf", "/opt/model5g-patched/etc/freeDiameter") if not os.environ.get("DESTDIR") and not os.path.isfile(os.path.join("/opt/model5g-patched/etc/freeDiameter", os.path.split("configs/freeDiameter/pcrf.conf")[1])) else False;'

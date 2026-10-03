@@ -1,0 +1,134 @@
+diff --git a/src/gnb/rls/udp_task.cpp b/src/gnb/rls/udp_task.cpp
+index 3df2451..3129008 100644
+--- a/src/gnb/rls/udp_task.cpp
++++ b/src/gnb/rls/udp_task.cpp
+@@ -7,6 +7,7 @@
+ //
+ 
+ #include "udp_task.hpp"
++#include <cstdlib>
+ 
+ #include <cmath>
+ #include <cstdint>
+@@ -154,7 +155,9 @@ void RlsUdpTask::heartbeatCycle(int64_t time)
+ 
+     for (auto &item : m_ueMap)
+     {
+-        if (time - item.second.lastSeen > HEARTBEAT_THRESHOLD)
++        const char *labTimeout = std::getenv("LAB_RLS_HEARTBEAT_MS");
++        const int heartbeatThreshold = labTimeout ? std::atoi(labTimeout) : HEARTBEAT_THRESHOLD;
++        if (time - item.second.lastSeen > (heartbeatThreshold >= HEARTBEAT_THRESHOLD ? heartbeatThreshold : HEARTBEAT_THRESHOLD))
+         {
+             lostUeId.insert(item.first);
+             lostSti.insert(item.second.sti);
+diff --git a/src/ue/app/cmd_handler.cpp b/src/ue/app/cmd_handler.cpp
+index d2ed0c6..66ab2e3 100644
+--- a/src/ue/app/cmd_handler.cpp
++++ b/src/ue/app/cmd_handler.cpp
+@@ -175,12 +175,16 @@ void UeCmdHandler::handleCmdImpl(NmUeCliCommand &msg)
+     }
+     case app::UeCliCommand::PS_RELEASE: {
+         for (int i = 0; i < msg.cmd->psCount; i++)
+-            m_base->nasTask->sm->sendReleaseRequest(static_cast<int>(msg.cmd->psIds[i]) % 16);
++        {
++            auto event = std::make_unique<NmUeAppToNas>(NmUeAppToNas::LAB_RELEASE);
++            event->psi = static_cast<int>(msg.cmd->psIds[i]) % 16;
++            m_base->nasTask->push(std::move(event));
++        }
+         sendResult(msg.address, "PDU session release procedure(s) triggered");
+         break;
+     }
+     case app::UeCliCommand::PS_RELEASE_ALL: {
+-        m_base->nasTask->sm->sendReleaseRequestForAll();
++        m_base->nasTask->push(std::make_unique<NmUeAppToNas>(NmUeAppToNas::LAB_RELEASE_ALL));
+         sendResult(msg.address, "PDU session release procedure(s) triggered");
+         break;
+     }
+@@ -190,7 +194,9 @@ void UeCmdHandler::handleCmdImpl(NmUeCliCommand &msg)
+         config.isEmergency = msg.cmd->isEmergency;
+         config.apn = msg.cmd->apn;
+         config.sNssai = msg.cmd->sNssai;
+-        m_base->nasTask->sm->sendEstablishmentRequest(config);
++        auto event = std::make_unique<NmUeAppToNas>(NmUeAppToNas::LAB_ESTABLISH);
++        event->labConfig = config;
++        m_base->nasTask->push(std::move(event));
+         sendResult(msg.address, "PDU session establishment procedure triggered");
+         break;
+     }
+diff --git a/src/ue/nas/task.cpp b/src/ue/nas/task.cpp
+index b3f2231..60b04d7 100644
+--- a/src/ue/nas/task.cpp
++++ b/src/ue/nas/task.cpp
+@@ -88,6 +88,15 @@ void NasTask::onLoop()
+             sm->handleUplinkDataRequest(w.psi, std::move(w.data));
+             break;
+         }
++        case NmUeAppToNas::LAB_ESTABLISH:
++            sm->sendEstablishmentRequest(w.labConfig);
++            break;
++        case NmUeAppToNas::LAB_RELEASE:
++            sm->sendReleaseRequest(w.psi);
++            break;
++        case NmUeAppToNas::LAB_RELEASE_ALL:
++            sm->sendReleaseRequestForAll();
++            break;
+         default:
+             break;
+         }
+@@ -172,4 +181,4 @@ void NasTask::performTick()
+     sm->onTimerTick();
+ }
+ 
+-} // namespace nr::ue
+\ No newline at end of file
++} // namespace nr::ue
+diff --git a/src/ue/nts.hpp b/src/ue/nts.hpp
+index 713ea2e..4bba684 100644
+--- a/src/ue/nts.hpp
++++ b/src/ue/nts.hpp
+@@ -214,11 +214,15 @@ struct NmUeAppToNas : NtsMessage
+     enum PR
+     {
+         UPLINK_DATA_DELIVERY,
++        LAB_ESTABLISH,
++        LAB_RELEASE,
++        LAB_RELEASE_ALL,
+     } present;
+ 
+     // UPLINK_DATA_DELIVERY
+     int psi{};
+     OctetString data;
++    SessionConfig labConfig{};
+ 
+     explicit NmUeAppToNas(PR present) : NtsMessage(NtsMessageType::UE_APP_TO_NAS), present(present)
+     {
+@@ -346,4 +350,4 @@ struct NmUeCliCommand : NtsMessage
+     }
+ };
+ 
+-} // namespace nr::ue
+\ No newline at end of file
++} // namespace nr::ue
+diff --git a/src/ue/rls/udp_task.cpp b/src/ue/rls/udp_task.cpp
+index dd0dea5..d30b532 100644
+--- a/src/ue/rls/udp_task.cpp
++++ b/src/ue/rls/udp_task.cpp
+@@ -7,6 +7,7 @@
+ //
+ 
+ #include "udp_task.hpp"
++#include <cstdlib>
+ 
+ #include <cstdint>
+ #include <cstring>
+@@ -146,7 +147,9 @@ void RlsUdpTask::heartbeatCycle(uint64_t time, const Vector3 &simPos)
+     for (auto &cell : m_cells)
+     {
+         auto delta = time - cell.second.lastSeen;
+-        if (delta > HEARTBEAT_THRESHOLD)
++        const char *labTimeout = std::getenv("LAB_RLS_HEARTBEAT_MS");
++        const int heartbeatThreshold = labTimeout ? std::atoi(labTimeout) : HEARTBEAT_THRESHOLD;
++        if (delta > (heartbeatThreshold >= HEARTBEAT_THRESHOLD ? heartbeatThreshold : HEARTBEAT_THRESHOLD))
+             toRemove.insert({cell.first, cell.second.cellId});
+     }
+ 

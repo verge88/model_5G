@@ -6,6 +6,8 @@ from a separate pristine copy before this script is invoked.
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / 'upstream/open5gs'
+if 'lab_context_created' in (ROOT/'src/smf/context.h').read_text():
+    raise SystemExit('Laboratory patch already present; refusing to apply twice.')
 pending = {}
 
 def replace(name, old, new, count=1):

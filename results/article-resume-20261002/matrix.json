@@ -1,0 +1,547 @@
+{
+  "started": 1790936532.4859588,
+  "deadline": 1790948781.856828,
+  "previous_active_seconds": 1970.6275267601013,
+  "complete": false,
+  "runs": [
+    {
+      "tag": "swrr-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r70-s101-a0-resume1",
+      "seconds": 324.90687799453735,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r70-s101-a50",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r70-s101-a50-resume1",
+      "seconds": 324.8842308521271,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r20-s101-a0",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r20-s101-a0-resume1",
+      "seconds": 287.31844449043274,
+      "exit_code": 0
+    },
+    {
+      "tag": "swrr-r20-s101-a50",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400,
+      "name": "article-20261001-swrr-r20-s101-a50-resume1",
+      "seconds": 57.974599838256836,
+      "exit_code": 1
+    }
+  ],
+  "plan": [
+    {
+      "tag": "swrr-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s101-a50",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s101-a0",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s101-a50",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s101-a0",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s101-a50",
+      "rho": 0.5,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s101-a0",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s101-a50",
+      "rho": 0.7,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s101-a0",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s101-a50",
+      "rho": 0.2,
+      "seed": 101,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "adaptive-b0",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "0"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-b1",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "1"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-b2",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "2"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-b4",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "4"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-b8",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "8"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "capacity150",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [
+        "--reported-capacity",
+        "150"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-capacity150",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--residual-budget",
+        "2",
+        "--reported-capacity",
+        "150"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "adaptive-counterfactual",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "ramp",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--attack-mode",
+        "ramp"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "onoff",
+      "rho": 0.5,
+      "seed": 801,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ],
+      "warmup": 100,
+      "measured": 200
+    },
+    {
+      "tag": "swrr-r50-s102-a0",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s102-a50",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s102-a0",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s102-a50",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s102-a0",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s102-a50",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s102-a0",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s102-a50",
+      "rho": 0.5,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s102-a0",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s102-a50",
+      "rho": 0.7,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s102-a0",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s102-a50",
+      "rho": 0.2,
+      "seed": 102,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s103-a0",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r50-s103-a50",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s103-a0",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r70-s103-a50",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s103-a0",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "swrr-r20-s103-a50",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "swrr",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s103-a0",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r50-s103-a50",
+      "rho": 0.5,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s103-a0",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r70-s103-a50",
+      "rho": 0.7,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s103-a0",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "random-r20-s103-a50",
+      "rho": 0.2,
+      "seed": 103,
+      "alpha": 0.5,
+      "policy": "random",
+      "extra": [],
+      "warmup": 200,
+      "measured": 400
+    },
+    {
+      "tag": "honest-capacity70",
+      "rho": 0.5,
+      "seed": 811,
+      "alpha": 0,
+      "policy": "swrr",
+      "extra": [
+        "--capacity3",
+        "70"
+      ],
+      "warmup": 100,
+      "measured": 200
+    }
+  ],
+  "amendment": "Continue original primary 200+400 runs. Robustness/control pilots reduced prospectively to 100+200; four-hour cumulative recorded experiment budget, 180s reserve. One retry of a startup failure only.",
+  "stop_reason": "failed_run",
+  "finished": 1790937534.5316615
+}

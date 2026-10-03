@@ -47,3 +47,18 @@ Open5GS daemon v2.8.0
 09/30 14:58:54.511: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
 09/30 14:58:54.514: [nrf] INFO: [aef2441e-1fdb-4aad-85a2-75f5bdd07d9c] NF de-registered (../src/nrf/nf-sm.c:224)
 09/30 14:58:54.516: [app] INFO: NRF terminate...done (../src/nrf/app.c:39)
+Open5GS daemon v2.8.0
+
+10/01 12:38:30.810: [app] INFO: Configuration: '/work/results/nrf-integration/baseline.yaml' (../lib/app/ogs-init.c:144)
+10/01 12:38:30.811: [app] INFO: File Logging: '/work/results/nrf-integration/baseline.log' (../lib/app/ogs-init.c:147)
+10/01 12:38:30.813: [sbi] INFO: NF Service [nnrf-nfm] (../lib/sbi/context.c:2012)
+10/01 12:38:30.814: [sbi] INFO: NF Service [nnrf-disc] (../lib/sbi/context.c:2012)
+10/01 12:38:30.814: [sbi] INFO: nghttp2_server() [http://127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:454)
+10/01 12:38:30.815: [app] INFO: NRF initialize...done (../src/nrf/app.c:31)
+10/01 12:38:31.782: [sbi] INFO: [SMF] NFInstance associated [dbb29e30-a025-4e7a-9949-964973a86578] (../lib/sbi/context.c:2498)
+10/01 12:38:31.783: [sbi] INFO: Setup NF EndPoint(addr) [127.0.0.33:80] (../lib/sbi/context.c:2503)
+10/01 12:38:31.784: [nrf] INFO: [dbb29e30-a025-4e7a-9949-964973a86578] NF registered [Heartbeat:10s] (../src/nrf/nf-sm.c:208)
+10/01 12:38:31.787: [app] INFO: SIGTERM received (../src/main.c:54)
+10/01 12:38:31.787: [app] INFO: Open5GS daemon terminating... (../src/main.c:231)
+10/01 12:38:31.790: [nrf] INFO: [dbb29e30-a025-4e7a-9949-964973a86578] NF de-registered (../src/nrf/nf-sm.c:224)
+10/01 12:38:31.791: [app] INFO: NRF terminate...done (../src/nrf/app.c:39)

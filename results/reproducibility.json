@@ -1,0 +1,98 @@
+{
+  "open5gs": {
+    "pristine_patch_check": "passed",
+    "live_source_matches": true,
+    "files": {
+      "lib/sbi/client.c": {
+        "equal": true,
+        "sha256": "5f84acd3b429588b83123da25932bc7d941c356a4a69a22d244690cceabd172d"
+      },
+      "lib/sbi/context.h": {
+        "equal": true,
+        "sha256": "a1f36ebb6f15283e7cf59ee477d8a65714377669dbb5ae66813c0c60ad50b74a"
+      },
+      "lib/sbi/nnrf-path.c": {
+        "equal": true,
+        "sha256": "a23e5c6ebaf19e013634f985b7657509e149f537f611da785a1c3d2b85d9e34b"
+      },
+      "src/amf/gmm-handler.c": {
+        "equal": true,
+        "sha256": "62d83b658dabfb954a93ee2014bd39d79bef1af00ed770d55dd91e997464b07d"
+      },
+      "src/amf/nnssf-handler.c": {
+        "equal": true,
+        "sha256": "cc52b21796de020eb7c195a6fc91520063db7cfaa9982c23152b1ca7f65bb58f"
+      },
+      "src/amf/sbi-path.c": {
+        "equal": true,
+        "sha256": "15c4a26851b5a93370bda39f10a65c6ea80534b02c75a62c08182a7301929b2a"
+      },
+      "src/nrf/nnrf-handler.c": {
+        "equal": true,
+        "sha256": "33dde305098e0fc88856d1f9316597386a249c0520ad716e6dc6ac62c307092c"
+      },
+      "src/nrf/nrf-sm.c": {
+        "equal": true,
+        "sha256": "549b3c13614895b7d2ace353a53938c38506a85588651d1d7aa00182fbcdcd58"
+      },
+      "src/scp/context.c": {
+        "equal": true,
+        "sha256": "fe8414d38850301887f3ee321a1776c0905c30fe5b2f60af48994c98bf4d2c3d"
+      },
+      "src/scp/context.h": {
+        "equal": true,
+        "sha256": "2be229273abefcbf7fab99672baf908151fce1f3e06ed8b1d22628bdf5dc9e76"
+      },
+      "src/scp/sbi-path.c": {
+        "equal": true,
+        "sha256": "93cc431508a9896eb9bf502fb23e658ff5fe2981d94bc9041ea4dea99da897d5"
+      },
+      "src/smf/context.c": {
+        "equal": true,
+        "sha256": "80cb3902d7a7e5303cd3885bb52bf81019d5de39a0c22929d9b85a5aa797f670"
+      },
+      "src/smf/context.h": {
+        "equal": true,
+        "sha256": "a39158ea7b0ab78b008a6bb38003cdcc9d7de1a2b464d7170842fd4f7e57fb4a"
+      },
+      "src/smf/sbi-path.c": {
+        "equal": true,
+        "sha256": "3a2b24d0e66ecaa3fd2f8a33a9f28ccbcbe8b9353925a3dc5a041ea67d781ebd"
+      },
+      "src/smf/smf-sm.c": {
+        "equal": true,
+        "sha256": "f91589589d0ce3fce296d30cdae56d58f5d59fb58bc4d1123df64d1250c4673f"
+      },
+      "src/amf/lab-selector.h": {
+        "equal": true,
+        "sha256": "44bc44163ea93b78a993476ff1c5eb844de3b531ac20e896e961bac4cd413041"
+      }
+    }
+  },
+  "UERANSIM": {
+    "pristine_patch_check": "passed",
+    "live_source_matches": true,
+    "files": {
+      "src/gnb/rls/udp_task.cpp": {
+        "equal": true,
+        "sha256": "dee1914236652d98810ec3bf716a6b9bd249271ebac5e6cf4887fc1fca349629"
+      },
+      "src/ue/app/cmd_handler.cpp": {
+        "equal": true,
+        "sha256": "97fd2d67f90af5de190b00c0259c13b87f214a3e3fbdf41c4da6cf9f7c43146e"
+      },
+      "src/ue/nas/task.cpp": {
+        "equal": true,
+        "sha256": "ce2ee745995373fcb43d64d557a92a5f73682b1a5575e494e3ed6d3fa9171ccb"
+      },
+      "src/ue/nts.hpp": {
+        "equal": true,
+        "sha256": "8a74d6e12a1df412706106a8d50f7289aca14c52c4fb55b4e4662af4f41d401a"
+      },
+      "src/ue/rls/udp_task.cpp": {
+        "equal": true,
+        "sha256": "b53d149e964210afaac6ccd6e9a53ea6feb5d4af8cde1e914f3cf51b1b831d2e"
+      }
+    }
+  }
+}
