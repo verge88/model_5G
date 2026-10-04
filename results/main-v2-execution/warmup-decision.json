@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "warmup": 300,
+  "preparation_runs": [
+    "main-v2-preparation-random-r70-s9001-a50-attempt2",
+    "main-v2-preparation-random-r70-s9001-a0-attempt2",
+    "main-v2-preparation-swrr-r70-s9001-a50-attempt2",
+    "main-v2-preparation-swrr-r70-s9001-a0-attempt2"
+  ],
+  "criterion": "All nodes early/late mean occupancy contrast <=5 sessions in four rho=.7 preparation runs",
+  "limitation": "Descriptive transient screen, not a statistical stationarity proof; lower loads checked in main block diagnostics"
+}

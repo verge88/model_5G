@@ -1,0 +1,19 @@
+policy,rho,seed,honest_s3,attack_s3,delta_pp,theory_delta_pp,comparable,honest_run,attack_run,attack_started,provenance,series_id,warmup,cycles
+random,0.2,101,0.3475,0.365,1.7500000000000016,2.2934094777821823,True,article-20261001-random-r20-s101-a0-parallel1,article-20261001-random-r20-s101-a50-parallel1,1790938741.7604306,historical pilot audit,,,
+random,0.2,102,0.385,0.4075,2.2499999999999964,2.2934094777821823,True,article-20261001-random-r20-s102-a0-parallel1,article-20261001-random-r20-s102-a50-parallel1,1790940063.491003,historical pilot audit,,,
+random,0.5,101,0.32,0.38,6.0,5.9636115266757885,True,article-20261001-random-r50-s101-a0-matched,article-20261001-random-r50-s101-a50-parallel1,1790938451.8143866,historical pilot audit,,,
+random,0.5,102,0.34,0.4025,6.25,5.9636115266757885,True,article-20261001-random-r50-s102-a0-parallel1,article-20261001-random-r50-s102-a50-parallel1,1790939744.533365,historical pilot audit,,,
+random,0.5,103,0.3,0.365,6.5,5.9636115266757885,True,article-20261001-random-r50-s103-a0-parallel1,article-20261001-random-r50-s103-a50-parallel1,1790940693.4611561,historical pilot audit,,,
+random,0.7,101,0.3575,0.4425,8.500000000000002,8.517572950625102,True,article-20261001-random-r70-s101-a0-parallel1,article-20261001-random-r70-s101-a50-parallel1,1790938451.8269007,historical pilot audit,,,
+random,0.7,102,0.3125,0.405,9.250000000000004,8.517572950625102,True,article-20261001-random-r70-s102-a0-parallel1,article-20261001-random-r70-s102-a50-parallel1,1790939957.3306007,historical pilot audit,,,
+random,0.7,103,0.315,0.3925,7.750000000000002,8.517572950625102,True,article-20261001-random-r70-s103-a0-parallel1,article-20261001-random-r70-s103-a50-parallel1,1790941010.8519995,historical pilot audit,,,
+swrr,0.2,102,0.3375,0.35,1.2499999999999956,2.2934094777821823,True,article-20261001-swrr-r20-s102-a0-parallel1,article-20261001-swrr-r20-s102-a50-parallel1,1790939662.2319736,historical pilot audit,,,
+swrr,0.2,103,0.3325,0.3575,2.4999999999999964,2.2934094777821823,True,article-20261001-swrr-r20-s103-a0-parallel1,article-20261001-swrr-r20-s103-a50-parallel1,1790940610.698979,historical pilot audit,,,
+swrr,0.5,101,0.35,0.4,5.000000000000004,5.9636115266757885,True,article-20261001-swrr-r50-s101-a0,article-20261001-swrr-r50-s101-a50,1790859517.1678424,historical pilot audit,,,
+swrr,0.5,102,0.3225,0.4025,8.000000000000002,5.9636115266757885,True,article-20261001-swrr-r50-s102-a0-parallel1,article-20261001-swrr-r50-s102-a50-parallel1,1790939345.5437477,historical pilot audit,,,
+swrr,0.5,103,0.3275,0.415,8.749999999999996,5.9636115266757885,True,article-20261001-swrr-r50-s103-a0-parallel1,article-20261001-swrr-r50-s103-a50-parallel1,1790940292.1507752,historical pilot audit,,,
+swrr,0.7,101,0.325,0.4075,8.249999999999996,8.517572950625102,True,article-20261001-swrr-r70-s101-a0-resume1,article-20261001-swrr-r70-s101-a50-resume1,1790936859.4169576,historical pilot audit,,,
+swrr,0.7,102,0.3375,0.3975,6.0,8.517572950625102,True,article-20261001-swrr-r70-s102-a0-parallel1,article-20261001-swrr-r70-s102-a50-parallel1,1790939411.9558547,historical pilot audit,,,
+swrr,0.7,103,0.3425,0.4275,8.499999999999996,8.517572950625102,True,article-20261001-swrr-r70-s103-a0-parallel1,article-20261001-swrr-r70-s103-a50-parallel1,1790940360.1809752,historical pilot audit,,,
+swrr,0.2,101,0.33,0.36,2.9999999999999973,,True,pilot-closeout-v2-swrr-r20-s101-a0-attempt1,pilot-closeout-v2-swrr-r20-s101-a50-attempt1,,new strict audit,pilot-closeout-v2,200,600
+random,0.2,103,0.2975,0.325,2.7500000000000027,,True,pilot-closeout-v2-random-r20-s103-a0-attempt1,pilot-closeout-v2-random-r20-s103-a50-attempt1,,new strict audit,pilot-closeout-v2,200,600

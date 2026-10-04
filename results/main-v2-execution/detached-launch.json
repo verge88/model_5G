@@ -1,0 +1,9 @@
+{
+  "pid": 10756,
+  "started": 1791127989.9162729,
+  "breakaway_requested": true,
+  "in_windows_job": true,
+  "fully_outside_job_verified": false,
+  "stdout": "C:\\Users\\niyaz\\Documents\\model_5G\\results\\main-v2-execution\\detached-1791127989909888000.stdout.log",
+  "stderr": "C:\\Users\\niyaz\\Documents\\model_5G\\results\\main-v2-execution\\detached-1791127989909888000.stderr.log"
+}

@@ -1,0 +1,7 @@
+model,calibrated_threshold,benign_windows,attack_windows,empirical_fpr,empirical_pd,false_alarm_windows_per_hour,test_runs,note
+nrf_only,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"
+scp_only,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"
+residual,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"
+residual_quantized,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"
+nrf_scp,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"
+full_peer,,0,0,,,,0,"Pd: constant alpha=.5 only; nominal calibration quantile 99%; test FPR measured, not guaranteed 1%"

@@ -13,6 +13,7 @@ This allows exact SMF -> NRF -> AMF timing measurements.
 
 import argparse
 import json
+import gzip
 import math
 from pathlib import Path
 import re
@@ -30,11 +31,18 @@ FIELD = re.compile(
 )
 
 
+def read_trace(path):
+    if not path.exists() and Path(str(path)+'.gz').exists():
+        path=Path(str(path)+'.gz')
+    if path.suffix=='.gz':
+        with gzip.open(path,'rt',errors='replace') as stream:return stream.read()
+    return path.read_text(errors='replace')
+
+
 def events(path):
     """Yield parsed laboratory log records."""
 
-    for line in path.read_text(
-            errors="replace").splitlines():
+    for line in read_trace(path).splitlines():
 
         match = EVENT.search(line)
 
@@ -53,7 +61,7 @@ def events(path):
 
         yield {
             "kind": match[1],
-            "source": path.name,
+            "source": path.name.removesuffix('.gz'),
             **fields,
         }
 
@@ -505,7 +513,7 @@ def analyze(folder):
             event
 
             for logfile
-            in folder.glob("*.log")
+            in list(folder.glob("*.log")) + list(folder.glob("*.log.gz"))
 
             for event
             in events(logfile)
@@ -676,11 +684,9 @@ def analyze(folder):
     ]
 
 
-    ue_stdout = (
+    ue_stdout = read_trace(
         folder /
         "ue.stdout"
-    ).read_text(
-        errors="replace"
     )
 
 

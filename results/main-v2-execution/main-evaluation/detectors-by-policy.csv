@@ -1,0 +1,13 @@
+policy,model,benign_windows,attack_windows,empirical_fpr,empirical_pd,calibration_policy
+swrr,nrf_only,0,0,,,swrr
+swrr,scp_only,0,0,,,swrr
+swrr,residual,0,0,,,swrr
+swrr,residual_quantized,0,0,,,swrr
+swrr,nrf_scp,0,0,,,swrr
+swrr,full_peer,0,0,,,swrr
+random,nrf_only,0,0,,,swrr
+random,scp_only,0,0,,,swrr
+random,residual,0,0,,,swrr
+random,residual_quantized,0,0,,,swrr
+random,nrf_scp,0,0,,,swrr
+random,full_peer,0,0,,,swrr

@@ -1,12 +1,60 @@
 {
   "status": "preregistered_before_measurement",
-  "reference_capacity_sessions": [100, 100, 100],
-  "relative_capacity": [100, 100, 100],
-  "priority": [0, 0, 0],
-  "rho": [0.2, 0.5, 0.7],
-  "alpha_smoke": [0, 0.5],
-  "policies": ["swrr", "random"],
-  "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "series_split": {
+    "pilot": {
+      "description": "paired comparison pilot with 200 warmup + 400 measured assignments, total 600 cycles",
+      "run_names": [
+        "pilot",
+        "article-20261001"
+      ],
+      "required_final_count": 18,
+      "mixed_with_main": false
+    },
+    "main-v2": {
+      "description": "expanded main series with 300 warmup + 3000 measured assignments, total 3300 cycles",
+      "run_names": [
+        "main-v2"
+      ],
+      "required_final_count": 30,
+      "paired_runs_per_policy_rho": 5,
+      "mixed_with_pilot": false
+    }
+  },
+  "reference_capacity_sessions": [
+    100,
+    100,
+    100
+  ],
+  "relative_capacity": [
+    100,
+    100,
+    100
+  ],
+  "priority": [
+    0,
+    0,
+    0
+  ],
+  "rho": [
+    0.2,
+    0.5,
+    0.7
+  ],
+  "alpha_smoke": [
+    0,
+    0.5
+  ],
+  "policies": [
+    "swrr",
+    "random"
+  ],
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
   "unit_of_replication": "independent_run",
   "paired_workload": true,
   "warmup_assignments_excluded": 300,
@@ -17,5 +65,20 @@
   "threshold_calibration": "benign validation runs only",
   "nominal_fpr": 0.01,
   "confidence_intervals": "paired run bootstrap, 10000 resamples",
-  "note": "A protocol is not evidence that these runs have been completed."
+  "series_selection_rule": "match only within the same series_id and identical warmup, cycles, hashes, timeout and resource configuration; never merge pilot and main runs in one effect table",
+  "note": "A protocol is not evidence that these runs have been completed.",
+  "sequential_rule": {
+    "first_stage_pairs_per_cell": 5,
+    "target_half_width_pp": 1.0,
+    "maximum_pairs_per_cell": 10,
+    "next_seeds": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "decision": "After stage 1 choose one fixed additional sample size per insufficient cell from stage-1 variance; do not repeatedly peek at ordinary confidence intervals",
+    "intervals": "Stage-1 95% intervals exploratory; independent confirmation data reported separately; pooled ordinary CIs not claimed selection-valid"
+  }
 }

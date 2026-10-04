@@ -1,0 +1,31 @@
+{"phase_complete": true, "active_seconds": 67652.99476581266, "stop_reason": "complete"}
+{"pilot_pairs": 18, "main_pairs": 18, "completed_attempts": 24}
+WARMUP_DECISION {"accepted": true, "warmup": 300, "preparation_runs": ["main-v2-preparation-random-r70-s9001-a50-attempt2", "main-v2-preparation-random-r70-s9001-a0-attempt2", "main-v2-preparation-swrr-r70-s9001-a50-attempt2", "main-v2-preparation-swrr-r70-s9001-a0-attempt2"], "criterion": "All nodes early/late mean occupancy contrast <=5 sessions in four rho=.7 preparation runs", "limitation": "Descriptive transient screen, not a statistical stationarity proof; lower loads checked in main block diagnostics"}
+START model5g-runtime {'policy': 'random', 'rho': 0.7, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker2 {'policy': 'random', 'rho': 0.5, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker3 {'policy': 'swrr', 'rho': 0.7, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker4 {'policy': 'swrr', 'rho': 0.5, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'swrr', 'rho': 0.5, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} False 1455
+{"pilot_pairs": 18, "main_pairs": 18, "completed_attempts": 25}
+DONE {'policy': 'random', 'rho': 0.5, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2889
+{"pilot_pairs": 18, "main_pairs": 19, "completed_attempts": 26}
+DONE {'policy': 'swrr', 'rho': 0.7, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2917
+{"pilot_pairs": 18, "main_pairs": 20, "completed_attempts": 27}
+DONE {'policy': 'random', 'rho': 0.7, 'seed': 104, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2922
+{"pilot_pairs": 18, "main_pairs": 21, "completed_attempts": 28}
+{"phase_complete": false, "active_seconds": 77835.7094700127, "stop_reason": "failure"}
+{"pilot_pairs": 18, "main_pairs": 21, "completed_attempts": 28}
+{
+  "runs": 43,
+  "eligible": 43,
+  "pairs": 21,
+  "windows": 5445
+}
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4

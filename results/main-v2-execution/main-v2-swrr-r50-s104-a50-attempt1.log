@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/work/scripts/run_lab.py", line 294, in <module>
+    run(args)
+  File "/work/scripts/run_lab.py", line 176, in run
+    check()
+  File "/work/scripts/run_lab.py", line 127, in check
+    if dead: raise RuntimeError(f'Processes stopped: {dead}')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Processes stopped: [('gnb', -11)]

@@ -7,7 +7,11 @@ import re
 import shutil
 import tempfile
 import unittest
-from evaluate_article import audit
+import gzip
+import json
+from unittest.mock import MagicMock,patch
+from session_log import wait_confirmation
+from evaluate_article import audit, matched_experimental_conditions
 from analyze import propagation
 from theory import stationary_share,capacity_share,fixed_residual_share
 
@@ -30,6 +34,25 @@ class TraceAuditTests(unittest.TestCase):
         self.assertEqual(result['established'],360)
         self.assertEqual(result['n'],200)
         self.assertTrue(features)
+
+    def test_lossless_compressed_trace_has_identical_audit(self):
+        original,features=audit(self.folder)
+        for path in list(self.folder.glob('*.log'))+[self.folder/'ue.stdout',self.folder/'workload.jsonl']:
+            with gzip.open(str(path)+'.gz','wb') as target:target.write(path.read_bytes())
+            path.unlink()
+        compressed,new_features=audit(self.folder)
+        self.assertEqual(original,compressed)
+        self.assertEqual(features,new_features)
+
+    def test_matching_requires_same_build_and_resource_configuration(self):
+        a={'series_id':'main-v2','alpha':0,'binary_sha256':{'smf':'1'},
+           'sbi_library_sha256':{'lib':'1'},'ueransim_sha256':{'ue':'1'},
+           'resource_configuration':'cpus0-3','warmup':300,'cycles':3300}
+        b=dict(a,alpha=.5)
+        self.assertTrue(matched_experimental_conditions(a,b))
+        for key,value in [('ueransim_sha256',{'ue':'2'}),('resource_configuration','cpus4-7'),
+                          ('warmup',200),('cycles',600),('series_id','pilot')]:
+            self.assertFalse(matched_experimental_conditions(a,dict(b,**{key:value})))
 
     def test_ground_truth_does_not_enter_features(self):
         before,features=audit(self.folder)
@@ -82,6 +105,19 @@ class TraceAuditTests(unittest.TestCase):
         self.assertGreater(result['broken_causal_chains'],0)
 
 class TimingTests(unittest.TestCase):
+    def test_split_ue_confirmation_is_not_lost(self):
+        path=MagicMock();stream=path.open.return_value.__enter__.return_value
+        stream.read.side_effect=['[999700000000088|nas] PDU Session estab',
+                                 'lishment is successful PSI[1]\n']
+        with patch('session_log.time.sleep'),patch('session_log.time.monotonic',side_effect=[0,.1,.2]):
+            self.assertTrue(wait_confirmation(path,0,88,'PDU Session establishment is successful'))
+
+    def test_other_ue_confirmation_is_not_accepted(self):
+        path=MagicMock();stream=path.open.return_value.__enter__.return_value
+        stream.read.return_value='[999700000000089|nas] PDU Session establishment is successful\n'
+        with patch('session_log.time.sleep'),patch('session_log.time.monotonic',side_effect=[0,.1,11]):
+            self.assertFalse(wait_confirmation(path,0,88,'PDU Session establishment is successful'))
+
     def test_equal_load_values_do_not_merge_distinct_versions(self):
         rows=[]
         for version,t in [(1,1000),(2,10000)]:
@@ -92,6 +128,15 @@ class TimingTests(unittest.TestCase):
         self.assertEqual(len(result['chains']),2)
         self.assertAlmostEqual(result['compute_to_nrf']['median_ms'],.4)
         self.assertAlmostEqual(result['age_at_selection']['median_ms'],.9)
+
+    def test_pilot_and_main_series_do_not_match(self):
+        pilot={'series_id':'pilot','warmup':200,'cycles':600,'alpha':0,'policy':'swrr','rho':0.2,
+               'reported_capacity':100,'capacity3':100,'attack_mode':'constant','execution_worker':'sequential',
+               'rls_heartbeat_threshold_ms':15000,'binary_sha256':{'smf':'aaa'},'sbi_library_sha256':{'lib/one.so':'aaa'}}
+        main={'series_id':'main-v2','warmup':300,'cycles':3300,'alpha':0,'policy':'swrr','rho':0.2,
+              'reported_capacity':100,'capacity3':100,'attack_mode':'constant','execution_worker':'sequential',
+              'rls_heartbeat_threshold_ms':15000,'binary_sha256':{'smf':'aaa'},'sbi_library_sha256':{'lib/one.so':'aaa'}}
+        self.assertFalse(matched_experimental_conditions(pilot, main))
 
 class EquilibriumTests(unittest.TestCase):
     def test_root_satisfies_original_weight_normalization(self):

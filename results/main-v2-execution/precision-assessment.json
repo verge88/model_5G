@@ -1,0 +1,91 @@
+{
+  "first_stage_complete": true,
+  "target_half_width_pp": 1.0,
+  "cells": [
+    {
+      "policy": "swrr",
+      "rho": 0.2,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 2.273333333333333,
+      "bootstrap_95_low": 2.1866666666666656,
+      "bootstrap_95_high": 2.4200000000000013,
+      "half_width_pp": 0.1166666666666678,
+      "sd_pp": 0.16566364853052287,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    },
+    {
+      "policy": "swrr",
+      "rho": 0.5,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 5.946666666666665,
+      "bootstrap_95_low": 5.686666666666666,
+      "bootstrap_95_high": 6.353333333333331,
+      "half_width_pp": 0.3333333333333326,
+      "sd_pp": 0.4500617241618693,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    },
+    {
+      "policy": "swrr",
+      "rho": 0.7,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 8.713333333333335,
+      "bootstrap_95_low": 7.866666666666669,
+      "bootstrap_95_high": 9.560000000000002,
+      "half_width_pp": 0.8466666666666667,
+      "sd_pp": 1.1159450404627163,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    },
+    {
+      "policy": "random",
+      "rho": 0.2,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 2.393333333333334,
+      "bootstrap_95_low": 2.266666666666668,
+      "bootstrap_95_high": 2.52,
+      "half_width_pp": 0.12666666666666604,
+      "sd_pp": 0.1622754859285074,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    },
+    {
+      "policy": "random",
+      "rho": 0.5,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 6.046666666666666,
+      "bootstrap_95_low": 5.799999999999998,
+      "bootstrap_95_high": 6.37333333333333,
+      "half_width_pp": 0.2866666666666662,
+      "sd_pp": 0.375351686940247,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    },
+    {
+      "policy": "random",
+      "rho": 0.7,
+      "pairs": 5,
+      "target_pairs": 5,
+      "mean_pp": 8.4,
+      "bootstrap_95_low": 8.073333333333332,
+      "bootstrap_95_high": 8.820000000000002,
+      "half_width_pp": 0.37333333333333485,
+      "sd_pp": 0.5038738819277014,
+      "decision": "precision_reached",
+      "additional_pairs": 0,
+      "estimated_requirement_exceeds_cap": false
+    }
+  ],
+  "interpretation": "Exploratory bootstrap on five independent pairs. Separate fixed-size confirmation; no claim of selection-valid pooled 95% CI."
+}

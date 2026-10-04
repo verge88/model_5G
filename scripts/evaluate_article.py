@@ -13,10 +13,49 @@ import random
 import re
 import statistics
 from urllib.parse import urlsplit
-from analyze import events, context_key, propagation
+from analyze import events, context_key, propagation, read_trace
 from theory import stationary_share
 
 HOSTS=['127.0.0.4','127.0.0.32','127.0.0.33']
+
+def series_id(run_meta, folder):
+    value = run_meta.get('series_id') or run_meta.get('series') or run_meta.get('matrix_name')
+    if value:
+        return str(value)
+    run_name = str(run_meta.get('run') or getattr(folder, 'name', '') or '')
+    if run_name.startswith('article-20261001-'):
+        return 'pilot-20261001'
+    if run_name:
+        return run_name
+    return str(getattr(folder, 'parent', Path('.')).name or 'legacy')
+
+
+def matched_experimental_conditions(a, b, *, pair_match=True):
+    """Require same series and matching operational setup for a valid paired comparison.
+
+    Honest/attack pairs intentionally differ in alpha, but they must share all other
+    execution conditions and build hashes. Legacy runs without explicit metadata remain
+    comparable only when the older one-off protocol is preserved.
+    """
+    if not a or not b:
+        return False
+    if series_id(a, Path('.')) != series_id(b, Path('.')):
+        return False
+    fixed = ['policy','rho','seed','warmup','cycles','capacity_reported','capacity3','attack_mode',
+             'execution_worker','rls_heartbeat_threshold_ms','active','ues','capacity','interval',
+             'resource_configuration','order','residual_budget']
+    for key in fixed:
+        if a.get(key) != b.get(key):
+            return False
+    for key in ('binary_sha256','sbi_library_sha256','ueransim_sha256'):
+        if not a.get(key) or a.get(key) != b.get(key):
+            return False
+    if pair_match:
+        if a.get('alpha') == b.get('alpha'):
+            return False
+        if a.get('alpha') is None or b.get('alpha') is None:
+            return False
+    return True
 
 def quantile(values,q):
     xs=sorted(values)
@@ -34,7 +73,7 @@ def write_csv(path,rows):
 
 def audit(folder):
     m=json.loads((folder/'manifest.json').read_text())
-    rows=sorted([e for p in folder.glob('*.log') for e in events(p)],key=lambda x:int(x['t']))
+    rows=sorted([e for p in list(folder.glob('*.log'))+list(folder.glob('*.log.gz')) for e in events(p)],key=lambda x:int(x['t']))
     rows=[e for e in rows if int(e['t'])<=m.get('observation_end_us',math.inf)]
     sent={(e['nf'],e.get('version')):int(e['load']) for e in rows if e['kind']=='SEND'}
     send_times={(e['nf'],e.get('version')):int(e['t']) for e in rows if e['kind']=='SEND'}
@@ -107,9 +146,9 @@ def audit(folder):
     for i,h in enumerate(HOSTS,1):
         text=(folder/f'smf{i}-metrics.txt').read_text()
         metric_counts[h]=sum(float(x) for x in re.findall(r'^fivegs_smffunction_sm_sessionnbr\{[^\n]*\} ([-\d.e+]+)$',text,re.M))
-    ue_text=(folder/'ue.stdout').read_text(errors='replace')
+    ue_text=read_trace(folder/'ue.stdout')
     established=ue_text.count('PDU Session establishment is successful')
-    workload=[json.loads(x) for x in (folder/'workload.jsonl').read_text().splitlines()]
+    workload=[json.loads(x) for x in read_trace(folder/'workload.jsonl').splitlines()]
     planned=[(e['ue'],e['command']) for e in workload if e['command']!='ps-list']
     h=hashlib.sha256(json.dumps(planned).encode()).hexdigest()
     radio_failures=ue_text.count('Radio link failure detected')
@@ -138,9 +177,15 @@ def audit(folder):
             'assignments':n})
     total=sum(assigned.values())
     result={'run':folder.name,'eligible':eligible,'started':m['started'],'seed':m['seed'],'policy':m['policy'],
-            'rho':m['active']/(3*m['capacity']),'alpha':m['alpha'],'capacity_reported':m.get('reported_capacity',100),
+            'series_id':series_id(m,folder),'rho':m['active']/(3*m['capacity']),'alpha':m['alpha'],'capacity_reported':m.get('reported_capacity',100),
             'residual_budget':m.get('residual_budget'),'attack_mode':m.get('attack_mode','constant'),
-            'capacity3':m.get('capacity3') or m['capacity'],
+            'capacity3':m.get('capacity3') or m['capacity'],'warmup':m.get('warmup',0),'cycles':m.get('cycles',0),
+            'binary_sha256':m.get('binary_sha256'), 'sbi_library_sha256':m.get('sbi_library_sha256'),
+            'ueransim_sha256':m.get('ueransim_sha256'),
+            'resource_configuration':m.get('resource_configuration'),
+            'active':m['active'],'ues':m['ues'],'capacity':m['capacity'],
+            'interval':m.get('interval'),'order':m.get('order','1,2,3'),
+            'execution_worker':m.get('execution_worker','sequential'),'rls_heartbeat_threshold_ms':m.get('rls_heartbeat_threshold_ms',2000),
             'workload_hash':h,'n':total,'s3':assigned[HOSTS[2]]/total if total else None,
             'assigned':assigned,'scp_active':counts,'ground_truth_sessionnbr':metric_counts,
             'established':established,'anomalies':anomalies,
@@ -155,12 +200,14 @@ def audit(folder):
     (folder/'audit.json').write_text(json.dumps(result,indent=2))
     return result,feature_rows
 
-def evaluate(root,out,prefix):
+def evaluate(root,out,prefix,series=None,update_report=False):
     out.mkdir(parents=True,exist_ok=True)
     runs=[];features=[]
     for folder in sorted((root/'runs').glob(prefix+'*')):
         if not (folder/'manifest.json').exists():continue
         m=json.loads((folder/'manifest.json').read_text())
+        if series is not None and series_id(m,folder) != series:
+            continue
         if not m.get('complete'):continue
         a,f=audit(folder);runs.append(a)
         if a['eligible']:features+=f
@@ -169,15 +216,20 @@ def evaluate(root,out,prefix):
         if not a['eligible'] or a['alpha']!=.5 or a['capacity_reported']!=100 or a['residual_budget'] is not None or a['attack_mode']!='constant':continue
         benign=[b for b in runs if b['eligible'] and b['alpha']==0 and b['seed']==a['seed'] and b['policy']==a['policy'] and b['rho']==a['rho'] and b['capacity_reported']==100]
         if not benign:continue
-        def environment(r):return r['rls_heartbeat_threshold_ms'],r['execution_worker']=='sequential'
-        matched=[b for b in benign if environment(b)==environment(a)]
+        def environment(r):
+            return r['series_id'], r['warmup'], r['cycles'], r['binary_sha256'], r['sbi_library_sha256'], r['rls_heartbeat_threshold_ms'], r['execution_worker']
+        matched=[b for b in benign if matched_experimental_conditions(a, b, pair_match=True) and environment(b)==environment(a)]
+        if not matched:
+            # The strict comparison avoids mixing pilot and extended runs or runs with divergent build state.
+            continue
         b=max(matched or benign,key=lambda r:r['started'])
         if a['workload_hash']!=b['workload_hash']:raise ValueError('Paired workload mismatch')
-        pair={'policy':a['policy'],'rho':a['rho'],'seed':a['seed'],'honest_s3':b['s3'],
+        pair={'policy':a['policy'],'rho':a['rho'],'seed':a['seed'],'series_id':a['series_id'],'honest_s3':b['s3'],
                       'attack_s3':a['s3'],'delta_pp':100*(a['s3']-b['s3']),
                       'theory_delta_pp':100*(stationary_share(a['rho'],.5)-1/3),
-                      'comparable':bool(matched),'honest_run':b['run'],'attack_run':a['run'],'attack_started':a['started']}
-        key=a['policy'],a['rho'],a['seed'];previous=pairs_by_key.get(key)
+                      'comparable':True,'honest_run':b['run'],'attack_run':a['run'],'attack_started':a['started'],
+                      'warmup':a['warmup'],'cycles':a['cycles']}
+        key=a['series_id'],a['policy'],a['rho'],a['seed'];previous=pairs_by_key.get(key)
         if previous is None or (pair['comparable'],pair['attack_started'])>(previous['comparable'],previous['attack_started']):
             pairs_by_key[key]=pair
     pairs=list(pairs_by_key.values())
@@ -239,11 +291,13 @@ def evaluate(root,out,prefix):
     write_csv(out/'detectors-by-policy.csv',by_policy)
     (out/'audit.json').write_text(json.dumps({'runs':runs,'effects':effects,'detectors':metrics,'thresholds':thresholds},indent=2))
     print(json.dumps({'runs':len(runs),'eligible':sum(r['eligible'] for r in runs),'pairs':len(pairs),'windows':len(features)},indent=2))
-    if root==Path(__file__).resolve().parents[1]:
+    if update_report and root==Path(__file__).resolve().parents[1]:
         from report_article import main as update_manuscript
         update_manuscript()
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1])
-    p.add_argument('--prefix',default='article-20261001-');p.add_argument('--out',type=Path)
-    a=p.parse_args();evaluate(a.root,a.out or a.root/'results/article-evaluation',a.prefix)
+    p.add_argument('--prefix',default='article-20261001-');p.add_argument('--series',default=None)
+    p.add_argument('--out',type=Path)
+    p.add_argument('--update-report',action='store_true')
+    a=p.parse_args();evaluate(a.root,a.out or a.root/'results/article-evaluation',a.prefix,a.series,a.update_report)

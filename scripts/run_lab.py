@@ -12,8 +12,11 @@ import shutil
 import subprocess
 import time
 import traceback
+import gzip
+import tarfile
 import urllib.request
 import yaml
+from session_log import wait_confirmation
 
 ROOT = Path('/work')
 UERANSIM_CONFIG = Path('/build/model5g-ueransim/config')
@@ -99,6 +102,7 @@ def run(args):
                     started=time.time(), complete=False)
     manifest['trace_transport'] = 'HTTP headers only; standard heartbeat JSON'
     manifest['execution_worker'] = os.environ.get('LAB_EXECUTION_WORKER','sequential')
+    manifest['resource_configuration'] = os.environ.get('LAB_RESOURCE_CONFIGURATION')
     manifest['rls_heartbeat_threshold_ms'] = 15000
     manifest['binary_sha256'] = {nf:hashlib.sha256((Path(prefix)/'bin'/f'open5gs-{nf}d').read_bytes()).hexdigest()
                                for nf in ['amf','smf','nrf','scp']}
@@ -132,16 +136,8 @@ def run(args):
         if command.startswith('ps-establish') or command == 'ps-release-all':
             wanted = ('PDU Session establishment is successful' if command.startswith('ps-establish')
                       else 'Performing local release of PDU session')
-            deadline = time.monotonic()+10
-            with (out/'ue.stdout').open() as stream:
-                stream.seek(log_offset)
-                while time.monotonic()<deadline:
-                    text = stream.read()
-                    if any(f'99970{i:010d}|' in line and wanted in line for line in text.splitlines()):
-                        break
-                    time.sleep(.01)
-                else:
-                    raise RuntimeError(f'UE {i}: no confirmation for {command}')
+            if not wait_confirmation(out/'ue.stdout',log_offset,i,wanted):
+                raise RuntimeError(f'UE {i}: no confirmation for {command}')
         return result.stdout
     try:
         subscribers(args.ues)
@@ -233,15 +229,34 @@ def run(args):
         subprocess.run(['ip','link','delete','ogstun'],capture_output=True)
         manifest['finished'] = time.time()
         (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
+        if args.compact_storage:
+            # Lossless archival after all writers have stopped; logs remain readable.
+            for path in [out/'sbi.pcap', *out.glob('*.log'), *out.glob('*.stdout'), out/'workload.jsonl']:
+                if path.exists():
+                    with path.open('rb') as source, gzip.open(str(path)+'.gz','wb') as target:
+                        shutil.copyfileobj(source,target)
+                    path.unlink()
+            prom_path=out/'prometheus'
+            if prom_path.exists():
+                with tarfile.open(out/'prometheus.tar.gz','w:gz') as archive:
+                    archive.add(prom_path,arcname='prometheus')
+                shutil.rmtree(prom_path)
         # Publish only a fully copied run; concurrent analysis must never see
         # manifest.json while the other files are still being copied.
         staging=destination.with_name('.'+destination.name+'.copying')
         shutil.copytree(out,staging)
         staging.rename(destination)
+        if args.compact_storage:
+            # Destination is a complete copy; remove only this new run's temporary tree.
+            if out.resolve().parent != Path('/tmp/model5g-runs').resolve():
+                raise RuntimeError('Unexpected temporary run path')
+            shutil.rmtree(out)
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--out',required=True)
+    p.add_argument('--series-id')
+    p.add_argument('--compact-storage',action='store_true')
     p.add_argument('--deadline',type=float)
     p.add_argument('--baseline',action='store_true')
     p.add_argument('--order',default='1,2,3')

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/work/scripts/run_lab.py", line 301, in <module>
+    run(args)
+  File "/work/scripts/run_lab.py", line 202, in run
+    cli(new,'ps-establish IPv4 --sst 1 --dnn internet')
+  File "/work/scripts/run_lab.py", line 147, in cli
+    raise RuntimeError(f'UE {i}: no confirmation for {command}')
+RuntimeError: UE 165: no confirmation for ps-establish IPv4 --sst 1 --dnn internet

@@ -1,0 +1,565 @@
+{
+  "recovered": [
+    {
+      "item": {
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 101,
+        "warmup": 300,
+        "cycles": 3300,
+        "series_id": "main-v2"
+      },
+      "worker": "model5g-worker2",
+      "attempt": 1,
+      "records": [
+        {
+          "name": "main-v2-random-r50-s101-a0-attempt1",
+          "exit_code": 0,
+          "seconds": 1511.9093565940857,
+          "audit": {
+            "run": "main-v2-random-r50-s101-a0-attempt1",
+            "eligible": true,
+            "started": 1791052242.5459213,
+            "seed": 101,
+            "policy": "random",
+            "series_id": "main-v2",
+            "rho": 0.5,
+            "alpha": 0.0,
+            "capacity_reported": 100,
+            "residual_budget": null,
+            "attack_mode": "constant",
+            "capacity3": 100,
+            "warmup": 300,
+            "cycles": 3300,
+            "binary_sha256": {
+              "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+              "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+              "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+              "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+            },
+            "sbi_library_sha256": {
+              "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+            },
+            "ueransim_sha256": {
+              "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+              "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+              "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+            },
+            "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+            "active": 150,
+            "ues": 162,
+            "capacity": 100,
+            "interval": 0.01,
+            "order": "1,2,3",
+            "execution_worker": "model5g-worker2",
+            "rls_heartbeat_threshold_ms": 15000,
+            "workload_hash": "061a72dc03e8440c41b53cb19bf518d23406061d85130a4156be78e8115d170c",
+            "n": 3000,
+            "s3": 0.32866666666666666,
+            "assigned": {
+              "127.0.0.4": 1007,
+              "127.0.0.32": 1007,
+              "127.0.0.33": 986
+            },
+            "scp_active": {
+              "127.0.0.4": 51,
+              "127.0.0.32": 57,
+              "127.0.0.33": 42
+            },
+            "ground_truth_sessionnbr": {
+              "127.0.0.4": 51.0,
+              "127.0.0.32": 57.0,
+              "127.0.0.33": 42.0
+            },
+            "established": 3450,
+            "anomalies": [],
+            "candidate_version_mismatches": 0,
+            "checks": {
+              "complete": true,
+              "three_smf_ids": true,
+              "all_creates_confirmed": true,
+              "final_scp_matches_metrics": true,
+              "final_population": true,
+              "no_duplicate_creates": true,
+              "measured_population": true,
+              "all_candidates_present": true,
+              "all_selections_present": true,
+              "versions_match": true,
+              "causal_nrf_chain": true,
+              "no_radio_failure": true
+            },
+            "broken_causal_chains": 0,
+            "radio_failures": 0,
+            "load_samples": 4510,
+            "saturated_load_samples": 0,
+            "max_abs_scp_ground_truth_difference": 1,
+            "mean_event_sampled_active": 149.9556437552561,
+            "propagation": {
+              "compute_to_send": {
+                "n": 4510,
+                "min_ms": 0.021,
+                "median_ms": 0.164,
+                "p90_ms": 0.252,
+                "p95_ms": 0.295,
+                "p99_ms": 0.44090999999999986,
+                "max_ms": 23.48
+              },
+              "send_to_nrf": {
+                "n": 4510,
+                "min_ms": 0.151,
+                "median_ms": 0.6625000000000001,
+                "p90_ms": 0.917,
+                "p95_ms": 1.03655,
+                "p99_ms": 1.4516399999999994,
+                "max_ms": 5.629
+              },
+              "compute_to_nrf": {
+                "n": 4510,
+                "min_ms": 0.201,
+                "median_ms": 0.836,
+                "p90_ms": 1.157,
+                "p95_ms": 1.3081000000000003,
+                "p99_ms": 1.8227299999999995,
+                "max_ms": 24.438
+              },
+              "age_at_candidate": {
+                "n": 10350,
+                "min_ms": 1.925,
+                "median_ms": 502.7655,
+                "p90_ms": 901.9282000000001,
+                "p95_ms": 954.7781,
+                "p99_ms": 994.7425000000001,
+                "max_ms": 1023.116
+              },
+              "age_at_selection": {
+                "n": 3450,
+                "min_ms": 1.962,
+                "median_ms": 475.59950000000003,
+                "p90_ms": 898.228,
+                "p95_ms": 946.6523999999998,
+                "p99_ms": 995.27728,
+                "max_ms": 1003.968
+              }
+            }
+          }
+        },
+        {
+          "name": "main-v2-random-r50-s101-a50-attempt1",
+          "exit_code": 0,
+          "seconds": 1491.2135031223297,
+          "audit": {
+            "run": "main-v2-random-r50-s101-a50-attempt1",
+            "eligible": true,
+            "started": 1791050738.2999296,
+            "seed": 101,
+            "policy": "random",
+            "series_id": "main-v2",
+            "rho": 0.5,
+            "alpha": 0.5,
+            "capacity_reported": 100,
+            "residual_budget": null,
+            "attack_mode": "constant",
+            "capacity3": 100,
+            "warmup": 300,
+            "cycles": 3300,
+            "binary_sha256": {
+              "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+              "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+              "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+              "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+            },
+            "sbi_library_sha256": {
+              "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+            },
+            "ueransim_sha256": {
+              "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+              "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+              "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+            },
+            "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+            "active": 150,
+            "ues": 162,
+            "capacity": 100,
+            "interval": 0.01,
+            "order": "1,2,3",
+            "execution_worker": "model5g-worker2",
+            "rls_heartbeat_threshold_ms": 15000,
+            "workload_hash": "061a72dc03e8440c41b53cb19bf518d23406061d85130a4156be78e8115d170c",
+            "n": 3000,
+            "s3": 0.3953333333333333,
+            "assigned": {
+              "127.0.0.4": 910,
+              "127.0.0.32": 904,
+              "127.0.0.33": 1186
+            },
+            "scp_active": {
+              "127.0.0.4": 48,
+              "127.0.0.32": 50,
+              "127.0.0.33": 52
+            },
+            "ground_truth_sessionnbr": {
+              "127.0.0.4": 48.0,
+              "127.0.0.32": 50.0,
+              "127.0.0.33": 52.0
+            },
+            "established": 3450,
+            "anomalies": [],
+            "candidate_version_mismatches": 0,
+            "checks": {
+              "complete": true,
+              "three_smf_ids": true,
+              "all_creates_confirmed": true,
+              "final_scp_matches_metrics": true,
+              "final_population": true,
+              "no_duplicate_creates": true,
+              "measured_population": true,
+              "all_candidates_present": true,
+              "all_selections_present": true,
+              "versions_match": true,
+              "causal_nrf_chain": true,
+              "no_radio_failure": true
+            },
+            "broken_causal_chains": 0,
+            "radio_failures": 0,
+            "load_samples": 4447,
+            "saturated_load_samples": 0,
+            "max_abs_scp_ground_truth_difference": 1,
+            "mean_event_sampled_active": 149.95212656455863,
+            "propagation": {
+              "compute_to_send": {
+                "n": 4447,
+                "min_ms": 0.026,
+                "median_ms": 0.153,
+                "p90_ms": 0.212,
+                "p95_ms": 0.239,
+                "p99_ms": 0.31054,
+                "max_ms": 2.549
+              },
+              "send_to_nrf": {
+                "n": 4447,
+                "min_ms": 0.212,
+                "median_ms": 0.596,
+                "p90_ms": 0.764,
+                "p95_ms": 0.8366999999999998,
+                "p99_ms": 1.04454,
+                "max_ms": 3.009
+              },
+              "compute_to_nrf": {
+                "n": 4447,
+                "min_ms": 0.261,
+                "median_ms": 0.756,
+                "p90_ms": 0.9544,
+                "p95_ms": 1.049,
+                "p99_ms": 1.2731599999999998,
+                "max_ms": 3.457
+              },
+              "age_at_candidate": {
+                "n": 10350,
+                "min_ms": 2.329,
+                "median_ms": 500.78999999999996,
+                "p90_ms": 905.0372,
+                "p95_ms": 951.95985,
+                "p99_ms": 992.33628,
+                "max_ms": 1003.622
+              },
+              "age_at_selection": {
+                "n": 3450,
+                "min_ms": 2.378,
+                "median_ms": 508.49649999999997,
+                "p90_ms": 906.0885999999999,
+                "p95_ms": 954.5419499999999,
+                "p99_ms": 993.9416699999999,
+                "max_ms": 1003.008
+              }
+            }
+          }
+        }
+      ],
+      "eligible_pair": true,
+      "seconds": 3912.6972596249834,
+      "recovered": true,
+      "budget_accounting": "Full reserved pair allowance charged because coordinator elapsed time unavailable"
+    },
+    {
+      "item": {
+        "policy": "swrr",
+        "rho": 0.2,
+        "seed": 101,
+        "warmup": 300,
+        "cycles": 3300,
+        "series_id": "main-v2"
+      },
+      "worker": "model5g-worker3",
+      "attempt": 1,
+      "records": [
+        {
+          "name": "main-v2-swrr-r20-s101-a0-attempt1",
+          "exit_code": 0,
+          "seconds": 1486.4627523422241,
+          "audit": {
+            "run": "main-v2-swrr-r20-s101-a0-attempt1",
+            "eligible": true,
+            "started": 1791052265.4369054,
+            "seed": 101,
+            "policy": "swrr",
+            "series_id": "main-v2",
+            "rho": 0.2,
+            "alpha": 0.0,
+            "capacity_reported": 100,
+            "residual_budget": null,
+            "attack_mode": "constant",
+            "capacity3": 100,
+            "warmup": 300,
+            "cycles": 3300,
+            "binary_sha256": {
+              "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+              "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+              "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+              "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+            },
+            "sbi_library_sha256": {
+              "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+            },
+            "ueransim_sha256": {
+              "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+              "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+              "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+            },
+            "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+            "active": 60,
+            "ues": 72,
+            "capacity": 100,
+            "interval": 0.01,
+            "order": "1,2,3",
+            "execution_worker": "model5g-worker3",
+            "rls_heartbeat_threshold_ms": 15000,
+            "workload_hash": "20d4f9632b1e1ec2836d2149ebf10f6ba52d123858dfd91ebea074b84ca3d453",
+            "n": 3000,
+            "s3": 0.335,
+            "assigned": {
+              "127.0.0.4": 997,
+              "127.0.0.32": 998,
+              "127.0.0.33": 1005
+            },
+            "scp_active": {
+              "127.0.0.4": 23,
+              "127.0.0.32": 21,
+              "127.0.0.33": 16
+            },
+            "ground_truth_sessionnbr": {
+              "127.0.0.4": 23.0,
+              "127.0.0.32": 21.0,
+              "127.0.0.33": 16.0
+            },
+            "established": 3360,
+            "anomalies": [],
+            "candidate_version_mismatches": 0,
+            "checks": {
+              "complete": true,
+              "three_smf_ids": true,
+              "all_creates_confirmed": true,
+              "final_scp_matches_metrics": true,
+              "final_population": true,
+              "no_duplicate_creates": true,
+              "measured_population": true,
+              "all_candidates_present": true,
+              "all_selections_present": true,
+              "versions_match": true,
+              "causal_nrf_chain": true,
+              "no_radio_failure": true
+            },
+            "broken_causal_chains": 0,
+            "radio_failures": 0,
+            "load_samples": 4427,
+            "saturated_load_samples": 0,
+            "max_abs_scp_ground_truth_difference": 1,
+            "mean_event_sampled_active": 59.95415019762846,
+            "propagation": {
+              "compute_to_send": {
+                "n": 4427,
+                "min_ms": 0.031,
+                "median_ms": 0.164,
+                "p90_ms": 0.238,
+                "p95_ms": 0.273,
+                "p99_ms": 0.4057399999999998,
+                "max_ms": 23.835
+              },
+              "send_to_nrf": {
+                "n": 4427,
+                "min_ms": 0.202,
+                "median_ms": 0.642,
+                "p90_ms": 0.8884000000000001,
+                "p95_ms": 0.9846999999999998,
+                "p99_ms": 1.2959599999999991,
+                "max_ms": 7.217
+              },
+              "compute_to_nrf": {
+                "n": 4427,
+                "min_ms": 0.261,
+                "median_ms": 0.815,
+                "p90_ms": 1.11,
+                "p95_ms": 1.2283999999999997,
+                "p99_ms": 1.5526999999999989,
+                "max_ms": 24.897
+              },
+              "age_at_candidate": {
+                "n": 10080,
+                "min_ms": 1.373,
+                "median_ms": 505.1305,
+                "p90_ms": 903.1266,
+                "p95_ms": 953.4206499999999,
+                "p99_ms": 993.90328,
+                "max_ms": 1004.74
+              },
+              "age_at_selection": {
+                "n": 3360,
+                "min_ms": 2.245,
+                "median_ms": 500.869,
+                "p90_ms": 901.4558,
+                "p95_ms": 948.8120499999999,
+                "p99_ms": 992.82525,
+                "max_ms": 1003.027
+              }
+            }
+          }
+        },
+        {
+          "name": "main-v2-swrr-r20-s101-a50-attempt1",
+          "exit_code": 0,
+          "seconds": 1466.6017191410065,
+          "audit": {
+            "run": "main-v2-swrr-r20-s101-a50-attempt1",
+            "eligible": true,
+            "started": 1791050785.6548781,
+            "seed": 101,
+            "policy": "swrr",
+            "series_id": "main-v2",
+            "rho": 0.2,
+            "alpha": 0.5,
+            "capacity_reported": 100,
+            "residual_budget": null,
+            "attack_mode": "constant",
+            "capacity3": 100,
+            "warmup": 300,
+            "cycles": 3300,
+            "binary_sha256": {
+              "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+              "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+              "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+              "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+            },
+            "sbi_library_sha256": {
+              "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+            },
+            "ueransim_sha256": {
+              "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+              "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+              "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+            },
+            "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+            "active": 60,
+            "ues": 72,
+            "capacity": 100,
+            "interval": 0.01,
+            "order": "1,2,3",
+            "execution_worker": "model5g-worker3",
+            "rls_heartbeat_threshold_ms": 15000,
+            "workload_hash": "20d4f9632b1e1ec2836d2149ebf10f6ba52d123858dfd91ebea074b84ca3d453",
+            "n": 3000,
+            "s3": 0.357,
+            "assigned": {
+              "127.0.0.4": 958,
+              "127.0.0.32": 971,
+              "127.0.0.33": 1071
+            },
+            "scp_active": {
+              "127.0.0.4": 16,
+              "127.0.0.32": 19,
+              "127.0.0.33": 25
+            },
+            "ground_truth_sessionnbr": {
+              "127.0.0.4": 16.0,
+              "127.0.0.32": 19.0,
+              "127.0.0.33": 25.0
+            },
+            "established": 3360,
+            "anomalies": [],
+            "candidate_version_mismatches": 0,
+            "checks": {
+              "complete": true,
+              "three_smf_ids": true,
+              "all_creates_confirmed": true,
+              "final_scp_matches_metrics": true,
+              "final_population": true,
+              "no_duplicate_creates": true,
+              "measured_population": true,
+              "all_candidates_present": true,
+              "all_selections_present": true,
+              "versions_match": true,
+              "causal_nrf_chain": true,
+              "no_radio_failure": true
+            },
+            "broken_causal_chains": 0,
+            "radio_failures": 0,
+            "load_samples": 4380,
+            "saturated_load_samples": 0,
+            "max_abs_scp_ground_truth_difference": 1,
+            "mean_event_sampled_active": 59.95175786276831,
+            "propagation": {
+              "compute_to_send": {
+                "n": 4380,
+                "min_ms": 0.025,
+                "median_ms": 0.152,
+                "p90_ms": 0.205,
+                "p95_ms": 0.228,
+                "p99_ms": 0.30421000000000004,
+                "max_ms": 4.116
+              },
+              "send_to_nrf": {
+                "n": 4380,
+                "min_ms": 0.198,
+                "median_ms": 0.573,
+                "p90_ms": 0.7350999999999999,
+                "p95_ms": 0.802,
+                "p99_ms": 1.0814700000000004,
+                "max_ms": 3.871
+              },
+              "compute_to_nrf": {
+                "n": 4380,
+                "min_ms": 0.229,
+                "median_ms": 0.731,
+                "p90_ms": 0.927,
+                "p95_ms": 1.01,
+                "p99_ms": 1.3353100000000004,
+                "max_ms": 4.719
+              },
+              "age_at_candidate": {
+                "n": 10080,
+                "min_ms": 2.169,
+                "median_ms": 502.288,
+                "p90_ms": 903.2722,
+                "p95_ms": 952.7048,
+                "p99_ms": 992.69784,
+                "max_ms": 1003.811
+              },
+              "age_at_selection": {
+                "n": 3360,
+                "min_ms": 2.172,
+                "median_ms": 501.751,
+                "p90_ms": 904.2934,
+                "p95_ms": 952.4053999999999,
+                "p99_ms": 991.18541,
+                "max_ms": 1003.117
+              }
+            }
+          }
+        }
+      ],
+      "eligible_pair": true,
+      "seconds": 3912.6972596249834,
+      "recovered": true,
+      "budget_accounting": "Full reserved pair allowance charged because coordinator elapsed time unavailable"
+    }
+  ],
+  "remaining_seconds": 14472.059260250011
+}

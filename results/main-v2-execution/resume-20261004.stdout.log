@@ -1,0 +1,36 @@
+{"phase_complete": true, "active_seconds": 28727.94073974999, "stop_reason": "complete"}
+{"pilot_pairs": 18, "main_pairs": 6, "completed_attempts": 12}
+WARMUP_DECISION {"accepted": true, "warmup": 300, "preparation_runs": ["main-v2-preparation-random-r70-s9001-a50-attempt2", "main-v2-preparation-random-r70-s9001-a0-attempt2", "main-v2-preparation-swrr-r70-s9001-a50-attempt2", "main-v2-preparation-swrr-r70-s9001-a0-attempt2"], "criterion": "All nodes early/late mean occupancy contrast <=5 sessions in four rho=.7 preparation runs", "limitation": "Descriptive transient screen, not a statistical stationarity proof; lower loads checked in main block diagnostics"}
+START model5g-runtime {'policy': 'random', 'rho': 0.7, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker2 {'policy': 'swrr', 'rho': 0.5, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'swrr', 'rho': 0.5, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2974
+{"pilot_pairs": 18, "main_pairs": 7, "completed_attempts": 13}
+START model5g-worker3 {'policy': 'random', 'rho': 0.5, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'random', 'rho': 0.7, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 3005
+{"pilot_pairs": 18, "main_pairs": 8, "completed_attempts": 14}
+DONE {'policy': 'random', 'rho': 0.5, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2896
+{"pilot_pairs": 18, "main_pairs": 9, "completed_attempts": 15}
+UNLIMITED_HANDOFF: current pairs complete; transferring without stopping containers
+START model5g-runtime {'policy': 'swrr', 'rho': 0.2, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker2 {'policy': 'swrr', 'rho': 0.7, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker3 {'policy': 'random', 'rho': 0.2, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'random', 'rho': 0.2, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2839
+{"pilot_pairs": 18, "main_pairs": 10, "completed_attempts": 16}
+DONE {'policy': 'swrr', 'rho': 0.2, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2842
+{"pilot_pairs": 18, "main_pairs": 11, "completed_attempts": 17}
+DONE {'policy': 'swrr', 'rho': 0.7, 'seed': 102, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2915
+{"pilot_pairs": 18, "main_pairs": 12, "completed_attempts": 18}
+START model5g-worker4 {'policy': 'random', 'rho': 0.7, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker3 {'policy': 'swrr', 'rho': 0.5, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-runtime {'policy': 'random', 'rho': 0.2, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+START model5g-worker2 {'policy': 'swrr', 'rho': 0.2, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'swrr', 'rho': 0.2, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2840
+{"pilot_pairs": 18, "main_pairs": 13, "completed_attempts": 19}
+START model5g-worker2 {'policy': 'swrr', 'rho': 0.7, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'random', 'rho': 0.2, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2843
+{"pilot_pairs": 18, "main_pairs": 14, "completed_attempts": 20}
+START model5g-runtime {'policy': 'random', 'rho': 0.5, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'}
+DONE {'policy': 'swrr', 'rho': 0.5, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2890
+{"pilot_pairs": 18, "main_pairs": 15, "completed_attempts": 21}
+DONE {'policy': 'random', 'rho': 0.7, 'seed': 103, 'warmup': 300, 'cycles': 3300, 'series_id': 'main-v2'} True 2920
+{"pilot_pairs": 18, "main_pairs": 16, "completed_attempts": 22}
