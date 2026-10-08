@@ -1,0 +1,270 @@
+{
+  "items": [
+    {
+      "stage": "honest-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 401,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "honest-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 402,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "honest-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "attack-hb5",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0.25,
+      "extra": [
+        "--heartbeat",
+        "5"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "attack-onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 403,
+      "alpha": 0.25,
+      "extra": [
+        "--attack-mode",
+        "onoff"
+      ]
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "c586529cb6e82f35e01434c67f52046004d1e4e6735e2dbde5493ffeb29af534"
+}

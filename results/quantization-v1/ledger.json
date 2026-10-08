@@ -1,0 +1,1714 @@
+{
+  "results": [
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 501,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "eligible": true,
+      "seconds": 1436.9556546211243,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+        "eligible": true,
+        "started": 1791223621.6390274,
+        "seed": 501,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "a7de0c2dd3beb0c589f0dc9247e6db2f442662494a610c8b2a6e0916d778f264",
+        "n": 3000,
+        "s3": 0.3283333333333333,
+        "assigned": {
+          "127.0.0.4": 1000,
+          "127.0.0.32": 1015,
+          "127.0.0.33": 985
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 51,
+          "127.0.0.33": 50
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 51.0,
+          "127.0.0.33": 50.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4256,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98535175539823,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4256,
+            "min_ms": 0.014,
+            "median_ms": 0.059,
+            "p90_ms": 0.084,
+            "p95_ms": 0.099,
+            "p99_ms": 0.13,
+            "max_ms": 0.881
+          },
+          "send_to_nrf": {
+            "n": 4256,
+            "min_ms": 0.109,
+            "median_ms": 0.219,
+            "p90_ms": 0.3,
+            "p95_ms": 0.348,
+            "p99_ms": 0.44444999999999985,
+            "max_ms": 2.417
+          },
+          "compute_to_nrf": {
+            "n": 4256,
+            "min_ms": 0.132,
+            "median_ms": 0.28,
+            "p90_ms": 0.379,
+            "p95_ms": 0.442,
+            "p99_ms": 0.569249999999999,
+            "max_ms": 2.467
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.795,
+            "median_ms": 500.13800000000003,
+            "p90_ms": 900.9488,
+            "p95_ms": 950.9558999999998,
+            "p99_ms": 990.94395,
+            "max_ms": 1001.417
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.081,
+            "median_ms": 496.79949999999997,
+            "p90_ms": 905.0555999999999,
+            "p95_ms": 954.62055,
+            "p99_ms": 992.54756,
+            "max_ms": 1001.266
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 501,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "eligible": true,
+      "seconds": 1439.523307800293,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+        "eligible": true,
+        "started": 1791223621.6382003,
+        "seed": 501,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "a7de0c2dd3beb0c589f0dc9247e6db2f442662494a610c8b2a6e0916d778f264",
+        "n": 3000,
+        "s3": 0.30366666666666664,
+        "assigned": {
+          "127.0.0.4": 1033,
+          "127.0.0.32": 1056,
+          "127.0.0.33": 911
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 55,
+          "127.0.0.33": 46
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 55.0,
+          "127.0.0.33": 46.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4256,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98246161203463,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4256,
+            "min_ms": 0.012,
+            "median_ms": 0.06,
+            "p90_ms": 0.088,
+            "p95_ms": 0.102,
+            "p99_ms": 0.133,
+            "max_ms": 1.686
+          },
+          "send_to_nrf": {
+            "n": 4256,
+            "min_ms": 0.104,
+            "median_ms": 0.226,
+            "p90_ms": 0.3085,
+            "p95_ms": 0.36,
+            "p99_ms": 0.448,
+            "max_ms": 2.616
+          },
+          "compute_to_nrf": {
+            "n": 4256,
+            "min_ms": 0.125,
+            "median_ms": 0.288,
+            "p90_ms": 0.388,
+            "p95_ms": 0.457,
+            "p99_ms": 0.5724499999999998,
+            "max_ms": 2.7
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.735,
+            "median_ms": 501.72249999999997,
+            "p90_ms": 901.8589000000001,
+            "p95_ms": 952.13995,
+            "p99_ms": 992.12704,
+            "max_ms": 1001.637
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.881,
+            "median_ms": 507.6095,
+            "p90_ms": 910.9913,
+            "p95_ms": 962.56315,
+            "p99_ms": 993.6794100000001,
+            "max_ms": 1001.56
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 501,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "eligible": true,
+      "seconds": 1439.5224583148956,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+        "eligible": true,
+        "started": 1791223621.6381075,
+        "seed": 501,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "a7de0c2dd3beb0c589f0dc9247e6db2f442662494a610c8b2a6e0916d778f264",
+        "n": 3000,
+        "s3": 0.336,
+        "assigned": {
+          "127.0.0.4": 975,
+          "127.0.0.32": 1017,
+          "127.0.0.33": 1008
+        },
+        "scp_active": {
+          "127.0.0.4": 45,
+          "127.0.0.32": 55,
+          "127.0.0.33": 50
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 45.0,
+          "127.0.0.32": 55.0,
+          "127.0.0.33": 50.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4257,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.97753404719825,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4257,
+            "min_ms": 0.013,
+            "median_ms": 0.058,
+            "p90_ms": 0.083,
+            "p95_ms": 0.097,
+            "p99_ms": 0.1308799999999992,
+            "max_ms": 1.226
+          },
+          "send_to_nrf": {
+            "n": 4257,
+            "min_ms": 0.12,
+            "median_ms": 0.215,
+            "p90_ms": 0.29340000000000005,
+            "p95_ms": 0.333,
+            "p99_ms": 0.4228799999999992,
+            "max_ms": 2.755
+          },
+          "compute_to_nrf": {
+            "n": 4257,
+            "min_ms": 0.137,
+            "median_ms": 0.275,
+            "p90_ms": 0.369,
+            "p95_ms": 0.423,
+            "p99_ms": 0.54,
+            "max_ms": 2.809
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.914,
+            "median_ms": 500.7005,
+            "p90_ms": 900.872,
+            "p95_ms": 950.7371499999999,
+            "p99_ms": 991.00958,
+            "max_ms": 1001.821
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.956,
+            "median_ms": 495.174,
+            "p90_ms": 891.4319,
+            "p95_ms": 945.0816499999999,
+            "p99_ms": 990.8091099999999,
+            "max_ms": 1001.426
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 501,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "eligible": true,
+      "seconds": 1439.999158859253,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+        "eligible": true,
+        "started": 1791223621.6379352,
+        "seed": 501,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "a7de0c2dd3beb0c589f0dc9247e6db2f442662494a610c8b2a6e0916d778f264",
+        "n": 3000,
+        "s3": 0.2906666666666667,
+        "assigned": {
+          "127.0.0.4": 1076,
+          "127.0.0.32": 1052,
+          "127.0.0.33": 872
+        },
+        "scp_active": {
+          "127.0.0.4": 52,
+          "127.0.0.32": 56,
+          "127.0.0.33": 42
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 52.0,
+          "127.0.0.32": 56.0,
+          "127.0.0.33": 42.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4257,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9790310843123,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4257,
+            "min_ms": 0.014,
+            "median_ms": 0.06,
+            "p90_ms": 0.087,
+            "p95_ms": 0.1,
+            "p99_ms": 0.127,
+            "max_ms": 0.364
+          },
+          "send_to_nrf": {
+            "n": 4257,
+            "min_ms": 0.114,
+            "median_ms": 0.225,
+            "p90_ms": 0.306,
+            "p95_ms": 0.348,
+            "p99_ms": 0.4344399999999996,
+            "max_ms": 23.503
+          },
+          "compute_to_nrf": {
+            "n": 4257,
+            "min_ms": 0.132,
+            "median_ms": 0.288,
+            "p90_ms": 0.387,
+            "p95_ms": 0.445,
+            "p99_ms": 0.5388799999999992,
+            "max_ms": 23.548
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.707,
+            "median_ms": 500.997,
+            "p90_ms": 901.3290000000001,
+            "p95_ms": 952.9562999999998,
+            "p99_ms": 990.02253,
+            "max_ms": 1002.205
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.712,
+            "median_ms": 488.0085,
+            "p90_ms": 897.1439,
+            "p95_ms": 950.73695,
+            "p99_ms": 988.9619899999999,
+            "max_ms": 1000.993
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 502,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "eligible": true,
+      "seconds": 1437.5339875221252,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+        "eligible": true,
+        "started": 1791225058.7142465,
+        "seed": 502,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "359c054f915c16c786e34607094791a135903294ef4ec1044eb8cfff07a4cb60",
+        "n": 3000,
+        "s3": 0.2926666666666667,
+        "assigned": {
+          "127.0.0.4": 1057,
+          "127.0.0.32": 1065,
+          "127.0.0.33": 878
+        },
+        "scp_active": {
+          "127.0.0.4": 51,
+          "127.0.0.32": 58,
+          "127.0.0.33": 41
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 51.0,
+          "127.0.0.32": 58.0,
+          "127.0.0.33": 41.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4260,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98089615532527,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4260,
+            "min_ms": 0.012,
+            "median_ms": 0.063,
+            "p90_ms": 0.089,
+            "p95_ms": 0.104,
+            "p99_ms": 0.13240999999999986,
+            "max_ms": 2.071
+          },
+          "send_to_nrf": {
+            "n": 4260,
+            "min_ms": 0.104,
+            "median_ms": 0.236,
+            "p90_ms": 0.30909999999999993,
+            "p95_ms": 0.355,
+            "p99_ms": 0.44040999999999986,
+            "max_ms": 3.827
+          },
+          "compute_to_nrf": {
+            "n": 4260,
+            "min_ms": 0.125,
+            "median_ms": 0.301,
+            "p90_ms": 0.39,
+            "p95_ms": 0.45209999999999945,
+            "p99_ms": 0.563,
+            "max_ms": 3.892
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.81,
+            "median_ms": 501.265,
+            "p90_ms": 901.7860000000001,
+            "p95_ms": 949.93725,
+            "p99_ms": 991.5789500000001,
+            "max_ms": 1001.398
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.853,
+            "median_ms": 499.53999999999996,
+            "p90_ms": 897.4956999999999,
+            "p95_ms": 948.9004,
+            "p99_ms": 995.0374899999999,
+            "max_ms": 1001.033
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 502,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "eligible": true,
+      "seconds": 1437.8411664962769,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+        "eligible": true,
+        "started": 1791225061.3255565,
+        "seed": 502,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "359c054f915c16c786e34607094791a135903294ef4ec1044eb8cfff07a4cb60",
+        "n": 3000,
+        "s3": 0.3273333333333333,
+        "assigned": {
+          "127.0.0.4": 1013,
+          "127.0.0.32": 1005,
+          "127.0.0.33": 982
+        },
+        "scp_active": {
+          "127.0.0.4": 52,
+          "127.0.0.32": 48,
+          "127.0.0.33": 50
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 52.0,
+          "127.0.0.32": 48.0,
+          "127.0.0.33": 50.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4259,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98120582120583,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4259,
+            "min_ms": 0.013,
+            "median_ms": 0.06,
+            "p90_ms": 0.084,
+            "p95_ms": 0.098,
+            "p99_ms": 0.1274200000000001,
+            "max_ms": 0.44
+          },
+          "send_to_nrf": {
+            "n": 4259,
+            "min_ms": 0.112,
+            "median_ms": 0.229,
+            "p90_ms": 0.302,
+            "p95_ms": 0.338,
+            "p99_ms": 0.42984000000000017,
+            "max_ms": 8.624
+          },
+          "compute_to_nrf": {
+            "n": 4259,
+            "min_ms": 0.132,
+            "median_ms": 0.291,
+            "p90_ms": 0.379,
+            "p95_ms": 0.429,
+            "p99_ms": 0.536,
+            "max_ms": 8.674
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.846,
+            "median_ms": 500.6015,
+            "p90_ms": 900.9976,
+            "p95_ms": 952.8414499999999,
+            "p99_ms": 992.01503,
+            "max_ms": 1001.219
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.354,
+            "median_ms": 501.937,
+            "p90_ms": 897.1993,
+            "p95_ms": 948.5364999999999,
+            "p99_ms": 992.67837,
+            "max_ms": 1001.213
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 502,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "eligible": true,
+      "seconds": 1438.7827582359314,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+        "eligible": true,
+        "started": 1791225061.3231525,
+        "seed": 502,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "359c054f915c16c786e34607094791a135903294ef4ec1044eb8cfff07a4cb60",
+        "n": 3000,
+        "s3": 0.2793333333333333,
+        "assigned": {
+          "127.0.0.4": 1083,
+          "127.0.0.32": 1079,
+          "127.0.0.33": 838
+        },
+        "scp_active": {
+          "127.0.0.4": 55,
+          "127.0.0.32": 54,
+          "127.0.0.33": 41
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 55.0,
+          "127.0.0.32": 54.0,
+          "127.0.0.33": 41.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4258,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9806135071361,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4258,
+            "min_ms": 0.016,
+            "median_ms": 0.06,
+            "p90_ms": 0.084,
+            "p95_ms": 0.096,
+            "p99_ms": 0.123,
+            "max_ms": 1.0
+          },
+          "send_to_nrf": {
+            "n": 4258,
+            "min_ms": 0.106,
+            "median_ms": 0.23,
+            "p90_ms": 0.302,
+            "p95_ms": 0.342,
+            "p99_ms": 0.4314300000000003,
+            "max_ms": 1.235
+          },
+          "compute_to_nrf": {
+            "n": 4258,
+            "min_ms": 0.15,
+            "median_ms": 0.291,
+            "p90_ms": 0.376,
+            "p95_ms": 0.43314999999999965,
+            "p99_ms": 0.545,
+            "max_ms": 1.346
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.729,
+            "median_ms": 500.086,
+            "p90_ms": 899.7528,
+            "p95_ms": 950.33585,
+            "p99_ms": 989.34889,
+            "max_ms": 1002.027
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.983,
+            "median_ms": 494.3,
+            "p90_ms": 894.9418999999999,
+            "p95_ms": 945.2378999999999,
+            "p99_ms": 988.65607,
+            "max_ms": 1001.659
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 502,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "eligible": true,
+      "seconds": 1439.001291513443,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+        "eligible": true,
+        "started": 1791225061.5649521,
+        "seed": 502,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "359c054f915c16c786e34607094791a135903294ef4ec1044eb8cfff07a4cb60",
+        "n": 3000,
+        "s3": 0.317,
+        "assigned": {
+          "127.0.0.4": 1023,
+          "127.0.0.32": 1026,
+          "127.0.0.33": 951
+        },
+        "scp_active": {
+          "127.0.0.4": 50,
+          "127.0.0.32": 55,
+          "127.0.0.33": 45
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 50.0,
+          "127.0.0.32": 55.0,
+          "127.0.0.33": 45.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4259,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 0,
+        "mean_event_sampled_active": 149.97912747003733,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4259,
+            "min_ms": 0.015,
+            "median_ms": 0.062,
+            "p90_ms": 0.087,
+            "p95_ms": 0.101,
+            "p99_ms": 0.1264200000000001,
+            "max_ms": 0.311
+          },
+          "send_to_nrf": {
+            "n": 4259,
+            "min_ms": 0.102,
+            "median_ms": 0.235,
+            "p90_ms": 0.31,
+            "p95_ms": 0.3550999999999999,
+            "p99_ms": 0.4388400000000002,
+            "max_ms": 13.99
+          },
+          "compute_to_nrf": {
+            "n": 4259,
+            "min_ms": 0.118,
+            "median_ms": 0.299,
+            "p90_ms": 0.391,
+            "p95_ms": 0.45,
+            "p99_ms": 0.5474200000000001,
+            "max_ms": 14.045
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.695,
+            "median_ms": 502.4715,
+            "p90_ms": 902.1264,
+            "p95_ms": 952.2368499999999,
+            "p99_ms": 992.60622,
+            "max_ms": 1001.865
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.04,
+            "median_ms": 494.634,
+            "p90_ms": 898.2656999999999,
+            "p95_ms": 952.7857499999998,
+            "p99_ms": 991.9854399999999,
+            "max_ms": 1001.792
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 503,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "eligible": true,
+      "seconds": 1438.7627716064453,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+        "eligible": true,
+        "started": 1791226496.215435,
+        "seed": 503,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "027c91838fba3aebd8156826e9c2723e4096da3d974ce5dc694a1173a753ede0",
+        "n": 3000,
+        "s3": 0.298,
+        "assigned": {
+          "127.0.0.4": 1054,
+          "127.0.0.32": 1052,
+          "127.0.0.33": 894
+        },
+        "scp_active": {
+          "127.0.0.4": 56,
+          "127.0.0.32": 53,
+          "127.0.0.33": 41
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 56.0,
+          "127.0.0.32": 53.0,
+          "127.0.0.33": 41.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4266,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.97656006483388,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4266,
+            "min_ms": 0.011,
+            "median_ms": 0.068,
+            "p90_ms": 0.094,
+            "p95_ms": 0.11,
+            "p99_ms": 0.14970000000000072,
+            "max_ms": 0.957
+          },
+          "send_to_nrf": {
+            "n": 4266,
+            "min_ms": 0.107,
+            "median_ms": 0.249,
+            "p90_ms": 0.328,
+            "p95_ms": 0.36475,
+            "p99_ms": 0.47270000000000073,
+            "max_ms": 3.262
+          },
+          "compute_to_nrf": {
+            "n": 4266,
+            "min_ms": 0.121,
+            "median_ms": 0.319,
+            "p90_ms": 0.4165,
+            "p95_ms": 0.463,
+            "p99_ms": 0.6023500000000004,
+            "max_ms": 3.342
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.723,
+            "median_ms": 500.64099999999996,
+            "p90_ms": 899.7324000000001,
+            "p95_ms": 955.0427,
+            "p99_ms": 989.69616,
+            "max_ms": 1001.357
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.298,
+            "median_ms": 492.8945,
+            "p90_ms": 902.4444,
+            "p95_ms": 958.2645499999998,
+            "p99_ms": 992.0401799999999,
+            "max_ms": 1001.031
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 503,
+        "alpha": 0,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "eligible": true,
+      "seconds": 1439.5248057842255,
+      "audit": {
+        "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+        "eligible": true,
+        "started": 1791226499.8277369,
+        "seed": 503,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "027c91838fba3aebd8156826e9c2723e4096da3d974ce5dc694a1173a753ede0",
+        "n": 3000,
+        "s3": 0.2876666666666667,
+        "assigned": {
+          "127.0.0.4": 1076,
+          "127.0.0.32": 1061,
+          "127.0.0.33": 863
+        },
+        "scp_active": {
+          "127.0.0.4": 57,
+          "127.0.0.32": 53,
+          "127.0.0.33": 40
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 57.0,
+          "127.0.0.32": 53.0,
+          "127.0.0.33": 40.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4263,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9768362638733,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4263,
+            "min_ms": 0.013,
+            "median_ms": 0.067,
+            "p90_ms": 0.092,
+            "p95_ms": 0.105,
+            "p99_ms": 0.143,
+            "max_ms": 1.187
+          },
+          "send_to_nrf": {
+            "n": 4263,
+            "min_ms": 0.11,
+            "median_ms": 0.251,
+            "p90_ms": 0.328,
+            "p95_ms": 0.3678999999999996,
+            "p99_ms": 0.4717600000000002,
+            "max_ms": 1.562
+          },
+          "compute_to_nrf": {
+            "n": 4263,
+            "min_ms": 0.152,
+            "median_ms": 0.319,
+            "p90_ms": 0.412,
+            "p95_ms": 0.46189999999999964,
+            "p99_ms": 0.5917600000000002,
+            "max_ms": 1.625
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.711,
+            "median_ms": 500.972,
+            "p90_ms": 902.351,
+            "p95_ms": 951.0716,
+            "p99_ms": 992.58945,
+            "max_ms": 1002.056
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.723,
+            "median_ms": 495.661,
+            "p90_ms": 907.8574,
+            "p95_ms": 953.9821999999999,
+            "p99_ms": 993.11862,
+            "max_ms": 1000.622
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 503,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "eligible": true,
+      "seconds": 1441.0259623527527,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+        "eligible": true,
+        "started": 1791226500.6436954,
+        "seed": 503,
+        "policy": "random",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "027c91838fba3aebd8156826e9c2723e4096da3d974ce5dc694a1173a753ede0",
+        "n": 3000,
+        "s3": 0.32666666666666666,
+        "assigned": {
+          "127.0.0.4": 1018,
+          "127.0.0.32": 1002,
+          "127.0.0.33": 980
+        },
+        "scp_active": {
+          "127.0.0.4": 53,
+          "127.0.0.32": 52,
+          "127.0.0.33": 45
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 53.0,
+          "127.0.0.32": 52.0,
+          "127.0.0.33": 45.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4264,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9765774378585,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4264,
+            "min_ms": 0.013,
+            "median_ms": 0.065,
+            "p90_ms": 0.091,
+            "p95_ms": 0.107,
+            "p99_ms": 0.143,
+            "max_ms": 1.224
+          },
+          "send_to_nrf": {
+            "n": 4264,
+            "min_ms": 0.113,
+            "median_ms": 0.247,
+            "p90_ms": 0.325,
+            "p95_ms": 0.3628499999999999,
+            "p99_ms": 0.4637399999999998,
+            "max_ms": 0.902
+          },
+          "compute_to_nrf": {
+            "n": 4264,
+            "min_ms": 0.151,
+            "median_ms": 0.315,
+            "p90_ms": 0.411,
+            "p95_ms": 0.4618499999999999,
+            "p99_ms": 0.5743699999999998,
+            "max_ms": 1.477
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.694,
+            "median_ms": 499.7625,
+            "p90_ms": 902.3929,
+            "p95_ms": 952.1827499999999,
+            "p99_ms": 991.14495,
+            "max_ms": 1002.455
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.699,
+            "median_ms": 494.6635,
+            "p90_ms": 894.813,
+            "p95_ms": 947.7799,
+            "p99_ms": 990.6320999999999,
+            "max_ms": 1000.834
+          }
+        }
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-cap70",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 503,
+        "alpha": 0.25,
+        "extra": [
+          "--capacity3",
+          "70"
+        ]
+      },
+      "name": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "eligible": true,
+      "seconds": 1441.5058753490448,
+      "audit": {
+        "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+        "eligible": true,
+        "started": 1791226500.2707944,
+        "seed": 503,
+        "policy": "swrr",
+        "series_id": "quantization-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 70,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "027c91838fba3aebd8156826e9c2723e4096da3d974ce5dc694a1173a753ede0",
+        "n": 3000,
+        "s3": 0.3243333333333333,
+        "assigned": {
+          "127.0.0.4": 1014,
+          "127.0.0.32": 1013,
+          "127.0.0.33": 973
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 49,
+          "127.0.0.33": 52
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 49.0,
+          "127.0.0.33": 52.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4265,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 0,
+        "mean_event_sampled_active": 149.974926483577,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4265,
+            "min_ms": 0.014,
+            "median_ms": 0.066,
+            "p90_ms": 0.092,
+            "p95_ms": 0.105,
+            "p99_ms": 0.147,
+            "max_ms": 0.38
+          },
+          "send_to_nrf": {
+            "n": 4265,
+            "min_ms": 0.109,
+            "median_ms": 0.251,
+            "p90_ms": 0.325,
+            "p95_ms": 0.361,
+            "p99_ms": 0.481,
+            "max_ms": 2.1
+          },
+          "compute_to_nrf": {
+            "n": 4265,
+            "min_ms": 0.132,
+            "median_ms": 0.319,
+            "p90_ms": 0.412,
+            "p95_ms": 0.45479999999999976,
+            "p99_ms": 0.5977199999999994,
+            "max_ms": 2.157
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.817,
+            "median_ms": 500.006,
+            "p90_ms": 900.5112,
+            "p95_ms": 948.96865,
+            "p99_ms": 990.61166,
+            "max_ms": 1002.14
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.839,
+            "median_ms": 506.9605,
+            "p90_ms": 899.4784,
+            "p95_ms": 945.04035,
+            "p99_ms": 989.4550099999999,
+            "max_ms": 1001.537
+          }
+        }
+      }
+    }
+  ],
+  "status": "complete",
+  "error": null,
+  "updated_at": 1791290037.051907,
+  "pending": [],
+  "in_flight": [],
+  "completion_note": "All 12 predeclared runs and evaluation completed after current-pair pause drain"
+}

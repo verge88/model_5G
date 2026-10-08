@@ -1,0 +1,100 @@
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+START model5g-runtime {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.02}
+START model5g-worker2 {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.02}
+START model5g-worker3 {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.02}
+START model5g-worker4 {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.02} True
+START model5g-worker3 {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.02} True
+START model5g-worker2 {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.02} True
+START model5g-runtime {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.05} True
+START model5g-worker4 {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.1} True
+START model5g-worker3 {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0} True
+START model5g-worker2 {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0} True
+START model5g-runtime {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.02}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0} True
+START model5g-worker4 {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.05} True
+START model5g-worker3 {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.05} True
+START model5g-worker2 {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0.02} True
+START model5g-runtime {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0} True
+START model5g-worker4 {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.02}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.05} True
+START model5g-worker3 {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.02}
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'swrr', 'alpha': 0} True
+START model5g-worker2 {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.02} True
+START model5g-worker4 {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.1} True
+START model5g-runtime {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.02} True
+START model5g-worker3 {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'swrr', 'alpha': 0.1} True
+START model5g-worker4 {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.05}
+DONE {'stage': 'train', 'seed': 1101, 'policy': 'random', 'alpha': 0.1} True
+START model5g-worker2 {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'swrr', 'alpha': 0.05} True
+START model5g-runtime {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.1}
+DONE {'stage': 'train', 'seed': 1103, 'policy': 'random', 'alpha': 0.1} True
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.05} True
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0} True
+DONE {'stage': 'train', 'seed': 1102, 'policy': 'random', 'alpha': 0.1} True
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+START model5g-runtime {'stage': 'cal', 'seed': 1202, 'policy': 'swrr', 'alpha': 0}
+START model5g-worker2 {'stage': 'cal', 'seed': 1201, 'policy': 'swrr', 'alpha': 0}
+START model5g-worker3 {'stage': 'cal', 'seed': 1201, 'policy': 'random', 'alpha': 0}
+START model5g-worker4 {'stage': 'cal', 'seed': 1203, 'policy': 'swrr', 'alpha': 0}
+DONE {'stage': 'cal', 'seed': 1203, 'policy': 'swrr', 'alpha': 0} True
+START model5g-worker4 {'stage': 'cal', 'seed': 1203, 'policy': 'random', 'alpha': 0}
+DONE {'stage': 'cal', 'seed': 1201, 'policy': 'random', 'alpha': 0} True
+START model5g-worker3 {'stage': 'cal', 'seed': 1202, 'policy': 'random', 'alpha': 0}
+DONE {'stage': 'cal', 'seed': 1201, 'policy': 'swrr', 'alpha': 0} True
+DONE {'stage': 'cal', 'seed': 1202, 'policy': 'swrr', 'alpha': 0} True
+DONE {'stage': 'cal', 'seed': 1203, 'policy': 'random', 'alpha': 0} True
+DONE {'stage': 'cal', 'seed': 1202, 'policy': 'random', 'alpha': 0} True
+START model5g-runtime {'stage': 'test', 'seed': 1303, 'policy': 'random', 'alpha': 0.02}
+START model5g-worker2 {'stage': 'test', 'seed': 1303, 'policy': 'swrr', 'alpha': 0.02}
+START model5g-worker3 {'stage': 'test', 'seed': 1302, 'policy': 'random', 'alpha': 0.02}
+START model5g-worker4 {'stage': 'test', 'seed': 1302, 'policy': 'swrr', 'alpha': 0.05}

@@ -1,0 +1,755 @@
+{
+  "by_run": [
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 3,
+      "alarm_fraction": 0.024193548387096774
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 2,
+      "alarm_fraction": 0.016129032258064516
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 43,
+      "alarm_fraction": 0.3467741935483871
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 35,
+      "alarm_fraction": 0.28225806451612906
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 85,
+      "alarm_fraction": 0.6854838709677419
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 7,
+      "alarm_fraction": 0.056451612903225805
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 34,
+      "alarm_fraction": 0.27419354838709675
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s501-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 501,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 46,
+      "alarm_fraction": 0.3709677419354839
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 1,
+      "alarm_fraction": 0.008064516129032258
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s501-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 501,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 85,
+      "alarm_fraction": 0.6854838709677419
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 42,
+      "alarm_fraction": 0.3387096774193548
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 2,
+      "alarm_fraction": 0.016129032258064516
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 86,
+      "alarm_fraction": 0.6935483870967742
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 2,
+      "alarm_fraction": 0.016129032258064516
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 502,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 76,
+      "alarm_fraction": 0.6129032258064516
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 37,
+      "alarm_fraction": 0.29838709677419356
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s502-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 95,
+      "alarm_fraction": 0.7661290322580645
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 27,
+      "alarm_fraction": 0.21774193548387097
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 22,
+      "alarm_fraction": 0.1774193548387097
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s502-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 502,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 29,
+      "alarm_fraction": 0.232
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-swrr-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 85,
+      "alarm_fraction": 0.68
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "residual",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "residual_quantized",
+      "windows": 124,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "nrf_only",
+      "windows": 124,
+      "alarms": 61,
+      "alarm_fraction": 0.49193548387096775
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "scp_only",
+      "windows": 124,
+      "alarms": 41,
+      "alarm_fraction": 0.33064516129032256
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "nrf_scp",
+      "windows": 124,
+      "alarms": 124,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-honest-cap70-random-r50-s503-a0-attempt1",
+      "scenario": "honest-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "full_peer",
+      "windows": 124,
+      "alarms": 89,
+      "alarm_fraction": 0.717741935483871
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 22,
+      "alarm_fraction": 0.176
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 37,
+      "alarm_fraction": 0.296
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-random-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "random",
+      "seed": 503,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 3,
+      "alarm_fraction": 0.024
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "quantization-v1-attack-cap70-swrr-r50-s503-a25-attempt1",
+      "scenario": "attack-cap70",
+      "policy": "swrr",
+      "seed": 503,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    }
+  ],
+  "thresholds": {
+    "created": 1791206622.7050664,
+    "calibration_runs": [
+      "detector-v1-cal-swrr-r20-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r20-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r20-s203-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s203-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s203-a0-attempt1"
+    ],
+    "primary": "residual",
+    "quantile": 0.99,
+    "comparison": "strictly_greater",
+    "thresholds": {
+      "residual": 0.0,
+      "residual_quantized": 0.0,
+      "nrf_only": 12.5,
+      "scp_only": 8.333333333333337,
+      "nrf_scp": 0.0,
+      "full_peer": 1.0
+    }
+  },
+  "interpretation": "On/off alarm fraction mixes active and inactive attack periods; it is not detection probability.",
+  "limitations": [
+    "No network delivery-delay injection; heartbeat scenario changes update frequency.",
+    "Attack onset latency requires event-level evaluation.",
+    "Three independent seeds per scenario; exploratory robustness evidence."
+  ]
+}

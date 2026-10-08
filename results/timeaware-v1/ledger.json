@@ -1,0 +1,3805 @@
+{
+  "results": [
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt1",
+      "eligible": false,
+      "error": "runner_exit_1"
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-random-r50-s1001-a25-attempt1",
+      "eligible": true,
+      "seconds": 1452.6406872272491,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1001-a25-attempt1",
+        "eligible": true,
+        "started": 1791370664.2406085,
+        "seed": 1001,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "53b66500a6c8ac268e92ee73f9b0783ea9012c2f4f0f77907013476645011835",
+        "n": 3000,
+        "s3": 0.3626666666666667,
+        "assigned": {
+          "127.0.0.4": 959,
+          "127.0.0.32": 953,
+          "127.0.0.33": 1088
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 45,
+          "127.0.0.33": 56
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 45.0,
+          "127.0.0.33": 56.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4303,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9666490371154,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4303,
+            "min_ms": 0.013,
+            "median_ms": 0.096,
+            "p90_ms": 0.135,
+            "p95_ms": 0.154,
+            "p99_ms": 0.2159399999999987,
+            "max_ms": 17.0
+          },
+          "send_to_nrf": {
+            "n": 4302,
+            "min_ms": 0.13,
+            "median_ms": 0.409,
+            "p90_ms": 201.075,
+            "p95_ms": 201.16595,
+            "p99_ms": 201.334,
+            "max_ms": 217.818
+          },
+          "compute_to_nrf": {
+            "n": 4302,
+            "min_ms": 0.169,
+            "median_ms": 0.5245,
+            "p90_ms": 201.1839,
+            "p95_ms": 201.28195000000002,
+            "p99_ms": 201.47499,
+            "max_ms": 217.917
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.842,
+            "median_ms": 566.838,
+            "p90_ms": 967.4675,
+            "p95_ms": 1047.4887999999999,
+            "p99_ms": 1167.1534100000001,
+            "max_ms": 1201.935
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 2.539,
+            "median_ms": 574.2325000000001,
+            "p90_ms": 969.8833999999999,
+            "p95_ms": 1066.8503,
+            "p99_ms": 1170.12132,
+            "max_ms": 1201.251
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1261,
+        "median_ms": 201.01,
+        "min_ms": 200.616,
+        "max_ms": 217.818
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1001-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 126,
+        "alarms": 126,
+        "baseline_alarms": 126
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-random-r50-s1001-a0-attempt1",
+      "eligible": true,
+      "seconds": 1456.0334649085999,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1001-a0-attempt1",
+        "eligible": true,
+        "started": 1791370664.240802,
+        "seed": 1001,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "53b66500a6c8ac268e92ee73f9b0783ea9012c2f4f0f77907013476645011835",
+        "n": 3000,
+        "s3": 0.33166666666666667,
+        "assigned": {
+          "127.0.0.4": 1009,
+          "127.0.0.32": 996,
+          "127.0.0.33": 995
+        },
+        "scp_active": {
+          "127.0.0.4": 51,
+          "127.0.0.32": 50,
+          "127.0.0.33": 49
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 51.0,
+          "127.0.0.32": 50.0,
+          "127.0.0.33": 49.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4310,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.96970733679595,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4310,
+            "min_ms": 0.019,
+            "median_ms": 0.099,
+            "p90_ms": 0.139,
+            "p95_ms": 0.157,
+            "p99_ms": 0.21290999999999985,
+            "max_ms": 35.01
+          },
+          "send_to_nrf": {
+            "n": 4310,
+            "min_ms": 0.128,
+            "median_ms": 0.404,
+            "p90_ms": 201.0761,
+            "p95_ms": 201.166,
+            "p99_ms": 201.33691,
+            "max_ms": 207.343
+          },
+          "compute_to_nrf": {
+            "n": 4310,
+            "min_ms": 0.158,
+            "median_ms": 0.52,
+            "p90_ms": 201.192,
+            "p95_ms": 201.292,
+            "p99_ms": 201.50872999999999,
+            "max_ms": 220.692
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 1.097,
+            "median_ms": 568.3935,
+            "p90_ms": 969.2731,
+            "p95_ms": 1048.6141499999999,
+            "p99_ms": 1174.99131,
+            "max_ms": 1203.272
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.442,
+            "median_ms": 550.7,
+            "p90_ms": 962.0972,
+            "p95_ms": 1044.8055499999998,
+            "p99_ms": 1174.9007499999993,
+            "max_ms": 1200.748
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1262,
+        "median_ms": 200.994,
+        "min_ms": 200.492,
+        "max_ms": 207.343
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1001-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 126,
+        "alarms": 0,
+        "baseline_alarms": 121
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-swrr-r50-s1001-a0-attempt1",
+      "eligible": true,
+      "seconds": 1457.4394037723541,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1001-a0-attempt1",
+        "eligible": true,
+        "started": 1791370664.2404504,
+        "seed": 1001,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "53b66500a6c8ac268e92ee73f9b0783ea9012c2f4f0f77907013476645011835",
+        "n": 3000,
+        "s3": 0.333,
+        "assigned": {
+          "127.0.0.4": 1006,
+          "127.0.0.32": 995,
+          "127.0.0.33": 999
+        },
+        "scp_active": {
+          "127.0.0.4": 53,
+          "127.0.0.32": 47,
+          "127.0.0.33": 50
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 53.0,
+          "127.0.0.32": 47.0,
+          "127.0.0.33": 50.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4311,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9684976520955,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4311,
+            "min_ms": 0.015,
+            "median_ms": 0.098,
+            "p90_ms": 0.137,
+            "p95_ms": 0.152,
+            "p99_ms": 0.195,
+            "max_ms": 59.826
+          },
+          "send_to_nrf": {
+            "n": 4311,
+            "min_ms": 0.129,
+            "median_ms": 0.41,
+            "p90_ms": 201.103,
+            "p95_ms": 201.188,
+            "p99_ms": 201.3379,
+            "max_ms": 203.851
+          },
+          "compute_to_nrf": {
+            "n": 4311,
+            "min_ms": 0.186,
+            "median_ms": 0.524,
+            "p90_ms": 201.218,
+            "p95_ms": 201.30849999999998,
+            "p99_ms": 201.4919,
+            "max_ms": 204.068
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.976,
+            "median_ms": 568.6965,
+            "p90_ms": 969.0393,
+            "p95_ms": 1053.2704499999998,
+            "p99_ms": 1173.5091700000003,
+            "max_ms": 1203.287
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.128,
+            "median_ms": 568.951,
+            "p90_ms": 966.2197,
+            "p95_ms": 1053.8653999999995,
+            "p99_ms": 1174.1941,
+            "max_ms": 1203.29
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1263,
+        "median_ms": 201.027,
+        "min_ms": 200.565,
+        "max_ms": 203.851
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1001-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 126,
+        "alarms": 0,
+        "baseline_alarms": 120
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt2",
+      "eligible": true,
+      "seconds": 1449.240029335022,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt2",
+        "eligible": true,
+        "started": 1791372467.737491,
+        "seed": 1001,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "53b66500a6c8ac268e92ee73f9b0783ea9012c2f4f0f77907013476645011835",
+        "n": 3000,
+        "s3": 0.36133333333333334,
+        "assigned": {
+          "127.0.0.4": 942,
+          "127.0.0.32": 974,
+          "127.0.0.33": 1084
+        },
+        "scp_active": {
+          "127.0.0.4": 50,
+          "127.0.0.32": 45,
+          "127.0.0.33": 55
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 50.0,
+          "127.0.0.32": 45.0,
+          "127.0.0.33": 55.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4295,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98461235162281,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4295,
+            "min_ms": 0.015,
+            "median_ms": 0.072,
+            "p90_ms": 0.114,
+            "p95_ms": 0.128,
+            "p99_ms": 0.1650600000000004,
+            "max_ms": 13.757
+          },
+          "send_to_nrf": {
+            "n": 4295,
+            "min_ms": 0.117,
+            "median_ms": 0.3,
+            "p90_ms": 200.9466,
+            "p95_ms": 201.054,
+            "p99_ms": 201.2416,
+            "max_ms": 204.826
+          },
+          "compute_to_nrf": {
+            "n": 4295,
+            "min_ms": 0.156,
+            "median_ms": 0.391,
+            "p90_ms": 201.0432,
+            "p95_ms": 201.161,
+            "p99_ms": 201.3983,
+            "max_ms": 204.907
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.961,
+            "median_ms": 567.6300000000001,
+            "p90_ms": 967.7386,
+            "p95_ms": 1052.9069499999998,
+            "p99_ms": 1172.46031,
+            "max_ms": 1202.994
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.724,
+            "median_ms": 565.142,
+            "p90_ms": 974.0212,
+            "p95_ms": 1059.3172,
+            "p99_ms": 1171.9442099999999,
+            "max_ms": 1201.209
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1257,
+        "median_ms": 200.743,
+        "min_ms": 200.432,
+        "max_ms": 204.05
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt2",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 125,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-swrr-r50-s1001-a25-attempt1",
+      "eligible": true,
+      "seconds": 1598.623004436493,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1001-a25-attempt1",
+        "eligible": true,
+        "started": 1791372467.7398236,
+        "seed": 1001,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "e0caa267787e6dea63fbb38d9eedc0d8a9804e13f1ce4587a19e1096a18fadf5",
+        "n": 3360,
+        "s3": 0.3693452380952381,
+        "assigned": {
+          "127.0.0.4": 1039,
+          "127.0.0.32": 1080,
+          "127.0.0.33": 1241
+        },
+        "scp_active": {
+          "127.0.0.4": 44,
+          "127.0.0.32": 50,
+          "127.0.0.33": 56
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 44.0,
+          "127.0.0.32": 50.0,
+          "127.0.0.33": 56.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4739,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.0092963333704,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4739,
+            "min_ms": 0.014,
+            "median_ms": 0.07,
+            "p90_ms": 0.109,
+            "p95_ms": 0.124,
+            "p99_ms": 0.174,
+            "max_ms": 25.371
+          },
+          "send_to_nrf": {
+            "n": 4739,
+            "min_ms": 0.113,
+            "median_ms": 0.318,
+            "p90_ms": 200.848,
+            "p95_ms": 200.948,
+            "p99_ms": 201.12557999999999,
+            "max_ms": 206.187
+          },
+          "compute_to_nrf": {
+            "n": 4739,
+            "min_ms": 0.133,
+            "median_ms": 0.409,
+            "p90_ms": 200.94,
+            "p95_ms": 201.043,
+            "p99_ms": 201.23386000000002,
+            "max_ms": 206.254
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.883,
+            "median_ms": 568.1,
+            "p90_ms": 968.1729,
+            "p95_ms": 1051.9807999999998,
+            "p99_ms": 1175.2365999999995,
+            "max_ms": 1202.39
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.889,
+            "median_ms": 591.126,
+            "p90_ms": 970.5278999999999,
+            "p95_ms": 1058.2770999999993,
+            "p99_ms": 1182.0011499999998,
+            "max_ms": 1202.394
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1405,
+        "median_ms": 200.732,
+        "min_ms": 200.356,
+        "max_ms": 204.338
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1001-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 135,
+        "alarms": 135,
+        "baseline_alarms": 135
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-random-r50-s1001-a0-attempt1",
+      "eligible": true,
+      "seconds": 1601.1546456813812,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1001-a0-attempt1",
+        "eligible": true,
+        "started": 1791372467.7397394,
+        "seed": 1001,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "e0caa267787e6dea63fbb38d9eedc0d8a9804e13f1ce4587a19e1096a18fadf5",
+        "n": 3360,
+        "s3": 0.33898809523809526,
+        "assigned": {
+          "127.0.0.4": 1104,
+          "127.0.0.32": 1117,
+          "127.0.0.33": 1139
+        },
+        "scp_active": {
+          "127.0.0.4": 45,
+          "127.0.0.32": 53,
+          "127.0.0.33": 52
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 45.0,
+          "127.0.0.32": 53.0,
+          "127.0.0.33": 52.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4742,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01072179851914,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4742,
+            "min_ms": 0.013,
+            "median_ms": 0.073,
+            "p90_ms": 0.113,
+            "p95_ms": 0.126,
+            "p99_ms": 0.178,
+            "max_ms": 5.877
+          },
+          "send_to_nrf": {
+            "n": 4742,
+            "min_ms": 0.106,
+            "median_ms": 0.321,
+            "p90_ms": 200.8909,
+            "p95_ms": 200.99795,
+            "p99_ms": 201.21259,
+            "max_ms": 203.509
+          },
+          "compute_to_nrf": {
+            "n": 4742,
+            "min_ms": 0.139,
+            "median_ms": 0.413,
+            "p90_ms": 200.982,
+            "p95_ms": 201.10495,
+            "p99_ms": 201.34259,
+            "max_ms": 203.608
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.766,
+            "median_ms": 566.933,
+            "p90_ms": 967.8039,
+            "p95_ms": 1054.1135999999995,
+            "p99_ms": 1173.6533999999992,
+            "max_ms": 1203.857
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.771,
+            "median_ms": 563.3185,
+            "p90_ms": 966.5655999999999,
+            "p95_ms": 1037.3958999999993,
+            "p99_ms": 1173.7634299999997,
+            "max_ms": 1201.167
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1406,
+        "median_ms": 200.742,
+        "min_ms": 200.405,
+        "max_ms": 202.021
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1001-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 0,
+        "baseline_alarms": 128
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-swrr-r50-s1001-a0-attempt1",
+      "eligible": true,
+      "seconds": 1603.6118731498718,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1001-a0-attempt1",
+        "eligible": true,
+        "started": 1791372467.7379053,
+        "seed": 1001,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "e0caa267787e6dea63fbb38d9eedc0d8a9804e13f1ce4587a19e1096a18fadf5",
+        "n": 3360,
+        "s3": 0.337202380952381,
+        "assigned": {
+          "127.0.0.4": 1114,
+          "127.0.0.32": 1113,
+          "127.0.0.33": 1133
+        },
+        "scp_active": {
+          "127.0.0.4": 48,
+          "127.0.0.32": 47,
+          "127.0.0.33": 55
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 48.0,
+          "127.0.0.32": 47.0,
+          "127.0.0.33": 55.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4746,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01298905843223,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4746,
+            "min_ms": 0.015,
+            "median_ms": 0.07,
+            "p90_ms": 0.112,
+            "p95_ms": 0.124,
+            "p99_ms": 0.1635500000000002,
+            "max_ms": 23.027
+          },
+          "send_to_nrf": {
+            "n": 4746,
+            "min_ms": 0.112,
+            "median_ms": 0.33,
+            "p90_ms": 200.828,
+            "p95_ms": 200.91875000000002,
+            "p99_ms": 201.0891,
+            "max_ms": 203.604
+          },
+          "compute_to_nrf": {
+            "n": 4746,
+            "min_ms": 0.15,
+            "median_ms": 0.426,
+            "p90_ms": 200.912,
+            "p95_ms": 201.012,
+            "p99_ms": 201.1971,
+            "max_ms": 203.705
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.777,
+            "median_ms": 567.4145000000001,
+            "p90_ms": 966.7908,
+            "p95_ms": 1050.5289999999995,
+            "p99_ms": 1168.9738399999999,
+            "max_ms": 1201.84
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.292,
+            "median_ms": 572.0865,
+            "p90_ms": 963.8075,
+            "p95_ms": 1062.9044999999996,
+            "p99_ms": 1182.12211,
+            "max_ms": 1201.842
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1408,
+        "median_ms": 200.737,
+        "min_ms": 200.391,
+        "max_ms": 203.604
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1001-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 0,
+        "baseline_alarms": 129
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-swrr-r50-s1002-a0-attempt1",
+      "eligible": true,
+      "seconds": 1445.4101922512054,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1002-a0-attempt1",
+        "eligible": true,
+        "started": 1791374071.762445,
+        "seed": 1002,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "f71531645dcca43eada7168d55549a700a90f7f8ba733f57ea2bb01b87ea359b",
+        "n": 3000,
+        "s3": 0.333,
+        "assigned": {
+          "127.0.0.4": 981,
+          "127.0.0.32": 1020,
+          "127.0.0.33": 999
+        },
+        "scp_active": {
+          "127.0.0.4": 48,
+          "127.0.0.32": 46,
+          "127.0.0.33": 56
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 48.0,
+          "127.0.0.32": 46.0,
+          "127.0.0.33": 56.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4282,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9793206544307,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4282,
+            "min_ms": 0.014,
+            "median_ms": 0.068,
+            "p90_ms": 0.093,
+            "p95_ms": 0.107,
+            "p99_ms": 0.156,
+            "max_ms": 2.1
+          },
+          "send_to_nrf": {
+            "n": 4281,
+            "min_ms": 0.114,
+            "median_ms": 0.286,
+            "p90_ms": 200.804,
+            "p95_ms": 200.868,
+            "p99_ms": 201.0258,
+            "max_ms": 205.217
+          },
+          "compute_to_nrf": {
+            "n": 4281,
+            "min_ms": 0.133,
+            "median_ms": 0.364,
+            "p90_ms": 200.876,
+            "p95_ms": 200.947,
+            "p99_ms": 201.1354,
+            "max_ms": 205.387
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.867,
+            "median_ms": 568.7460000000001,
+            "p90_ms": 968.4661,
+            "p95_ms": 1052.7459999999999,
+            "p99_ms": 1170.1311,
+            "max_ms": 1201.973
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.87,
+            "median_ms": 578.1435,
+            "p90_ms": 967.7895,
+            "p95_ms": 1049.10995,
+            "p99_ms": 1178.63697,
+            "max_ms": 1200.982
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1255,
+        "median_ms": 200.74,
+        "min_ms": 200.442,
+        "max_ms": 205.217
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1002-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 0,
+        "baseline_alarms": 114
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-random-r50-s1001-a25-attempt1",
+      "eligible": true,
+      "seconds": 1600.9278995990753,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1001-a25-attempt1",
+        "eligible": true,
+        "started": 1791373918.5441833,
+        "seed": 1001,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "e0caa267787e6dea63fbb38d9eedc0d8a9804e13f1ce4587a19e1096a18fadf5",
+        "n": 3360,
+        "s3": 0.3732142857142857,
+        "assigned": {
+          "127.0.0.4": 1058,
+          "127.0.0.32": 1048,
+          "127.0.0.33": 1254
+        },
+        "scp_active": {
+          "127.0.0.4": 44,
+          "127.0.0.32": 49,
+          "127.0.0.33": 57
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 44.0,
+          "127.0.0.32": 49.0,
+          "127.0.0.33": 57.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4745,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01421186236544,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4745,
+            "min_ms": 0.013,
+            "median_ms": 0.067,
+            "p90_ms": 0.09,
+            "p95_ms": 0.10380000000000018,
+            "p99_ms": 0.151,
+            "max_ms": 1.914
+          },
+          "send_to_nrf": {
+            "n": 4745,
+            "min_ms": 0.101,
+            "median_ms": 0.278,
+            "p90_ms": 200.829,
+            "p95_ms": 200.89079999999998,
+            "p99_ms": 201.01912000000002,
+            "max_ms": 201.734
+          },
+          "compute_to_nrf": {
+            "n": 4745,
+            "min_ms": 0.127,
+            "median_ms": 0.356,
+            "p90_ms": 200.8986,
+            "p95_ms": 200.9628,
+            "p99_ms": 201.11768,
+            "max_ms": 202.713
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.805,
+            "median_ms": 568.678,
+            "p90_ms": 967.9236000000001,
+            "p95_ms": 1051.2395999999997,
+            "p99_ms": 1171.45006,
+            "max_ms": 1202.464
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.817,
+            "median_ms": 596.675,
+            "p90_ms": 976.5714,
+            "p95_ms": 1073.292,
+            "p99_ms": 1175.32106,
+            "max_ms": 1202.466
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1408,
+        "median_ms": 200.784,
+        "min_ms": 200.483,
+        "max_ms": 201.734
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1001-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 134,
+        "baseline_alarms": 134
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-random-r50-s1002-a0-attempt1",
+      "eligible": true,
+      "seconds": 1447.5489971637726,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1002-a0-attempt1",
+        "eligible": true,
+        "started": 1791374073.775757,
+        "seed": 1002,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "f71531645dcca43eada7168d55549a700a90f7f8ba733f57ea2bb01b87ea359b",
+        "n": 3000,
+        "s3": 0.32966666666666666,
+        "assigned": {
+          "127.0.0.4": 1036,
+          "127.0.0.32": 975,
+          "127.0.0.33": 989
+        },
+        "scp_active": {
+          "127.0.0.4": 47,
+          "127.0.0.32": 49,
+          "127.0.0.33": 54
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 47.0,
+          "127.0.0.32": 49.0,
+          "127.0.0.33": 54.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4284,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 0,
+        "mean_event_sampled_active": 149.9805254798559,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4284,
+            "min_ms": 0.016,
+            "median_ms": 0.066,
+            "p90_ms": 0.091,
+            "p95_ms": 0.105,
+            "p99_ms": 0.14417000000000008,
+            "max_ms": 1.14
+          },
+          "send_to_nrf": {
+            "n": 4284,
+            "min_ms": 0.107,
+            "median_ms": 0.281,
+            "p90_ms": 200.807,
+            "p95_ms": 200.87285,
+            "p99_ms": 201.00034,
+            "max_ms": 202.185
+          },
+          "compute_to_nrf": {
+            "n": 4284,
+            "min_ms": 0.131,
+            "median_ms": 0.3575,
+            "p90_ms": 200.87869999999998,
+            "p95_ms": 200.95055,
+            "p99_ms": 201.097,
+            "max_ms": 202.26
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.878,
+            "median_ms": 568.4945,
+            "p90_ms": 969.1182,
+            "p95_ms": 1050.5273499999998,
+            "p99_ms": 1171.7810000000002,
+            "max_ms": 1200.983
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.882,
+            "median_ms": 563.6655000000001,
+            "p90_ms": 966.6778999999998,
+            "p95_ms": 1045.8651999999995,
+            "p99_ms": 1174.0900499999998,
+            "max_ms": 1200.795
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1254,
+        "median_ms": 200.751,
+        "min_ms": 200.375,
+        "max_ms": 202.185
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1002-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 0,
+        "baseline_alarms": 116
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-swrr-r50-s1002-a25-attempt1",
+      "eligible": true,
+      "seconds": 1449.4536108970642,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1002-a25-attempt1",
+        "eligible": true,
+        "started": 1791374074.7383308,
+        "seed": 1002,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "f71531645dcca43eada7168d55549a700a90f7f8ba733f57ea2bb01b87ea359b",
+        "n": 3000,
+        "s3": 0.364,
+        "assigned": {
+          "127.0.0.4": 948,
+          "127.0.0.32": 960,
+          "127.0.0.33": 1092
+        },
+        "scp_active": {
+          "127.0.0.4": 48,
+          "127.0.0.32": 43,
+          "127.0.0.33": 59
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 48.0,
+          "127.0.0.32": 43.0,
+          "127.0.0.33": 59.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4289,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98090513797075,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4289,
+            "min_ms": 0.013,
+            "median_ms": 0.067,
+            "p90_ms": 0.093,
+            "p95_ms": 0.106,
+            "p99_ms": 0.15423999999999977,
+            "max_ms": 1.194
+          },
+          "send_to_nrf": {
+            "n": 4289,
+            "min_ms": 0.115,
+            "median_ms": 0.284,
+            "p90_ms": 200.8232,
+            "p95_ms": 200.882,
+            "p99_ms": 201.02648000000002,
+            "max_ms": 202.197
+          },
+          "compute_to_nrf": {
+            "n": 4289,
+            "min_ms": 0.146,
+            "median_ms": 0.362,
+            "p90_ms": 200.8972,
+            "p95_ms": 200.961,
+            "p99_ms": 201.12024,
+            "max_ms": 202.271
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 1.066,
+            "median_ms": 569.249,
+            "p90_ms": 970.2179,
+            "p95_ms": 1052.4834499999997,
+            "p99_ms": 1173.61591,
+            "max_ms": 1200.722
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.337,
+            "median_ms": 581.816,
+            "p90_ms": 981.2805000000001,
+            "p95_ms": 1068.4476,
+            "p99_ms": 1181.70753,
+            "max_ms": 1200.661
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1257,
+        "median_ms": 200.775,
+        "min_ms": 200.486,
+        "max_ms": 201.498
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1002-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 125,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-random-r50-s1002-a25-attempt1",
+      "eligible": true,
+      "seconds": 1440.430536031723,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1002-a25-attempt1",
+        "eligible": true,
+        "started": 1791375521.0635757,
+        "seed": 1002,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "f71531645dcca43eada7168d55549a700a90f7f8ba733f57ea2bb01b87ea359b",
+        "n": 3000,
+        "s3": 0.35733333333333334,
+        "assigned": {
+          "127.0.0.4": 996,
+          "127.0.0.32": 932,
+          "127.0.0.33": 1072
+        },
+        "scp_active": {
+          "127.0.0.4": 44,
+          "127.0.0.32": 49,
+          "127.0.0.33": 57
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 44.0,
+          "127.0.0.32": 49.0,
+          "127.0.0.33": 57.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4271,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9830619366095,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4271,
+            "min_ms": 0.013,
+            "median_ms": 0.063,
+            "p90_ms": 0.083,
+            "p95_ms": 0.093,
+            "p99_ms": 0.1253000000000002,
+            "max_ms": 0.879
+          },
+          "send_to_nrf": {
+            "n": 4270,
+            "min_ms": 0.113,
+            "median_ms": 0.258,
+            "p90_ms": 200.8081,
+            "p95_ms": 200.85355,
+            "p99_ms": 200.95162,
+            "max_ms": 201.764
+          },
+          "compute_to_nrf": {
+            "n": 4270,
+            "min_ms": 0.152,
+            "median_ms": 0.327,
+            "p90_ms": 200.879,
+            "p95_ms": 200.925,
+            "p99_ms": 201.04831000000001,
+            "max_ms": 201.82
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.742,
+            "median_ms": 569.5065,
+            "p90_ms": 970.2114,
+            "p95_ms": 1050.7475999999997,
+            "p99_ms": 1170.02852,
+            "max_ms": 1202.081
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.925,
+            "median_ms": 580.49,
+            "p90_ms": 979.5454,
+            "p95_ms": 1066.12205,
+            "p99_ms": 1173.0677199999998,
+            "max_ms": 1201.543
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1253,
+        "median_ms": 200.762,
+        "min_ms": 200.489,
+        "max_ms": 201.764
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1002-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 125,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-random-r50-s1002-a0-attempt1",
+      "eligible": true,
+      "seconds": 1595.2398426532745,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1002-a0-attempt1",
+        "eligible": true,
+        "started": 1791375526.7962458,
+        "seed": 1002,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5544bcdb0ca5b0a9a208e0cb8ce9c93a7fbe15cd46b82a8b7ef254d1aaa4888c",
+        "n": 3360,
+        "s3": 0.3386904761904762,
+        "assigned": {
+          "127.0.0.4": 1113,
+          "127.0.0.32": 1109,
+          "127.0.0.33": 1138
+        },
+        "scp_active": {
+          "127.0.0.4": 44,
+          "127.0.0.32": 52,
+          "127.0.0.33": 54
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 44.0,
+          "127.0.0.32": 52.0,
+          "127.0.0.33": 54.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4730,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 0,
+        "mean_event_sampled_active": 150.01510165107678,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4730,
+            "min_ms": 0.015,
+            "median_ms": 0.063,
+            "p90_ms": 0.083,
+            "p95_ms": 0.094,
+            "p99_ms": 0.13,
+            "max_ms": 5.93
+          },
+          "send_to_nrf": {
+            "n": 4730,
+            "min_ms": 0.108,
+            "median_ms": 0.257,
+            "p90_ms": 200.784,
+            "p95_ms": 200.83055,
+            "p99_ms": 200.937,
+            "max_ms": 203.988
+          },
+          "compute_to_nrf": {
+            "n": 4730,
+            "min_ms": 0.142,
+            "median_ms": 0.327,
+            "p90_ms": 200.854,
+            "p95_ms": 200.90355,
+            "p99_ms": 201.01671,
+            "max_ms": 207.789
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.718,
+            "median_ms": 569.348,
+            "p90_ms": 969.7677,
+            "p95_ms": 1055.6482,
+            "p99_ms": 1174.66934,
+            "max_ms": 1202.054
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.509,
+            "median_ms": 569.3720000000001,
+            "p90_ms": 964.9463000000001,
+            "p95_ms": 1041.2510999999997,
+            "p99_ms": 1172.19075,
+            "max_ms": 1202.045
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1404,
+        "median_ms": 200.742,
+        "min_ms": 200.387,
+        "max_ms": 201.683
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1002-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 0,
+        "baseline_alarms": 128
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-swrr-r50-s1002-a0-attempt1",
+      "eligible": true,
+      "seconds": 1599.3498463630676,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1002-a0-attempt1",
+        "eligible": true,
+        "started": 1791375525.4530346,
+        "seed": 1002,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5544bcdb0ca5b0a9a208e0cb8ce9c93a7fbe15cd46b82a8b7ef254d1aaa4888c",
+        "n": 3360,
+        "s3": 0.3351190476190476,
+        "assigned": {
+          "127.0.0.4": 1132,
+          "127.0.0.32": 1102,
+          "127.0.0.33": 1126
+        },
+        "scp_active": {
+          "127.0.0.4": 50,
+          "127.0.0.32": 53,
+          "127.0.0.33": 47
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 50.0,
+          "127.0.0.32": 53.0,
+          "127.0.0.33": 47.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4738,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01682066300287,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4738,
+            "min_ms": 0.013,
+            "median_ms": 0.064,
+            "p90_ms": 0.083,
+            "p95_ms": 0.093,
+            "p99_ms": 0.123,
+            "max_ms": 1.219
+          },
+          "send_to_nrf": {
+            "n": 4737,
+            "min_ms": 0.106,
+            "median_ms": 0.263,
+            "p90_ms": 200.729,
+            "p95_ms": 200.7692,
+            "p99_ms": 200.87128,
+            "max_ms": 201.65
+          },
+          "compute_to_nrf": {
+            "n": 4737,
+            "min_ms": 0.128,
+            "median_ms": 0.334,
+            "p90_ms": 200.797,
+            "p95_ms": 200.84220000000002,
+            "p99_ms": 200.95992,
+            "max_ms": 202.313
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.735,
+            "median_ms": 566.7729999999999,
+            "p90_ms": 967.0928000000001,
+            "p95_ms": 1049.5421999999999,
+            "p99_ms": 1171.5710699999997,
+            "max_ms": 1201.717
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.793,
+            "median_ms": 562.5185,
+            "p90_ms": 964.3403,
+            "p95_ms": 1029.5427499999992,
+            "p99_ms": 1158.2923999999998,
+            "max_ms": 1201.591
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1406,
+        "median_ms": 200.692,
+        "min_ms": 200.39,
+        "max_ms": 201.65
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1002-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 135,
+        "alarms": 0,
+        "baseline_alarms": 120
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-swrr-r50-s1002-a25-attempt1",
+      "eligible": true,
+      "seconds": 1599.4107766151428,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1002-a25-attempt1",
+        "eligible": true,
+        "started": 1791375527.6532593,
+        "seed": 1002,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5544bcdb0ca5b0a9a208e0cb8ce9c93a7fbe15cd46b82a8b7ef254d1aaa4888c",
+        "n": 3360,
+        "s3": 0.3645833333333333,
+        "assigned": {
+          "127.0.0.4": 1069,
+          "127.0.0.32": 1066,
+          "127.0.0.33": 1225
+        },
+        "scp_active": {
+          "127.0.0.4": 45,
+          "127.0.0.32": 45,
+          "127.0.0.33": 60
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 45.0,
+          "127.0.0.32": 45.0,
+          "127.0.0.33": 60.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4737,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.018545980314,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4737,
+            "min_ms": 0.015,
+            "median_ms": 0.064,
+            "p90_ms": 0.084,
+            "p95_ms": 0.094,
+            "p99_ms": 0.12864000000000034,
+            "max_ms": 0.327
+          },
+          "send_to_nrf": {
+            "n": 4737,
+            "min_ms": 0.118,
+            "median_ms": 0.266,
+            "p90_ms": 200.77,
+            "p95_ms": 200.8152,
+            "p99_ms": 200.903,
+            "max_ms": 205.15
+          },
+          "compute_to_nrf": {
+            "n": 4737,
+            "min_ms": 0.133,
+            "median_ms": 0.34,
+            "p90_ms": 200.8324,
+            "p95_ms": 200.884,
+            "p99_ms": 200.98564,
+            "max_ms": 205.224
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.792,
+            "median_ms": 569.1955,
+            "p90_ms": 968.1377,
+            "p95_ms": 1052.76655,
+            "p99_ms": 1171.89402,
+            "max_ms": 1201.958
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.056,
+            "median_ms": 575.035,
+            "p90_ms": 973.3477,
+            "p95_ms": 1063.53165,
+            "p99_ms": 1167.5854399999998,
+            "max_ms": 1200.546
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1405,
+        "median_ms": 200.732,
+        "min_ms": 200.421,
+        "max_ms": 205.15
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1002-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 135,
+        "alarms": 135,
+        "baseline_alarms": 135
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-random-r50-s1002-a25-attempt1",
+      "eligible": true,
+      "seconds": 1595.028002023697,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1002-a25-attempt1",
+        "eligible": true,
+        "started": 1791376963.1773264,
+        "seed": 1002,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5544bcdb0ca5b0a9a208e0cb8ce9c93a7fbe15cd46b82a8b7ef254d1aaa4888c",
+        "n": 3360,
+        "s3": 0.36875,
+        "assigned": {
+          "127.0.0.4": 1062,
+          "127.0.0.32": 1059,
+          "127.0.0.33": 1239
+        },
+        "scp_active": {
+          "127.0.0.4": 43,
+          "127.0.0.32": 50,
+          "127.0.0.33": 57
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 43.0,
+          "127.0.0.32": 50.0,
+          "127.0.0.33": 57.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4732,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01764029737296,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4732,
+            "min_ms": 0.014,
+            "median_ms": 0.063,
+            "p90_ms": 0.081,
+            "p95_ms": 0.089,
+            "p99_ms": 0.124,
+            "max_ms": 1.308
+          },
+          "send_to_nrf": {
+            "n": 4731,
+            "min_ms": 0.12,
+            "median_ms": 0.259,
+            "p90_ms": 200.776,
+            "p95_ms": 200.823,
+            "p99_ms": 200.912,
+            "max_ms": 201.752
+          },
+          "compute_to_nrf": {
+            "n": 4731,
+            "min_ms": 0.137,
+            "median_ms": 0.329,
+            "p90_ms": 200.839,
+            "p95_ms": 200.89049999999997,
+            "p99_ms": 200.99179999999998,
+            "max_ms": 202.072
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.81,
+            "median_ms": 569.457,
+            "p90_ms": 969.5181,
+            "p95_ms": 1052.6009499999998,
+            "p99_ms": 1172.18969,
+            "max_ms": 1201.954
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.65,
+            "median_ms": 575.847,
+            "p90_ms": 973.5797,
+            "p95_ms": 1062.6771999999999,
+            "p99_ms": 1177.2707999999998,
+            "max_ms": 1201.366
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1405,
+        "median_ms": 200.738,
+        "min_ms": 200.428,
+        "max_ms": 201.752
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1002-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 134,
+        "baseline_alarms": 134
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-swrr-r50-s1003-a0-attempt1",
+      "eligible": true,
+      "seconds": 1442.3467411994934,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1003-a0-attempt1",
+        "eligible": true,
+        "started": 1791377126.329225,
+        "seed": 1003,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "ab8618d1cdec21155939812de284e2873889e0f5219992a7120fa92142d2965f",
+        "n": 3000,
+        "s3": 0.33766666666666667,
+        "assigned": {
+          "127.0.0.4": 998,
+          "127.0.0.32": 989,
+          "127.0.0.33": 1013
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 54,
+          "127.0.0.33": 47
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 54.0,
+          "127.0.0.33": 47.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4278,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98441393919256,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4278,
+            "min_ms": 0.012,
+            "median_ms": 0.063,
+            "p90_ms": 0.081,
+            "p95_ms": 0.091,
+            "p99_ms": 0.121,
+            "max_ms": 0.326
+          },
+          "send_to_nrf": {
+            "n": 4278,
+            "min_ms": 0.105,
+            "median_ms": 0.259,
+            "p90_ms": 200.765,
+            "p95_ms": 200.80814999999998,
+            "p99_ms": 200.904,
+            "max_ms": 201.184
+          },
+          "compute_to_nrf": {
+            "n": 4278,
+            "min_ms": 0.125,
+            "median_ms": 0.331,
+            "p90_ms": 200.828,
+            "p95_ms": 200.874,
+            "p99_ms": 200.98,
+            "max_ms": 201.245
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.837,
+            "median_ms": 569.2035000000001,
+            "p90_ms": 967.982,
+            "p95_ms": 1051.0034999999998,
+            "p99_ms": 1171.23962,
+            "max_ms": 1201.532
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 0.884,
+            "median_ms": 571.3520000000001,
+            "p90_ms": 967.9508,
+            "p95_ms": 1045.79525,
+            "p99_ms": 1172.9672699999996,
+            "max_ms": 1201.534
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1253,
+        "median_ms": 200.728,
+        "min_ms": 200.445,
+        "max_ms": 201.184
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-swrr-r50-s1003-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 0,
+        "baseline_alarms": 115
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-honest-delay-random-r50-s1003-a0-attempt1",
+      "eligible": true,
+      "seconds": 1444.2660851478577,
+      "audit": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1003-a0-attempt1",
+        "eligible": true,
+        "started": 1791377129.6028476,
+        "seed": 1003,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "ab8618d1cdec21155939812de284e2873889e0f5219992a7120fa92142d2965f",
+        "n": 3000,
+        "s3": 0.33766666666666667,
+        "assigned": {
+          "127.0.0.4": 995,
+          "127.0.0.32": 992,
+          "127.0.0.33": 1013
+        },
+        "scp_active": {
+          "127.0.0.4": 48,
+          "127.0.0.32": 45,
+          "127.0.0.33": 57
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 48.0,
+          "127.0.0.32": 45.0,
+          "127.0.0.33": 57.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4280,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9900331191146,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4280,
+            "min_ms": 0.013,
+            "median_ms": 0.062,
+            "p90_ms": 0.081,
+            "p95_ms": 0.089,
+            "p99_ms": 0.11,
+            "max_ms": 3.864
+          },
+          "send_to_nrf": {
+            "n": 4280,
+            "min_ms": 0.112,
+            "median_ms": 0.247,
+            "p90_ms": 200.7711,
+            "p95_ms": 200.816,
+            "p99_ms": 200.89121,
+            "max_ms": 201.357
+          },
+          "compute_to_nrf": {
+            "n": 4280,
+            "min_ms": 0.127,
+            "median_ms": 0.314,
+            "p90_ms": 200.8391,
+            "p95_ms": 200.889,
+            "p99_ms": 200.97421,
+            "max_ms": 201.426
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.783,
+            "median_ms": 568.504,
+            "p90_ms": 968.6388,
+            "p95_ms": 1050.6116,
+            "p99_ms": 1172.8023600000001,
+            "max_ms": 1202.211
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.229,
+            "median_ms": 572.962,
+            "p90_ms": 976.1218,
+            "p95_ms": 1059.17815,
+            "p99_ms": 1178.9682299999997,
+            "max_ms": 1201.01
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1254,
+        "median_ms": 200.739,
+        "min_ms": 200.46,
+        "max_ms": 201.357
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-delay-random-r50-s1003-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 0,
+        "baseline_alarms": 118
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-swrr-r50-s1003-a25-attempt1",
+      "eligible": true,
+      "seconds": 1446.031077861786,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1003-a25-attempt1",
+        "eligible": true,
+        "started": 1791377130.4695656,
+        "seed": 1003,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "ab8618d1cdec21155939812de284e2873889e0f5219992a7120fa92142d2965f",
+        "n": 3000,
+        "s3": 0.36466666666666664,
+        "assigned": {
+          "127.0.0.4": 971,
+          "127.0.0.32": 935,
+          "127.0.0.33": 1094
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 50,
+          "127.0.0.33": 51
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 50.0,
+          "127.0.0.33": 51.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4283,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.9837016890033,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4283,
+            "min_ms": 0.014,
+            "median_ms": 0.062,
+            "p90_ms": 0.08,
+            "p95_ms": 0.089,
+            "p99_ms": 0.122,
+            "max_ms": 1.547
+          },
+          "send_to_nrf": {
+            "n": 4283,
+            "min_ms": 0.112,
+            "median_ms": 0.253,
+            "p90_ms": 200.78,
+            "p95_ms": 200.826,
+            "p99_ms": 200.91954,
+            "max_ms": 202.285
+          },
+          "compute_to_nrf": {
+            "n": 4283,
+            "min_ms": 0.145,
+            "median_ms": 0.322,
+            "p90_ms": 200.846,
+            "p95_ms": 200.898,
+            "p99_ms": 201.00626,
+            "max_ms": 202.348
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.692,
+            "median_ms": 568.249,
+            "p90_ms": 968.9555,
+            "p95_ms": 1053.1218499999998,
+            "p99_ms": 1174.08218,
+            "max_ms": 1202.504
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.634,
+            "median_ms": 582.2415000000001,
+            "p90_ms": 976.3212,
+            "p95_ms": 1058.4758,
+            "p99_ms": 1174.13297,
+            "max_ms": 1201.366
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1255,
+        "median_ms": 200.739,
+        "min_ms": 200.459,
+        "max_ms": 202.022
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-swrr-r50-s1003-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 125,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "name": "timeaware-v1-attack-delay-random-r50-s1003-a25-attempt1",
+      "eligible": true,
+      "seconds": 1443.5577917099,
+      "audit": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1003-a25-attempt1",
+        "eligible": true,
+        "started": 1791378560.237576,
+        "seed": 1003,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 162,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "ab8618d1cdec21155939812de284e2873889e0f5219992a7120fa92142d2965f",
+        "n": 3000,
+        "s3": 0.37033333333333335,
+        "assigned": {
+          "127.0.0.4": 948,
+          "127.0.0.32": 941,
+          "127.0.0.33": 1111
+        },
+        "scp_active": {
+          "127.0.0.4": 45,
+          "127.0.0.32": 42,
+          "127.0.0.33": 63
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 45.0,
+          "127.0.0.32": 42.0,
+          "127.0.0.33": 63.0
+        },
+        "established": 3450,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4280,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 149.98290021491533,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4280,
+            "min_ms": 0.011,
+            "median_ms": 0.064,
+            "p90_ms": 0.083,
+            "p95_ms": 0.094,
+            "p99_ms": 0.123,
+            "max_ms": 1.154
+          },
+          "send_to_nrf": {
+            "n": 4280,
+            "min_ms": 0.111,
+            "median_ms": 0.259,
+            "p90_ms": 200.782,
+            "p95_ms": 200.822,
+            "p99_ms": 200.93841999999998,
+            "max_ms": 201.24
+          },
+          "compute_to_nrf": {
+            "n": 4280,
+            "min_ms": 0.124,
+            "median_ms": 0.331,
+            "p90_ms": 200.85,
+            "p95_ms": 200.897,
+            "p99_ms": 201.02141999999998,
+            "max_ms": 201.798
+          },
+          "age_at_candidate": {
+            "n": 10350,
+            "min_ms": 0.754,
+            "median_ms": 568.424,
+            "p90_ms": 968.9732,
+            "p95_ms": 1052.3687,
+            "p99_ms": 1169.72315,
+            "max_ms": 1201.811
+          },
+          "age_at_selection": {
+            "n": 3450,
+            "min_ms": 1.204,
+            "median_ms": 579.0375,
+            "p90_ms": 981.7058999999999,
+            "p95_ms": 1073.0361999999996,
+            "p99_ms": 1173.16808,
+            "max_ms": 1201.262
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1254,
+        "median_ms": 200.743,
+        "min_ms": 200.477,
+        "max_ms": 201.24
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-delay-random-r50-s1003-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 125,
+        "alarms": 125,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-swrr-r50-s1003-a0-attempt1",
+      "eligible": true,
+      "seconds": 1595.2098248004913,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1003-a0-attempt1",
+        "eligible": true,
+        "started": 1791378570.357245,
+        "seed": 1003,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "7d1f25fbd0bac43bc7da891c8ad3559b3f7b8cd5dc0e322c9d8731023d18e5a8",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker3",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5f7a306fb30242611579df0abe44a66b97e6e89a621be8cdecd34b8a08da27ab",
+        "n": 3360,
+        "s3": 0.3357142857142857,
+        "assigned": {
+          "127.0.0.4": 1121,
+          "127.0.0.32": 1111,
+          "127.0.0.33": 1128
+        },
+        "scp_active": {
+          "127.0.0.4": 50,
+          "127.0.0.32": 53,
+          "127.0.0.33": 47
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 50.0,
+          "127.0.0.32": 53.0,
+          "127.0.0.33": 47.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4733,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.0124493636271,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4733,
+            "min_ms": 0.011,
+            "median_ms": 0.063,
+            "p90_ms": 0.083,
+            "p95_ms": 0.095,
+            "p99_ms": 0.119,
+            "max_ms": 1.131
+          },
+          "send_to_nrf": {
+            "n": 4733,
+            "min_ms": 0.109,
+            "median_ms": 0.259,
+            "p90_ms": 200.775,
+            "p95_ms": 200.82,
+            "p99_ms": 200.93068000000002,
+            "max_ms": 204.159
+          },
+          "compute_to_nrf": {
+            "n": 4733,
+            "min_ms": 0.126,
+            "median_ms": 0.33,
+            "p90_ms": 200.842,
+            "p95_ms": 200.8934,
+            "p99_ms": 201.009,
+            "max_ms": 204.225
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.874,
+            "median_ms": 567.8945,
+            "p90_ms": 968.8366,
+            "p95_ms": 1050.3161499999999,
+            "p99_ms": 1169.9164399999997,
+            "max_ms": 1201.354
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.877,
+            "median_ms": 573.483,
+            "p90_ms": 967.5922999999999,
+            "p95_ms": 1045.9155999999998,
+            "p99_ms": 1176.9800199999997,
+            "max_ms": 1200.42
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1405,
+        "median_ms": 200.729,
+        "min_ms": 200.42,
+        "max_ms": 202.381
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-swrr-r50-s1003-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 0,
+        "baseline_alarms": 125
+      }
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-honest-combined-random-r50-s1003-a0-attempt1",
+      "eligible": true,
+      "seconds": 1599.2558557987213,
+      "audit": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1003-a0-attempt1",
+        "eligible": true,
+        "started": 1791378576.881938,
+        "seed": 1003,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.0,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "0300043075e28fc370a32593732aea7e6c56cc4b87f1cf792e75a2489d624935",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-runtime",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5f7a306fb30242611579df0abe44a66b97e6e89a621be8cdecd34b8a08da27ab",
+        "n": 3360,
+        "s3": 0.3357142857142857,
+        "assigned": {
+          "127.0.0.4": 1125,
+          "127.0.0.32": 1107,
+          "127.0.0.33": 1128
+        },
+        "scp_active": {
+          "127.0.0.4": 51,
+          "127.0.0.32": 52,
+          "127.0.0.33": 47
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 51.0,
+          "127.0.0.32": 52.0,
+          "127.0.0.33": 47.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4739,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.0172647069726,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4739,
+            "min_ms": 0.012,
+            "median_ms": 0.062,
+            "p90_ms": 0.08,
+            "p95_ms": 0.089,
+            "p99_ms": 0.115,
+            "max_ms": 6.929
+          },
+          "send_to_nrf": {
+            "n": 4739,
+            "min_ms": 0.114,
+            "median_ms": 0.252,
+            "p90_ms": 200.765,
+            "p95_ms": 200.804,
+            "p99_ms": 200.89524,
+            "max_ms": 202.295
+          },
+          "compute_to_nrf": {
+            "n": 4739,
+            "min_ms": 0.144,
+            "median_ms": 0.323,
+            "p90_ms": 200.83,
+            "p95_ms": 200.873,
+            "p99_ms": 200.96824,
+            "max_ms": 202.35
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.954,
+            "median_ms": 567.3265,
+            "p90_ms": 967.8061,
+            "p95_ms": 1051.3990499999998,
+            "p99_ms": 1170.2076299999999,
+            "max_ms": 1202.811
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.38,
+            "median_ms": 564.879,
+            "p90_ms": 964.5451,
+            "p95_ms": 1046.0031999999999,
+            "p99_ms": 1172.0308499999996,
+            "max_ms": 1202.07
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1406,
+        "median_ms": 200.729,
+        "min_ms": 200.437,
+        "max_ms": 202.295
+      },
+      "timeaware": {
+        "run": "timeaware-v1-honest-combined-random-r50-s1003-a0-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 135,
+        "alarms": 0,
+        "baseline_alarms": 131
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-swrr-r50-s1003-a25-attempt1",
+      "eligible": true,
+      "seconds": 1598.1032974720001,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1003-a25-attempt1",
+        "eligible": true,
+        "started": 1791378578.5754442,
+        "seed": 1003,
+        "policy": "swrr",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "4c78f8bd9c0dfbb0994da29199438676cdca000b054fa7da54de169cd8cc4c24",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker2",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5f7a306fb30242611579df0abe44a66b97e6e89a621be8cdecd34b8a08da27ab",
+        "n": 3360,
+        "s3": 0.3729166666666667,
+        "assigned": {
+          "127.0.0.4": 1042,
+          "127.0.0.32": 1065,
+          "127.0.0.33": 1253
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 49,
+          "127.0.0.33": 52
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 49.0,
+          "127.0.0.33": 52.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4736,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01331776350543,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4736,
+            "min_ms": 0.013,
+            "median_ms": 0.063,
+            "p90_ms": 0.082,
+            "p95_ms": 0.092,
+            "p99_ms": 0.11664999999999964,
+            "max_ms": 1.922
+          },
+          "send_to_nrf": {
+            "n": 4736,
+            "min_ms": 0.115,
+            "median_ms": 0.257,
+            "p90_ms": 200.763,
+            "p95_ms": 200.803,
+            "p99_ms": 200.88665,
+            "max_ms": 204.473
+          },
+          "compute_to_nrf": {
+            "n": 4736,
+            "min_ms": 0.149,
+            "median_ms": 0.327,
+            "p90_ms": 200.829,
+            "p95_ms": 200.873,
+            "p99_ms": 200.96565,
+            "max_ms": 204.546
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.845,
+            "median_ms": 568.864,
+            "p90_ms": 969.0028000000001,
+            "p95_ms": 1054.7405499999998,
+            "p99_ms": 1171.8812199999995,
+            "max_ms": 1202.176
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 0.886,
+            "median_ms": 577.3435,
+            "p90_ms": 980.0635,
+            "p95_ms": 1068.21465,
+            "p99_ms": 1167.8691099999999,
+            "max_ms": 1201.872
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1406,
+        "median_ms": 200.722,
+        "min_ms": 200.434,
+        "max_ms": 204.473
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-swrr-r50-s1003-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 135,
+        "alarms": 135,
+        "baseline_alarms": 135
+      }
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "name": "timeaware-v1-attack-combined-random-r50-s1003-a25-attempt1",
+      "eligible": true,
+      "seconds": 1593.0207064151764,
+      "audit": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1003-a25-attempt1",
+        "eligible": true,
+        "started": 1791380005.7432194,
+        "seed": 1003,
+        "policy": "random",
+        "series_id": "timeaware-v1",
+        "rho": 0.5,
+        "alpha": 0.25,
+        "capacity_reported": 100,
+        "residual_budget": null,
+        "attack_mode": "constant",
+        "capacity3": 100,
+        "warmup": 300,
+        "cycles": 3300,
+        "binary_sha256": {
+          "amf": "b99affa5a3e72fd09efc4f9a3c64ab22e97624958155b9e48ab412977ccfb057",
+          "smf": "e65c5baaa0ebb3d2101c0c32c6eb846d3fc97f8f454b59974da6bf473a05a474",
+          "nrf": "75050f4be547c883c4156225dee432c2b6aca84c6bdc4aae5c49916fc90180d1",
+          "scp": "590dca18f239c5333c12b6dcd4fe977ba0622a40423b779c6910255be375e512"
+        },
+        "sbi_library_sha256": {
+          "lib/x86_64-linux-gnu/libogssbi.so.2.8.0": "822379da16df5a678d6aa30e21861187a761862d2fcbc015a3d0bcf87d8d0f54"
+        },
+        "ueransim_sha256": {
+          "nr-gnb": "6b37f7d492ef50a6b9a3b585b4dae0223149446ae7635238245d4b77b039460e",
+          "nr-ue": "5e144de65962aac407547e87f365fab594c15f2ffed28fa285d86ae846b6b116",
+          "nr-cli": "70047adba9d6ce6c99ef45f5e113a604cb1d9360750dfa9211aea800fe7bf846"
+        },
+        "resource_configuration": "fea971a450201c04edadb5c41efac7ddde39745b337110ad8702f9f75003593a",
+        "active": 150,
+        "ues": 222,
+        "capacity": 100,
+        "interval": 0.01,
+        "order": "1,2,3",
+        "execution_worker": "model5g-worker4",
+        "rls_heartbeat_threshold_ms": 15000,
+        "workload_hash": "5f7a306fb30242611579df0abe44a66b97e6e89a621be8cdecd34b8a08da27ab",
+        "n": 3360,
+        "s3": 0.36755952380952384,
+        "assigned": {
+          "127.0.0.4": 1068,
+          "127.0.0.32": 1057,
+          "127.0.0.33": 1235
+        },
+        "scp_active": {
+          "127.0.0.4": 49,
+          "127.0.0.32": 52,
+          "127.0.0.33": 49
+        },
+        "ground_truth_sessionnbr": {
+          "127.0.0.4": 49.0,
+          "127.0.0.32": 52.0,
+          "127.0.0.33": 49.0
+        },
+        "established": 3810,
+        "anomalies": [],
+        "candidate_version_mismatches": 0,
+        "checks": {
+          "complete": true,
+          "three_smf_ids": true,
+          "all_creates_confirmed": true,
+          "final_scp_matches_metrics": true,
+          "final_population": true,
+          "no_duplicate_creates": true,
+          "measured_population": true,
+          "all_candidates_present": true,
+          "all_selections_present": true,
+          "versions_match": true,
+          "causal_nrf_chain": true,
+          "no_radio_failure": true
+        },
+        "broken_causal_chains": 0,
+        "radio_failures": 0,
+        "load_samples": 4729,
+        "saturated_load_samples": 0,
+        "max_abs_scp_ground_truth_difference": 1,
+        "mean_event_sampled_active": 150.01057842964556,
+        "propagation": {
+          "compute_to_send": {
+            "n": 4729,
+            "min_ms": 0.014,
+            "median_ms": 0.079,
+            "p90_ms": 0.11119999999999981,
+            "p95_ms": 0.128,
+            "p99_ms": 0.17744000000000051,
+            "max_ms": 1.989
+          },
+          "send_to_nrf": {
+            "n": 4728,
+            "min_ms": 0.1,
+            "median_ms": 0.344,
+            "p90_ms": 200.952,
+            "p95_ms": 201.02665,
+            "p99_ms": 201.17,
+            "max_ms": 201.994
+          },
+          "compute_to_nrf": {
+            "n": 4728,
+            "min_ms": 0.149,
+            "median_ms": 0.435,
+            "p90_ms": 201.0356,
+            "p95_ms": 201.12365,
+            "p99_ms": 201.28246,
+            "max_ms": 202.244
+          },
+          "age_at_candidate": {
+            "n": 11430,
+            "min_ms": 0.943,
+            "median_ms": 567.5264999999999,
+            "p90_ms": 967.1302000000001,
+            "p95_ms": 1049.0690499999998,
+            "p99_ms": 1170.3428,
+            "max_ms": 1202.647
+          },
+          "age_at_selection": {
+            "n": 3810,
+            "min_ms": 1.063,
+            "median_ms": 582.271,
+            "p90_ms": 977.8145999999999,
+            "p95_ms": 1070.3166999999999,
+            "p99_ms": 1175.1913399999999,
+            "max_ms": 1202.65
+          }
+        }
+      },
+      "delay_validation": {
+        "samples": 1404,
+        "median_ms": 200.892,
+        "min_ms": 200.439,
+        "max_ms": 201.994
+      },
+      "timeaware": {
+        "run": "timeaware-v1-attack-combined-random-r50-s1003-a25-attempt1",
+        "history_ms": 500,
+        "threshold": 0,
+        "windows": 134,
+        "alarms": 134,
+        "baseline_alarms": 134
+      }
+    }
+  ],
+  "status": "complete",
+  "error": null,
+  "updated_at": 1791381600.4305916,
+  "pending": [],
+  "in_flight": []
+}

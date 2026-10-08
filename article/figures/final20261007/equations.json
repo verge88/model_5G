@@ -1,0 +1,7 @@
+{
+  "L_i^{ref}=\\min(100,100N_i/C_i),\\qquad L_i^{rep}=\\lfloor(1-\\alpha_i)L_i^{ref}\\rfloor.": "C:\\Users\\niyaz\\Documents\\model_5G\\article\\figures\\final20261007\\equation-0.png",
+  "q(t)=\\lfloor\\min(100,100\\widehat N(t)/C)\\rfloor,\\qquad d_q(t)=|L^{rep}(t)-q(t)|.": "C:\\Users\\niyaz\\Documents\\model_5G\\article\\figures\\final20261007\\equation-1.png",
+  "a(t)=\\min_{u\\in[t-H,t]}q(u),\\quad b(t)=\\max_{u\\in[t-H,t]}q(u).": "C:\\Users\\niyaz\\Documents\\model_5G\\article\\figures\\final20261007\\equation-2.png",
+  "d_H(t)=\\max\\{a(t)-L^{rep}(t),\\ L^{rep}(t)-b(t),\\ 0\\}.": "C:\\Users\\niyaz\\Documents\\model_5G\\article\\figures\\final20261007\\equation-3.png",
+  "s=\\frac{2}{3-a+\\sqrt{(3-a)^2+4a}},\\qquad a=3\\rho\\alpha.": "C:\\Users\\niyaz\\Documents\\model_5G\\article\\figures\\final20261007\\equation-4.png"
+}

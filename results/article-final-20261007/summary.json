@@ -1,0 +1,64 @@
+{
+  "cohorts": [
+    {
+      "stage": "main-v2-execution",
+      "runs": 60,
+      "measured": 180000,
+      "established": 206400
+    },
+    {
+      "stage": "detector-v1",
+      "runs": 27,
+      "measured": 81000,
+      "established": 92880
+    },
+    {
+      "stage": "robustness-v1",
+      "runs": 24,
+      "measured": 72000,
+      "established": 82800
+    },
+    {
+      "stage": "quantization-v1",
+      "runs": 12,
+      "measured": 36000,
+      "established": 41400
+    },
+    {
+      "stage": "delay-burst-v1",
+      "runs": 36,
+      "measured": 116640,
+      "established": 132840
+    },
+    {
+      "stage": "timeaware-v1",
+      "runs": 24,
+      "measured": 76320,
+      "established": 87120
+    }
+  ],
+  "total_runs": 183,
+  "total_measured": 561960,
+  "total_established": 643440,
+  "distinct_binary_fingerprints": 1,
+  "excluded_attempt_records": 3,
+  "checks": "Selected manifests and recorded audit checks cross-validated; no re-execution of raw-trace audit.",
+  "primary_measurement_code_matches_frozen_hashes": true,
+  "inputs_sha256": {
+    "results\\main-v2-execution\\ledger.json": "37d799464a53d4ce2bf511d69ed3713ac9d577c98826224703a44840a8313e2f",
+    "results\\detector-v1\\ledger.json": "134090d6640ea3ad7d700b026570335a752aed76924abe1a2cd08ff859f8a944",
+    "results\\robustness-v1\\ledger.json": "6ede070e975ab089a553dc98a50117445e263869b10f9a880661b40bd1d679c3",
+    "results\\quantization-v1\\ledger.json": "62fb3762041cac61cb79f70ec580e3628a40be111178e3368bcc16aa2a1e657b",
+    "results\\delay-burst-v1\\ledger.json": "95e80c8e3af138fd1cb2d06619a1072347d048040aa23a9c3422f4d84e9fbc45",
+    "results\\timeaware-v1\\ledger.json": "305247e5c0291ac7b9d473aef3d444949cb4c339f506adaf636643ddbe45cb46",
+    "results\\detector-v1\\evaluation.json": "d0b816a1ef9ed7512f4d214300e466ce2ba616f58de3458ae7f9d903c7624d7e",
+    "results\\robustness-v1\\evaluation.json": "924788e3f14cbc1ca81dab07f3e48a82a065e3eb0019e19945cf4e4fb8717976",
+    "results\\quantization-v1\\evaluation.json": "05d34f054a2f42acee25743e3329ada22c24ae091271b90f655aedc358a9f89e",
+    "results\\delay-burst-v1\\evaluation.json": "bf122bdccb48eee5a68698985563c1b7382885562ee8bcf973bd7442a7c2c2c0",
+    "results/timeaware-v1/evaluation.json": "14f0eb879787dfda06092773aa65f875ab936cfef0ea6f190a602517f061a746",
+    "results/main-v2-execution/main-evaluation/effect-summary.csv": "a7ba111afb28ae31cc672e820f6101d98f8c44e295259cccecb55155f4b10114",
+    "results/main-v2-execution/main-evaluation/paired-effects.csv": "6e02a6f8c40fa9e4dd7e295099290fbb24bcd89b8ca158f6305e627132045860",
+    "results/robustness-v1/onoff-temporal-evaluation.json": "ae02832e92dfd2d6745d882214abb3a079a423f20047278b0e947e0ad30b435e",
+    "results/quantization-v1/acceptance.json": "2f47e05368a7635a438178b9bf0c712dc8753b6a0e57c5182bac0a37412016a3"
+  }
+}

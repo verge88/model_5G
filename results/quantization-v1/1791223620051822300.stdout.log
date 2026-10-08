@@ -1,0 +1,32 @@
+START model5g-runtime {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 501, 'alpha': 0, 'extra': ['--capacity3', '70']}
+START model5g-worker2 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 501, 'alpha': 0, 'extra': ['--capacity3', '70']}
+START model5g-worker3 {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 501, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+START model5g-worker4 {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 501, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 501, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+START model5g-worker3 {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 502, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 501, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 501, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+START model5g-worker2 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 502, 'alpha': 0, 'extra': ['--capacity3', '70']}
+START model5g-worker4 {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 502, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 501, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-runtime {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 502, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 502, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker3 {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 503, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 502, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+START model5g-worker4 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 503, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 502, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker2 {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 503, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 502, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+START model5g-runtime {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 503, 'alpha': 0.25, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 503, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 503, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'attack-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 503, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'attack-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 503, 'alpha': 0.25, 'extra': ['--capacity3', '70']} True
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4

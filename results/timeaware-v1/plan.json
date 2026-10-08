@@ -1,0 +1,306 @@
+{
+  "items": [
+    {
+      "stage": "honest-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1001,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1002,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1003,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "4a012a8eb3c261b957d7062ee1433ee02fab2c98fec798fe46b97e6ad352fd4d"
+}

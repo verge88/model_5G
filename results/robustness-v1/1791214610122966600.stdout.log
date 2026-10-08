@@ -1,0 +1,56 @@
+START model5g-runtime {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+START model5g-worker2 {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+START model5g-worker3 {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+START model5g-worker4 {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-worker4 {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-worker3 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-worker2 {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-runtime {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker4 {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker3 {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+START model5g-worker2 {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 401, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+START model5g-runtime {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-worker4 {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-worker3 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-runtime {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-worker2 {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker4 {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+START model5g-runtime {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+START model5g-worker3 {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 402, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+START model5g-worker2 {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--heartbeat', '5']}
+DONE {'stage': 'honest-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-worker4 {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'attack-hb5', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-worker3 {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--capacity3', '70']}
+DONE {'stage': 'honest-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--heartbeat', '5']} True
+START model5g-runtime {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'attack-hb5', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--heartbeat', '5']} True
+START model5g-worker2 {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']}
+DONE {'stage': 'honest-cap70', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'attack-onoff', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+DONE {'stage': 'honest-cap70', 'policy': 'random', 'rho': 0.5, 'seed': 403, 'alpha': 0, 'extra': ['--capacity3', '70']} True
+DONE {'stage': 'attack-onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 403, 'alpha': 0.25, 'extra': ['--attack-mode', 'onoff']} True
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4

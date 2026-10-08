@@ -1,0 +1,466 @@
+{
+  "results": [],
+  "status": "running",
+  "error": null,
+  "updated_at": 1791291528.5289152,
+  "pending": [
+    {
+      "stage": "honest-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 701,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 702,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "attack-delay",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-burst",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "honest-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    },
+    {
+      "stage": "attack-combined",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 703,
+      "alpha": 0.25,
+      "extra": [
+        "--nfm-delay-ms",
+        "200",
+        "--burst",
+        "--ues",
+        "222"
+      ]
+    }
+  ],
+  "in_flight": [
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 701,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "worker": "model5g-runtime"
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 701,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "worker": "model5g-worker2"
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 701,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "worker": "model5g-worker3"
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 701,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "worker": "model5g-worker4"
+    }
+  ]
+}

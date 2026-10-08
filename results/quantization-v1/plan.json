@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 501,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 501,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 501,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 501,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 502,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 502,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 502,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 502,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 503,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "honest-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 503,
+      "alpha": 0,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 503,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    },
+    {
+      "stage": "attack-cap70",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 503,
+      "alpha": 0.25,
+      "extra": [
+        "--capacity3",
+        "70"
+      ]
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "c586529cb6e82f35e01434c67f52046004d1e4e6735e2dbde5493ffeb29af534"
+}

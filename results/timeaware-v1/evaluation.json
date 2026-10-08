@@ -1,0 +1,573 @@
+{
+  "primary": "age_aware",
+  "history_ms": 500,
+  "threshold": 0,
+  "complete": true,
+  "by_run": [
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-random-r50-s1001-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 126,
+      "alarms": 126,
+      "baseline_alarms": 126
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-random-r50-s1001-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 126,
+      "alarms": 0,
+      "baseline_alarms": 121
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-swrr-r50-s1001-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 126,
+      "alarms": 0,
+      "baseline_alarms": 120
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt2",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 125,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-swrr-r50-s1001-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 135,
+      "alarms": 135,
+      "baseline_alarms": 135
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-random-r50-s1001-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 0,
+      "baseline_alarms": 128
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-swrr-r50-s1001-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 0,
+      "baseline_alarms": 129
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-swrr-r50-s1002-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 0,
+      "baseline_alarms": 114
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1001,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-random-r50-s1001-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 134,
+      "baseline_alarms": 134
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-random-r50-s1002-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 0,
+      "baseline_alarms": 116
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-swrr-r50-s1002-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 125,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-random-r50-s1002-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 125,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-random-r50-s1002-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 0,
+      "baseline_alarms": 128
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-swrr-r50-s1002-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 135,
+      "alarms": 0,
+      "baseline_alarms": 120
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-swrr-r50-s1002-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 135,
+      "alarms": 135,
+      "baseline_alarms": 135
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1002,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-random-r50-s1002-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 134,
+      "baseline_alarms": 134
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-swrr-r50-s1003-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 0,
+      "baseline_alarms": 115
+    },
+    {
+      "item": {
+        "stage": "honest-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-honest-delay-random-r50-s1003-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 0,
+      "baseline_alarms": 118
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-swrr-r50-s1003-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 125,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "attack-delay",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "run": "timeaware-v1-attack-delay-random-r50-s1003-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 125,
+      "alarms": 125,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-swrr-r50-s1003-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 0,
+      "baseline_alarms": 125
+    },
+    {
+      "item": {
+        "stage": "honest-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-honest-combined-random-r50-s1003-a0-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 135,
+      "alarms": 0,
+      "baseline_alarms": 131
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-swrr-r50-s1003-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 135,
+      "alarms": 135,
+      "baseline_alarms": 135
+    },
+    {
+      "item": {
+        "stage": "attack-combined",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1003,
+        "alpha": 0.25,
+        "extra": [
+          "--nfm-delay-ms",
+          "200",
+          "--burst",
+          "--ues",
+          "222"
+        ]
+      },
+      "run": "timeaware-v1-attack-combined-random-r50-s1003-a25-attempt1",
+      "history_ms": 500,
+      "threshold": 0,
+      "windows": 134,
+      "alarms": 134,
+      "baseline_alarms": 134
+    }
+  ],
+  "cells": [
+    {
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "runs": 3,
+      "mean_alarm_fraction": 0.0,
+      "baseline_mean": 0.9281269841269841,
+      "decision": "pass"
+    },
+    {
+      "scenario": "honest-delay",
+      "policy": "random",
+      "runs": 3,
+      "mean_alarm_fraction": 0.0,
+      "baseline_mean": 0.9441058201058201,
+      "decision": "pass"
+    },
+    {
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "runs": 3,
+      "mean_alarm_fraction": 1.0,
+      "baseline_mean": 1.0,
+      "decision": "pass"
+    },
+    {
+      "scenario": "attack-delay",
+      "policy": "random",
+      "runs": 3,
+      "mean_alarm_fraction": 1.0,
+      "baseline_mean": 1.0,
+      "decision": "pass"
+    },
+    {
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "runs": 3,
+      "mean_alarm_fraction": 0.0,
+      "baseline_mean": 0.9281370923161968,
+      "decision": "pass"
+    },
+    {
+      "scenario": "honest-combined",
+      "policy": "random",
+      "runs": 3,
+      "mean_alarm_fraction": 0.0,
+      "baseline_mean": 0.9602727105214667,
+      "decision": "pass"
+    },
+    {
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "runs": 3,
+      "mean_alarm_fraction": 1.0,
+      "baseline_mean": 1.0,
+      "decision": "pass"
+    },
+    {
+      "scenario": "attack-combined",
+      "policy": "random",
+      "runs": 3,
+      "mean_alarm_fraction": 1.0,
+      "baseline_mean": 1.0,
+      "decision": "pass"
+    }
+  ],
+  "limitations": [
+    "500 ms is a configured trusted upper-age assumption, not inferred from attacker timestamps.",
+    "Prior-data replay was development; only seeds 1001-1003 are prospective validation.",
+    "Offline replay uses a common monotonic clock; collector delay, clock skew and larger report ages remain untested.",
+    "A larger history range can conceal attacks; only alpha=.25 and this workload are tested.",
+    "Empirical three-run acceptance is not a population error-rate guarantee."
+  ]
+}

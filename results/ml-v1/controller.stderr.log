@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\niyaz\Documents\model_5G\scripts\ml_background.py", line 9, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\niyaz\Documents\model_5G\scripts\ml_stage.py", line 66, in main
+    subprocess.run(['docker','start']+containers,check=True);time.sleep(5)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['docker', 'start', 'model5g-runtime', 'model5g-worker2', 'model5g-worker3', 'model5g-worker4', 'model5g-db', 'model5g-db2', 'model5g-db3', 'model5g-db4']' returned non-zero exit status 1.
+Error response from daemon: cannot join network namespace of a non running container: container model5g-db is exited
+Error response from daemon: cannot join network namespace of a non running container: container model5g-db2 is exited
+Error response from daemon: cannot join network namespace of a non running container: container model5g-db3 is exited
+Error response from daemon: cannot join network namespace of a non running container: container model5g-db4 is exited
+failed to start containers: model5g-runtime, model5g-worker2, model5g-worker3, model5g-worker4
+Traceback (most recent call last):
+  File "C:\Users\niyaz\Documents\model_5G\scripts\ml_background.py", line 9, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\niyaz\Documents\model_5G\scripts\ml_stage.py", line 66, in main
+    subprocess.run(['docker','start']+containers,check=True,stdout=sys.stdout,stderr=sys.stderr);time.sleep(5)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['docker', 'start', 'model5g-runtime', 'model5g-worker2', 'model5g-worker3', 'model5g-worker4', 'model5g-db', 'model5g-db2', 'model5g-db3', 'model5g-db4']' returned non-zero exit status 1.

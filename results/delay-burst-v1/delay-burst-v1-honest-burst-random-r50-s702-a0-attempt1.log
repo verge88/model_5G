@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/work/scripts/run_lab.py", line 321, in <module>
+    run(args)
+  File "/work/scripts/run_lab.py", line 266, in run
+    staging.rename(destination)
+  File "/usr/lib/python3.12/pathlib.py", line 1365, in rename
+    os.rename(self, target)
+PermissionError: [Errno 13] Permission denied: '/work/runs/.delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1.copying' -> '/work/runs/delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1'

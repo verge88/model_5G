@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "main-v2-execution",
+    "run": "main-v2-swrr-r50-s104-a0-attempt1",
+    "reason": "incomplete pair"
+  },
+  {
+    "stage": "main-v2-execution",
+    "run": "main-v2-swrr-r50-s104-a50-attempt1",
+    "reason": "incomplete pair"
+  },
+  {
+    "stage": "timeaware-v1",
+    "run": "timeaware-v1-attack-delay-swrr-r50-s1001-a25-attempt1",
+    "reason": "runner_exit_1"
+  }
+]

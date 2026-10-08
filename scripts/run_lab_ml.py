@@ -158,7 +158,8 @@ def run(args):
             start(name,[f'{prefix}/bin/open5gs-{name}d','-c',str(cfg/f'{name}.yaml')])
             time.sleep(.25)
         if args.nfm_delay_ms:
-            start('nfm-delay',['python','/work/scripts/nfm_delay_proxy.py','--delay-ms',str(args.nfm_delay_ms)])
+            start('nfm-delay',['python','/work/scripts/nfm_delay_proxy_ml.py','--min-ms',str(args.nfm_delay_ms),
+                              '--max-ms',str(args.nfm_delay_max_ms),'--seed',str(args.seed)])
             time.sleep(.3);check()
         for i in map(int,args.order.split(',')):
             extra = {} if args.baseline else {'LAB_CAPACITY_ABS':str(args.capacity),
@@ -301,6 +302,7 @@ if __name__ == '__main__':
     p.add_argument('--interval',type=float,default=.3)
     p.add_argument('--heartbeat',type=int,default=1)
     p.add_argument('--nfm-delay-ms',type=float,default=0)
+    p.add_argument('--nfm-delay-max-ms',type=float,default=350)
     p.add_argument('--burst',action='store_true')
     args = p.parse_args()
     # Also enforce the budget when resuming a matrix process started before
@@ -322,7 +324,7 @@ if __name__ == '__main__':
         p.error('capacity3 must be positive')
     if args.heartbeat < 1:
         p.error('heartbeat must be positive')
-    if args.nfm_delay_ms < 0:
+    if args.nfm_delay_ms < 0 or args.nfm_delay_max_ms < args.nfm_delay_ms:
         p.error('nfm delay must be nonnegative')
     if args.burst and (args.active!=150 or args.ues<=210 or args.cycles-args.warmup!=3000):
         p.error('burst protocol requires active=150, ues>210, measured cycles=3000')

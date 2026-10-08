@@ -1,0 +1,43 @@
+{
+  "primary": "residual_quantized",
+  "cells": [
+    {
+      "policy": "swrr",
+      "scenario": "honest-cap70",
+      "runs": 3,
+      "mean": 0.0,
+      "exploratory_low": 0.0,
+      "exploratory_high": 0.0,
+      "decision": "pass"
+    },
+    {
+      "policy": "swrr",
+      "scenario": "attack-cap70",
+      "runs": 3,
+      "mean": 1.0,
+      "exploratory_low": 1.0,
+      "exploratory_high": 1.0,
+      "decision": "pass"
+    },
+    {
+      "policy": "random",
+      "scenario": "honest-cap70",
+      "runs": 3,
+      "mean": 0.005376344086021505,
+      "exploratory_low": 0.0,
+      "exploratory_high": 0.016129032258064516,
+      "decision": "pass"
+    },
+    {
+      "policy": "random",
+      "scenario": "attack-cap70",
+      "runs": 3,
+      "mean": 1.0,
+      "exploratory_low": 1.0,
+      "exploratory_high": 1.0,
+      "decision": "pass"
+    }
+  ],
+  "complete": true,
+  "note": "Empirical predeclared acceptance; three-run bootstrap is exploratory, not an error-rate guarantee."
+}

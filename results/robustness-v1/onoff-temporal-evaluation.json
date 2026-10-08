@@ -1,0 +1,2189 @@
+{
+  "by_run": [
+    {
+      "run": "robustness-v1-attack-onoff-swrr-r50-s401-a25-attempt1",
+      "policy": "swrr",
+      "seed": 401,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 624,
+              "alarms": 624
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 1681479296,
+              "offset": 1711505821,
+              "first_observation_ms": 0.278,
+              "window_decision_seconds": 8.322317663000106
+            },
+            {
+              "onset": 1741527812,
+              "offset": 1771553003,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 8.273801663000107
+            },
+            {
+              "onset": 1801576357,
+              "offset": 1831602780,
+              "first_observation_ms": 0.301,
+              "window_decision_seconds": 8.225256663000106
+            },
+            {
+              "onset": 1861625509,
+              "offset": 1891650334,
+              "first_observation_ms": 0.294,
+              "window_decision_seconds": 8.176104663000107
+            },
+            {
+              "onset": 1921675019,
+              "offset": 1951696353,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 8.126594663000107
+            },
+            {
+              "onset": 1981718277,
+              "offset": 2011744671,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 8.083336663000107
+            },
+            {
+              "onset": 2041769276,
+              "offset": 2071795138,
+              "first_observation_ms": 0.339,
+              "window_decision_seconds": 8.032337663000106
+            },
+            {
+              "onset": 2101819730,
+              "offset": 2131844930,
+              "first_observation_ms": 0.377,
+              "window_decision_seconds": 7.981883663000107
+            },
+            {
+              "onset": 2161871853,
+              "offset": 2191896035,
+              "first_observation_ms": 0.388,
+              "window_decision_seconds": 7.929760663000107
+            },
+            {
+              "onset": 2221921707,
+              "offset": 2251948681,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 7.8799066630001064
+            },
+            {
+              "onset": 2281977086,
+              "offset": 2312004040,
+              "first_observation_ms": 0.309,
+              "window_decision_seconds": 7.824527663000107
+            },
+            {
+              "onset": 2342033795,
+              "offset": 2372059730,
+              "first_observation_ms": 0.228,
+              "window_decision_seconds": 7.7678186630001065
+            },
+            {
+              "onset": 2402083121,
+              "offset": 2432107691,
+              "first_observation_ms": 0.221,
+              "window_decision_seconds": 7.718492663000107
+            },
+            {
+              "onset": 2462132907,
+              "offset": 2492158424,
+              "first_observation_ms": 0.182,
+              "window_decision_seconds": 7.668706663000107
+            },
+            {
+              "onset": 2522180537,
+              "offset": 2552202556,
+              "first_observation_ms": 0.234,
+              "window_decision_seconds": 7.621076663000107
+            },
+            {
+              "onset": 2582222628,
+              "offset": 2612241169,
+              "first_observation_ms": 0.341,
+              "window_decision_seconds": 7.578985663000107
+            },
+            {
+              "onset": 2642261641,
+              "offset": 2672283205,
+              "first_observation_ms": 0.275,
+              "window_decision_seconds": 7.539972663000107
+            },
+            {
+              "onset": 2702304445,
+              "offset": 2732327560,
+              "first_observation_ms": 0.264,
+              "window_decision_seconds": 7.497168663000107
+            },
+            {
+              "onset": 2762343749,
+              "offset": 2792364686,
+              "first_observation_ms": 0.327,
+              "window_decision_seconds": 7.457864663000107
+            },
+            {
+              "onset": 2822383240,
+              "offset": 2852402334,
+              "first_observation_ms": 0.293,
+              "window_decision_seconds": 7.418373663000107
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3005,
+            "p95": 0.37755,
+            "max": 0.388
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.852217163000107,
+            "p95": 8.276227463000106,
+            "max": 8.322317663000106
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.852932663000107,
+            "p95": 18.295792663000107,
+            "max": 18.346149663000105
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 624,
+              "alarms": 624
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 1681479296,
+              "offset": 1711505821,
+              "first_observation_ms": 0.278,
+              "window_decision_seconds": 8.322317663000106
+            },
+            {
+              "onset": 1741527812,
+              "offset": 1771553003,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 8.273801663000107
+            },
+            {
+              "onset": 1801576357,
+              "offset": 1831602780,
+              "first_observation_ms": 0.301,
+              "window_decision_seconds": 8.225256663000106
+            },
+            {
+              "onset": 1861625509,
+              "offset": 1891650334,
+              "first_observation_ms": 0.294,
+              "window_decision_seconds": 8.176104663000107
+            },
+            {
+              "onset": 1921675019,
+              "offset": 1951696353,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 8.126594663000107
+            },
+            {
+              "onset": 1981718277,
+              "offset": 2011744671,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 8.083336663000107
+            },
+            {
+              "onset": 2041769276,
+              "offset": 2071795138,
+              "first_observation_ms": 0.339,
+              "window_decision_seconds": 8.032337663000106
+            },
+            {
+              "onset": 2101819730,
+              "offset": 2131844930,
+              "first_observation_ms": 0.377,
+              "window_decision_seconds": 7.981883663000107
+            },
+            {
+              "onset": 2161871853,
+              "offset": 2191896035,
+              "first_observation_ms": 0.388,
+              "window_decision_seconds": 7.929760663000107
+            },
+            {
+              "onset": 2221921707,
+              "offset": 2251948681,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 7.8799066630001064
+            },
+            {
+              "onset": 2281977086,
+              "offset": 2312004040,
+              "first_observation_ms": 0.309,
+              "window_decision_seconds": 7.824527663000107
+            },
+            {
+              "onset": 2342033795,
+              "offset": 2372059730,
+              "first_observation_ms": 0.228,
+              "window_decision_seconds": 7.7678186630001065
+            },
+            {
+              "onset": 2402083121,
+              "offset": 2432107691,
+              "first_observation_ms": 0.221,
+              "window_decision_seconds": 7.718492663000107
+            },
+            {
+              "onset": 2462132907,
+              "offset": 2492158424,
+              "first_observation_ms": 0.182,
+              "window_decision_seconds": 7.668706663000107
+            },
+            {
+              "onset": 2522180537,
+              "offset": 2552202556,
+              "first_observation_ms": 0.234,
+              "window_decision_seconds": 7.621076663000107
+            },
+            {
+              "onset": 2582222628,
+              "offset": 2612241169,
+              "first_observation_ms": 0.341,
+              "window_decision_seconds": 7.578985663000107
+            },
+            {
+              "onset": 2642261641,
+              "offset": 2672283205,
+              "first_observation_ms": 0.275,
+              "window_decision_seconds": 7.539972663000107
+            },
+            {
+              "onset": 2702304445,
+              "offset": 2732327560,
+              "first_observation_ms": 0.264,
+              "window_decision_seconds": 7.497168663000107
+            },
+            {
+              "onset": 2762343749,
+              "offset": 2792364686,
+              "first_observation_ms": 0.327,
+              "window_decision_seconds": 7.457864663000107
+            },
+            {
+              "onset": 2822383240,
+              "offset": 2852402334,
+              "first_observation_ms": 0.293,
+              "window_decision_seconds": 7.418373663000107
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3005,
+            "p95": 0.37755,
+            "max": 0.388
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.852217163000107,
+            "p95": 8.276227463000106,
+            "max": 8.322317663000106
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.852932663000107,
+            "p95": 18.295792663000107,
+            "max": 18.346149663000105
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    },
+    {
+      "run": "robustness-v1-attack-onoff-random-r50-s401-a25-attempt1",
+      "policy": "random",
+      "seed": 401,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 624,
+              "alarms": 624
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 1681689984,
+              "offset": 1711709669,
+              "first_observation_ms": 0.226,
+              "window_decision_seconds": 8.438493322000026
+            },
+            {
+              "onset": 1741725881,
+              "offset": 1771744634,
+              "first_observation_ms": 0.35,
+              "window_decision_seconds": 8.402596322000027
+            },
+            {
+              "onset": 1801764562,
+              "offset": 1831782711,
+              "first_observation_ms": 0.386,
+              "window_decision_seconds": 8.363915322000027
+            },
+            {
+              "onset": 1861801913,
+              "offset": 1891820768,
+              "first_observation_ms": 0.335,
+              "window_decision_seconds": 8.326564322000026
+            },
+            {
+              "onset": 1921841092,
+              "offset": 1951863973,
+              "first_observation_ms": 0.297,
+              "window_decision_seconds": 8.287385322000027
+            },
+            {
+              "onset": 1981884104,
+              "offset": 2011907844,
+              "first_observation_ms": 0.466,
+              "window_decision_seconds": 8.244373322000026
+            },
+            {
+              "onset": 2041931581,
+              "offset": 2071954451,
+              "first_observation_ms": 0.34,
+              "window_decision_seconds": 8.196896322000027
+            },
+            {
+              "onset": 2101976236,
+              "offset": 2131998287,
+              "first_observation_ms": 0.302,
+              "window_decision_seconds": 8.152241322000027
+            },
+            {
+              "onset": 2162024317,
+              "offset": 2192045998,
+              "first_observation_ms": 0.346,
+              "window_decision_seconds": 8.104160322000027
+            },
+            {
+              "onset": 2222072091,
+              "offset": 2252097882,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 8.056386322000026
+            },
+            {
+              "onset": 2282120775,
+              "offset": 2312147338,
+              "first_observation_ms": 0.282,
+              "window_decision_seconds": 8.007702322000027
+            },
+            {
+              "onset": 2342170920,
+              "offset": 2372193600,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 7.957557322000027
+            },
+            {
+              "onset": 2402217078,
+              "offset": 2432239691,
+              "first_observation_ms": 0.262,
+              "window_decision_seconds": 7.911399322000027
+            },
+            {
+              "onset": 2462266517,
+              "offset": 2492287831,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 7.8619603220000265
+            },
+            {
+              "onset": 2522311787,
+              "offset": 2552336055,
+              "first_observation_ms": 0.358,
+              "window_decision_seconds": 7.816690322000027
+            },
+            {
+              "onset": 2582361473,
+              "offset": 2612385431,
+              "first_observation_ms": 0.285,
+              "window_decision_seconds": 7.767004322000027
+            },
+            {
+              "onset": 2642411335,
+              "offset": 2672431841,
+              "first_observation_ms": 0.291,
+              "window_decision_seconds": 7.717142322000027
+            },
+            {
+              "onset": 2702454689,
+              "offset": 2732478590,
+              "first_observation_ms": 0.317,
+              "window_decision_seconds": 7.673788322000027
+            },
+            {
+              "onset": 2762497903,
+              "offset": 2792520810,
+              "first_observation_ms": 0.436,
+              "window_decision_seconds": 7.630574322000027
+            },
+            {
+              "onset": 2822548771,
+              "offset": 2852573960,
+              "first_observation_ms": 0.524,
+              "window_decision_seconds": 7.5797063220000265
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.333,
+            "p95": 0.46890000000000004,
+            "max": 0.524
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 8.032044322000026,
+            "p95": 8.404391172000027,
+            "max": 8.438493322000026
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 18.03059532200003,
+            "p95": 18.418808322000025,
+            "max": 18.465463322000026
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 624,
+              "alarms": 624
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 1681689984,
+              "offset": 1711709669,
+              "first_observation_ms": 0.226,
+              "window_decision_seconds": 8.438493322000026
+            },
+            {
+              "onset": 1741725881,
+              "offset": 1771744634,
+              "first_observation_ms": 0.35,
+              "window_decision_seconds": 8.402596322000027
+            },
+            {
+              "onset": 1801764562,
+              "offset": 1831782711,
+              "first_observation_ms": 0.386,
+              "window_decision_seconds": 8.363915322000027
+            },
+            {
+              "onset": 1861801913,
+              "offset": 1891820768,
+              "first_observation_ms": 0.335,
+              "window_decision_seconds": 8.326564322000026
+            },
+            {
+              "onset": 1921841092,
+              "offset": 1951863973,
+              "first_observation_ms": 0.297,
+              "window_decision_seconds": 8.287385322000027
+            },
+            {
+              "onset": 1981884104,
+              "offset": 2011907844,
+              "first_observation_ms": 0.466,
+              "window_decision_seconds": 8.244373322000026
+            },
+            {
+              "onset": 2041931581,
+              "offset": 2071954451,
+              "first_observation_ms": 0.34,
+              "window_decision_seconds": 8.196896322000027
+            },
+            {
+              "onset": 2101976236,
+              "offset": 2131998287,
+              "first_observation_ms": 0.302,
+              "window_decision_seconds": 8.152241322000027
+            },
+            {
+              "onset": 2162024317,
+              "offset": 2192045998,
+              "first_observation_ms": 0.346,
+              "window_decision_seconds": 8.104160322000027
+            },
+            {
+              "onset": 2222072091,
+              "offset": 2252097882,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 8.056386322000026
+            },
+            {
+              "onset": 2282120775,
+              "offset": 2312147338,
+              "first_observation_ms": 0.282,
+              "window_decision_seconds": 8.007702322000027
+            },
+            {
+              "onset": 2342170920,
+              "offset": 2372193600,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 7.957557322000027
+            },
+            {
+              "onset": 2402217078,
+              "offset": 2432239691,
+              "first_observation_ms": 0.262,
+              "window_decision_seconds": 7.911399322000027
+            },
+            {
+              "onset": 2462266517,
+              "offset": 2492287831,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 7.8619603220000265
+            },
+            {
+              "onset": 2522311787,
+              "offset": 2552336055,
+              "first_observation_ms": 0.358,
+              "window_decision_seconds": 7.816690322000027
+            },
+            {
+              "onset": 2582361473,
+              "offset": 2612385431,
+              "first_observation_ms": 0.285,
+              "window_decision_seconds": 7.767004322000027
+            },
+            {
+              "onset": 2642411335,
+              "offset": 2672431841,
+              "first_observation_ms": 0.291,
+              "window_decision_seconds": 7.717142322000027
+            },
+            {
+              "onset": 2702454689,
+              "offset": 2732478590,
+              "first_observation_ms": 0.317,
+              "window_decision_seconds": 7.673788322000027
+            },
+            {
+              "onset": 2762497903,
+              "offset": 2792520810,
+              "first_observation_ms": 0.436,
+              "window_decision_seconds": 7.630574322000027
+            },
+            {
+              "onset": 2822548771,
+              "offset": 2852573960,
+              "first_observation_ms": 0.524,
+              "window_decision_seconds": 7.5797063220000265
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.333,
+            "p95": 0.46890000000000004,
+            "max": 0.524
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 8.032044322000026,
+            "p95": 8.404391172000027,
+            "max": 8.438493322000026
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 18.03059532200003,
+            "p95": 18.418808322000025,
+            "max": 18.465463322000026
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    },
+    {
+      "run": "robustness-v1-attack-onoff-swrr-r50-s402-a25-attempt1",
+      "policy": "swrr",
+      "seed": 402,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 1
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 625,
+              "alarms": 625
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 1
+            }
+          },
+          "episodes": [
+            {
+              "onset": 4571828724,
+              "offset": 4601845912,
+              "first_observation_ms": 0.241,
+              "window_decision_seconds": 8.349719354000092
+            },
+            {
+              "onset": 4631865188,
+              "offset": 4661883665,
+              "first_observation_ms": 0.383,
+              "window_decision_seconds": 8.313255354000091
+            },
+            {
+              "onset": 4691899987,
+              "offset": 4721920388,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 8.278456354000092
+            },
+            {
+              "onset": 4751942718,
+              "offset": 4781962699,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 8.235725354000092
+            },
+            {
+              "onset": 4811986684,
+              "offset": 4842007978,
+              "first_observation_ms": 0.292,
+              "window_decision_seconds": 8.19175935400009
+            },
+            {
+              "onset": 4872027712,
+              "offset": 4902049742,
+              "first_observation_ms": 0.347,
+              "window_decision_seconds": 8.150731354000092
+            },
+            {
+              "onset": 4932071798,
+              "offset": 4962092442,
+              "first_observation_ms": 0.312,
+              "window_decision_seconds": 8.106645354000092
+            },
+            {
+              "onset": 4992117818,
+              "offset": 5022141594,
+              "first_observation_ms": 0.375,
+              "window_decision_seconds": 8.060625354000091
+            },
+            {
+              "onset": 5052165354,
+              "offset": 5082190980,
+              "first_observation_ms": 0.327,
+              "window_decision_seconds": 8.013089354000092
+            },
+            {
+              "onset": 5112213547,
+              "offset": 5142238584,
+              "first_observation_ms": 0.465,
+              "window_decision_seconds": 7.964896354000092
+            },
+            {
+              "onset": 5172261696,
+              "offset": 5202288974,
+              "first_observation_ms": 0.414,
+              "window_decision_seconds": 7.916747354000091
+            },
+            {
+              "onset": 5232314163,
+              "offset": 5262338272,
+              "first_observation_ms": 0.298,
+              "window_decision_seconds": 7.864280354000091
+            },
+            {
+              "onset": 5292365544,
+              "offset": 5322389147,
+              "first_observation_ms": 0.305,
+              "window_decision_seconds": 7.812899354000091
+            },
+            {
+              "onset": 5352414842,
+              "offset": 5382442442,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 7.763601354000092
+            },
+            {
+              "onset": 5412470113,
+              "offset": 5442497493,
+              "first_observation_ms": 0.303,
+              "window_decision_seconds": 7.708330354000092
+            },
+            {
+              "onset": 5472526233,
+              "offset": 5502548073,
+              "first_observation_ms": 0.24,
+              "window_decision_seconds": 7.652210354000092
+            },
+            {
+              "onset": 5532574925,
+              "offset": 5562600064,
+              "first_observation_ms": 0.254,
+              "window_decision_seconds": 7.603518354000092
+            },
+            {
+              "onset": 5592620187,
+              "offset": 5622647075,
+              "first_observation_ms": 0.266,
+              "window_decision_seconds": 7.5582563540000915
+            },
+            {
+              "onset": 5652671275,
+              "offset": 5682696194,
+              "first_observation_ms": 0.236,
+              "window_decision_seconds": 7.5071683540000915
+            },
+            {
+              "onset": 5712725037,
+              "offset": 5742748844,
+              "first_observation_ms": 0.348,
+              "window_decision_seconds": 7.453406354000092
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.304,
+            "p95": 0.41655000000000003,
+            "max": 0.465
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.940821854000092,
+            "p95": 8.315078554000092,
+            "max": 8.349719354000092
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.93985935400009,
+            "p95": 18.332531354000093,
+            "max": 18.37152735400009
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 1
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 625,
+              "alarms": 625
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 1
+            }
+          },
+          "episodes": [
+            {
+              "onset": 4571828724,
+              "offset": 4601845912,
+              "first_observation_ms": 0.241,
+              "window_decision_seconds": 8.349719354000092
+            },
+            {
+              "onset": 4631865188,
+              "offset": 4661883665,
+              "first_observation_ms": 0.383,
+              "window_decision_seconds": 8.313255354000091
+            },
+            {
+              "onset": 4691899987,
+              "offset": 4721920388,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 8.278456354000092
+            },
+            {
+              "onset": 4751942718,
+              "offset": 4781962699,
+              "first_observation_ms": 0.331,
+              "window_decision_seconds": 8.235725354000092
+            },
+            {
+              "onset": 4811986684,
+              "offset": 4842007978,
+              "first_observation_ms": 0.292,
+              "window_decision_seconds": 8.19175935400009
+            },
+            {
+              "onset": 4872027712,
+              "offset": 4902049742,
+              "first_observation_ms": 0.347,
+              "window_decision_seconds": 8.150731354000092
+            },
+            {
+              "onset": 4932071798,
+              "offset": 4962092442,
+              "first_observation_ms": 0.312,
+              "window_decision_seconds": 8.106645354000092
+            },
+            {
+              "onset": 4992117818,
+              "offset": 5022141594,
+              "first_observation_ms": 0.375,
+              "window_decision_seconds": 8.060625354000091
+            },
+            {
+              "onset": 5052165354,
+              "offset": 5082190980,
+              "first_observation_ms": 0.327,
+              "window_decision_seconds": 8.013089354000092
+            },
+            {
+              "onset": 5112213547,
+              "offset": 5142238584,
+              "first_observation_ms": 0.465,
+              "window_decision_seconds": 7.964896354000092
+            },
+            {
+              "onset": 5172261696,
+              "offset": 5202288974,
+              "first_observation_ms": 0.414,
+              "window_decision_seconds": 7.916747354000091
+            },
+            {
+              "onset": 5232314163,
+              "offset": 5262338272,
+              "first_observation_ms": 0.298,
+              "window_decision_seconds": 7.864280354000091
+            },
+            {
+              "onset": 5292365544,
+              "offset": 5322389147,
+              "first_observation_ms": 0.305,
+              "window_decision_seconds": 7.812899354000091
+            },
+            {
+              "onset": 5352414842,
+              "offset": 5382442442,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 7.763601354000092
+            },
+            {
+              "onset": 5412470113,
+              "offset": 5442497493,
+              "first_observation_ms": 0.303,
+              "window_decision_seconds": 7.708330354000092
+            },
+            {
+              "onset": 5472526233,
+              "offset": 5502548073,
+              "first_observation_ms": 0.24,
+              "window_decision_seconds": 7.652210354000092
+            },
+            {
+              "onset": 5532574925,
+              "offset": 5562600064,
+              "first_observation_ms": 0.254,
+              "window_decision_seconds": 7.603518354000092
+            },
+            {
+              "onset": 5592620187,
+              "offset": 5622647075,
+              "first_observation_ms": 0.266,
+              "window_decision_seconds": 7.5582563540000915
+            },
+            {
+              "onset": 5652671275,
+              "offset": 5682696194,
+              "first_observation_ms": 0.236,
+              "window_decision_seconds": 7.5071683540000915
+            },
+            {
+              "onset": 5712725037,
+              "offset": 5742748844,
+              "first_observation_ms": 0.348,
+              "window_decision_seconds": 7.453406354000092
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.304,
+            "p95": 0.41655000000000003,
+            "max": 0.465
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.940821854000092,
+            "p95": 8.315078554000092,
+            "max": 8.349719354000092
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.93985935400009,
+            "p95": 18.332531354000093,
+            "max": 18.37152735400009
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    },
+    {
+      "run": "robustness-v1-attack-onoff-random-r50-s402-a25-attempt1",
+      "policy": "random",
+      "seed": 402,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 625,
+              "alarms": 625
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 4573623057,
+              "offset": 4603643730,
+              "first_observation_ms": 0.232,
+              "window_decision_seconds": 8.042617786000251
+            },
+            {
+              "onset": 4633668235,
+              "offset": 4663691547,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 7.9974397860002515
+            },
+            {
+              "onset": 4693716342,
+              "offset": 4723741617,
+              "first_observation_ms": 0.334,
+              "window_decision_seconds": 7.949332786000252
+            },
+            {
+              "onset": 4753767443,
+              "offset": 4783787200,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 7.8982317860002516
+            },
+            {
+              "onset": 4813811301,
+              "offset": 4843839451,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 7.854373786000251
+            },
+            {
+              "onset": 4873864737,
+              "offset": 4903889859,
+              "first_observation_ms": 0.297,
+              "window_decision_seconds": 7.800937786000252
+            },
+            {
+              "onset": 4933912079,
+              "offset": 4963935997,
+              "first_observation_ms": 0.282,
+              "window_decision_seconds": 7.753595786000251
+            },
+            {
+              "onset": 4993959927,
+              "offset": 5023987094,
+              "first_observation_ms": 0.343,
+              "window_decision_seconds": 7.705747786000252
+            },
+            {
+              "onset": 5054011233,
+              "offset": 5084039534,
+              "first_observation_ms": 0.326,
+              "window_decision_seconds": 7.654441786000252
+            },
+            {
+              "onset": 5114067262,
+              "offset": 5144093485,
+              "first_observation_ms": 0.474,
+              "window_decision_seconds": 7.598412786000252
+            },
+            {
+              "onset": 5174119356,
+              "offset": 5204144221,
+              "first_observation_ms": 0.344,
+              "window_decision_seconds": 7.546318786000252
+            },
+            {
+              "onset": 5234170182,
+              "offset": 5264193976,
+              "first_observation_ms": 0.316,
+              "window_decision_seconds": 7.495492786000252
+            },
+            {
+              "onset": 5294219121,
+              "offset": 5324241040,
+              "first_observation_ms": 0.208,
+              "window_decision_seconds": 7.446553786000252
+            },
+            {
+              "onset": 5354267424,
+              "offset": 5384292521,
+              "first_observation_ms": 0.212,
+              "window_decision_seconds": 7.3982507860002515
+            },
+            {
+              "onset": 5414311082,
+              "offset": 5444331177,
+              "first_observation_ms": 0.21,
+              "window_decision_seconds": 7.354592786000252
+            },
+            {
+              "onset": 5474350341,
+              "offset": 5504369504,
+              "first_observation_ms": 0.32,
+              "window_decision_seconds": 7.315333786000251
+            },
+            {
+              "onset": 5534385913,
+              "offset": 5564403945,
+              "first_observation_ms": 0.251,
+              "window_decision_seconds": 7.279761786000252
+            },
+            {
+              "onset": 5594420959,
+              "offset": 5624440870,
+              "first_observation_ms": 0.321,
+              "window_decision_seconds": 7.244715786000252
+            },
+            {
+              "onset": 5654460880,
+              "offset": 5684483982,
+              "first_observation_ms": 0.314,
+              "window_decision_seconds": 7.204794786000252
+            },
+            {
+              "onset": 5714508625,
+              "offset": 5744530441,
+              "first_observation_ms": 0.296,
+              "window_decision_seconds": 7.157049786000252
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3055,
+            "p95": 0.3505000000000001,
+            "max": 0.474
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.572365786000252,
+            "p95": 7.999698686000252,
+            "max": 8.042617786000251
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.57218978600025,
+            "p95": 18.02194478600025,
+            "max": 18.06696378600025
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 625,
+              "alarms": 625
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 4573623057,
+              "offset": 4603643730,
+              "first_observation_ms": 0.232,
+              "window_decision_seconds": 8.042617786000251
+            },
+            {
+              "onset": 4633668235,
+              "offset": 4663691547,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 7.9974397860002515
+            },
+            {
+              "onset": 4693716342,
+              "offset": 4723741617,
+              "first_observation_ms": 0.334,
+              "window_decision_seconds": 7.949332786000252
+            },
+            {
+              "onset": 4753767443,
+              "offset": 4783787200,
+              "first_observation_ms": 0.338,
+              "window_decision_seconds": 7.8982317860002516
+            },
+            {
+              "onset": 4813811301,
+              "offset": 4843839451,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 7.854373786000251
+            },
+            {
+              "onset": 4873864737,
+              "offset": 4903889859,
+              "first_observation_ms": 0.297,
+              "window_decision_seconds": 7.800937786000252
+            },
+            {
+              "onset": 4933912079,
+              "offset": 4963935997,
+              "first_observation_ms": 0.282,
+              "window_decision_seconds": 7.753595786000251
+            },
+            {
+              "onset": 4993959927,
+              "offset": 5023987094,
+              "first_observation_ms": 0.343,
+              "window_decision_seconds": 7.705747786000252
+            },
+            {
+              "onset": 5054011233,
+              "offset": 5084039534,
+              "first_observation_ms": 0.326,
+              "window_decision_seconds": 7.654441786000252
+            },
+            {
+              "onset": 5114067262,
+              "offset": 5144093485,
+              "first_observation_ms": 0.474,
+              "window_decision_seconds": 7.598412786000252
+            },
+            {
+              "onset": 5174119356,
+              "offset": 5204144221,
+              "first_observation_ms": 0.344,
+              "window_decision_seconds": 7.546318786000252
+            },
+            {
+              "onset": 5234170182,
+              "offset": 5264193976,
+              "first_observation_ms": 0.316,
+              "window_decision_seconds": 7.495492786000252
+            },
+            {
+              "onset": 5294219121,
+              "offset": 5324241040,
+              "first_observation_ms": 0.208,
+              "window_decision_seconds": 7.446553786000252
+            },
+            {
+              "onset": 5354267424,
+              "offset": 5384292521,
+              "first_observation_ms": 0.212,
+              "window_decision_seconds": 7.3982507860002515
+            },
+            {
+              "onset": 5414311082,
+              "offset": 5444331177,
+              "first_observation_ms": 0.21,
+              "window_decision_seconds": 7.354592786000252
+            },
+            {
+              "onset": 5474350341,
+              "offset": 5504369504,
+              "first_observation_ms": 0.32,
+              "window_decision_seconds": 7.315333786000251
+            },
+            {
+              "onset": 5534385913,
+              "offset": 5564403945,
+              "first_observation_ms": 0.251,
+              "window_decision_seconds": 7.279761786000252
+            },
+            {
+              "onset": 5594420959,
+              "offset": 5624440870,
+              "first_observation_ms": 0.321,
+              "window_decision_seconds": 7.244715786000252
+            },
+            {
+              "onset": 5654460880,
+              "offset": 5684483982,
+              "first_observation_ms": 0.314,
+              "window_decision_seconds": 7.204794786000252
+            },
+            {
+              "onset": 5714508625,
+              "offset": 5744530441,
+              "first_observation_ms": 0.296,
+              "window_decision_seconds": 7.157049786000252
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3055,
+            "p95": 0.3505000000000001,
+            "max": 0.474
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 7.572365786000252,
+            "p95": 7.999698686000252,
+            "max": 8.042617786000251
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 17.57218978600025,
+            "p95": 18.02194478600025,
+            "max": 18.06696378600025
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    },
+    {
+      "run": "robustness-v1-attack-onoff-random-r50-s403-a25-attempt1",
+      "policy": "random",
+      "seed": 403,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 626,
+              "alarms": 626
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 7467616458,
+              "offset": 7497642127,
+              "first_observation_ms": 0.485,
+              "window_decision_seconds": 6.829495763999939
+            },
+            {
+              "onset": 7527666325,
+              "offset": 7557691014,
+              "first_observation_ms": 0.302,
+              "window_decision_seconds": 6.779628763999939
+            },
+            {
+              "onset": 7587714058,
+              "offset": 7617739790,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 6.731895763999939
+            },
+            {
+              "onset": 7647766018,
+              "offset": 7677790268,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 6.679935763999939
+            },
+            {
+              "onset": 7707814391,
+              "offset": 7737838092,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 6.631562763999939
+            },
+            {
+              "onset": 7767862447,
+              "offset": 7797886931,
+              "first_observation_ms": 0.316,
+              "window_decision_seconds": 6.583506763999939
+            },
+            {
+              "onset": 7827912496,
+              "offset": 7857938217,
+              "first_observation_ms": 0.321,
+              "window_decision_seconds": 6.533457763999939
+            },
+            {
+              "onset": 7887964060,
+              "offset": 7917989968,
+              "first_observation_ms": 0.299,
+              "window_decision_seconds": 6.481893763999939
+            },
+            {
+              "onset": 7948017735,
+              "offset": 7978042202,
+              "first_observation_ms": 0.355,
+              "window_decision_seconds": 6.428218763999939
+            },
+            {
+              "onset": 8008070096,
+              "offset": 8038095600,
+              "first_observation_ms": 0.383,
+              "window_decision_seconds": 6.375857763999939
+            },
+            {
+              "onset": 8068128054,
+              "offset": 8098152069,
+              "first_observation_ms": 0.25,
+              "window_decision_seconds": 6.317899763999939
+            },
+            {
+              "onset": 8128180096,
+              "offset": 8158206389,
+              "first_observation_ms": 0.334,
+              "window_decision_seconds": 6.265857763999939
+            },
+            {
+              "onset": 8188236473,
+              "offset": 8218264084,
+              "first_observation_ms": 0.311,
+              "window_decision_seconds": 6.209480763999939
+            },
+            {
+              "onset": 8248290381,
+              "offset": 8278318831,
+              "first_observation_ms": 0.256,
+              "window_decision_seconds": 6.155572763999939
+            },
+            {
+              "onset": 8308344044,
+              "offset": 8338368495,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 6.101909763999939
+            },
+            {
+              "onset": 8368392246,
+              "offset": 8398410438,
+              "first_observation_ms": 0.279,
+              "window_decision_seconds": 6.053707763999939
+            },
+            {
+              "onset": 8428427643,
+              "offset": 8458446393,
+              "first_observation_ms": 0.262,
+              "window_decision_seconds": 6.018310763999939
+            },
+            {
+              "onset": 8488466130,
+              "offset": 8518486233,
+              "first_observation_ms": 0.248,
+              "window_decision_seconds": 5.9798237639999385
+            },
+            {
+              "onset": 8548504485,
+              "offset": 8578524750,
+              "first_observation_ms": 0.344,
+              "window_decision_seconds": 5.941468763999939
+            },
+            {
+              "onset": 8608545044,
+              "offset": 8638566195,
+              "first_observation_ms": 0.357,
+              "window_decision_seconds": 5.900909763999939
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3005,
+            "p95": 0.38810000000000006,
+            "max": 0.485
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 6.346878763999939,
+            "p95": 6.782122113999939,
+            "max": 6.829495763999939
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 16.350353763999937,
+            "p95": 16.80382676399994,
+            "max": 16.85353876399994
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 626,
+              "alarms": 626
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 7467616458,
+              "offset": 7497642127,
+              "first_observation_ms": 0.485,
+              "window_decision_seconds": 6.829495763999939
+            },
+            {
+              "onset": 7527666325,
+              "offset": 7557691014,
+              "first_observation_ms": 0.302,
+              "window_decision_seconds": 6.779628763999939
+            },
+            {
+              "onset": 7587714058,
+              "offset": 7617739790,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 6.731895763999939
+            },
+            {
+              "onset": 7647766018,
+              "offset": 7677790268,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 6.679935763999939
+            },
+            {
+              "onset": 7707814391,
+              "offset": 7737838092,
+              "first_observation_ms": 0.281,
+              "window_decision_seconds": 6.631562763999939
+            },
+            {
+              "onset": 7767862447,
+              "offset": 7797886931,
+              "first_observation_ms": 0.316,
+              "window_decision_seconds": 6.583506763999939
+            },
+            {
+              "onset": 7827912496,
+              "offset": 7857938217,
+              "first_observation_ms": 0.321,
+              "window_decision_seconds": 6.533457763999939
+            },
+            {
+              "onset": 7887964060,
+              "offset": 7917989968,
+              "first_observation_ms": 0.299,
+              "window_decision_seconds": 6.481893763999939
+            },
+            {
+              "onset": 7948017735,
+              "offset": 7978042202,
+              "first_observation_ms": 0.355,
+              "window_decision_seconds": 6.428218763999939
+            },
+            {
+              "onset": 8008070096,
+              "offset": 8038095600,
+              "first_observation_ms": 0.383,
+              "window_decision_seconds": 6.375857763999939
+            },
+            {
+              "onset": 8068128054,
+              "offset": 8098152069,
+              "first_observation_ms": 0.25,
+              "window_decision_seconds": 6.317899763999939
+            },
+            {
+              "onset": 8128180096,
+              "offset": 8158206389,
+              "first_observation_ms": 0.334,
+              "window_decision_seconds": 6.265857763999939
+            },
+            {
+              "onset": 8188236473,
+              "offset": 8218264084,
+              "first_observation_ms": 0.311,
+              "window_decision_seconds": 6.209480763999939
+            },
+            {
+              "onset": 8248290381,
+              "offset": 8278318831,
+              "first_observation_ms": 0.256,
+              "window_decision_seconds": 6.155572763999939
+            },
+            {
+              "onset": 8308344044,
+              "offset": 8338368495,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 6.101909763999939
+            },
+            {
+              "onset": 8368392246,
+              "offset": 8398410438,
+              "first_observation_ms": 0.279,
+              "window_decision_seconds": 6.053707763999939
+            },
+            {
+              "onset": 8428427643,
+              "offset": 8458446393,
+              "first_observation_ms": 0.262,
+              "window_decision_seconds": 6.018310763999939
+            },
+            {
+              "onset": 8488466130,
+              "offset": 8518486233,
+              "first_observation_ms": 0.248,
+              "window_decision_seconds": 5.9798237639999385
+            },
+            {
+              "onset": 8548504485,
+              "offset": 8578524750,
+              "first_observation_ms": 0.344,
+              "window_decision_seconds": 5.941468763999939
+            },
+            {
+              "onset": 8608545044,
+              "offset": 8638566195,
+              "first_observation_ms": 0.357,
+              "window_decision_seconds": 5.900909763999939
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3005,
+            "p95": 0.38810000000000006,
+            "max": 0.485
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 6.346878763999939,
+            "p95": 6.782122113999939,
+            "max": 6.829495763999939
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 16.350353763999937,
+            "p95": 16.80382676399994,
+            "max": 16.85353876399994
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    },
+    {
+      "run": "robustness-v1-attack-onoff-swrr-r50-s403-a25-attempt1",
+      "policy": "swrr",
+      "seed": 403,
+      "models": {
+        "residual": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 627,
+              "alarms": 627
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 7466729458,
+              "offset": 7496753804,
+              "first_observation_ms": 0.284,
+              "window_decision_seconds": 8.645782881999969
+            },
+            {
+              "onset": 7526781446,
+              "offset": 7556807052,
+              "first_observation_ms": 0.375,
+              "window_decision_seconds": 8.593794881999969
+            },
+            {
+              "onset": 7586832163,
+              "offset": 7616860362,
+              "first_observation_ms": 0.26,
+              "window_decision_seconds": 8.54307788199997
+            },
+            {
+              "onset": 7646886087,
+              "offset": 7676912631,
+              "first_observation_ms": 0.26,
+              "window_decision_seconds": 8.48915388199997
+            },
+            {
+              "onset": 7706935884,
+              "offset": 7736954079,
+              "first_observation_ms": 0.283,
+              "window_decision_seconds": 8.43935688199997
+            },
+            {
+              "onset": 7766973658,
+              "offset": 7796992652,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 8.40158288199997
+            },
+            {
+              "onset": 7827010874,
+              "offset": 7857027990,
+              "first_observation_ms": 0.328,
+              "window_decision_seconds": 8.36436688199997
+            },
+            {
+              "onset": 7887045529,
+              "offset": 7917069035,
+              "first_observation_ms": 0.307,
+              "window_decision_seconds": 8.32971188199997
+            },
+            {
+              "onset": 7947089961,
+              "offset": 7977110947,
+              "first_observation_ms": 0.328,
+              "window_decision_seconds": 8.28527988199997
+            },
+            {
+              "onset": 8007129434,
+              "offset": 8037153226,
+              "first_observation_ms": 0.395,
+              "window_decision_seconds": 8.24580688199997
+            },
+            {
+              "onset": 8067176727,
+              "offset": 8097198108,
+              "first_observation_ms": 0.398,
+              "window_decision_seconds": 8.19851388199997
+            },
+            {
+              "onset": 8127218020,
+              "offset": 8157241802,
+              "first_observation_ms": 0.21,
+              "window_decision_seconds": 8.157220881999969
+            },
+            {
+              "onset": 8187265056,
+              "offset": 8217288571,
+              "first_observation_ms": 0.203,
+              "window_decision_seconds": 8.11018488199997
+            },
+            {
+              "onset": 8247315129,
+              "offset": 8277338467,
+              "first_observation_ms": 0.488,
+              "window_decision_seconds": 8.060111881999969
+            },
+            {
+              "onset": 8307363241,
+              "offset": 8337386826,
+              "first_observation_ms": 0.239,
+              "window_decision_seconds": 8.01199988199997
+            },
+            {
+              "onset": 8367411567,
+              "offset": 8397435273,
+              "first_observation_ms": 0.332,
+              "window_decision_seconds": 7.963673881999969
+            },
+            {
+              "onset": 8427458989,
+              "offset": 8457482597,
+              "first_observation_ms": 0.266,
+              "window_decision_seconds": 7.91625188199997
+            },
+            {
+              "onset": 8487506015,
+              "offset": 8517533307,
+              "first_observation_ms": 0.35,
+              "window_decision_seconds": 7.869225881999969
+            },
+            {
+              "onset": 8547560127,
+              "offset": 8577582364,
+              "first_observation_ms": 0.368,
+              "window_decision_seconds": 7.815113881999969
+            },
+            {
+              "onset": 8607612774,
+              "offset": 8637636069,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 7.76246688199997
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3035,
+            "p95": 0.4025000000000001,
+            "max": 0.488
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 8.22216038199997,
+            "p95": 8.596394281999968,
+            "max": 8.645782881999969
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 18.222014881999968,
+            "p95": 18.62143688199997,
+            "max": 18.67519488199997
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        },
+        "residual_quantized": {
+          "threshold": 0.0,
+          "windows": {
+            "on": {
+              "windows": 41,
+              "alarms": 41
+            },
+            "off": {
+              "windows": 42,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 42,
+              "alarms": 42
+            }
+          },
+          "events": {
+            "on": {
+              "samples": 627,
+              "alarms": 627
+            },
+            "off": {
+              "samples": 630,
+              "alarms": 0
+            }
+          },
+          "episodes": [
+            {
+              "onset": 7466729458,
+              "offset": 7496753804,
+              "first_observation_ms": 0.284,
+              "window_decision_seconds": 8.645782881999969
+            },
+            {
+              "onset": 7526781446,
+              "offset": 7556807052,
+              "first_observation_ms": 0.375,
+              "window_decision_seconds": 8.593794881999969
+            },
+            {
+              "onset": 7586832163,
+              "offset": 7616860362,
+              "first_observation_ms": 0.26,
+              "window_decision_seconds": 8.54307788199997
+            },
+            {
+              "onset": 7646886087,
+              "offset": 7676912631,
+              "first_observation_ms": 0.26,
+              "window_decision_seconds": 8.48915388199997
+            },
+            {
+              "onset": 7706935884,
+              "offset": 7736954079,
+              "first_observation_ms": 0.283,
+              "window_decision_seconds": 8.43935688199997
+            },
+            {
+              "onset": 7766973658,
+              "offset": 7796992652,
+              "first_observation_ms": 0.289,
+              "window_decision_seconds": 8.40158288199997
+            },
+            {
+              "onset": 7827010874,
+              "offset": 7857027990,
+              "first_observation_ms": 0.328,
+              "window_decision_seconds": 8.36436688199997
+            },
+            {
+              "onset": 7887045529,
+              "offset": 7917069035,
+              "first_observation_ms": 0.307,
+              "window_decision_seconds": 8.32971188199997
+            },
+            {
+              "onset": 7947089961,
+              "offset": 7977110947,
+              "first_observation_ms": 0.328,
+              "window_decision_seconds": 8.28527988199997
+            },
+            {
+              "onset": 8007129434,
+              "offset": 8037153226,
+              "first_observation_ms": 0.395,
+              "window_decision_seconds": 8.24580688199997
+            },
+            {
+              "onset": 8067176727,
+              "offset": 8097198108,
+              "first_observation_ms": 0.398,
+              "window_decision_seconds": 8.19851388199997
+            },
+            {
+              "onset": 8127218020,
+              "offset": 8157241802,
+              "first_observation_ms": 0.21,
+              "window_decision_seconds": 8.157220881999969
+            },
+            {
+              "onset": 8187265056,
+              "offset": 8217288571,
+              "first_observation_ms": 0.203,
+              "window_decision_seconds": 8.11018488199997
+            },
+            {
+              "onset": 8247315129,
+              "offset": 8277338467,
+              "first_observation_ms": 0.488,
+              "window_decision_seconds": 8.060111881999969
+            },
+            {
+              "onset": 8307363241,
+              "offset": 8337386826,
+              "first_observation_ms": 0.239,
+              "window_decision_seconds": 8.01199988199997
+            },
+            {
+              "onset": 8367411567,
+              "offset": 8397435273,
+              "first_observation_ms": 0.332,
+              "window_decision_seconds": 7.963673881999969
+            },
+            {
+              "onset": 8427458989,
+              "offset": 8457482597,
+              "first_observation_ms": 0.266,
+              "window_decision_seconds": 7.91625188199997
+            },
+            {
+              "onset": 8487506015,
+              "offset": 8517533307,
+              "first_observation_ms": 0.35,
+              "window_decision_seconds": 7.869225881999969
+            },
+            {
+              "onset": 8547560127,
+              "offset": 8577582364,
+              "first_observation_ms": 0.368,
+              "window_decision_seconds": 7.815113881999969
+            },
+            {
+              "onset": 8607612774,
+              "offset": 8637636069,
+              "first_observation_ms": 0.3,
+              "window_decision_seconds": 7.76246688199997
+            }
+          ],
+          "complete_on_episodes": 20,
+          "missed_window_episodes": 0,
+          "observation_latency_ms": {
+            "n": 20,
+            "median": 0.3035,
+            "p95": 0.4025000000000001,
+            "max": 0.488
+          },
+          "window_latency_seconds": {
+            "n": 20,
+            "median": 8.22216038199997,
+            "p95": 8.596394281999968,
+            "max": 8.645782881999969
+          },
+          "clearing_seconds": {
+            "n": 21,
+            "median": 18.222014881999968,
+            "p95": 18.62143688199997,
+            "max": 18.67519488199997
+          },
+          "uncleared_off_episodes": 0,
+          "right_censored_intervals": 1
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "residual": {
+      "windows": {
+        "on": {
+          "windows": 246,
+          "alarms": 246
+        },
+        "off": {
+          "windows": 252,
+          "alarms": 1
+        },
+        "mixed": {
+          "windows": 252,
+          "alarms": 252
+        }
+      },
+      "events": {
+        "on": {
+          "samples": 3751,
+          "alarms": 3751
+        },
+        "off": {
+          "samples": 3780,
+          "alarms": 1
+        }
+      },
+      "complete_on_episodes": 120,
+      "missed_window_episodes": 0,
+      "observation_latency_ms": {
+        "n": 120,
+        "median": 0.304,
+        "p95": 0.4374499999999999,
+        "max": 0.524
+      },
+      "window_latency_seconds": {
+        "n": 120,
+        "median": 7.820608992500067,
+        "p95": 8.404391172000027,
+        "max": 8.645782881999969
+      }
+    },
+    "residual_quantized": {
+      "windows": {
+        "on": {
+          "windows": 246,
+          "alarms": 246
+        },
+        "off": {
+          "windows": 252,
+          "alarms": 1
+        },
+        "mixed": {
+          "windows": 252,
+          "alarms": 252
+        }
+      },
+      "events": {
+        "on": {
+          "samples": 3751,
+          "alarms": 3751
+        },
+        "off": {
+          "samples": 3780,
+          "alarms": 1
+        }
+      },
+      "complete_on_episodes": 120,
+      "missed_window_episodes": 0,
+      "observation_latency_ms": {
+        "n": 120,
+        "median": 0.304,
+        "p95": 0.4374499999999999,
+        "max": 0.524
+      },
+      "window_latency_seconds": {
+        "n": 120,
+        "median": 7.820608992500067,
+        "p95": 8.404391172000027,
+        "max": 8.645782881999969
+      }
+    }
+  },
+  "limitations": [
+    "Post-hoc trace replay, not an online deployed detector.",
+    "Latency starts at the first malicious load computation; observation latency excludes log collection and detector runtime.",
+    "Window decisions occur at the close of the existing non-overlapping 10-second windows.",
+    "Mixed transition windows are separate; complete episodes only, boundaries censored.",
+    "LOAD version labels evaluation truth only; scores reproduce existing SCP/NRF features exactly.",
+    "Quantization-aware score was a pre-existing secondary detector; promoting it requires prospective validation.",
+    "Episodes within six runs are dependent; no independent-episode confidence claim."
+  ]
+}

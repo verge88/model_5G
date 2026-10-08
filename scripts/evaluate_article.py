@@ -155,7 +155,7 @@ def audit(folder):
     checks={'complete':bool(m['complete']),'three_smf_ids':len(identity)==3,
             'all_creates_confirmed':sum(created.values())==established==m['expected_established'],
             'final_scp_matches_metrics':counts==metric_counts,'final_population':sum(counts.values())==m['active'],
-            'no_duplicate_creates':not anomalies,'measured_population':sum(assigned.values())==m['cycles']-m.get('warmup',0),
+            'no_duplicate_creates':not anomalies,'measured_population':sum(assigned.values())==m.get('expected_measured_creates',m['cycles']-m.get('warmup',0)),
             'all_candidates_present':sum(e['kind']=='CANDIDATE' for e in rows)==3*m['expected_established'],
             'all_selections_present':sum(e['kind']=='SELECT' for e in rows)==m['expected_established'],
             'versions_match':not mismatch,'causal_nrf_chain':not broken_chain,'no_radio_failure':radio_failures==0}

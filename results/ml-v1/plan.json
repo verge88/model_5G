@@ -1,0 +1,328 @@
+{
+  "items": [
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "random",
+      "alpha": 0.1
+    },
+    {
+      "stage": "train",
+      "seed": 1101,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1103,
+      "policy": "random",
+      "alpha": 0.1
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "train",
+      "seed": 1102,
+      "policy": "random",
+      "alpha": 0.1
+    },
+    {
+      "stage": "cal",
+      "seed": 1202,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "cal",
+      "seed": 1201,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "cal",
+      "seed": 1201,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "cal",
+      "seed": 1203,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "cal",
+      "seed": 1203,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "cal",
+      "seed": 1202,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "swrr",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "swrr",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "random",
+      "alpha": 0.02
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "random",
+      "alpha": 0.1
+    },
+    {
+      "stage": "test",
+      "seed": 1301,
+      "policy": "swrr",
+      "alpha": 0.1
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "swrr",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1303,
+      "policy": "random",
+      "alpha": 0.1
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "random",
+      "alpha": 0.05
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "random",
+      "alpha": 0
+    },
+    {
+      "stage": "test",
+      "seed": 1302,
+      "policy": "random",
+      "alpha": 0.1
+    }
+  ]
+}

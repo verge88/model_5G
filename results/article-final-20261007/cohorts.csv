@@ -1,0 +1,7 @@
+stage,runs,measured,established
+main-v2-execution,60,180000,206400
+detector-v1,27,81000,92880
+robustness-v1,24,72000,82800
+quantization-v1,12,36000,41400
+delay-burst-v1,36,116640,132840
+timeaware-v1,24,76320,87120

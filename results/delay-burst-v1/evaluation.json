@@ -1,0 +1,2197 @@
+{
+  "by_run": [
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 114,
+      "alarm_fraction": 0.912
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 114,
+      "alarm_fraction": 0.912
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 114,
+      "alarm_fraction": 0.912
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 104,
+      "alarm_fraction": 0.832
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 118,
+      "alarm_fraction": 0.944
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 118,
+      "alarm_fraction": 0.944
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 15,
+      "alarm_fraction": 0.12
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 37,
+      "alarm_fraction": 0.296
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 118,
+      "alarm_fraction": 0.944
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s701-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 94,
+      "alarm_fraction": 0.752
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 12,
+      "alarm_fraction": 0.096
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 41,
+      "alarm_fraction": 0.328
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 31,
+      "alarm_fraction": 0.248
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s701-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 59,
+      "alarm_fraction": 0.44029850746268656
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 36,
+      "alarm_fraction": 0.26865671641791045
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 13,
+      "alarm_fraction": 0.0962962962962963
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 1,
+      "alarm_fraction": 0.007407407407407408
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 10,
+      "alarm_fraction": 0.07407407407407407
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 31,
+      "alarm_fraction": 0.22962962962962963
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 4,
+      "alarm_fraction": 0.02962962962962963
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 1,
+      "alarm_fraction": 0.007407407407407408
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 125,
+      "alarm_fraction": 0.9328358208955224
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 125,
+      "alarm_fraction": 0.9328358208955224
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 125,
+      "alarm_fraction": 0.9328358208955224
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 92,
+      "alarm_fraction": 0.6865671641791045
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 124,
+      "alarm_fraction": 0.9185185185185185
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 124,
+      "alarm_fraction": 0.9185185185185185
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 9,
+      "alarm_fraction": 0.06666666666666667
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 33,
+      "alarm_fraction": 0.24444444444444444
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 124,
+      "alarm_fraction": 0.9185185185185185
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s701-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 116,
+      "alarm_fraction": 0.8592592592592593
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 32,
+      "alarm_fraction": 0.23703703703703705
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 1,
+      "alarm_fraction": 0.007407407407407408
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 56,
+      "alarm_fraction": 0.4148148148148148
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 40,
+      "alarm_fraction": 0.2962962962962963
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s701-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 701,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 115,
+      "alarm_fraction": 0.92
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 115,
+      "alarm_fraction": 0.92
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 6,
+      "alarm_fraction": 0.048
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 115,
+      "alarm_fraction": 0.92
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 99,
+      "alarm_fraction": 0.792
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 121,
+      "alarm_fraction": 0.968
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 121,
+      "alarm_fraction": 0.968
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 9,
+      "alarm_fraction": 0.072
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 30,
+      "alarm_fraction": 0.24
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 121,
+      "alarm_fraction": 0.968
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s702-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 115,
+      "alarm_fraction": 0.92
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 23,
+      "alarm_fraction": 0.184
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 21,
+      "alarm_fraction": 0.168
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 40,
+      "alarm_fraction": 0.32
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s702-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 4,
+      "alarm_fraction": 0.029850746268656716
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 1,
+      "alarm_fraction": 0.007462686567164179
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 3,
+      "alarm_fraction": 0.022222222222222223
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 33,
+      "alarm_fraction": 0.24444444444444444
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s702-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 5,
+      "alarm_fraction": 0.037037037037037035
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 9,
+      "alarm_fraction": 0.06666666666666667
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 2,
+      "alarm_fraction": 0.014814814814814815
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 20,
+      "alarm_fraction": 0.14814814814814814
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 44,
+      "alarm_fraction": 0.32592592592592595
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s702-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 130,
+      "alarm_fraction": 0.9701492537313433
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 130,
+      "alarm_fraction": 0.9701492537313433
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 1,
+      "alarm_fraction": 0.007462686567164179
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 130,
+      "alarm_fraction": 0.9701492537313433
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 101,
+      "alarm_fraction": 0.753731343283582
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 101,
+      "alarm_fraction": 0.808
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 19,
+      "alarm_fraction": 0.1417910447761194
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 38,
+      "alarm_fraction": 0.2835820895522388
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 11,
+      "alarm_fraction": 0.08148148148148149
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 1,
+      "alarm_fraction": 0.007407407407407408
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s702-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 128,
+      "alarm_fraction": 0.9481481481481482
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 128,
+      "alarm_fraction": 0.9481481481481482
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 3,
+      "alarm_fraction": 0.022222222222222223
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 28,
+      "alarm_fraction": 0.2074074074074074
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 128,
+      "alarm_fraction": 0.9481481481481482
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s702-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 702,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 118,
+      "alarm_fraction": 0.8740740740740741
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 32,
+      "alarm_fraction": 0.256
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 39,
+      "alarm_fraction": 0.312
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 119,
+      "alarm_fraction": 0.952
+    },
+    {
+      "run": "delay-burst-v1-honest-delay-random-r50-s703-a0-attempt1",
+      "scenario": "honest-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 103,
+      "alarm_fraction": 0.824
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 6,
+      "alarm_fraction": 0.048
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 125,
+      "alarms": 67,
+      "alarm_fraction": 0.536
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 125,
+      "alarms": 45,
+      "alarm_fraction": 0.36
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-delay-random-r50-s703-a25-attempt1",
+      "scenario": "attack-delay",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 125,
+      "alarms": 125,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 1,
+      "alarm_fraction": 0.007462686567164179
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 3,
+      "alarm_fraction": 0.022388059701492536
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 41,
+      "alarm_fraction": 0.30597014925373134
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-burst-random-r50-s703-a0-attempt1",
+      "scenario": "honest-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 6,
+      "alarm_fraction": 0.04477611940298507
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 25,
+      "alarm_fraction": 0.18518518518518517
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 3,
+      "alarm_fraction": 0.022222222222222223
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 37,
+      "alarm_fraction": 0.27611940298507465
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 48,
+      "alarm_fraction": 0.3582089552238806
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-burst-random-r50-s703-a25-attempt1",
+      "scenario": "attack-burst",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 134,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 127,
+      "alarm_fraction": 0.9477611940298507
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 127,
+      "alarm_fraction": 0.9477611940298507
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 0,
+      "alarm_fraction": 0.0
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 127,
+      "alarm_fraction": 0.9477611940298507
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-swrr-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 103,
+      "alarm_fraction": 0.7686567164179104
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 134,
+      "alarms": 126,
+      "alarm_fraction": 0.9402985074626866
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 134,
+      "alarms": 126,
+      "alarm_fraction": 0.9402985074626866
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 134,
+      "alarms": 3,
+      "alarm_fraction": 0.022388059701492536
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 134,
+      "alarms": 39,
+      "alarm_fraction": 0.291044776119403
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 134,
+      "alarms": 126,
+      "alarm_fraction": 0.9402985074626866
+    },
+    {
+      "run": "delay-burst-v1-honest-combined-random-r50-s703-a0-attempt1",
+      "scenario": "honest-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 134,
+      "alarms": 114,
+      "alarm_fraction": 0.8507462686567164
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 21,
+      "alarm_fraction": 0.15555555555555556
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 1,
+      "alarm_fraction": 0.007407407407407408
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-swrr-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "swrr",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "residual_quantized",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_only",
+      "windows": 135,
+      "alarms": 32,
+      "alarm_fraction": 0.23703703703703705
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "scp_only",
+      "windows": 135,
+      "alarms": 54,
+      "alarm_fraction": 0.4
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "nrf_scp",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    },
+    {
+      "run": "delay-burst-v1-attack-combined-random-r50-s703-a25-attempt1",
+      "scenario": "attack-combined",
+      "policy": "random",
+      "seed": 703,
+      "model": "full_peer",
+      "windows": 135,
+      "alarms": 135,
+      "alarm_fraction": 1.0
+    }
+  ],
+  "thresholds": {
+    "created": 1791206622.7050664,
+    "calibration_runs": [
+      "detector-v1-cal-swrr-r20-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r20-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s201-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r20-s203-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s202-a0-attempt1",
+      "detector-v1-cal-swrr-r50-s203-a0-attempt1",
+      "detector-v1-cal-swrr-r70-s203-a0-attempt1"
+    ],
+    "primary": "residual",
+    "quantile": 0.99,
+    "comparison": "strictly_greater",
+    "thresholds": {
+      "residual": 0.0,
+      "residual_quantized": 0.0,
+      "nrf_only": 12.5,
+      "scp_only": 8.333333333333337,
+      "nrf_scp": 0.0,
+      "full_peer": 1.0
+    }
+  },
+  "interpretation": "Frozen threshold tested under NFM chunk delay and/or stepped population.",
+  "limitations": [
+    "Delay proxy affects all SMF3-to-NRF bytes, including registration; reverse direction has no intentional delay.",
+    "200 ms per forwarded read chunk, not a guaranteed per-message latency; measured SEND-to-NRF delay is audited.",
+    "Population steps execute serial real UE operations, not instantaneous jumps.",
+    "Three seeds per condition; exploratory run-level evidence, not deployment guarantees."
+  ],
+  "primary": "residual_quantized"
+}

@@ -1,0 +1,820 @@
+{
+  "run": "timeaware-v1-attack-combined-swrr-r50-s1002-a25-attempt1",
+  "history_ms": 500,
+  "threshold": 0,
+  "windows": 135,
+  "alarms": 135,
+  "baseline_alarms": 135,
+  "window_scores": [
+    {
+      "window": 0,
+      "age_aware": 17.0,
+      "baseline": 18.0,
+      "samples": 10
+    },
+    {
+      "window": 1,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 2,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 3,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 4,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 5,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 6,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 7,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 8,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 9,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 10,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 9
+    },
+    {
+      "window": 11,
+      "age_aware": 19.0,
+      "baseline": 19.0,
+      "samples": 10
+    },
+    {
+      "window": 12,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 13,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 16,
+      "age_aware": 11.0,
+      "baseline": 11.0,
+      "samples": 10
+    },
+    {
+      "window": 17,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 18,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 19,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 20,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 21,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 22,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 23,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 24,
+      "age_aware": 8.0,
+      "baseline": 8.0,
+      "samples": 10
+    },
+    {
+      "window": 25,
+      "age_aware": 7.0,
+      "baseline": 7.0,
+      "samples": 10
+    },
+    {
+      "window": 26,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 27,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 28,
+      "age_aware": 10.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 29,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 30,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 31,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 32,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 33,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 34,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 35,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 36,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 37,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 38,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 39,
+      "age_aware": 12.0,
+      "baseline": 12.0,
+      "samples": 10
+    },
+    {
+      "window": 40,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 41,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 42,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 43,
+      "age_aware": 18.0,
+      "baseline": 19.0,
+      "samples": 10
+    },
+    {
+      "window": 44,
+      "age_aware": 19.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 45,
+      "age_aware": 19.0,
+      "baseline": 19.0,
+      "samples": 10
+    },
+    {
+      "window": 46,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 47,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 48,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 49,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 50,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 51,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 52,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 53,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 54,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 55,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 56,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 59,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 60,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 61,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 62,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 63,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 64,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 65,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 66,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 67,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 68,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 69,
+      "age_aware": 8.0,
+      "baseline": 8.0,
+      "samples": 10
+    },
+    {
+      "window": 70,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 71,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 72,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 73,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 74,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 75,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 76,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 77,
+      "age_aware": 15.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 78,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 79,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 80,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 81,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 82,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 83,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 84,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 85,
+      "age_aware": 16.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 86,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 87,
+      "age_aware": 20.0,
+      "baseline": 20.0,
+      "samples": 10
+    },
+    {
+      "window": 88,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 89,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 90,
+      "age_aware": 20.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 91,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 92,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 93,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 94,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 95,
+      "age_aware": 21.0,
+      "baseline": 22.0,
+      "samples": 10
+    },
+    {
+      "window": 96,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 97,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 98,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 99,
+      "age_aware": 21.0,
+      "baseline": 21.0,
+      "samples": 10
+    },
+    {
+      "window": 101,
+      "age_aware": 12.0,
+      "baseline": 12.0,
+      "samples": 10
+    },
+    {
+      "window": 102,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 103,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 104,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 105,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 106,
+      "age_aware": 9.0,
+      "baseline": 10.0,
+      "samples": 10
+    },
+    {
+      "window": 107,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 108,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 109,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 110,
+      "age_aware": 9.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 111,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 112,
+      "age_aware": 8.0,
+      "baseline": 9.0,
+      "samples": 10
+    },
+    {
+      "window": 113,
+      "age_aware": 8.0,
+      "baseline": 8.0,
+      "samples": 10
+    },
+    {
+      "window": 114,
+      "age_aware": 11.0,
+      "baseline": 11.0,
+      "samples": 10
+    },
+    {
+      "window": 115,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 116,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 117,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 118,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 119,
+      "age_aware": 15.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 120,
+      "age_aware": 17.0,
+      "baseline": 18.0,
+      "samples": 10
+    },
+    {
+      "window": 121,
+      "age_aware": 17.0,
+      "baseline": 18.0,
+      "samples": 10
+    },
+    {
+      "window": 122,
+      "age_aware": 16.0,
+      "baseline": 17.0,
+      "samples": 10
+    },
+    {
+      "window": 123,
+      "age_aware": 16.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 124,
+      "age_aware": 16.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 125,
+      "age_aware": 15.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 126,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 127,
+      "age_aware": 14.0,
+      "baseline": 15.0,
+      "samples": 10
+    },
+    {
+      "window": 128,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 129,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 130,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 131,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 132,
+      "age_aware": 13.0,
+      "baseline": 13.0,
+      "samples": 10
+    },
+    {
+      "window": 133,
+      "age_aware": 13.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 134,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 135,
+      "age_aware": 14.0,
+      "baseline": 14.0,
+      "samples": 10
+    },
+    {
+      "window": 136,
+      "age_aware": 15.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 137,
+      "age_aware": 16.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 138,
+      "age_aware": 16.0,
+      "baseline": 16.0,
+      "samples": 10
+    },
+    {
+      "window": 139,
+      "age_aware": 15.0,
+      "baseline": 15.0,
+      "samples": 10
+    }
+  ]
+}

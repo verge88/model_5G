@@ -1,0 +1,4 @@
+START model5g-runtime {'stage': 'honest-delay', 'policy': 'swrr', 'rho': 0.5, 'seed': 701, 'alpha': 0, 'extra': ['--nfm-delay-ms', '200']}
+START model5g-worker2 {'stage': 'honest-delay', 'policy': 'random', 'rho': 0.5, 'seed': 701, 'alpha': 0, 'extra': ['--nfm-delay-ms', '200']}
+START model5g-worker3 {'stage': 'attack-delay', 'policy': 'swrr', 'rho': 0.5, 'seed': 701, 'alpha': 0.25, 'extra': ['--nfm-delay-ms', '200']}
+START model5g-worker4 {'stage': 'attack-delay', 'policy': 'random', 'rho': 0.5, 'seed': 701, 'alpha': 0.25, 'extra': ['--nfm-delay-ms', '200']}
