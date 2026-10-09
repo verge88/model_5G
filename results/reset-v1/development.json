@@ -1,0 +1,2032 @@
+{
+  "candidates": [
+    {
+      "threshold": 0,
+      "honest": 0.0,
+      "off": 0.23525446579036063,
+      "on": 1.0,
+      "budget": 0.98,
+      "budget_gain": 0.08933333333333326,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 1.0,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.992,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.968,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.96,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 1.0,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.96,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.11627906976744186,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.2558139534883721,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.20930232558139536,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.11627906976744186,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.43478260869565216,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.27906976744186046,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 0.25,
+      "honest": 0.0,
+      "off": 0.030502190765082576,
+      "on": 1.0,
+      "budget": 0.98,
+      "budget_gain": 0.08933333333333326,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 1.0,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.992,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.968,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.96,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 1.0,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.96,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.06976744186046512,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.023255813953488372,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.043478260869565216,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.046511627906976744,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 0.5,
+      "honest": 0.0,
+      "off": 0.0036231884057971015,
+      "on": 1.0,
+      "budget": 0.948,
+      "budget_gain": 0.057333333333333236,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.984,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.952,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.944,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.944,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.968,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.896,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.021739130434782608,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 0.75,
+      "honest": 0.0,
+      "off": 0.0,
+      "on": 1.0,
+      "budget": 0.948,
+      "budget_gain": 0.057333333333333236,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.984,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.952,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.944,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.944,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.968,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.896,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 1,
+      "honest": 0.0,
+      "off": 0.0,
+      "on": 1.0,
+      "budget": 0.8933333333333333,
+      "budget_gain": 0.002666666666666595,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.928,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.888,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.864,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.92,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.92,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.84,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 1.5,
+      "honest": 0.0,
+      "off": 0.0,
+      "on": 1.0,
+      "budget": 0.8906666666666667,
+      "budget_gain": 0.0,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.928,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.88,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.864,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.912,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.92,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.84,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        }
+      ]
+    },
+    {
+      "threshold": 2,
+      "honest": 0.0,
+      "off": 0.0,
+      "on": 1.0,
+      "budget": 0.8906666666666667,
+      "budget_gain": 0.0,
+      "by_run": [
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.928,
+          "baseline": 0.928
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.88,
+          "baseline": 0.88
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.864,
+          "baseline": 0.864
+        },
+        {
+          "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.912,
+          "baseline": 0.912
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.92,
+          "baseline": 0.92
+        },
+        {
+          "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+          "tag": "budget",
+          "label": "on",
+          "windows": 125,
+          "fraction": 0.84,
+          "baseline": 0.84
+        },
+        {
+          "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 125,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 47,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+          "tag": "honest",
+          "label": "off",
+          "windows": 135,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 44,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 46,
+          "fraction": 0.0,
+          "baseline": 0.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "on",
+          "windows": 46,
+          "fraction": 1.0,
+          "baseline": 1.0
+        },
+        {
+          "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+          "tag": "onoff",
+          "label": "off",
+          "windows": 43,
+          "fraction": 0.0,
+          "baseline": 0.0
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "threshold": 0.5,
+    "honest": 0.0,
+    "off": 0.0036231884057971015,
+    "on": 1.0,
+    "budget": 0.948,
+    "budget_gain": 0.057333333333333236,
+    "by_run": [
+      {
+        "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.984,
+        "baseline": 0.928
+      },
+      {
+        "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.952,
+        "baseline": 0.88
+      },
+      {
+        "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.944,
+        "baseline": 0.864
+      },
+      {
+        "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.944,
+        "baseline": 0.912
+      },
+      {
+        "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.968,
+        "baseline": 0.92
+      },
+      {
+        "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+        "tag": "budget",
+        "label": "on",
+        "windows": 125,
+        "fraction": 0.896,
+        "baseline": 0.84
+      },
+      {
+        "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 125,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-swrr-s1703-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-random-s1701-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 47,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1701-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 43,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 46,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1702-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 43,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-random-s1702-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-swrr-s1702-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 47,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-random-s1703-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 43,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 46,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1701-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 43,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-random-s1703-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-honest-swrr-s1701-a0-attempt1",
+        "tag": "honest",
+        "label": "off",
+        "windows": 135,
+        "fraction": 0.0,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 44,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1702-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 46,
+        "fraction": 0.021739130434782608,
+        "baseline": 0.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+        "tag": "onoff",
+        "label": "on",
+        "windows": 46,
+        "fraction": 1.0,
+        "baseline": 1.0
+      },
+      {
+        "run": "intermittent-v1-onoff-swrr-s1703-a2-attempt1",
+        "tag": "onoff",
+        "label": "off",
+        "windows": 43,
+        "fraction": 0.0,
+        "baseline": 0.0
+      }
+    ]
+  },
+  "source_sha256": {
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-random-r50-s1601-a0-attempt1.specialist.json": "30a50d9793a0c7e402726d394f3538061b33cd111e777b2a22eabf16d15d4910",
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-random-r50-s1602-a0-attempt1.specialist.json": "0653b046417a84b249ce343b1616c57b2efe425f68fa3ab6e616d5ae7c7247a9",
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-random-r50-s1603-a0-attempt1.specialist.json": "37dc011ac335fb964e7c9cb2bcfa18f2c7187e52d1b7728e47bb12821d431da2",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-random-r50-s1601-a10-attempt1.specialist.json": "37cda825617510c83ea7e297800d425d2e5bcd06b819c689fdc25b7b694d7c4f",
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1.specialist.json": "68cc9ab631df18691698790606a8fa2bef1fdaefdad967c081f673e5d0e615b4",
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1.specialist.json": "17c122dfce59ca0002cc647f3de14601bbae4589c7475c9e0aa766ed7a666be5",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-random-r50-s1603-a10-attempt1.specialist.json": "52ae7ab5879cde987e3ee42a4585278a2e32e8fb52e01ddc8ab43617425f59c1",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1.specialist.json": "19e90ea27c6fa3c7882a6444df02518de13c99a2a1d0502055d5a16d314ec891",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-random-r50-s1602-a10-attempt1.specialist.json": "1d0b7dbc1eb459a4de83aaa0b2b9d4ff2cfbb25665ba7f846430f107186ceb8b",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1.specialist.json": "2cba4179a7055593c4b2c0478f8454f72729e13bd56e0d01478a8fe8d619460d",
+    "results\\specialist-v1\\test\\specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1.specialist.json": "788b9acba6580e40211a0fe7ba247fdc488d6a01d4843adf043b93392f2ec51e",
+    "results\\specialist-v1\\test\\specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1.specialist.json": "d0889aa1b493ed6cbb8924cfe95e94e5b6ae3af39f0b49e496a440714d72c401",
+    "results\\intermittent-v1\\intermittent-v1-honest-swrr-s1703-a0-attempt1.scores.json": "c17805ed50ba5de0714c725e5a9c58e486f911e8426a24cb4ac912bc37c8dbf5",
+    "results\\intermittent-v1\\intermittent-v1-honest-random-s1701-a0-attempt1.scores.json": "0778c8145985c94e0061e794c7e01f0a9293f36f320de7fadbe33f8f6f50b3f3",
+    "results\\intermittent-v1\\intermittent-v1-onoff-random-s1701-a2-attempt1.scores.json": "5c62b6819f9e66b24277bf729892a8d4ba7cf726cbe8b322c8cf8e3e6a1b5649",
+    "results\\intermittent-v1\\intermittent-v1-onoff-random-s1702-a2-attempt1.scores.json": "0cea50c75a1eb8608fede4db468175949b59b71fd795aebd5dd70af5eaf6a9b8",
+    "results\\intermittent-v1\\intermittent-v1-honest-random-s1702-a0-attempt1.scores.json": "b6142042b3aa91e1f53221a63b6b00b25b224b48e0cb5baf8ac2d80823e0f513",
+    "results\\intermittent-v1\\intermittent-v1-honest-swrr-s1702-a0-attempt1.scores.json": "900c8299a90325b1f01770ecc0588fd20e3e024cac03c49468c9ecae8d960308",
+    "results\\intermittent-v1\\intermittent-v1-onoff-random-s1703-a2-attempt1.scores.json": "ec496eaed49c2bfd68f5ce91ec8d192723ce2be5e79d62f2edb3e4ea83bcfb2c",
+    "results\\intermittent-v1\\intermittent-v1-onoff-swrr-s1701-a2-attempt1.scores.json": "ba4fbaafaa81f945f32c47f33133f5aeebafc29c90076cc9d34deefd95a9442e",
+    "results\\intermittent-v1\\intermittent-v1-honest-random-s1703-a0-attempt1.scores.json": "6e5b68e3c0cc4da262be81ffe44c7aeeac4f1a58339140d43b20726b7271e61d",
+    "results\\intermittent-v1\\intermittent-v1-honest-swrr-s1701-a0-attempt1.scores.json": "2cb503af52858881b16709131ffc46ab6c503f63f60fbdeb82313d3f19096878",
+    "results\\intermittent-v1\\intermittent-v1-onoff-swrr-s1702-a2-attempt1.scores.json": "01148b267f0d8303f06554d2c1ef86eee3aac4362947c4bb28dea8f47c351a65",
+    "results\\intermittent-v1\\intermittent-v1-onoff-swrr-s1703-a2-attempt1.scores.json": "de5963f02077fa7cca548bc93915b59f1faa3ad9b42d1628de6dd5ebd2c2388b"
+  },
+  "selection": "Among honest<=1%, off<=1%, on>=95%, maximize constant-attack gain; ties choose smaller threshold.",
+  "note": "Previously inspected cohorts used for development only; not independent evidence."
+}

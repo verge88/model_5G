@@ -1,0 +1,312 @@
+{
+  "phase": "test",
+  "complete": true,
+  "threshold": 0.46484672176234,
+  "by_run": [
+    {
+      "run": "specialist-v1-test-honest-random-r50-s1601-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1601,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.33166666666666667,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    },
+    {
+      "run": "specialist-v1-test-honest-random-r50-s1602-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1602,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.3413333333333333,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    },
+    {
+      "run": "specialist-v1-test-honest-random-r50-s1603-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1603,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.335,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-random-r50-s1601-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1601,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.333,
+      "alarms": {
+        "baseline": 116,
+        "memory": 125,
+        "specialist": 125
+      }
+    },
+    {
+      "run": "specialist-v1-test-honest-swrr-r50-s1601-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1601,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.33166666666666667,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    },
+    {
+      "run": "specialist-v1-test-honest-swrr-r50-s1602-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1602,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.33666666666666667,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-random-r50-s1603-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1603,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.33866666666666667,
+      "alarms": {
+        "baseline": 110,
+        "memory": 124,
+        "specialist": 124
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-swrr-r50-s1603-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1603,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.3363333333333333,
+      "alarms": {
+        "baseline": 108,
+        "memory": 122,
+        "specialist": 122
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-random-r50-s1602-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1602,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.3436666666666667,
+      "alarms": {
+        "baseline": 114,
+        "memory": 120,
+        "specialist": 120
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-swrr-r50-s1602-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1602,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.3323333333333333,
+      "alarms": {
+        "baseline": 115,
+        "memory": 125,
+        "specialist": 125
+      }
+    },
+    {
+      "run": "specialist-v1-test-budget-swrr-r50-s1601-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1601,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.332,
+      "alarms": {
+        "baseline": 105,
+        "memory": 120,
+        "specialist": 120
+      }
+    },
+    {
+      "run": "specialist-v1-test-honest-swrr-r50-s1603-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1603,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 125,
+      "s3": 0.329,
+      "alarms": {
+        "baseline": 0,
+        "memory": 0,
+        "specialist": 0
+      }
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "honest": 0.0,
+      "budget": 0.8906666666666667
+    },
+    "memory": {
+      "honest": 0.0,
+      "budget": 0.9813333333333333
+    },
+    "specialist": {
+      "honest": 0.0,
+      "budget": 0.9813333333333333
+    }
+  },
+  "observed_primary_criterion": true,
+  "observed_advantage_over_memory": false,
+  "note": "Observed 3-seed comparison, not a population-level guarantee; historical data were development only."
+}

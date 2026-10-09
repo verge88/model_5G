@@ -1,0 +1,354 @@
+{
+  "items": [
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    },
+    {
+      "stage": "ramp",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "ramp"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--attack-mode",
+        "onoff"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1402,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1403,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1401,
+      "alpha": 0.1,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200",
+        "--residual-budget",
+        "1"
+      ]
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "4a012a8eb3c261b957d7062ee1433ee02fab2c98fec798fe46b97e6ad352fd4d"
+}

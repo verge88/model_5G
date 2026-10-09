@@ -1,0 +1,14 @@
+{
+  "threshold": 0.46484672176234,
+  "comparison": "strict >",
+  "calibration_runs": [
+    "specialist-v1-calibration-honest-swrr-r50-s1502-a0-attempt2",
+    "specialist-v1-calibration-honest-random-r50-s1502-a0-attempt2",
+    "specialist-v1-calibration-honest-random-r50-s1501-a0-attempt2",
+    "specialist-v1-calibration-honest-random-r50-s1503-a0-attempt2",
+    "specialist-v1-calibration-honest-swrr-r50-s1501-a0-attempt1",
+    "specialist-v1-calibration-honest-swrr-r50-s1503-a0-attempt1"
+  ],
+  "model_sha256": "92e3704c2bb277ac5111fd0771afc04108d9712f8987247d5a99ea2f0b658cd7",
+  "rule": "max(development threshold, maximum extra score on new honest baseline-negative windows)"
+}

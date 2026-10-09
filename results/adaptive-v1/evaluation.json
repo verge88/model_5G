@@ -1,0 +1,2835 @@
+{
+  "complete": true,
+  "paired_effects": [
+    {
+      "attack": "adaptive-v1-ramp-swrr-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1403-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1403,
+      "policy": "swrr",
+      "delta_share_pp": 1.1333333333333306
+    },
+    {
+      "attack": "adaptive-v1-budget-random-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1401-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1401,
+      "policy": "random",
+      "delta_share_pp": 0.33333333333332993
+    },
+    {
+      "attack": "adaptive-v1-onoff-swrr-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1401-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1401,
+      "policy": "swrr",
+      "delta_share_pp": 0.9666666666666657
+    },
+    {
+      "attack": "adaptive-v1-ramp-swrr-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1402-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1402,
+      "policy": "swrr",
+      "delta_share_pp": 0.8666666666666656
+    },
+    {
+      "attack": "adaptive-v1-budget-random-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1402-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1402,
+      "policy": "random",
+      "delta_share_pp": 0.1333333333333353
+    },
+    {
+      "attack": "adaptive-v1-ramp-random-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1402-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1402,
+      "policy": "random",
+      "delta_share_pp": 1.2333333333333307
+    },
+    {
+      "attack": "adaptive-v1-onoff-random-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1401-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1401,
+      "policy": "random",
+      "delta_share_pp": 1.0000000000000009
+    },
+    {
+      "attack": "adaptive-v1-onoff-random-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1403-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1403,
+      "policy": "random",
+      "delta_share_pp": 0.8666666666666656
+    },
+    {
+      "attack": "adaptive-v1-budget-random-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1403-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1403,
+      "policy": "random",
+      "delta_share_pp": 0.43333333333333557
+    },
+    {
+      "attack": "adaptive-v1-ramp-random-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1403-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1403,
+      "policy": "random",
+      "delta_share_pp": 1.200000000000001
+    },
+    {
+      "attack": "adaptive-v1-onoff-swrr-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1403-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1403,
+      "policy": "swrr",
+      "delta_share_pp": 1.9333333333333313
+    },
+    {
+      "attack": "adaptive-v1-budget-swrr-r50-s1403-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1403-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1403,
+      "policy": "swrr",
+      "delta_share_pp": 0.8333333333333304
+    },
+    {
+      "attack": "adaptive-v1-onoff-random-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1402-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1402,
+      "policy": "random",
+      "delta_share_pp": 0.6666666666666654
+    },
+    {
+      "attack": "adaptive-v1-ramp-random-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-random-r50-s1401-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1401,
+      "policy": "random",
+      "delta_share_pp": 1.1666666666666659
+    },
+    {
+      "attack": "adaptive-v1-budget-swrr-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1402-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1402,
+      "policy": "swrr",
+      "delta_share_pp": -0.10000000000000009
+    },
+    {
+      "attack": "adaptive-v1-ramp-swrr-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1401-a0-attempt1",
+      "scenario": "ramp",
+      "seed": 1401,
+      "policy": "swrr",
+      "delta_share_pp": 1.4000000000000012
+    },
+    {
+      "attack": "adaptive-v1-onoff-swrr-r50-s1402-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1402-a0-attempt1",
+      "scenario": "onoff",
+      "seed": 1402,
+      "policy": "swrr",
+      "delta_share_pp": -0.3333333333333355
+    },
+    {
+      "attack": "adaptive-v1-budget-swrr-r50-s1401-a10-attempt1",
+      "honest": "adaptive-v1-honest-swrr-r50-s1401-a0-attempt1",
+      "scenario": "budget",
+      "seed": 1401,
+      "policy": "swrr",
+      "delta_share_pp": 0.20000000000000018
+    }
+  ],
+  "by_run": [
+    {
+      "run": "adaptive-v1-ramp-swrr-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.3413333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-random-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.3293333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 116
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.928
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 111
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.888
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 124
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.992
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-swrr-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.3423333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 33
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 6
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 469776136,
+              "offset_receipt_us": 619802713,
+              "delay_s": 18.940001713999987
+            },
+            {
+              "onset_receipt_us": 769825909,
+              "offset_receipt_us": 919854351,
+              "delay_s": 18.890228713999985
+            },
+            {
+              "onset_receipt_us": 1069880729,
+              "offset_receipt_us": 1219902256,
+              "delay_s": 18.835408713999986
+            }
+          ],
+          "all_window_alarm_fraction": 0.8
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 4
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 469776136,
+              "offset_receipt_us": 619802713,
+              "delay_s": 18.940001713999987
+            },
+            {
+              "onset_receipt_us": 769825909,
+              "offset_receipt_us": 919854351,
+              "delay_s": 18.890228713999985
+            },
+            {
+              "onset_receipt_us": 1069880729,
+              "offset_receipt_us": 1219902256,
+              "delay_s": 18.835408713999986
+            }
+          ],
+          "all_window_alarm_fraction": 0.552
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 469776136,
+              "offset_receipt_us": 619802713,
+              "delay_s": 18.940001713999987
+            },
+            {
+              "onset_receipt_us": 769825909,
+              "offset_receipt_us": 919854351,
+              "delay_s": 18.890228713999985
+            },
+            {
+              "onset_receipt_us": 1069880729,
+              "offset_receipt_us": 1219902256,
+              "delay_s": 18.835408713999986
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 469776136,
+              "offset_receipt_us": 619802713,
+              "delay_s": 18.940001713999987
+            },
+            {
+              "onset_receipt_us": 769825909,
+              "offset_receipt_us": 919854351,
+              "delay_s": 18.890228713999985
+            },
+            {
+              "onset_receipt_us": 1069880729,
+              "offset_receipt_us": 1219902256,
+              "delay_s": 18.835408713999986
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-ramp-swrr-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.3473333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-random-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.338,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 118
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.944
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 113
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.904
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 124
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.992
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-ramp-random-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.349,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-random-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.336,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 33
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 5
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876332,
+              "offset_receipt_us": 2080903177,
+              "delay_s": 18.929353897000073
+            },
+            {
+              "onset_receipt_us": 2230925471,
+              "offset_receipt_us": 2380946518,
+              "delay_s": 18.880214897000315
+            },
+            {
+              "onset_receipt_us": 2530964238,
+              "offset_receipt_us": 2680987321,
+              "delay_s": 18.841447897000315
+            }
+          ],
+          "all_window_alarm_fraction": 0.792
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876332,
+              "offset_receipt_us": 2080903177,
+              "delay_s": 18.929353897000073
+            },
+            {
+              "onset_receipt_us": 2230925471,
+              "offset_receipt_us": 2380946518,
+              "delay_s": 18.880214897000315
+            },
+            {
+              "onset_receipt_us": 2530964238,
+              "offset_receipt_us": 2680987321,
+              "delay_s": 18.841447897000315
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876332,
+              "offset_receipt_us": 2080903177,
+              "delay_s": 18.929353897000073
+            },
+            {
+              "onset_receipt_us": 2230925471,
+              "offset_receipt_us": 2380946518,
+              "delay_s": 18.880214897000315
+            },
+            {
+              "onset_receipt_us": 2530964238,
+              "offset_receipt_us": 2680987321,
+              "delay_s": 18.841447897000315
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876332,
+              "offset_receipt_us": 2080903177,
+              "delay_s": 18.929353897000073
+            },
+            {
+              "onset_receipt_us": 2230925471,
+              "offset_receipt_us": 2380946518,
+              "delay_s": 18.880214897000315
+            },
+            {
+              "onset_receipt_us": 2530964238,
+              "offset_receipt_us": 2680987321,
+              "delay_s": 18.841447897000315
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-random-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.3423333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 16
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 7
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876348,
+              "offset_receipt_us": 2080899818,
+              "delay_s": 18.55871189599991
+            },
+            {
+              "onset_receipt_us": 2230923245,
+              "offset_receipt_us": 2380948038,
+              "delay_s": 18.51181489599991
+            },
+            {
+              "onset_receipt_us": 2530973002,
+              "offset_receipt_us": 2680998686,
+              "delay_s": 18.46205789599991
+            }
+          ],
+          "all_window_alarm_fraction": 0.672
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 2
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876348,
+              "offset_receipt_us": 2080899818,
+              "delay_s": 18.55871189599991
+            },
+            {
+              "onset_receipt_us": 2230923245,
+              "offset_receipt_us": 2380948038,
+              "delay_s": 18.51181489599991
+            },
+            {
+              "onset_receipt_us": 2530973002,
+              "offset_receipt_us": 2680998686,
+              "delay_s": 18.46205789599991
+            }
+          ],
+          "all_window_alarm_fraction": 0.536
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876348,
+              "offset_receipt_us": 2080899818,
+              "delay_s": 18.55871189599991
+            },
+            {
+              "onset_receipt_us": 2230923245,
+              "offset_receipt_us": 2380948038,
+              "delay_s": 18.51181489599991
+            },
+            {
+              "onset_receipt_us": 2530973002,
+              "offset_receipt_us": 2680998686,
+              "delay_s": 18.46205789599991
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 1930876348,
+              "offset_receipt_us": 2080899818,
+              "delay_s": 18.55871189599991
+            },
+            {
+              "onset_receipt_us": 2230923245,
+              "offset_receipt_us": 2380948038,
+              "delay_s": 18.51181489599991
+            },
+            {
+              "onset_receipt_us": 2530973002,
+              "offset_receipt_us": 2680998686,
+              "delay_s": 18.46205789599991
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-random-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.338,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 122
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.976
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 117
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.936
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 105
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.84
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-swrr-r50-s1403-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.33,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 57
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.456
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 7
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.056
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 6
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.048
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-ramp-random-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.3456666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-swrr-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.34933333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 37
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 6
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 3389485724,
+              "offset_receipt_us": 3539507200,
+              "delay_s": 17.91857011499977
+            },
+            {
+              "onset_receipt_us": 3689524040,
+              "offset_receipt_us": 3839542395,
+              "delay_s": 17.880254114999772
+            },
+            {
+              "onset_receipt_us": 3989564278,
+              "offset_receipt_us": 4139584557,
+              "delay_s": 17.84001611499977
+            }
+          ],
+          "all_window_alarm_fraction": 0.832
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 5
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 3389485724,
+              "offset_receipt_us": 3539507200,
+              "delay_s": 17.91857011499977
+            },
+            {
+              "onset_receipt_us": 3689524040,
+              "offset_receipt_us": 3839542395,
+              "delay_s": 17.880254114999772
+            },
+            {
+              "onset_receipt_us": 3989564278,
+              "offset_receipt_us": 4139584557,
+              "delay_s": 17.84001611499977
+            }
+          ],
+          "all_window_alarm_fraction": 0.56
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 3389485724,
+              "offset_receipt_us": 3539507200,
+              "delay_s": 17.91857011499977
+            },
+            {
+              "onset_receipt_us": 3689524040,
+              "offset_receipt_us": 3839542395,
+              "delay_s": 17.880254114999772
+            },
+            {
+              "onset_receipt_us": 3989564278,
+              "offset_receipt_us": 4139584557,
+              "delay_s": 17.84001611499977
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 3389485724,
+              "offset_receipt_us": 3539507200,
+              "delay_s": 17.91857011499977
+            },
+            {
+              "onset_receipt_us": 3689524040,
+              "offset_receipt_us": 3839542395,
+              "delay_s": 17.880254114999772
+            },
+            {
+              "onset_receipt_us": 3989564278,
+              "offset_receipt_us": 4139584557,
+              "delay_s": 17.84001611499977
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-swrr-r50-s1403-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.3383333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 117
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.936
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 108
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.864
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 124
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.992
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-random-r50-s1401-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.326,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 70
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.56
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 1
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.008
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-random-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.3433333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 40
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 6
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 4843457482,
+              "offset_receipt_us": 4993480107,
+              "delay_s": 18.18953481499958
+            },
+            {
+              "onset_receipt_us": 5143504733,
+              "offset_receipt_us": 5293532221,
+              "delay_s": 18.14228381499958
+            },
+            {
+              "onset_receipt_us": 5443560914,
+              "offset_receipt_us": 5593586718,
+              "delay_s": 18.08610281499958
+            }
+          ],
+          "all_window_alarm_fraction": 0.856
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 2
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 4843457482,
+              "offset_receipt_us": 4993480107,
+              "delay_s": 18.18953481499958
+            },
+            {
+              "onset_receipt_us": 5143504733,
+              "offset_receipt_us": 5293532221,
+              "delay_s": 18.14228381499958
+            },
+            {
+              "onset_receipt_us": 5443560914,
+              "offset_receipt_us": 5593586718,
+              "delay_s": 18.08610281499958
+            }
+          ],
+          "all_window_alarm_fraction": 0.536
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 4843457482,
+              "offset_receipt_us": 4993480107,
+              "delay_s": 18.18953481499958
+            },
+            {
+              "onset_receipt_us": 5143504733,
+              "offset_receipt_us": 5293532221,
+              "delay_s": 18.14228381499958
+            },
+            {
+              "onset_receipt_us": 5443560914,
+              "offset_receipt_us": 5593586718,
+              "delay_s": 18.08610281499958
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 4843457482,
+              "offset_receipt_us": 4993480107,
+              "delay_s": 18.18953481499958
+            },
+            {
+              "onset_receipt_us": 5143504733,
+              "offset_receipt_us": 5293532221,
+              "delay_s": 18.14228381499958
+            },
+            {
+              "onset_receipt_us": 5443560914,
+              "offset_receipt_us": 5593586718,
+              "delay_s": 18.08610281499958
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-ramp-random-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.33766666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-swrr-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.33766666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 120
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.96
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 115
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.92
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 124
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.992
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-ramp-swrr-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "ramp",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "ramp"
+        ]
+      },
+      "s3": 0.3466666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-random-r50-s1402-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.33666666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 70
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.56
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 2
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.016
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-onoff-swrr-r50-s1402-a10-attempt1",
+      "item": {
+        "stage": "onoff",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--attack-mode",
+          "onoff"
+        ]
+      },
+      "s3": 0.3353333333333333,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 22
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 6295698958,
+              "offset_receipt_us": 6445724480,
+              "delay_s": 18.156284848999977
+            },
+            {
+              "onset_receipt_us": 6595745055,
+              "offset_receipt_us": 6745770767,
+              "delay_s": 18.110187848999978
+            },
+            {
+              "onset_receipt_us": 6895793826,
+              "offset_receipt_us": 7045821498,
+              "delay_s": 18.061416848999976
+            }
+          ],
+          "all_window_alarm_fraction": 0.696
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 6295698958,
+              "offset_receipt_us": 6445724480,
+              "delay_s": 18.156284848999977
+            },
+            {
+              "onset_receipt_us": 6595745055,
+              "offset_receipt_us": 6745770767,
+              "delay_s": 18.110187848999978
+            },
+            {
+              "onset_receipt_us": 6895793826,
+              "offset_receipt_us": 7045821498,
+              "delay_s": 18.061416848999976
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 4
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 6295698958,
+              "offset_receipt_us": 6445724480,
+              "delay_s": 18.156284848999977
+            },
+            {
+              "onset_receipt_us": 6595745055,
+              "offset_receipt_us": 6745770767,
+              "delay_s": 18.110187848999978
+            },
+            {
+              "onset_receipt_us": 6895793826,
+              "offset_receipt_us": 7045821498,
+              "delay_s": 18.061416848999976
+            }
+          ],
+          "all_window_alarm_fraction": 0.52
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 61,
+              "alarms": 61
+            },
+            "off": {
+              "windows": 56,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 8,
+              "alarms": 8
+            }
+          },
+          "complete_episodes": [
+            {
+              "onset_receipt_us": 6295698958,
+              "offset_receipt_us": 6445724480,
+              "delay_s": 18.156284848999977
+            },
+            {
+              "onset_receipt_us": 6595745055,
+              "offset_receipt_us": 6745770767,
+              "delay_s": 18.110187848999978
+            },
+            {
+              "onset_receipt_us": 6895793826,
+              "offset_receipt_us": 7045821498,
+              "delay_s": 18.061416848999976
+            }
+          ],
+          "all_window_alarm_fraction": 1.0
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-swrr-r50-s1401-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.33266666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.448
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 3
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.024
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 2
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.016
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-swrr-r50-s1402-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1402,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.33866666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 73
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.584
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 7
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.056
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 3
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.024
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 284,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-honest-random-r50-s1403-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1403,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "s3": 0.33366666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 56
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.448
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 3
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.024
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.0
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "off": {
+              "windows": 125,
+              "alarms": 1
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.008
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    },
+    {
+      "run": "adaptive-v1-budget-swrr-r50-s1401-a10-attempt1",
+      "item": {
+        "stage": "budget",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1401,
+        "alpha": 0.1,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200",
+          "--residual-budget",
+          "1"
+        ]
+      },
+      "s3": 0.33466666666666667,
+      "models": {
+        "logistic": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 125
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 1.0
+        },
+        "boosting": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 119
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.952
+        },
+        "age_fixed": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 106
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.848
+        },
+        "cusum": {
+          "groups": {
+            "on": {
+              "windows": 125,
+              "alarms": 124
+            },
+            "off": {
+              "windows": 0,
+              "alarms": 0
+            },
+            "mixed": {
+              "windows": 0,
+              "alarms": 0
+            }
+          },
+          "complete_episodes": [],
+          "all_window_alarm_fraction": 0.992
+        }
+      },
+      "min_measured_version": 34,
+      "max_measured_version": 285,
+      "label_definition": "Actual integer underreport at NRF receipt; ground truth only, not a feature."
+    }
+  ],
+  "limitations": [
+    "Pilot with three seeds per condition, no population guarantees.",
+    "ML heartbeat distribution shifts to 5 seconds; matched honest controls measure its false alarms.",
+    "Ramp is version-based, on/off period is 30 heartbeat versions, not short bursts.",
+    "Budget attack limits local deviation to 1 percentage point; no access to detector history.",
+    "Episode latency starts at NRF receipt and uses only fully active completed windows.",
+    "Integer quantization is part of the intervention. No retraining or threshold adaptation."
+  ]
+}

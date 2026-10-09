@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1702,
+      "alpha": 0.02
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1701,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1701,
+      "alpha": 0
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1703,
+      "alpha": 0
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1702,
+      "alpha": 0
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1702,
+      "alpha": 0
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1703,
+      "alpha": 0.02
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1701,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1703,
+      "alpha": 0
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1702,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1701,
+      "alpha": 0
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1703,
+      "alpha": 0.02
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "4a012a8eb3c261b957d7062ee1433ee02fab2c98fec798fe46b97e6ad352fd4d"
+}

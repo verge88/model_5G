@@ -1,0 +1,25 @@
+{
+  "created": 1791206622.7050664,
+  "calibration_runs": [
+    "detector-v1-cal-swrr-r20-s202-a0-attempt1",
+    "detector-v1-cal-swrr-r20-s201-a0-attempt1",
+    "detector-v1-cal-swrr-r50-s201-a0-attempt1",
+    "detector-v1-cal-swrr-r70-s201-a0-attempt1",
+    "detector-v1-cal-swrr-r50-s202-a0-attempt1",
+    "detector-v1-cal-swrr-r20-s203-a0-attempt1",
+    "detector-v1-cal-swrr-r70-s202-a0-attempt1",
+    "detector-v1-cal-swrr-r50-s203-a0-attempt1",
+    "detector-v1-cal-swrr-r70-s203-a0-attempt1"
+  ],
+  "primary": "residual",
+  "quantile": 0.99,
+  "comparison": "strictly_greater",
+  "thresholds": {
+    "residual": 0.0,
+    "residual_quantized": 0.0,
+    "nrf_only": 12.5,
+    "scp_only": 8.333333333333337,
+    "nrf_scp": 0.0,
+    "full_peer": 1.0
+  }
+}

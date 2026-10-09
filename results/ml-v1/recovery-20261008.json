@@ -1,0 +1,10 @@
+{
+  "recovered": [
+    "ml-v1-test-swrr-s1302-a10-attempt1",
+    "ml-v1-test-random-s1303-a0-attempt1",
+    "ml-v1-test-swrr-s1303-a0-attempt1",
+    "ml-v1-test-swrr-s1301-a0-attempt1"
+  ],
+  "model_sha256": "754f55b09045c4745fdf37ed81297be5502bd75cda8079a08fe15d7402f2c878",
+  "reason": "Controller process absent; all four workers idle; complete run artifacts audited without rerunning."
+}

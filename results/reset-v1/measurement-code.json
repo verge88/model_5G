@@ -1,0 +1,7 @@
+{
+  "experiments\\intermittent_v1\\controller.py": "b54b368339f7cff5d32a14a9a87ce9190d03305d86b0fcc6e617544bb8183244",
+  "experiments\\specialist_v1\\detector.py": "fe1fb6d73032ee1d6fce9fa94cb9a9300bb8180c28d9405824fafa4ed1d424ed",
+  "experiments\\adaptive_v1\\controller.py": "d6153f0d7424e45cf00e6f41c32eb7eea586d4e9a87855ea9d734746ac98bdf6",
+  "results\\specialist-v1\\model.joblib": "92e3704c2bb277ac5111fd0771afc04108d9712f8987247d5a99ea2f0b658cd7",
+  "results\\specialist-v1\\freeze.json": "c93458660a7311d40b03883c1932750fff2ee613fe30046372e57634966885b8"
+}

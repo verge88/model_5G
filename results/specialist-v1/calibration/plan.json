@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1503,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1501,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1502,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1502,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1501,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    },
+    {
+      "stage": "honest",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1503,
+      "alpha": 0,
+      "extra": [
+        "--heartbeat",
+        "5",
+        "--nfm-delay-ms",
+        "200"
+      ]
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "4a012a8eb3c261b957d7062ee1433ee02fab2c98fec798fe46b97e6ad352fd4d"
+}

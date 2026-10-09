@@ -1,0 +1,115 @@
+{
+  "phase": "calibration",
+  "complete": true,
+  "threshold": null,
+  "by_run": [
+    {
+      "run": "specialist-v1-calibration-honest-swrr-r50-s1502-a0-attempt2",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1502,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.3383333333333333
+    },
+    {
+      "run": "specialist-v1-calibration-honest-random-r50-s1502-a0-attempt2",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1502,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.3353333333333333
+    },
+    {
+      "run": "specialist-v1-calibration-honest-random-r50-s1501-a0-attempt2",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1501,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.3333333333333333
+    },
+    {
+      "run": "specialist-v1-calibration-honest-random-r50-s1503-a0-attempt2",
+      "item": {
+        "stage": "honest",
+        "policy": "random",
+        "rho": 0.5,
+        "seed": 1503,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.336
+    },
+    {
+      "run": "specialist-v1-calibration-honest-swrr-r50-s1501-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1501,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.32666666666666666
+    },
+    {
+      "run": "specialist-v1-calibration-honest-swrr-r50-s1503-a0-attempt1",
+      "item": {
+        "stage": "honest",
+        "policy": "swrr",
+        "rho": 0.5,
+        "seed": 1503,
+        "alpha": 0,
+        "extra": [
+          "--heartbeat",
+          "5",
+          "--nfm-delay-ms",
+          "200"
+        ]
+      },
+      "windows": 126,
+      "s3": 0.3303333333333333
+    }
+  ]
+}

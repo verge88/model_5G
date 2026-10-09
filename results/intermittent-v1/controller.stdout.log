@@ -1,0 +1,32 @@
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+START model5g-runtime {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1702, 'alpha': 0.02}
+START model5g-worker2 {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1701, 'alpha': 0.02}
+START model5g-worker3 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1701, 'alpha': 0}
+START model5g-worker4 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1703, 'alpha': 0}
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1703, 'alpha': 0} True
+START model5g-worker4 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1702, 'alpha': 0}
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1701, 'alpha': 0} True
+START model5g-worker3 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1702, 'alpha': 0}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1701, 'alpha': 0.02} True
+START model5g-worker2 {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1703, 'alpha': 0.02}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1702, 'alpha': 0.02} True
+START model5g-runtime {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1701, 'alpha': 0.02}
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1702, 'alpha': 0} True
+START model5g-worker4 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1703, 'alpha': 0}
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1702, 'alpha': 0} True
+START model5g-worker3 {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1702, 'alpha': 0.02}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1703, 'alpha': 0.02} True
+START model5g-worker2 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1701, 'alpha': 0}
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1701, 'alpha': 0.02} True
+START model5g-runtime {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1703, 'alpha': 0.02}
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1703, 'alpha': 0} True
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1701, 'alpha': 0} True
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1702, 'alpha': 0.02} True
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1703, 'alpha': 0.02} True

@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0.1
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0.1
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0.1
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0.02
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0.02
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0.1
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0
+    },
+    {
+      "stage": "honest-fixed",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0
+    },
+    {
+      "stage": "budget",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0.1
+    },
+    {
+      "stage": "budget",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1801,
+      "alpha": 0.1
+    },
+    {
+      "stage": "onoff",
+      "policy": "swrr",
+      "rho": 0.5,
+      "seed": 1802,
+      "alpha": 0.02
+    },
+    {
+      "stage": "honest-variable",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0
+    },
+    {
+      "stage": "onoff",
+      "policy": "random",
+      "rho": 0.5,
+      "seed": 1803,
+      "alpha": 0.02
+    }
+  ],
+  "thresholds_sha256": "6888c28cb28f8abe42868a73533cd6333b5d25b41934f62cf36ec1f8412e34ce",
+  "runner_sha256": "4a012a8eb3c261b957d7062ee1433ee02fab2c98fec798fe46b97e6ad352fd4d"
+}

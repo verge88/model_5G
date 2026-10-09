@@ -1,0 +1,56 @@
+model5g-db
+model5g-db2
+model5g-db3
+model5g-db4
+model5g-runtime
+model5g-worker2
+model5g-worker3
+model5g-worker4
+START model5g-runtime {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+START model5g-worker2 {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+START model5g-worker3 {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+START model5g-worker4 {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+DONE {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-worker3 {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+DONE {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+DONE {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-worker2 {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+START model5g-runtime {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+START model5g-worker4 {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+DONE {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
+START model5g-worker3 {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+DONE {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-worker4 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+START model5g-worker2 {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+START model5g-runtime {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+DONE {'stage': 'budget', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
+START model5g-worker3 {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+START model5g-worker4 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-worker2 {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+START model5g-runtime {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+DONE {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1403, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
+START model5g-worker3 {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+START model5g-worker4 {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']}
+DONE {'stage': 'onoff', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+START model5g-worker2 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'ramp', 'policy': 'random', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-runtime {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']}
+DONE {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
+START model5g-worker3 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'ramp', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'ramp']} True
+START model5g-worker4 {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1402, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+START model5g-worker2 {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']}
+DONE {'stage': 'onoff', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--attack-mode', 'onoff']} True
+START model5g-runtime {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']}
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+DONE {'stage': 'honest', 'policy': 'swrr', 'rho': 0.5, 'seed': 1402, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+DONE {'stage': 'honest', 'policy': 'random', 'rho': 0.5, 'seed': 1403, 'alpha': 0, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200']} True
+DONE {'stage': 'budget', 'policy': 'swrr', 'rho': 0.5, 'seed': 1401, 'alpha': 0.1, 'extra': ['--heartbeat', '5', '--nfm-delay-ms', '200', '--residual-budget', '1']} True
