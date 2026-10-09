@@ -117,10 +117,11 @@ def train(manifest,out,config_path,target_fpr=.001,minimum_runs=3,minimum_rows=1
     thresholds={name:calibrate(cal,values,minimum_runs,minimum_rows,target_fpr) for name,values in
         [('specialist',model.predict_proba(cx)[:,1]),('isolation',-isolation.score_samples(cx))]}
     thresholds={name:{k:v for k,v in ts.items() if k in masks} for name,ts in thresholds.items()}
+    origin=json.loads(manifest.read_text(encoding='utf-8')).get('data_origin','unspecified')
     bundle=dict(features=FEATURES,specialist=model,isolation=isolation,thresholds=thresholds,
-        config_sha256=config_sha256)
+        config_sha256=config_sha256,data_origin=origin)
     joblib.dump(bundle,out/'model.joblib')
-    report=dict(sklearn=sklearn.__version__,target_empirical_fpr=target_fpr,minimum_calibration_runs=minimum_runs,
+    report=dict(sklearn=sklearn.__version__,data_origin=origin,target_empirical_fpr=target_fpr,minimum_calibration_runs=minimum_runs,
         numpy=np.__version__,joblib=joblib.__version__,
         source_sha256={name:hashlib.sha256((Path(__file__).parent/name).read_bytes()).hexdigest() for name in ['detector.py','model.py']},
         minimum_calibration_rows=minimum_rows,thresholds=thresholds,inputs_sha256=hashes,

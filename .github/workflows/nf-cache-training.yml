@@ -1,0 +1,72 @@
+name: NF cache detector training
+
+on:
+  push:
+    branches: ['codex/nf-cache-detector-actions']
+    paths:
+      - 'experiments/nf_cache_detector/**'
+      - '.github/workflows/nf-cache-training.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nf-cache-training-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  train:
+    name: Validate, train, calibrate and evaluate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PYTHONHASHSEED: '0'
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Check out detector sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          submodules: false
+          sparse-checkout: |
+            experiments/nf_cache_detector
+            .github/workflows
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: experiments/nf_cache_detector/requirements-ci.txt
+      - name: Install pinned dependencies
+        run: python -m pip install -r experiments/nf_cache_detector/requirements-ci.txt
+      - name: Check dependencies and detector tests
+        run: |
+          set -o pipefail
+          mkdir -p training-output
+          python -m pip check
+          python -m pip freeze > training-output/environment.txt
+          python -m unittest discover -s experiments/nf_cache_detector -p 'test_*.py' -v 2>&1 | tee training-output/tests.log
+      - name: Train on the declared dataset and evaluate held-out runs
+        run: |
+          set -o pipefail
+          python experiments/nf_cache_detector/run_training.py --out training-output/result 2>&1 | tee training-output/training.log
+      - name: Publish run summary
+        if: always()
+        run: |
+          if [ -f training-output/result/SUMMARY.md ]; then
+            cat training-output/result/SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Training did not finish. Inspect the test and training logs.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preserve model, dataset provenance and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nf-cache-training-${{ github.run_id }}-${{ github.run_attempt }}
+          path: training-output/
+          if-no-files-found: error
+          retention-days: 30
