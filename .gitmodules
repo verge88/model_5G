@@ -1,0 +1,6 @@
+[submodule "upstream/open5gs"]
+	path = upstream/open5gs
+	url = https://github.com/open5gs/open5gs.git
+[submodule "upstream/UERANSIM"]
+	path = upstream/UERANSIM
+	url = https://github.com/aligungr/UERANSIM.git
