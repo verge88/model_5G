@@ -1,0 +1,12 @@
+{
+  "step_seconds": 1,
+  "ttl_seconds": 15,
+  "grace_seconds": 5,
+  "sources": {
+    "nrf-audit": {"role": "registry", "domain": "nrf-observer", "trusted": true},
+    "ausf-cache-audit": {"role": "cache", "domain": "ausf-observer", "trusted": true},
+    "sbi-route-tap": {"role": "route", "domain": "independent-network-tap", "trusted": true},
+    "notify-ingress-tap": {"role": "notify", "domain": "independent-network-tap", "trusted": true},
+    "nrf-subscription-audit": {"role": "subscription", "domain": "nrf-observer", "trusted": true}
+  }
+}
